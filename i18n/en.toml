@@ -1,3 +1,5 @@
+# showcase
+
 [showcaseTitle]
 other = "An english title"
 
@@ -9,3 +11,14 @@ other = "We work at <a target='_blank' href='https://radity.com/'>Radity</a>, a 
 
 [showcaseContactButtonText]
 other = "Contact"
+
+# about
+
+[aboutPictureAlt]
+other = "About picture alt"
+
+[aboutTitle]
+other = "About title"
+
+[aboutContent]
+other = "About content"

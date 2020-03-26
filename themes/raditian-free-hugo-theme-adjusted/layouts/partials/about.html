@@ -8,22 +8,22 @@
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
           data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 2x"
-          alt="Profile Picture"
+          alt="{{ i18n "aboutPictureAlt" }}"
         />
       </div>
       <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.about.title }}</h2>
+        <h2>{{ i18n "aboutTitle" }}</h2>
         <p class="lead">
-          {{ .Site.Data.homepage.about.content | safeHTML }}
+          {{ i18n "aboutContent" | safeHTML }}
         </p>
-        <a
+        <!--<a
           href="{{ .Site.Data.homepage.about.button.URL | absURL }}"
           target="_blank"
           class="btn btn-primary"
         >
           <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
           {{ .Site.Data.homepage.about.button.btnText }}
-        </a>
+        </a>-->
       </div>
     </div>
   </div>

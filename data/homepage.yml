@@ -21,21 +21,10 @@ showcase:
 # about
 about:
   enable: true
-  title: "Who am I?"
-  content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
-    </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+  #button:
+  #  icon: "icon-smile-fill"
+  #  btnText: "About Me"
+  #  URL: "https://www.linkedin.com/company/radity/"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
