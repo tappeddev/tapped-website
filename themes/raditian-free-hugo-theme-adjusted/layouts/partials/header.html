@@ -2,24 +2,15 @@
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
-        <span>{{ .Site.Params.logo.text1 }}</span>
-        <span>{{ .Site.Params.logo.text2 }}</span>
-        <!-- <img
-          class="img-responsive"
-          src="img/logo-dark.png"
-          srcset="img/logo-dark.png 1x, img/logo-dark@2x.png 2x"
-          alt="Header Logo"
-        /> -->
+        <!--<span>{{ .Site.Params.logo.text1 }}</span>
+        <span>{{ .Site.Params.logo.text2 }}</span>-->
+        <!-- TODO: Use smaller images & i18n alt text -->
+        <img class="img-responsive" src="{{ .Site.Data.homepage.header.image.x | absURL }}"
+          srcset="{{ .Site.Data.homepage.header.image.x | absURL }} 1x, {{ .Site.Data.homepage.header.image.x | absURL }} 2x"
+          alt="Tapped logo" />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent, #header"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -30,9 +21,7 @@
           </li>
           {{ range .Site.Menus.header }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ .URL }}"
-              >{{ .Name | upper }}</a
-            >
+            <a data-scroll class="nav-link" href="{{ .URL }}">{{ .Name | upper }}</a>
           </li>
           {{ end }}
         </ul>

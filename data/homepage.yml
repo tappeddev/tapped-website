@@ -1,3 +1,7 @@
+header:
+  image: 
+    x: "img/logo_tapped_colored_black.svg"
+
 # showcase
 showcase:
   enable: true
