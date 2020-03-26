@@ -1,6 +1,17 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://www.tapped.dev/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme-adjusted"
+title = "Tapped"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+[languages]
+  [languages.en]
+    weight = 2
+  [languages.de]
+    weight = 1
 
 # Plugins
 [params.plugins]
