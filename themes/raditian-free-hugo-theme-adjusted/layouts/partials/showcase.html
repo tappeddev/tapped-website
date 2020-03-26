@@ -13,21 +13,22 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
-          {{ .Site.Data.homepage.showcase.title }}
+          {{ i18n "showcaseTitle" }}
           <br />
           <span
-            >{{ .Site.Data.homepage.showcase.subtitle }}</span
+            >{{ i18n "showcaseSubtitle" }}</span
           >
         </h1>
         <p class="lead">
-          {{ .Site.Data.homepage.showcase.description | safeHTML }}
+          {{ i18n "showcaseDescription" | safeHTML }}
         </p>
+        <!-- TODO: Don´t hardcode contact url -->
         <a
-          href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"
+          href="#contact"
           class="btn btn-primary"
         >
           <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.button.btnText }}
+          {{ i18n "showcaseContactButtonText" }}
         </a>
       </div>
     </div>
