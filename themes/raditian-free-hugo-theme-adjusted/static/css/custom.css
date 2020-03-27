@@ -31,10 +31,6 @@
     border-top: none;
 }
 
-.footer {
-    padding-bottom: 0px;
-}
-
 .color-stripe {
     height: 5px;
     display: flex;

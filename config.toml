@@ -1,7 +1,7 @@
 baseURL = "https://www.tapped.dev/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme-adjusted"
-title = "Tapped"
+title = "tapped | Apps and Software"
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
