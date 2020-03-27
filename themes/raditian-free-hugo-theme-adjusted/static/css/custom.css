@@ -1,1 +1,63 @@
 /* You can customize theme styles here */
+
+.header--sticky-triggered {
+    padding-bottom: 0;
+}
+
+.header .navbar {
+    height: 65px;
+}
+
+.header .navbar-brand img {
+    max-height: 40px;
+}
+
+.footer {
+    padding-bottom: 0px;
+}
+
+.color-stripe {
+    /*margin-top: 60px;*/
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.color-stripe > div {
+    flex-grow: 1;
+}
+
+.color-stripe > div:nth-child(1) {
+    background-color: #96143c;
+}
+.color-stripe > div:nth-child(2) {
+    background-color: #be3269;
+}
+.color-stripe > div:nth-child(3) {
+    background-color: #e6508c;
+}
+.color-stripe > div:nth-child(4) {
+    background-color: #fc83a9;
+}
+.color-stripe > div:nth-child(5) {
+    background-color: #ffb4c8;
+}
+.color-stripe > div:nth-child(6) {
+    background-color: #ffc8d2;
+}
+.color-stripe > div:nth-child(7) {
+    background-color: #ffbe96;
+}
+.color-stripe > div:nth-child(8) {
+    background-color: #ffb45a;
+}
+.color-stripe > div:nth-child(9) {
+    background-color: #ffd25f;
+}
+.color-stripe > div:nth-child(10) {
+    background-color: #ffe67d;
+}
+.color-stripe > div:nth-child(11) {
+    background-color: #fff0be;
+}

@@ -41,3 +41,26 @@ other = "Testimonials"
 
 # contact
 
+[contactTitle]
+other = "Contact"
+
+[contactFormFullName]
+other = "Full name"
+
+[contactFormEmail]
+other = "Email address"
+
+[contactFormMessage]
+other = "Type your message here"
+
+[contactFormSubmit]
+other = "Send message"
+
+[contactPhoneTitle]
+other = "Phone number"
+
+[contactEmailTitle]
+other = "Email"
+
+[contactAddressTitle]
+other = "Address"
