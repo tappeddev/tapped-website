@@ -140,28 +140,20 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact"
   form:
     action: "https://formspree.io/mrglvepw"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
   phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: ‘<a href="tel:+4917630400083">+ 49 (0) 176 30 40 00 83</a>'
   email:
-    title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:contact@tapped.dev">contact@tapped.dev</a>'
   address:
-    title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Tapped UG (haftungsbeschränkt)<br />Auerfeldstraße 4a, 81541 München"
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
