@@ -22,3 +22,22 @@ other = "About title"
 
 [aboutContent]
 other = "About content"
+
+# client and work
+
+[clientsAndWorksTitle]
+other = "Clients and Works title"
+
+[customersBarBrainTitle]
+other = "BarBrain - Bar Inventur"
+
+[customersBarBrainDescription]
+other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+
+# testimonials
+
+[testimonialsTitle]
+other = "Testimonials"
+
+# contact
+
