@@ -26,8 +26,8 @@ about:
   #  btnText: "About Me"
   #  URL: "https://www.linkedin.com/company/radity/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/user-picture.jpg_"
+    _2x: "img/who-am-i/user-picture@2x.png_"
 
 # education
 education:
@@ -78,6 +78,7 @@ client_and_work:
         x: "img/clients/barbrain_logo.png"
         _2x: "img/clients/barbrain_logo@2x.png"
       alt: "BarBrain"
+      link: "https://barbrain.com"
 
   works:
     - title: "customersBarBrainMobileTitle"
@@ -95,7 +96,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   items:
     - name: "Daniel Jordan"
       position: "Phonet, CEO"
