@@ -1,13 +1,18 @@
 # showcase
 
 [showcaseTitle]
-other = "An english title"
+other = "Hello, we’re Tapped."
 
 [showcaseSubtitle]
-other = "An english subtitle"
+other = "App & Software Development" #on purpose
 
 [showcaseDescription]
-other = "We work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+other = "A <b>long-term</b> partner that plans and creates mobile apps by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals."
+# We create modern mobile applications for you by combining personal commitment, expertise, flexibility and business oriented consulting.
+# We plan and create applications for you by combining personal commitment, expertise, flexibility and business oriented consulting.
+# A long-term partner that plans and creates mobile applications by combining personal commitment, expertise, flexibility and business oriented consulting.
+# ... and consulting towards your business goals.
+
 
 [showcaseContactButtonText]
 other = "Contact"
@@ -18,20 +23,36 @@ other = "Contact"
 other = "About picture alt"
 
 [aboutTitle]
-other = "About title"
+other = "We are ..."
 
 [aboutContent]
-other = "About content"
+other = '<p class="lead">
+    ... a software agency based in Munich that is specialized in mobile app development.
+    </p>
+    <p class="lead">
+    
+    Our team of skilled software developers architects software that runs on multiple platforms by sharing as much code as possible. 
+    <br>This drastically reduces time to marked and costs without sacrifizing quality or performance.
+    <br>
+    <!--After building many apps, we know what an app needs to stand out.-->
+    </p>
+    '
 
 # client and work
 
 [clientsAndWorksTitle]
-other = "Clients and Works title"
+other = "Clients and Works"
 
-[customersBarBrainTitle]
-other = "BarBrain - Bar Inventur"
+[customersBarBrainMobileTitle]
+other = "BarBrain - mobile app"
 
-[customersBarBrainDescription]
+[customersBarBrainMobileDescription]
+other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+
+[customersBarBrainWebTitle]
+other = "BarBrain - web app"
+
+[customersBarBrainWebDescription]
 other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
 
 # testimonials
