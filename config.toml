@@ -53,19 +53,14 @@ defaultContentLanguageInSubdir = true
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Legal Notice"
+  URL = "html/legal_notice.html"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "General conditions"
+  URL = "html/general_condition.html"
   weight = 3
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
 
 
 [params]
@@ -78,7 +73,3 @@ defaultContentLanguageInSubdir = true
 
   [params.footer]
       copyright = "© Tapped UG (haftungsbeschränkt). All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
