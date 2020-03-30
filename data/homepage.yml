@@ -123,10 +123,10 @@ technologies:
         x: "img/technologies/swift.png"
         _2x: "img/technologies/swift.png"
 
-    - name: "Angular"
+    - name: "AngularDart"
       logo:
-        x: "img/technologies/angular.svg"
-        _2x: "img/technologies/angular.svg"
+        x: "img/technologies/angulardart.png"
+        _2x: "img/technologies/angulardart.png"
 
     - name: "HTML"
       logo:

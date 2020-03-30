@@ -98,6 +98,10 @@
     width: 105px;
 }
 
+.images-with-name-item:hover .img-greyscaled {
+    filter: none;
+}
+
 .images-with-name-item img {
     margin-bottom: 8px;
 }
