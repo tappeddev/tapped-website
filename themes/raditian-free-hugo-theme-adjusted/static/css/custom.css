@@ -99,7 +99,7 @@
 }
 
 .images-with-name-item:hover .img-greyscaled {
-    filter: none;
+    filter: grayscale(0);
 }
 
 .images-with-name-item img {
@@ -107,6 +107,7 @@
 }
 
 .img-greyscaled {
+    transition: filter 200ms;
     filter: grayscale(100%);
 }
 
