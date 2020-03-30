@@ -102,61 +102,73 @@ technologies:
       logo:
         x: "img/technologies/flutter.svg"
         _2x: "img/technologies/flutter.svg"
+      link: "https://flutter.dev/"
 
     - name: "Dart"
       logo:
         x: "img/technologies/dart.svg"
         _2x: "img/technologies/dart.svg"
+      link: "https://dart.dev/"
 
     - name: "Kotlin"
       logo:
         x: "img/technologies/kotlin.svg"
         _2x: "img/technologies/kotlin.svg"
+      link: "https://kotlinlang.org/"
 
     - name: "Java"
       logo:
         x: "img/technologies/java.svg"
         _2x: "img/technologies/java.svg"
+      link: "https://www.java.com/"
 
     - name: "Swift"
       logo:
         x: "img/technologies/swift.png"
         _2x: "img/technologies/swift.png"
+      link: "https://developer.apple.com/swift/"
 
     - name: "AngularDart"
       logo:
         x: "img/technologies/angulardart.png"
         _2x: "img/technologies/angulardart.png"
+      link: "https://angulardart.dev/"
 
     - name: "HTML"
       logo:
         x: "img/technologies/html_5.svg"
         _2x: "img/technologies/html_5.svg"
+      link: "https://developer.mozilla.org/de/docs/Web/HTML"
 
     - name: "CSS"
       logo:
         x: "img/technologies/css_3.svg"
         _2x: "img/technologies/css_3.svg"
+      link: "https://wiki.selfhtml.org/wiki/CSS"
 
     - name: "Ktor"
       logo:
         x: "img/technologies/ktor.png"
         _2x: "img/technologies/ktor.png"
+      link: "https://ktor.io/"
 
     - name: "MySQL"
       logo:
         x: "img/technologies/mysql.svg"
         _2x: "img/technologies/mysql.svg"
+      link: "https://www.mysql.com/de/"
 
     - name: "PostgreSQL"
       logo:
         x: "img/technologies/postgresql.svg"
         _2x: "img/technologies/postgresql.svg"
+      link: "https://www.postgresql.org/"
 
     - name: "Docker"
       logo:
         x: "img/technologies/docker.png"
         _2x: "img/technologies/docker.png"
+      link: "https://www.docker.com/"
 
 # testimonial
 testimonial:
