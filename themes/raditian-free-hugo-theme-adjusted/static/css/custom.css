@@ -75,3 +75,37 @@
 .color-stripe > div:nth-child(11) {
     background-color: #fff0be;
 }
+
+/* technologies */
+
+.images-with-name-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images-with-name-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.images-with-name-item img {
+    margin-bottom: 8px;
+}
+
+.img-greyscaled {
+    filter: grayscale(100%);
+}
+
+.img-technology {
+    height: 40px;
+}

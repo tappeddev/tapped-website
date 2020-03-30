@@ -94,6 +94,71 @@ client_and_work:
         _2x: "img/works/barbrain_web@2x.jpg"
       is_even: false
 
+# technologies
+technologies: 
+  enable: true
+  items:
+    - name: "Flutter"
+      logo:
+        x: "img/technologies/flutter.svg"
+        _2x: "img/technologies/flutter.svg"
+
+    - name: "Kotlin"
+      logo:
+        x: "img/technologies/kotlin.svg"
+        _2x: "img/technologies/kotlin.svg"
+
+    - name: "Angular"
+      logo:
+        x: "img/technologies/angular.svg"
+        _2x: "img/technologies/angular.svg"
+
+    - name: "CSS"
+      logo:
+        x: "img/technologies/css_3.svg"
+        _2x: "img/technologies/css_3.svg"
+
+    - name: "Docker"
+      logo:
+        x: "img/technologies/docker.png"
+        _2x: "img/technologies/docker.png"
+
+    - name: "HTML"
+      logo:
+        x: "img/technologies/html_5.svg"
+        _2x: "img/technologies/html_5.svg"
+
+    - name: "Ktor"
+      logo:
+        x: "img/technologies/ktor.png"
+        _2x: "img/technologies/ktor.png"
+
+    - name: "Dart"
+      logo:
+        x: "img/technologies/dart.svg"
+        _2x: "img/technologies/dart.svg"
+
+    - name: "MySQL"
+      logo:
+        x: "img/technologies/mysql.svg"
+        _2x: "img/technologies/mysql.svg"
+
+    - name: "PostgreSQL"
+      logo:
+        x: "img/technologies/postgresql.svg"
+        _2x: "img/technologies/postgresql.svg"
+
+    - name: "Swift"
+      logo:
+        x: "img/technologies/swift.png"
+        _2x: "img/technologies/swift.png"
+    
+    - name: "Java"
+      logo:
+        x: "img/technologies/java.svg"
+        _2x: "img/technologies/java.svg"
+      
+      
 # testimonial
 testimonial:
   enable: false

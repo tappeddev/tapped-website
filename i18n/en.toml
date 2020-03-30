@@ -55,6 +55,10 @@ other = "BarBrain - web app"
 [customersBarBrainWebDescription]
 other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
 
+# technologies
+[technologiesTitle]
+other = "Technologies"
+
 # testimonials
 
 [testimonialsTitle]
