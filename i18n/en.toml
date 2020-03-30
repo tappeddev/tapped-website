@@ -30,13 +30,28 @@ other = '<p class="lead">
     ... a software agency based in Munich that is specialized in mobile app development.
     </p>
     <p class="lead">
-    
-    Our team of skilled software developers architects software that runs on multiple platforms by sharing as much code as possible. 
-    <br>This drastically reduces time to marked and costs without sacrifizing quality or performance.
+
+    Our team of skilled software developers stands out with an expertise torwards cross platform and code sharing which
+    drastically reduces time to marked and costs for your product.
     <br>
-    <!--After building many apps, we know what an app needs to stand out.-->
+    <br>
+    With the knowledge of the native platforms we ensure that we dont sacrifizing quality or performance and delivier a
+    product that your users love.
+    <br>
     </p>
     '
+
+#other = '<p class="lead">
+#    ... a software agency based in Munich that is specialized in mobile app development.
+#    </p>
+#    <p class="lead">
+#
+#    Our team of skilled software developers architects software that runs on multiple platforms by sharing as much code as possible.
+#    <br>This drastically reduces time to marked and costs without sacrifizing quality or performance.
+#    <br>
+#    <!--After building many apps, we know what an app needs to stand out.-->
+#    </p>
+#    '
 
 # client and work
 
