@@ -1,4 +1,4 @@
-baseURL = "https://www.tapped.dev/"
+baseURL = "https://internal.tapped.dev/website"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme-adjusted"
 title = "tapped | Apps and Software"
@@ -77,7 +77,7 @@ defaultContentLanguageInSubdir = true
     text2 = "Ellure"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© Tapped UG (haftungsbeschränkt). All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
