@@ -1,0 +1,66 @@
+# showcase
+
+[showcaseTitle]
+other = "An english title"
+
+[showcaseSubtitle]
+other = "An english subtitle"
+
+[showcaseDescription]
+other = "We work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+
+[showcaseContactButtonText]
+other = "Contact"
+
+# about
+
+[aboutPictureAlt]
+other = "About picture alt"
+
+[aboutTitle]
+other = "About title"
+
+[aboutContent]
+other = "About content"
+
+# client and work
+
+[clientsAndWorksTitle]
+other = "Clients and Works title"
+
+[customersBarBrainTitle]
+other = "BarBrain - Bar Inventur"
+
+[customersBarBrainDescription]
+other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+
+# testimonials
+
+[testimonialsTitle]
+other = "Testimonials"
+
+# contact
+
+[contactTitle]
+other = "Contact"
+
+[contactFormFullName]
+other = "Full name"
+
+[contactFormEmail]
+other = "Email address"
+
+[contactFormMessage]
+other = "Type your message here"
+
+[contactFormSubmit]
+other = "Send message"
+
+[contactPhoneTitle]
+other = "Phone number"
+
+[contactEmailTitle]
+other = "Email"
+
+[contactAddressTitle]
+other = "Address"
