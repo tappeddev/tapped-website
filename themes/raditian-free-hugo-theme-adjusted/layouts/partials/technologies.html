@@ -6,8 +6,7 @@
                 <h2>{{ i18n "technologiesTitle" }}</h2>
                 <div class="images-with-name-container pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.technologies.items }}
-                    <div class="images-with-name-item"
-                         onclick="window.open('{{ .logo.link }}','_blank')"> <!--TODO Window.open is not working-->
+                    <a class="images-with-name-item" href="{{ .link }}">
                         <img
                                 class="lozad img-responsive img-greyscaled img-technology"
                                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -16,7 +15,8 @@
                                 alt="{{ .alt }}"
                         />
                         <span>{{ .name }}</span>
-                    </div>
+                    </a>
+
                     {{ end }}
                 </div>
             </div>
