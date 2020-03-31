@@ -1,13 +1,14 @@
 # showcase
 
 [showcaseTitle]
-other = "Hallo, wir sind Tapped"
+other = "Hallo, wir sind Tapped."
 
 [showcaseSubtitle]
 other = "App & Software Development" #on purpose
 
 [showcaseDescription]
 other = "Ihr verlässlicher Partner für die Planung und Umsetzung von Apps. Egal ob iOS, Android oder Web, wir bringen ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und unterstützen sie auch danach, damit <b>wir</b> das beste für ihr Unternehmen raus holen."
+# Ein Langzeit 
 
 
 [showcaseContactButtonText]
@@ -52,19 +53,19 @@ other = '<p class="lead">
 # client and work
 
 [clientsAndWorksTitle]
-other = "Clients and Works"
+other = "Kunden und Projekte"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
 
 [customersBarBrainMobileDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+other = "BarBrain für Mobile ermöglicht es schnell und intuitiv inventuren deiner Bar zu erstellen. Durch die Nutzung von Flutter ist es uns gelungen die selbe Benutzeroberfläche und Bernutzererfahrung auf iOS und Android ohne doppelten Aufwand zu entwickeln."
 
 [customersBarBrainWebTitle]
 other = "BarBrain - web app"
 
 [customersBarBrainWebDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+other = "BarBrain für Web ist der Desktop Kompanion der mobilen Anwendung. Durch die Nutzung von AngularDart ist es uns gelungen 99% der Logik aus der mobilen app wiederzuverwenden. Jediglich die Benutzeroberfläche musste neu geschrieben werden."
 
 # technologies
 [technologiesTitle]
@@ -99,4 +100,4 @@ other = "Telefonnummer"
 other = "Email"
 
 [contactAddressTitle]
-other = "Addresse"
+other = "Adresse"

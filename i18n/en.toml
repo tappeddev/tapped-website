@@ -62,13 +62,13 @@ other = "Clients and Works"
 other = "BarBrain - mobile app"
 
 [customersBarBrainMobileDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+other = "BarBrain for mobile let´s you quickly and intuitively create an inventory of your bar business. By using Flutter we managed to have the same look and feel on iOS and Android in half the time."
 
 [customersBarBrainWebTitle]
 other = "BarBrain - web app"
 
 [customersBarBrainWebDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+other = "BarBrain for web is the desktop companion of BarBrain for mobile. By using AngularDart we where able to reuse 99% of the logic from the mobile app and just had to rewrite the user interface code."
 
 # technologies
 [technologiesTitle]
