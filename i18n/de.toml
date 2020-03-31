@@ -59,14 +59,29 @@ other = "Kunden und Projekte"
 other = "BarBrain - mobile app"
 
 [customersBarBrainMobileDescription]
-#other = "BarBrain für Mobile ermöglicht es schnell und intuitiv inventuren deiner Bar zu erstellen. Durch die Nutzung von Flutter ist es uns gelungen die selbe Benutzeroberfläche und Bernutzererfahrung auf iOS und Android ohne doppelten Aufwand zu entwickeln."
-other = 'Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen. Unter den über 400 Kunden finden sich Unternehmen wie Ory, Herzog, Schloss Elmau oder das 25hours Hotel in München. BarBrain proviert durch die Nutzung von Flutter vorallem an der schnellen Enticklungszeit neuer Features und kann mit feature parität auf allen platformen glänzen.'
+other = '''
+Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen.
+Unter den über 400 Kunden finden sich Unternehmen wie <a href ="">Ory</a>, <a href="">Herzog</a>, <a href="">Schloss Elmau</a> oder das <a href="">25hours Hotel</a> in München.
+<br>
+<br>
+BarBrain proviert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Enticklungszeit neuer Features und kann mit feature parität auf allen platformen glänzen.
+'''
 
 [customersBarBrainWebTitle]
 other = "BarBrain - web app"
 
 [customersBarBrainWebDescription]
-other = "BarBrain für Web ist der Desktop Kompanion der mobilen Anwendung. Durch die Nutzung von AngularDart ist es uns gelungen 99% der Logik aus der mobilen app wiederzuverwenden. Jediglich die Benutzeroberfläche musste neu geschrieben werden."
+other = '''
+BarBrain fürs Web ist die Ergänzung der mobilen Applikation und lässt die Barbesitzer und Mitarbeiter
+die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
+Abgeschlossene Inventuren können im handlichen excel Format exportiert werden und geben den benötigten Überblick.
+Alle administrativen Features wie das Verwalten und Organisierern von Produkten und Mitarbeitern
+sind auch in der Web App verfügbar.
+<br>
+<br>
+Durch die Nutzung von AngularDart lässt sich die gesamte Logik der mobilen Anwendung wiederverwenden
+und Entiwcklungskosten sind lediglich durch die neue Web Benutzeroberfläche entstanden.
+'''
 
 # technologies
 [technologiesTitle]
