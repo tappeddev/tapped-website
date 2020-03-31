@@ -15,8 +15,6 @@ showcase:
     icon: "icon-mail-fill"
 
   socialLinks:
-    - icon: "github"
-      URL: "https://github.com/tappeddev"
 
 # about
 about:
@@ -169,6 +167,9 @@ technologies:
         x: "img/technologies/docker.png"
         _2x: "img/technologies/docker.png"
       link: "https://www.docker.com/"
+
+additional:
+  enable: true
 
 # testimonial
 testimonial:

@@ -116,3 +116,6 @@ other = "Email"
 
 [contactAddressTitle]
 other = "Adresse"
+
+[additionalTitle]
+other = "Anderes"
