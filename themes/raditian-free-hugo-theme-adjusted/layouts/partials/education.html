@@ -6,12 +6,12 @@
                 <h2>{{ .Site.Data.homepage.education.title }}</h2>
                 <div class="row pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.education.items }}
-                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                        <div class="education">
-                            <div class="education__date">{{ .year }}</div>
-                            <div class="education__title">{{ .university }}</div>
-                            <div class="education__degree">
-                                {{ .degree }}
+                    <div class="col mb-4 mb-sm-0">
+                        <div class="person">
+                            <img src="{{ .image.x | absURL }}">
+                            <div class="name-and-title">
+                                <span class="name">{{ .name }}</span>
+                                <span class="title">{{ .title }}</span>
                             </div>
                         </div>
                     </div>
