@@ -72,15 +72,14 @@ other = "BarBrain - web app"
 
 [customersBarBrainWebDescription]
 other = '''
-BarBrain fürs Web ist die Ergänzung der mobilen Applikation und lässt die Barbesitzer und Mitarbeiter
+BarBrain fürs Web ist die Ergänzung der App und lässt die Barbesitzer und Mitarbeiter
 die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
 Abgeschlossene Inventuren können im handlichen excel Format exportiert werden und geben den benötigten Überblick.
-Alle administrativen Features wie das Verwalten und Organisierern von Produkten und Mitarbeitern
-sind auch in der Web App verfügbar.
+Administrativen Features wie das Verwalten und Organisierern von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
 <br>
 <br>
-Mit AngularDart lässt sich die gesamte Logik der mobilen Anwendung wiederverwenden
-und Entiwcklungskosten sind lediglich durch die neue Web Benutzeroberfläche entstanden.
+Mit AngularDart lässt sich die gesamte Logik der mobilen Anwendung wiederverwenden und Entiwcklungskosten sind
+lediglich durch die neue Web Benutzeroberfläche entstanden.
 '''
 
 # technologies
