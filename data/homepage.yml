@@ -171,6 +171,9 @@ technologies:
         _2x: "img/technologies/docker.png"
       link: "https://www.docker.com/"
 
+additional:
+  enable: true
+
 # testimonial
 testimonial:
   enable: false

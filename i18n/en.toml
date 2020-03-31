@@ -4,14 +4,13 @@
 other = "Hello, we’re Tapped."
 
 [showcaseSubtitle]
-other = "App & Software Development" #on purpose
+other = "App & Software Development"
 
 [showcaseDescription]
-other = "A <b>long-term</b> partner that plans and creates mobile apps by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals."
-# We create modern mobile applications for you by combining personal commitment, expertise, flexibility and business oriented consulting.
-# We plan and create applications for you by combining personal commitment, expertise, flexibility and business oriented consulting.
-# A long-term partner that plans and creates mobile applications by combining personal commitment, expertise, flexibility and business oriented consulting.
-# ... and consulting towards your business goals.
+other = '''
+A <b>long-term</b> partner that plans and creates mobile apps
+by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals.
+'''
 
 
 [showcaseContactButtonText]
@@ -40,18 +39,6 @@ other = '<p class="lead">
     <br>
     </p>
     '
-
-#other = '<p class="lead">
-#    ... a software agency based in Munich that is specialized in mobile app development.
-#    </p>
-#    <p class="lead">
-#
-#    Our team of skilled software developers architects software that runs on multiple platforms by sharing as much code as possible.
-#    <br>This drastically reduces time to marked and costs without sacrifizing quality or performance.
-#    <br>
-#    <!--After building many apps, we know what an app needs to stand out.-->
-#    </p>
-#    '
 
 # client and work
 
@@ -118,3 +105,6 @@ other = "Email"
 
 [contactAddressTitle]
 other = "Address"
+
+[additionalTitle]
+other = "Other"
