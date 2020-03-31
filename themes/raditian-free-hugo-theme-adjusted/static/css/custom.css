@@ -127,3 +127,41 @@
 .github-account-container {
     padding-top: 24px;
 }
+
+/* team */
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+}
+
+.person::before {
+    content: '';
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 75px;
+    height: 100%;
+    z-index: 1;
+    background-color: #edf1f4;
+    -webkit-transform: skew(-13deg);
+    transform: skew(-13deg);
+}
+
+.person img {
+    z-index: 2;
+    height: 150px;
+}
+
+.person .name-and-title {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.person .name-and-title .title {
+    font-weight: bold;
+}
