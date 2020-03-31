@@ -9,12 +9,10 @@ showcase:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase.png"
   imageMobile:
-    x: "img/showcase/showcase.png"
+    x: "img/showcase/showcase-mobile.png"
 
   button:
     icon: "icon-mail-fill"
-
-  socialLinks:
 
 # about
 about:
