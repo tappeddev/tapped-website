@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = true
 
   [[menu.footer]]
   name = "General conditions"
-  URL = "html/general_condition.html"
+  URL = "privacy"
   weight = 3
 
 
@@ -72,4 +72,4 @@ defaultContentLanguageInSubdir = true
     text2 = "Ellure"
 
   [params.footer]
-      copyright = "© Tapped UG (haftungsbeschränkt). All rights reserved."
+      copyright = "© Tapped UG (Haftungsbeschränkt). All rights reserved."
