@@ -79,7 +79,7 @@ Alle administrativen Features wie das Verwalten und Organisierern von Produkten 
 sind auch in der Web App verfügbar.
 <br>
 <br>
-Durch die Nutzung von AngularDart lässt sich die gesamte Logik der mobilen Anwendung wiederverwenden
+Mit AngularDart lässt sich die gesamte Logik der mobilen Anwendung wiederverwenden
 und Entiwcklungskosten sind lediglich durch die neue Web Benutzeroberfläche entstanden.
 '''
 
