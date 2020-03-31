@@ -7,7 +7,11 @@ other = "Hallo, wir sind Tapped."
 other = "App & Software Development" #on purpose
 
 [showcaseDescription]
-other = "Ihr verlässlicher Partner für die Planung und Umsetzung von Apps. Egal ob iOS, Android oder Web, wir bringen ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und unterstützen sie auch danach, damit <b>wir</b> das beste für ihr Unternehmen raus holen."
+other = '''
+Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
+Egal ob iOS, Android oder Web, wir bringen ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen sie auch danach, damit <b>wir</b> das beste für ihr Unternehmen raus holen.
+'''
 # Ein Langzeit 
 
 
@@ -23,7 +27,7 @@ other = "About picture alt"
 other = "Wir sind ..."
 
 [aboutContent]
-other = '<p class="lead">
+other = '''<p class="lead">
     ...eine Software Agentur in München die sich auf mobile apps spezialisiert hat.
     </p>
     <p class="lead">
@@ -36,20 +40,7 @@ other = '<p class="lead">
     wir die Qualität liefern, die ihre Nutzer von nativen Apps gewohnt sind.
     <br>
     </p>
-    '
-
-#other = '<p class="lead">
-#    ... a software agency based in Munich that is specialized in mobile app development.
-#    </p>
-#    <p class="lead">
-#
-#    Our team of skilled software developers architects software that runs on multiple platforms by sharing as much code as possible.
-#    <br>This drastically reduces time to marked and costs without sacrifizing quality or performance.
-#    <br>
-#    <!--After building many apps, we know what an app needs to stand out.-->
-#    </p>
-#    '
-
+'''
 # client and work
 
 [clientsAndWorksTitle]
