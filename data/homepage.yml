@@ -38,29 +38,27 @@ education:
         x: "img/team/stefan.png"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
-    - image: 
+    - image:
         x: "img/team/tobi.png"
       name: "Tobias Marschall"
       title: "Co-Founder"
 
-# experience
 experience:
+  enabled: false
+
+service:
   enable: true
-  title: "Services"
-  description: " "
+  title: "serviceTitle"
 
   items:
-    - title: "Flutter App Development"
-      company: "iOS and Android Apps"
-      duration: " "
+    - title: "serviceFlutterTitle"
+      description: "serviceFlutterDescription"
 
-    - title: "Angular Web Development"
-      company: "Web apps"
-      duration: " "
+    - title: "serviceAngularTitle"
+      description: "serviceAngularDescription"
 
-    - title: "Server development"
-      company: "Realtime backends"
-      duration: " "
+    - title: "serverTitle"
+      description: "serverDescription"
 
 # Client & Work
 client_and_work:
