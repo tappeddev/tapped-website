@@ -52,7 +52,7 @@ other = "BarBrain - mobile app"
 [customersBarBrainMobileDescription]
 other = '''
 Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen.
-Unter den über 400 Kunden finden sich Unternehmen wie <a href ="">Ory</a>, <a href="">Herzog</a>, <a href="">Schloss Elmau</a> oder das <a href="">25hours Hotel</a> in München.
+Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours Hotel</a> in München.
 <br>
 <br>
 BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Enticklungszeit neuer Features und kann mit feature parität auf allen platformen glänzen.
