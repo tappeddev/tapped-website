@@ -1,24 +1,26 @@
 {{ if .Site.Data.homepage.education.enable }}
 <section class="section section--border-bottom rad-animation-group">
     <div class="container">
-        <div class="row rad-fade-down">
-            <div class="col-12">
-                <h2>{{ .Site.Data.homepage.education.title }}</h2>
-                <div class="row justify-content-center pt-2 pt-md-4">
-                    {{ range .Site.Data.homepage.education.items }}
-                    <div class="col mb-4 mb-sm-0">
-                        <div class="person">
-                            <img src="{{ .image.x | absURL }}">
-                            <div class="name-and-title">
-                                <span class="name">{{ .name }}</span>
-                                <span class="title">{{ .title }}</span>
-                            </div>
-                        </div>
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                {{ range .Site.Data.homepage.education.items }}
+                <div class="person mb-4">
+                    <img src="{{ .image.x | absURL }}">
+                    <div class="name-and-title">
+                        <span class="name">{{ .name }}</span>
+                        <span class="title">{{ .title }}</span>
                     </div>
-                    {{ end }}
                 </div>
+                {{ end }}
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <h2>{{ i18n "aboutTitle" }}</h2>
+                <p class="lead">
+                    {{ i18n "aboutContent" | safeHTML}}
+                </p>
             </div>
         </div>
     </div>
 </section>
 {{ end }}
+
