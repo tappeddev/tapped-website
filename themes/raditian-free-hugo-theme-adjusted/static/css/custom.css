@@ -165,3 +165,8 @@
 .person .name-and-title .title {
     font-weight: bold;
 }
+
+/* We should not set the width to 100% because there is a weird bug in chrome with responsive images */
+.rad-showcase__bg img {
+    width: auto;
+}
