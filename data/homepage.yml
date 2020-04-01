@@ -49,6 +49,7 @@ experience:
 service:
   enable: true
   title: "serviceTitle"
+  description: "serviceDescription"
 
   items:
     - title: "serviceFlutterTitle"

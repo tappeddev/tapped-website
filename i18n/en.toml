@@ -74,6 +74,15 @@ Only the UI was created in HTML and CSS.
 [serviceTitle]
 other ="Service"
 
+[serviceDescription]
+other = '''
+We offer every service that you need to turn your idea into realtiy. No matter if you have an existing product or you
+start new from scratch.
+<br>
+You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
+other aspects in your business.
+'''
+
 [serviceFlutterTitle]
 other = "Flutter App Development"
 
