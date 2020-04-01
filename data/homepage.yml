@@ -46,29 +46,21 @@ education:
 # experience
 experience:
   enable: true
-  title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+  title: "Services"
+  description: " "
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Flutter App Development"
+      company: "iOS and Android Apps"
+      duration: " "
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Angular Web Development"
+      company: "Web apps"
+      duration: " "
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Server development"
+      company: "Realtime backends"
+      duration: " "
 
 # Client & Work
 client_and_work:
