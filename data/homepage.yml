@@ -7,7 +7,7 @@ showcase:
   enable: true
   image:
     x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
   imageMobile:
     x: "img/showcase/showcase-mobile.png"
 
