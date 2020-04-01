@@ -71,6 +71,27 @@ By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we a
 Only the UI was created in HTML and CSS.
 '''
 
+[serviceTitle]
+other ="Service"
+
+[serviceFlutterTitle]
+other = "Flutter App Development"
+
+[serviceFlutterDescription]
+other = "iOS and Android Apps"
+
+[serviceAngularTitle]
+other = "Angular Web Development"
+
+[serviceAngularDescription]
+other = "Web apps"
+
+[serverTitle]
+other = "Server Development"
+
+[serverDescription]
+other = "Realtime backends"
+
 # technologies
 [technologiesTitle]
 other = "Technologies"
