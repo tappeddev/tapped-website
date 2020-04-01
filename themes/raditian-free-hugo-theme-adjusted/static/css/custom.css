@@ -176,3 +176,9 @@
     height: auto;
     max-width: 100%;
 }
+
+@media (min-width: 1200px) {
+    .rad-showcase+section {
+        margin-top: -40px;
+    }
+}
