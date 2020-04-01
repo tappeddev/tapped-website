@@ -47,15 +47,7 @@ education:
 experience:
   enable: true
   title: "Services"
-  description: "Some services lalalala"
-  button:
-    icon: " "
-    btnText: " "
-    URL: " "
-  button2:
-    icon: " "
-    btnText: ""
-    URL: "#"
+  description: " "
 
   items:
     - title: "Flutter App Development"
