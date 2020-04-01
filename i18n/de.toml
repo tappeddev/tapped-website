@@ -86,13 +86,13 @@ other = "Cross-Platform Apps für iOS & Android"
 other = "Angular Web Development"
 
 [serviceAngularDescription]
-other = "Web apps"
+other = "Websiten und Progressive web apps"
 
 [serverTitle]
 other = "Server Development"
 
 [serverDescription]
-other = "Echtzeit backends"
+other = "Echtzeit Backends"
 
 # technologies
 [technologiesTitle]
