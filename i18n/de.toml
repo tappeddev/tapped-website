@@ -15,6 +15,14 @@ other = "Technologien"
 [menuContact]
 other = "Kontakt"
 
+# footer
+
+[menuLegalNotice]
+other = "Impressum"
+
+[menuGeneralConditions]
+other = "Allgemeine Geschäftsbedingungen"
+
 # showcase
 
 [showcaseTitle]

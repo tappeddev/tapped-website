@@ -62,12 +62,12 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
   [[menu.footer]]
-  name = "Legal Notice"
+  name = "menuLegalNotice"
   URL = "legal_notice"
   weight = 2
 
   [[menu.footer]]
-  name = "General conditions"
+  name = "menuGeneralConditions"
   URL = "general_conditions"
   weight = 3
 
