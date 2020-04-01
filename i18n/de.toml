@@ -73,6 +73,27 @@ Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt si
 lediglich durch die neue Web-Oberfläche entstanden.
 '''
 
+[serviceTitle]
+other ="Dienstleistungen"
+
+[serviceFlutterTitle]
+other = "Flutter App Development"
+
+[serviceFlutterDescription]
+other = "Cross-Platform Apps für iOS & Android"
+
+[serviceAngularTitle]
+other = "Angular Web Development"
+
+[serviceAngularDescription]
+other = "Web apps"
+
+[serverTitle]
+other = "Server Development"
+
+[serverDescription]
+other = "Echtzeit backends"
+
 # technologies
 [technologiesTitle]
 other = "Technologien"
