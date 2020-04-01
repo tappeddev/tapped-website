@@ -177,6 +177,7 @@
     max-width: 100%;
 }
 
+/* increase space between showcase and team when large */
 @media (min-width: 1200px) {
     .rad-showcase+section {
         margin-top: -40px;
