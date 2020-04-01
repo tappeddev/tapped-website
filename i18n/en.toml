@@ -90,7 +90,13 @@ other = "Web apps"
 other = "Server Development"
 
 [serverDescription]
-other = "Realtime backends"
+other = "Database Engineering, realtime interfaces"
+
+[consultingTitle]
+other = "Technical consulting"
+
+[consultingDescription]
+other = "Consulting for existing and new app projects."
 
 # technologies
 [technologiesTitle]

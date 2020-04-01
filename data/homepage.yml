@@ -60,6 +60,9 @@ service:
     - title: "serverTitle"
       description: "serverDescription"
 
+    - title: "consultingTitle"
+      description: "consultingDescription"
+
 # Client & Work
 client_and_work:
   enable: true

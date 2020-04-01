@@ -92,7 +92,13 @@ other = "Websiten und Progressive web apps"
 other = "Server Development"
 
 [serverDescription]
-other = "Echtzeit Backends"
+other = "Database Engineering und Realime Schnitstellen"
+
+[consultingTitle]
+other = "Technische Beratung"
+
+[consultingDescription]
+other = "Beratung für neue und bestehende App-Projekte"
 
 # technologies
 [technologiesTitle]
