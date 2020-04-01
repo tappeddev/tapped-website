@@ -1,3 +1,20 @@
+# top menu
+
+[menuAbout]
+other = "About"
+
+[menuService]
+other = "Services"
+
+[menuClientsAndWorks]
+other = "Clients and Works"
+
+[menuTechnologies]
+other = "Technologies"
+
+[menuContact]
+other = "Contact"
+
 # showcase
 
 [showcaseTitle]

@@ -37,20 +37,29 @@ defaultContentLanguageInSubdir = false
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "menuAbout"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "menuService"
+  URL = "#service"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "menuClientsAndWorks"
+  URL = "#clients-and-works"
   weight = 4
 
+  [[menu.header]]
+  name = "menuTechnologies"
+  URL = "#technologies"
+  weight = 5
+
+  [[menu.header]]
+  name = "menuContact"
+  URL = "#contact"
+  weight = 6
 
   [[menu.footer]]
   name = "Legal Notice"

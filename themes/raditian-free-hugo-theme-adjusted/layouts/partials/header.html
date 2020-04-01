@@ -21,7 +21,7 @@
           </li>
           {{ range .Site.Menus.header }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ .URL }}">{{ .Name | upper }}</a>
+            <a data-scroll class="nav-link" href="{{ .URL }}">{{ i18n .Name | upper }}</a>
           </li>
           {{ end }}
         </ul>
