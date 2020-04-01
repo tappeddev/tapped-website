@@ -26,7 +26,7 @@ other = "We are ..."
 
 [aboutContent]
 other = '<p class="lead">
-    ... a software agency based in Munich that is specialized in developing mobile apps with all additional components.
+    ... a software agency based in Munich that is specialized in developing mobile apps.
     </p>
     <p class="lead">
 
@@ -72,7 +72,7 @@ Only the UI was created in HTML and CSS.
 '''
 
 [serviceTitle]
-other ="Service"
+other ="Services"
 
 [serviceDescription]
 other = '''

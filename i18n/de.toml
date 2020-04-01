@@ -28,7 +28,7 @@ other = "Wir sind ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ...eine Software Agentur in München die sich auf die Entwicklung von Apps und den dazugehörigen Komponenten spezialisiert hat.
+    ...eine Software Agentur in München die sich auf die Entwicklung von Apps spezialisiert hat.
     </p>
     <p class="lead">
     Über die Jahre hat sich unser Team zur Aufgabe gemacht, Apps effiziener und schneller auf alle Platformen zu bringen.
@@ -78,11 +78,11 @@ other ="Dienstleistungen"
 
 [serviceDescription]
 other = '''
-We offer every service that you need to turn your idea into realtiy. No matter if you have an existing product or you
-start new from scratch.
+Wir bieten all das was sie brauchen um von der Idee zum ihrem finalen Produkt zu kommen.
+Egal ob sie ein bestehendes System erweitern oder von vorne beginnen.
 <br>
-You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
-other aspects in your business.
+Outsourcen sie ihr Projekt und wir kümmern uns um stabilie und skalierbare Software, damit sie sich
+anderen Dingen widmen können.
 '''
 
 [serviceFlutterTitle]
