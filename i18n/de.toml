@@ -61,7 +61,7 @@ other = '''<p class="lead">
     sondern auch Kosten.
     <br>
     <br>
-    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattformen mit, um sicherzustellen, dass
+    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattform mit, um sicherzustellen, dass
     wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
     <br>
     </p>
@@ -72,11 +72,11 @@ other = '''<p class="lead">
 other = "Kunden und Projekte"
 
 [customersBarBrainMobileTitle]
-other = "BarBrain - mobile app"
+other = "BarBrain - Mobile App"
 
 [customersBarBrainMobileDescription]
 other = '''
-Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen.
+Mit BarBrain für iOS und Android können Bar-Besitzer Inventur einfacher, schneller und genauer machen.
 Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a> in München.
 <br>
 <br>
@@ -84,14 +84,14 @@ BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target=
 '''
 
 [customersBarBrainWebTitle]
-other = "BarBrain - web app"
+other = "BarBrain - Web App"
 
 [customersBarBrainWebDescription]
 other = '''
-BarBrain fürs Web ist die Ergänzung der App und lässt die Barbesitzer und Mitarbeiter
+BarBrain fürs Web ist die Ergänzung der mobilen App und lässt die Bar-Besitzer und Mitarbeiter
 die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
 Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden und geben den benötigten Überblick.
-Administrative Features wie das Verwalten und Organisierern von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
+Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
 <br>
 <br>
 Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
@@ -103,10 +103,10 @@ other ="Dienstleistungen"
 
 [serviceDescription]
 other = '''
-Wir bieten all das was Sie brauchen um von der Idee zum ihrem finalen Produkt zu kommen.
+Wir bieten all das, was Sie brauchen, um von der Idee zu Ihrem finalen Produkt zu kommen.
 Egal ob Sie ein bestehendes System erweitern wollen oder von vorne beginnen.
 <br>
-Outsourcen Sie ihr Projekt und wir kümmern uns um stabilie und skalierbare Software, damit sie sich
+Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software, damit Sie sich
 anderen Dingen widmen können.
 '''
 
