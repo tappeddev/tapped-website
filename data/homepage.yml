@@ -21,7 +21,7 @@ about:
     - image:
         x: "img/team/julian.png"
       name: "Julian Bissekkou"
-      title: "Co-Founder"
+      title: "CTO / Co-Founder"
     - image:
         x: "img/team/stefan.png"
       name: "Stefan Schaller"
@@ -191,7 +191,7 @@ contact:
   email:
     email: '<a href="mailto:contact@tapped.dev">contact@tapped.dev</a>'
   address:
-    address: "Tapped UG (haftungsbeschränkt)<br />Auerfeldstraße 4a, 81541 München"
+    address: "Tapped UG (Haftungsbeschränkt)<br />Auerfeldstraße 4a, 81541 München"
   button:
     icon: "icon-mail-fill"
 

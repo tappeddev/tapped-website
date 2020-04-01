@@ -34,8 +34,8 @@ other = "App & Software Development" #on purpose
 [showcaseDescription]
 other = '''
 Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
-Egal ob iOS, Android oder Web, wir bringen ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
-unterstützen sie weiterhin bei ihren Zielen.
+Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen Sie weiterhin bei Ihren Zielen.
 '''
 # Ein Langzeit 
 
@@ -56,12 +56,12 @@ other = '''<p class="lead">
     ...eine Software Agentur in München die sich auf die Entwicklung von Apps spezialisiert hat.
     </p>
     <p class="lead">
-    Über die Jahre hat sich unser Team zur Aufgabe gemacht, Apps effiziener und schneller auf alle Platformen zu bringen.
+    Über die Jahre hat sich unser Team zur Aufgabe gemacht, Apps effizienter und schneller auf alle Plattformen zu bringen.
     Durch den Einsatz von Cross-Platform Tools sind wir in der Lage Code wiederzuverwenden und damit sparen wir für Sie nicht nur Zeit,
     sondern auch Kosten.
     <br>
     <br>
-    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Platformen mit, um sicherzustellen, dass
+    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattformen mit, um sicherzustellen, dass
     wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
     <br>
     </p>
@@ -77,10 +77,10 @@ other = "BarBrain - mobile app"
 [customersBarBrainMobileDescription]
 other = '''
 Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen.
-Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours Hotel</a> in München.
+Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a> in München.
 <br>
 <br>
-BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Enticklungszeit neuer Features und kann mit feature parität auf allen platformen glänzen.
+BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Enticklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
 '''
 
 [customersBarBrainWebTitle]
@@ -94,7 +94,7 @@ Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden u
 Administrative Features wie das Verwalten und Organisierern von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
 <br>
 <br>
-Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entiwcklungskosten sind
+Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
 lediglich durch die neue Web-Oberfläche entstanden.
 '''
 
@@ -104,7 +104,7 @@ other ="Dienstleistungen"
 [serviceDescription]
 other = '''
 Wir bieten all das was Sie brauchen um von der Idee zum ihrem finalen Produkt zu kommen.
-Egal ob sie ein bestehendes System erweitern oder von vorne beginnen.
+Egal ob Sie ein bestehendes System erweitern wollen oder von vorne beginnen.
 <br>
 Outsourcen Sie ihr Projekt und wir kümmern uns um stabilie und skalierbare Software, damit sie sich
 anderen Dingen widmen können.
@@ -126,13 +126,13 @@ other = "Websiten und Progressive web apps"
 other = "Server Development"
 
 [serverDescription]
-other = "Database Engineering und Realime Schnitstellen"
+other = "Database Engineering und Realtime Schnittstellen"
 
 [consultingTitle]
 other = "Technische Beratung"
 
 [consultingDescription]
-other = "Beratung für neue und bestehende App-Projekte"
+other = "Beratung für neue und bestehende Softwarelösungen"
 
 # technologies
 [technologiesTitle]
