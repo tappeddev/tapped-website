@@ -59,7 +59,7 @@ other = '''<p class="lead">
     drastically reduces time to marked and costs for your product.
     <br>
     <br>
-    When needed, we bring the knowledge to write native code to ensure that we don't sacrifizing quality or performance
+    When needed, we bring the knowledge to write native code to ensure that we don't sacrifice quality or performance
     and deliver a product that your users love.
     <br>
     </p>
@@ -76,7 +76,7 @@ other = "BarBrain - mobile app"
 [customersBarBrainMobileDescription]
 other = '''
 BarBrain for iOS and Android provides a quick, easy and more accurate way to create inventories for bar owners.
-400 customers are using the service including companies like <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> or <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a>.
+Over 400 customers are using the service including companies like <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> or <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a>.
 <br>
 <br>
 BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
@@ -87,13 +87,13 @@ other = "BarBrain - web app"
 
 [customersBarBrainWebDescription]
 other = '''
-BarBrain Web complements the app and gives owners and employees the ability to quickly adjust or configure the bar.
-The collected data can be exported as Excel file to provide a quick overview of the inventory.
+BarBrain for web complements the mobile app and gives owners and employees the ability to quickly adjust or configure the bar.
+The collected data can be exported as an Excel file to provide a quick overview of the inventory.
 Features for managing products and employees are available as well.
 <br>
 <br>
 By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
-Additional cost only occured during the development of the Web UI.
+Additional costs only occured during the development of the web UI.
 '''
 
 [serviceTitle]
@@ -101,8 +101,7 @@ other ="Services"
 
 [serviceDescription]
 other = '''
-We offer every service that you need to turn your idea into reality. No matter if you have an existing product or you
-start from scratch.
+We offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
 <br>
 You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
 other aspects of your business.
