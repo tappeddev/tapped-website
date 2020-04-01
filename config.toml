@@ -63,12 +63,12 @@ defaultContentLanguageInSubdir = false
 
   [[menu.footer]]
   name = "Legal Notice"
-  URL = "html/legal_notice.html"
+  URL = "legal_notice"
   weight = 2
 
   [[menu.footer]]
   name = "General conditions"
-  URL = "privacy"
+  URL = "general_conditions"
   weight = 3
 
 

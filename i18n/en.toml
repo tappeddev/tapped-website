@@ -43,7 +43,7 @@ other = "We are ..."
 
 [aboutContent]
 other = '<p class="lead">
-    ... a software agency based in Munich that is specialized in developing mobile apps with all additional components.
+    ... a software agency based in Munich that is specialized in developing mobile apps.
     </p>
     <p class="lead">
 
@@ -68,7 +68,7 @@ other = "BarBrain - mobile app"
 [customersBarBrainMobileDescription]
 other = '''
 BarBrain for iOS and Android provides a quick, easy and more accurate way to create inventories for bar owners.
-400 customers are using the service including companis like <a href ="">Ory</a>, <a href="">Herzog</a>, <a href="">Schloss Elmau</a> or <a href="">25hours Hotel</a>.
+400 customers are using the service including companis like <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> or <a href="https://www.25hours-hotels.com/" target="_blank">25hours Hotel</a>.
 <br>
 <br>
 BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
@@ -89,15 +89,15 @@ Only the UI was created in HTML and CSS.
 '''
 
 [serviceTitle]
-other ="Service"
+other ="Services"
 
 [serviceDescription]
 other = '''
 We offer every service that you need to turn your idea into realtiy. No matter if you have an existing product or you
-start new from scratch.
+start from scratch.
 <br>
 You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
-other aspects in your business.
+other aspects of your business.
 '''
 
 [serviceFlutterTitle]
@@ -110,19 +110,19 @@ other = "iOS and Android Apps"
 other = "Angular Web Development"
 
 [serviceAngularDescription]
-other = "Web apps"
+other = "Web pages and progressive web apps"
 
 [serverTitle]
 other = "Server Development"
 
 [serverDescription]
-other = "Database Engineering, realtime interfaces"
+other = "Database Engineering and realtime interfaces"
 
 [consultingTitle]
 other = "Technical consulting"
 
 [consultingDescription]
-other = "Consulting for existing and new app projects."
+other = "Consulting for existing and new app projects"
 
 # technologies
 [technologiesTitle]

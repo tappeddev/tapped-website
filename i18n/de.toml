@@ -45,7 +45,7 @@ other = "Wir sind ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ...eine Software Agentur in München die sich auf die Entwicklung von Apps und den dazugehörigen Komponenten spezialisiert hat.
+    ...eine Software Agentur in München die sich auf die Entwicklung von Apps spezialisiert hat.
     </p>
     <p class="lead">
     Über die Jahre hat sich unser Team zur Aufgabe gemacht, Apps effiziener und schneller auf alle Platformen zu bringen.
@@ -69,7 +69,7 @@ other = "BarBrain - mobile app"
 [customersBarBrainMobileDescription]
 other = '''
 Mit BarBrain für iOS und Android können Barbesitzer Inventur einfacher, schneller und genauer machen.
-Unter den über 400 Kunden finden sich Unternehmen wie <a href ="">Ory</a>, <a href="">Herzog</a>, <a href="">Schloss Elmau</a> oder das <a href="">25hours Hotel</a> in München.
+Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours Hotel</a> in München.
 <br>
 <br>
 BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Enticklungszeit neuer Features und kann mit feature parität auf allen platformen glänzen.
@@ -95,11 +95,11 @@ other ="Dienstleistungen"
 
 [serviceDescription]
 other = '''
-We offer every service that you need to turn your idea into realtiy. No matter if you have an existing product or you
-start new from scratch.
+Wir bieten all das was sie brauchen um von der Idee zum ihrem finalen Produkt zu kommen.
+Egal ob sie ein bestehendes System erweitern oder von vorne beginnen.
 <br>
-You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
-other aspects in your business.
+Outsourcen sie ihr Projekt und wir kümmern uns um stabilie und skalierbare Software, damit sie sich
+anderen Dingen widmen können.
 '''
 
 [serviceFlutterTitle]
