@@ -7,9 +7,12 @@ showcase:
   enable: true
   image:
     x: "img/showcase/showcase.png"
+    x_webp: "img/showcase/showcase.webp"
     _2x: "img/showcase/showcase@2x.png"
+    _2x_webp: "img/showcase/showcase@2x.webp"
   imageMobile:
     x: "img/showcase/showcase-mobile.png"
+    x_webp: "img/showcase/showcase.webp"
 
   button:
     icon: "icon-mail-fill"
