@@ -66,6 +66,10 @@ other = '''<p class="lead">
     <br>
     </p>
 '''
+
+[personAlt]
+other = "Ein Memoji Bild von {{ .name }}"
+
 # client and work
 
 [clientsAndWorksTitle]

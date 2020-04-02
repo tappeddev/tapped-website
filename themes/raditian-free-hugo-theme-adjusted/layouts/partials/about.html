@@ -5,7 +5,10 @@
             <div class="col-12 col-md-6 mt-5 mt-sm-0 person-container">
                 {{ range .Site.Data.homepage.about.items }}
                 <div class="person mb-4">
-                    <img src="{{ .image.x | absURL }}">
+                    <img class="lozad" 
+                         src="{{ .image.x | absURL }}" 
+                         srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x" 
+                         alt="{{ i18n "personAlt" . }}">
                     <div class="name-and-title">
                         <span class="name">{{ .name }}</span>
                         <span class="title">{{ .title }}</span>
