@@ -1,3 +1,6 @@
+[title]
+other = "Tapped | App- und Sotware-Entwicklungs Unternehmen"
+
 # top menu
 
 [menuAbout]
@@ -37,6 +40,14 @@ Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
 Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
 unterstützen Sie weiterhin bei Ihren Zielen.
 '''
+
+[showcaseDescriptionRaw]
+other = '''
+Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
+Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen Sie weiterhin bei Ihren Zielen.
+'''
+
 # Ein Langzeit 
 
 
@@ -53,7 +64,7 @@ other = "Wir sind ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ...eine Software Agentur in München die sich auf die Entwicklung von Apps spezialisiert hat.
+    ...ein Software-Entwicklungs Unternehmen in München die sich auf die Entwicklung von Apps spezialisiert hat.
     </p>
     <p class="lead">
     Über die Jahre hat sich unser Team zur Aufgabe gemacht, Apps effizienter und schneller auf alle Plattformen zu bringen.

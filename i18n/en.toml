@@ -1,3 +1,6 @@
+[title]
+other = "Tapped | App and Software Development Company"
+
 # top menu
 
 [menuAbout]
@@ -37,6 +40,10 @@ A <b>long-term</b> partner that plans and creates mobile apps
 by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals.
 '''
 
+[showcaseDescriptionRaw]
+other = '''
+A long-term partner that plans and creates mobile apps by combining personal commitment, technical expertise and consulting towards your business goals.
+'''
 
 [showcaseContactButtonText]
 other = "Contact"
@@ -51,7 +58,7 @@ other = "We are ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ... a software agency based in Munich that is specialized in developing mobile apps.
+    ... a software development company based in Munich that is specialized in developing mobile apps.
     </p>
     <p class="lead">
 
@@ -64,7 +71,7 @@ other = '''<p class="lead">
     <br>
     </p>
     '''
-    
+
 [personAlt]
 other = "An memoji image of {{ .name }}"
 
