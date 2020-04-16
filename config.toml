@@ -1,10 +1,9 @@
-baseURL = "https://internal.tapped.dev/website"
+baseURL = "https://www.tapped.dev/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme-adjusted"
-title = "tapped | Apps and Software"
 
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 
 [languages]
@@ -37,35 +36,39 @@ defaultContentLanguageInSubdir = true
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "menuAbout"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "menuService"
+  URL = "#service"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "menuClientsAndWorks"
+  URL = "#clients-and-works"
   weight = 4
 
+  [[menu.header]]
+  name = "menuTechnologies"
+  URL = "#technologies"
+  weight = 5
+
+  [[menu.header]]
+  name = "menuContact"
+  URL = "#contact"
+  weight = 6
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "menuLegalNotice"
+  URL = "legal_notice"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "menuGeneralConditions"
+  URL = "general_conditions"
   weight = 3
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
 
 
 [params]
@@ -77,8 +80,4 @@ defaultContentLanguageInSubdir = true
     text2 = "Ellure"
 
   [params.footer]
-      copyright = "© Tapped UG (haftungsbeschränkt). All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+      copyright = "© Tapped UG (Haftungsbeschränkt). All rights reserved."

@@ -1,0 +1,20 @@
+{{ if .Site.Data.homepage.service.enable }}
+<section id="service" class="section section--border-bottom rad-animation-group">
+    <div class="container rad-fade-down">
+        <div class="row flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 mt-5 mt-sm-0 pt-2">
+                {{ range .Site.Data.homepage.service.items }}
+                <div class="experience">
+                    <div class="experience__title">{{ i18n .title }}</div>
+                    <div class="experience__company">{{ i18n .description }}</div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="col">
+                <h2>{{ i18n .Site.Data.homepage.service.title }}</h2>
+                <p class="lead">{{ i18n .Site.Data.homepage.service.description | safeHTML }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

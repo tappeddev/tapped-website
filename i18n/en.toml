@@ -1,13 +1,49 @@
+[title]
+other = "Tapped | App and Software Development Company"
+
+# top menu
+
+[menuAbout]
+other = "About"
+
+[menuService]
+other = "Services"
+
+[menuClientsAndWorks]
+other = "Clients and Works"
+
+[menuTechnologies]
+other = "Technologies"
+
+[menuContact]
+other = "Contact"
+
+# footer
+
+[menuLegalNotice]
+other = "Legal notice"
+
+[menuGeneralConditions]
+other = "General conditions"
+
 # showcase
 
 [showcaseTitle]
-other = "An english title"
+other = "Hello, we’re tapped."
 
 [showcaseSubtitle]
-other = "An english subtitle"
+other = "App & Software Development"
 
 [showcaseDescription]
-other = "We work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+other = '''
+A <b>long-term</b> partner that plans and creates mobile apps
+by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals.
+'''
+
+[showcaseDescriptionRaw]
+other = '''
+A long-term partner that plans and creates mobile apps by combining personal commitment, technical expertise and consulting towards your business goals.
+'''
 
 [showcaseContactButtonText]
 other = "Contact"
@@ -18,21 +54,96 @@ other = "Contact"
 other = "About picture alt"
 
 [aboutTitle]
-other = "About title"
+other = "We are ..."
 
 [aboutContent]
-other = "About content"
+other = '''<p class="lead">
+    ... a software development company based in Munich that is specialized in developing mobile apps.
+    </p>
+    <p class="lead">
+
+    Our team of skilled software developers stands out with an expertise torwards cross platform and code sharing which
+    drastically reduces time to marked and costs for your product.
+    <br>
+    <br>
+    When needed, we bring the knowledge to write native code to ensure that we don't sacrifice quality or performance
+    and deliver a product that your users love.
+    <br>
+    </p>
+    '''
+
+[personAlt]
+other = "An memoji image of {{ .name }}"
 
 # client and work
 
 [clientsAndWorksTitle]
-other = "Clients and Works title"
+other = "Clients and Works"
 
-[customersBarBrainTitle]
-other = "BarBrain - Bar Inventur"
+[customersBarBrainMobileTitle]
+other = "BarBrain - mobile app"
 
-[customersBarBrainDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+[customersBarBrainMobileDescription]
+other = '''
+BarBrain for iOS and Android provides a quick, easy and more accurate way to create inventories for bar owners.
+Over 400 customers are using the service including companies like <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> or <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a>.
+<br>
+<br>
+BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
+'''
+
+[customersBarBrainWebTitle]
+other = "BarBrain - web app"
+
+[customersBarBrainWebDescription]
+other = '''
+BarBrain for web complements the mobile app and gives owners and employees the ability to quickly adjust or configure the bar.
+The collected data can be exported as an Excel file to provide a quick overview of the inventory.
+Features for managing products and employees are available as well.
+<br>
+<br>
+By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
+Additional costs only occured during the development of the web UI.
+'''
+
+[serviceTitle]
+other ="Services"
+
+[serviceDescription]
+other = '''
+We offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
+<br>
+You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
+other aspects of your business.
+'''
+
+[serviceFlutterTitle]
+other = "Flutter app development"
+
+[serviceFlutterDescription]
+other = "iOS and Android apps"
+
+[serviceAngularTitle]
+other = "Angular web development"
+
+[serviceAngularDescription]
+other = "Web pages and progressive web apps"
+
+[serverTitle]
+other = "Server development"
+
+[serverDescription]
+other = "Database engineering and realtime interfaces"
+
+[consultingTitle]
+other = "Technical consulting"
+
+[consultingDescription]
+other = "Consulting for existing and new software solutions"
+
+# technologies
+[technologiesTitle]
+other = "Technologies"
 
 # testimonials
 
@@ -64,3 +175,6 @@ other = "Email"
 
 [contactAddressTitle]
 other = "Address"
+
+[additionalTitle]
+other = "Other"

@@ -1,31 +1,30 @@
 {{ if .Site.Data.homepage.about.enable }}
-<section class="section rad-animation-group pb-0" id="about">
-  <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture col-12 col-md-6">
-        <img
-          class="lozad img-responsive image-left-overflow"
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
-          data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 2x"
-          alt="{{ i18n "aboutPictureAlt" }}"
-        />
-      </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ i18n "aboutTitle" }}</h2>
-        <p class="lead">
-          {{ i18n "aboutContent" | safeHTML }}
-        </p>
-        <!--<a
-          href="{{ .Site.Data.homepage.about.button.URL | absURL }}"
-          target="_blank"
-          class="btn btn-primary"
-        >
-          <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
-          {{ .Site.Data.homepage.about.button.btnText }}
-        </a>-->
-      </div>
+<section id="about" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-md-6 mt-5 mt-sm-0 person-container">
+                {{ range .Site.Data.homepage.about.items }}
+                <div class="person mb-4">
+                    <img class="lozad" 
+                         src="{{ .image.x | absURL }}" 
+                         data-src="{{ .image.x | absURL }}" 
+                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x" 
+                         alt="{{ i18n "personAlt" . }}">
+                    <div class="name-and-title">
+                        <span class="name">{{ .name }}</span>
+                        <span class="title">{{ .title }}</span>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <h2>{{ i18n "aboutTitle" }}</h2>
+                <p class="lead">
+                    {{ i18n "aboutContent" | safeHTML}}
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
+

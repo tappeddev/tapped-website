@@ -1,0 +1,26 @@
+{{ if .Site.Data.homepage.technologies.enable }}
+<section id="technologies" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ i18n "technologiesTitle" }}</h2>
+                <div class="images-with-name-container pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.technologies.items }}
+                    <a class="images-with-name-item" href="{{ .link }}" target="_blank">
+                        <img
+                                class="lozad img-responsive img-greyscaled img-technology"
+                                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                                data-src="{{ .logo.x | absURL }}"
+                                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                                alt="{{ .alt }}"
+                        />
+                        <span>{{ .name }}</span>
+                    </a>
+
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

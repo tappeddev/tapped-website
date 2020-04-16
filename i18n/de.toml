@@ -1,16 +1,58 @@
+[title]
+other = "Tapped | App- und Sotware-Entwicklungs Unternehmen"
+
+# top menu
+
+[menuAbout]
+other = "Über uns"
+
+[menuService]
+other = "Dienstleistungen"
+
+[menuClientsAndWorks]
+other = "Kunden und Projekte"
+
+[menuTechnologies]
+other = "Technologien"
+
+[menuContact]
+other = "Kontakt"
+
+# footer
+
+[menuLegalNotice]
+other = "Impressum"
+
+[menuGeneralConditions]
+other = "Allgemeine Geschäftsbedingungen"
+
 # showcase
 
 [showcaseTitle]
-other = "An english title"
+other = "Hallo, wir sind tapped."
 
 [showcaseSubtitle]
-other = "An english subtitle"
+other = "App & Software Entwicklung"
 
 [showcaseDescription]
-other = "We work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+other = '''
+Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
+Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen Sie weiterhin bei Ihren Zielen.
+'''
+
+[showcaseDescriptionRaw]
+other = '''
+Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
+Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen Sie weiterhin bei Ihren Zielen.
+'''
+
+# Ein Langzeit 
+
 
 [showcaseContactButtonText]
-other = "Contact"
+other = "Kontakt"
 
 # about
 
@@ -18,21 +60,98 @@ other = "Contact"
 other = "About picture alt"
 
 [aboutTitle]
-other = "About title"
+other = "Wir sind ..."
 
 [aboutContent]
-other = "About content"
+other = '''<p class="lead">
+    ...ein Software-Entwicklungs Unternehmen in München, das sich auf die Entwicklung von Apps spezialisiert hat.
+    </p>
+    <p class="lead">
+    Über die Jahre hat sich unser Team zur Aufgabe gemacht Apps effizienter und schneller auf alle Plattformen zu bringen.
+    Durch den Einsatz von Cross-Platform Tools sind wir in der Lage bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
+    sondern auch Kosten.
+    <br>
+    <br>
+    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattform mit, um sicherzustellen, dass
+    wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
+    <br>
+    </p>
+'''
+
+[personAlt]
+other = "Ein Memoji Bild von {{ .name }}"
 
 # client and work
 
 [clientsAndWorksTitle]
-other = "Clients and Works title"
+other = "Kunden und Projekte"
 
-[customersBarBrainTitle]
-other = "BarBrain - Bar Inventur"
+[customersBarBrainMobileTitle]
+other = "BarBrain - Mobile App"
 
-[customersBarBrainDescription]
-other = "BarBrain ist eine Bar Inventur software und Tobi und Lukas sind die Kompetenz in Person."
+[customersBarBrainMobileDescription]
+other = '''
+Mit BarBrain für iOS und Android können Bar-Besitzer Inventur einfacher, schneller und genauer machen.
+Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a> in München.
+<br>
+<br>
+BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
+'''
+
+[customersBarBrainWebTitle]
+other = "BarBrain - Web App"
+
+[customersBarBrainWebDescription]
+other = '''
+BarBrain fürs Web ist die Ergänzung der mobilen App und lässt die Bar-Besitzer und Mitarbeiter
+die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
+Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden und geben den benötigten Überblick.
+Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
+<br>
+<br>
+Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
+lediglich durch die neue Web-Oberfläche entstanden.
+'''
+
+[serviceTitle]
+other ="Dienstleistungen"
+
+[serviceDescription]
+other = '''
+Wir bieten Dienstleistungen, um von Ihrer Idee zu dem finalen Produkt zu kommen.
+Dabei ist es egal ob Sie ein bestehendes System erweitern oder neu entwickeln wollen.
+<br>
+Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software-Lösungen, damit Sie sich
+anderen wichtigen Dingen widmen können.
+'''
+
+[serviceFlutterTitle]
+other = "Flutter App Development"
+
+[serviceFlutterDescription]
+other = "Cross-Platform Apps für iOS & Android"
+
+[serviceAngularTitle]
+other = "Angular Web Development"
+
+[serviceAngularDescription]
+other = "Websiten und Progressive web apps"
+
+[serverTitle]
+other = "Server Development"
+
+[serverDescription]
+other = "Database Engineering und Realtime Schnittstellen"
+
+[consultingTitle]
+other = "Technische Beratung"
+
+[consultingDescription]
+other = "Beratung für neue und bestehende Softwarelösungen"
+
+# technologies
+[technologiesTitle]
+other = "Technologien"
 
 # testimonials
 
@@ -42,25 +161,28 @@ other = "Testimonials"
 # contact
 
 [contactTitle]
-other = "Contact"
+other = "Kontakt"
 
 [contactFormFullName]
-other = "Full name"
+other = "Name"
 
 [contactFormEmail]
-other = "Email address"
+other = "Email"
 
 [contactFormMessage]
-other = "Type your message here"
+other = "Deine Nachricht"
 
 [contactFormSubmit]
-other = "Send message"
+other = "Abschicken"
 
 [contactPhoneTitle]
-other = "Phone number"
+other = "Telefonnummer"
 
 [contactEmailTitle]
 other = "Email"
 
 [contactAddressTitle]
-other = "Address"
+other = "Adresse"
+
+[additionalTitle]
+other = "Anderes"
