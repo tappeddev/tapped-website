@@ -26,6 +26,12 @@ other = "Legal notice"
 [menuGeneralConditions]
 other = "General conditions"
 
+[german]
+other = "German"
+
+[english]
+other = "English"
+
 # showcase
 
 [showcaseTitle]

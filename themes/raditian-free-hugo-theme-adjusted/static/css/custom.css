@@ -188,3 +188,12 @@
         margin-top: -40px;
     }
 }
+
+.language-switcher {
+    color: white;
+}
+
+.language-switcher > a {
+    color: white;
+    text-decoration: none;
+}

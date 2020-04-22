@@ -1,18 +1,21 @@
 <footer class="footer">
-  <div class="container">
-    <div class="footer__left">
-      <div class="footer__copy">
-        {{ .Site.Params.footer.copyright }}
-      </div>
+    <div class="container">
+        <div class="footer__left">
+            <div class="footer__copy">
+                {{ .Site.Params.footer.copyright }}
+            </div>
+        </div>
+        <div class="footer__links">
+            <ul class="navbar-nav ">
+                {{ range .Site.Menus.footer }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .URL | absURL }}">{{ i18n .Name | upper }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="language-switcher">
+          <a href="/de">{{ i18n "german" }}</a> • <a href="/en">{{ i18n "english" }}</a>
+        </div>
     </div>
-    <div class="footer__links">
-      <ul class="navbar-nav ">
-        {{ range .Site.Menus.footer }}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ .URL | absURL }}">{{ i18n .Name | upper }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
 </footer>

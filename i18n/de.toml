@@ -26,6 +26,12 @@ other = "Impressum"
 [menuGeneralConditions]
 other = "Allgemeine Geschäftsbedingungen"
 
+[german]
+other = "Deutsch"
+
+[english]
+other = "Englisch"
+
 # showcase
 
 [showcaseTitle]
