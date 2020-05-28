@@ -1,5 +1,13 @@
 /* You can customize theme styles here */
 
+::selection {
+    background: #be3369!important; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #be3369!important; /* Gecko Browsers */
+}
+
 * {
     outline: none!important;
 }
