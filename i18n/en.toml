@@ -67,19 +67,19 @@ other = "We are ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ... a software development company based in Munich that is specialized in developing mobile apps.
-    </p>
-    <p class="lead">
+... a software development company based in Munich that is specialized in developing mobile apps.
+</p>
+<p class="lead">
 
-    Our team of skilled software developers stands out with an expertise torwards cross platform and code sharing which
-    drastically reduces time to marked and costs for your product.
-    <br>
-    <br>
-    When needed, we bring the knowledge to write native code to ensure that we don't sacrifice quality or performance
-    and deliver a product that your users love.
-    <br>
-    </p>
-    '''
+Our team of skilled software developers stands out with an expertise towards cross platform and code sharing which
+drastically reduces time to marked and costs for your product.
+<br>
+<br>
+When needed, we bring the knowledge to write native code to ensure that we don't sacrifice quality or performance
+and deliver a product that your users love.
+<br>
+</p>
+'''
 
 [personAlt]
 other = "An memoji image of {{ .name }}"
@@ -112,7 +112,7 @@ Features for managing products and employees are available as well.
 <br>
 <br>
 By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
-Additional costs only occured during the development of the web UI.
+Additional costs only occurred during the development of the web UI.
 '''
 
 [serviceTitle]
@@ -142,7 +142,7 @@ other = "Web pages and progressive web apps"
 other = "Server development"
 
 [serverDescription]
-other = "Database engineering and realtime interfaces"
+other = "Database engineering and real time interfaces"
 
 [consultingTitle]
 other = "Technical consulting"

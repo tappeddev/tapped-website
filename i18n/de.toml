@@ -57,8 +57,7 @@ Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertis
 unterstützen Sie weiterhin bei Ihren Zielen.
 '''
 
-# Ein Langzeit 
-
+# Ein Langzeit
 
 [showcaseContactButtonText]
 other = "Kontakt"
@@ -73,18 +72,18 @@ other = "Wir sind ..."
 
 [aboutContent]
 other = '''<p class="lead">
-    ...ein Software-Entwicklungs Unternehmen in München, das sich auf die Entwicklung von Apps spezialisiert hat.
-    </p>
-    <p class="lead">
-    Über die Jahre hat sich unser Team zur Aufgabe gemacht Apps effizienter und schneller auf alle Plattformen zu bringen.
-    Durch den Einsatz von Cross-Platform Tools sind wir in der Lage bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
-    sondern auch Kosten.
-    <br>
-    <br>
-    Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattform mit, um sicherzustellen, dass
-    wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
-    <br>
-    </p>
+...ein Software-Entwicklungs-Unternehmen in München, das sich auf die Entwicklung von Apps spezialisiert hat.
+</p>
+<p class="lead">
+Über die Jahre hat sich unser Team zur Aufgabe gemacht Apps effizienter und schneller auf alle Plattformen zu bringen.
+Durch den Einsatz von Cross-Platform Tools sind wir in der Lage bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
+sondern auch Kosten.
+<br>
+<br>
+Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattform mit, um sicherzustellen, dass
+wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
+<br>
+</p>
 '''
 
 [personAlt]
@@ -104,7 +103,7 @@ Mit BarBrain für iOS und Android können Bar-Besitzer Inventur einfacher, schne
 Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a> in München.
 <br>
 <br>
-BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vorallem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
+BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vor allem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
 '''
 
 [customersBarBrainWebTitle]
@@ -115,7 +114,7 @@ other = '''
 BarBrain fürs Web ist die Ergänzung der mobilen App und lässt die Bar-Besitzer und Mitarbeiter
 die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
 Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden und geben den benötigten Überblick.
-Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web App verfügbar.
+Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web-App verfügbar.
 <br>
 <br>
 Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
@@ -128,7 +127,7 @@ other ="Dienstleistungen"
 [serviceDescription]
 other = '''
 Wir bieten Dienstleistungen, um von Ihrer Idee zu dem finalen Produkt zu kommen.
-Dabei ist es egal ob Sie ein bestehendes System erweitern oder neu entwickeln wollen.
+Dabei ist es egal, ob Sie ein bestehendes System erweitern oder neu entwickeln wollen.
 <br>
 Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software-Lösungen, damit Sie sich
 anderen wichtigen Dingen widmen können.
@@ -144,7 +143,7 @@ other = "Cross-Platform Apps für iOS & Android"
 other = "Angular Web Development"
 
 [serviceAngularDescription]
-other = "Websiten und Progressive web apps"
+other = "Webseiten und Progressive Web-Apps"
 
 [serverTitle]
 other = "Server Development"
@@ -156,7 +155,7 @@ other = "Database Engineering und Realtime Schnittstellen"
 other = "Technische Beratung"
 
 [consultingDescription]
-other = "Beratung für neue und bestehende Softwarelösungen"
+other = "Beratung für neue und bestehende Software-Lösungen"
 
 # technologies
 [technologiesTitle]
@@ -176,7 +175,7 @@ other = "Kontakt"
 other = "Name"
 
 [contactFormEmail]
-other = "Email"
+other = "E-Mail"
 
 [contactFormMessage]
 other = "Deine Nachricht"
@@ -188,7 +187,7 @@ other = "Abschicken"
 other = "Telefonnummer"
 
 [contactEmailTitle]
-other = "Email"
+other = "E-Mail"
 
 [contactAddressTitle]
 other = "Adresse"
