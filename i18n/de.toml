@@ -26,6 +26,9 @@ other = "Impressum"
 [menuGeneralConditions]
 other = "Allgemeine Geschäftsbedingungen"
 
+[menuPrivacy]
+other = "Datenschutz"
+
 [german]
 other = "Deutsch"
 

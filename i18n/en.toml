@@ -26,6 +26,9 @@ other = "Legal notice"
 [menuGeneralConditions]
 other = "General conditions"
 
+[menuPrivacy]
+other = "Privacy"
+
 [german]
 other = "German"
 
