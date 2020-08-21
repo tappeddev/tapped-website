@@ -93,6 +93,12 @@ works:
         x: "img/works/barbrain_web.jpg"
         _2x: "img/works/barbrain_web@2x.jpg"
       is_even: false
+    - title: "customersPumpItTitle"
+      description: "customersPumpItDescription"
+      image:
+        x: "img/works/pump_it.jpg"
+        _2x: "img/works/pump_it@2x.jpg"
+      is_even: true
 
 # technologies
 technologies:

@@ -128,6 +128,19 @@ Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt si
 lediglich durch die neue Web-Oberfläche entstanden.
 '''
 
+[customersPumpItTitle]
+other = "Pump-It"
+
+[customersPumpItDescription]
+other = '''
+Wir haben den MVP für Pump-It entwickelt. Pump-It ist die App für anspruchsvolle Sportler.
+Viele Merkmale lassen sich individuell anpassen und ein einzigartiges Design soll frischwen Wind in Fitness-Branche.
+<br>
+<br>
+Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich diesen MVP in Rekordzeit zu entwickeln und währenddessen dynamisch auf die Anforderungen
+des Kunden zu reagieren.
+'''
+
 [serviceTitle]
 other ="Dienstleistungen"
 
