@@ -9,8 +9,11 @@ other = "Über uns"
 [menuService]
 other = "Dienstleistungen"
 
-[menuClientsAndWorks]
-other = "Kunden und Projekte"
+[menuClients]
+other = "Unsere Kunden"
+
+[menuWorks]
+other = "Referenzen"
 
 [menuTechnologies]
 other = "Technologien"
@@ -89,10 +92,14 @@ wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
 [personAlt]
 other = "Ein Memoji Bild von {{ .name }}"
 
-# client and work
+# clients
+[clientsTitle]
+other = "Unsere Kunden"
 
-[clientsAndWorksTitle]
-other = "Kunden und Projekte"
+# works
+
+[worksTitle]
+other = "Referenzen"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"

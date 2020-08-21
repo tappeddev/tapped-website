@@ -58,8 +58,7 @@ service:
     - title: "consultingTitle"
       description: "consultingDescription"
 
-# Client & Work
-client_and_work:
+clients:
   enable: true
 
   clients:
@@ -79,6 +78,8 @@ client_and_work:
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
 
+works:
+  enable: true
   works:
     - title: "customersBarBrainMobileTitle"
       description: "customersBarBrainMobileDescription"

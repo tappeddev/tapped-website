@@ -9,8 +9,11 @@ other = "About"
 [menuService]
 other = "Services"
 
-[menuClientsAndWorks]
-other = "Clients and Works"
+[menuClients]
+other = "Our clients"
+
+[menuWorks]
+other = "References"
 
 [menuTechnologies]
 other = "Technologies"
@@ -84,10 +87,14 @@ and deliver a product that your users love.
 [personAlt]
 other = "An memoji image of {{ .name }}"
 
-# client and work
+# clients
+[clientsTitle]
+other = "Our clients"
 
-[clientsAndWorksTitle]
-other = "Clients and Works"
+# works
+
+[worksTitle]
+other = "References"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
