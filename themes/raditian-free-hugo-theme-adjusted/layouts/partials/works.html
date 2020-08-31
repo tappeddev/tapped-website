@@ -1,29 +1,10 @@
-{{ if .Site.Data.homepage.client_and_work.enable }}
-<section id="clients-and-works" class="section section--border-bottom">
+{{ if .Site.Data.homepage.works.enable }}
+<section id="works" class="section section--border-bottom">
   <div class="container">
     <h2 class=" rad-animation-group rad-fade-down">
-      {{ i18n "clientsAndWorksTitle" }}
+      {{ i18n "worksTitle" }}
     </h2>
-    <div class="row row--padded rad-animation-group rad-fade-down">
-      <div class="col-12">
-        <div class="clients">
-          {{ range .Site.Data.homepage.client_and_work.clients }}
-          <div class="clients__item">
-            <a href="{{ .link }}">
-              <img
-                class="lozad img-responsive"
-                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x | absURL }}"
-                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
-                alt="{{ .alt }}"
-              />
-            </a>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    {{ range $index, $element := .Site.Data.homepage.works.works }}
     <div
       class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
     >

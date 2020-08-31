@@ -58,17 +58,33 @@ service:
     - title: "consultingTitle"
       description: "consultingDescription"
 
-# Client & Work
-client_and_work:
+clients:
   enable: true
 
   clients:
     - logo:
         x: "img/clients/barbrain_logo.png"
         _2x: "img/clients/barbrain_logo@2x.png"
-      alt: "BarBrain"
+      alt: "BarBrain GmbH"
       link: "https://barbrain.com"
+    - logo:
+        x: "img/clients/mentz_logo.svg"
+        _2x: "img/clients/mentz_logo.svg"
+      alt: "Mentz GmbH"
+      link: "https://mentz.net"
+    - logo:
+        x: "img/clients/phntm_xyz_logo.svg"
+        _2x: "img/clients/phntm_xyz_logo.svg"
+      alt: "phntm GmbH"
+      link: "https://phntm.xyz"
+    - logo:
+        x: "img/clients/mh_production_logo.png"
+        _2x: "img/clients/mh_production_logo@2x.png"
+        alt: "M&H Production"
+        link: ""
 
+works:
+  enable: true
   works:
     - title: "customersBarBrainMobileTitle"
       description: "customersBarBrainMobileDescription"
@@ -82,6 +98,12 @@ client_and_work:
         x: "img/works/barbrain_web.jpg"
         _2x: "img/works/barbrain_web@2x.jpg"
       is_even: false
+    - title: "customersPumpItTitle"
+      description: "customersPumpItDescription"
+      image:
+        x: "img/works/pump_it.jpg"
+        _2x: "img/works/pump_it@2x.jpg"
+      is_even: true
 
 # technologies
 technologies:

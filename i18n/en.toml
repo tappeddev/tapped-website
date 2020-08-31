@@ -9,8 +9,11 @@ other = "About"
 [menuService]
 other = "Services"
 
-[menuClientsAndWorks]
-other = "Clients and Works"
+[menuClients]
+other = "Our clients"
+
+[menuWorks]
+other = "References"
 
 [menuTechnologies]
 other = "Technologies"
@@ -84,10 +87,14 @@ and deliver a product that your users love.
 [personAlt]
 other = "An memoji image of {{ .name }}"
 
-# client and work
+# clients
+[clientsTitle]
+other = "Our clients"
 
-[clientsAndWorksTitle]
-other = "Clients and Works"
+# works
+
+[worksTitle]
+other = "References"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
@@ -113,6 +120,19 @@ Features for managing products and employees are available as well.
 <br>
 By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
 Additional costs only occurred during the development of the web UI.
+'''
+
+[customersPumpItTitle]
+other = "Pump-It"
+
+[customersPumpItDescription]
+other = '''
+We developed the iOS and Android MVP for Pump-It. With Pump-It, athletes can easily monitor their water requirements and energy balance. At the same time workouts can be planned at home and then carried out at the gym. This way the athletes always have full control over their body and results.
+<br>Many features can be adjusted individually and inject a breath of fresh air into the fitness industry.
+<br>
+<br>
+Thanks to <a href="https://flutter.dev/" target="_blank">Flutter</a> we were able to develop this MVP in record-time, and we could respond to customer requests dynamically during
+development.
 '''
 
 [serviceTitle]

@@ -9,8 +9,11 @@ other = "Über uns"
 [menuService]
 other = "Dienstleistungen"
 
-[menuClientsAndWorks]
-other = "Kunden und Projekte"
+[menuClients]
+other = "Unsere Kunden"
+
+[menuWorks]
+other = "Referenzen"
 
 [menuTechnologies]
 other = "Technologien"
@@ -89,10 +92,14 @@ wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
 [personAlt]
 other = "Ein Memoji Bild von {{ .name }}"
 
-# client and work
+# clients
+[clientsTitle]
+other = "Unsere Kunden"
 
-[clientsAndWorksTitle]
-other = "Kunden und Projekte"
+# works
+
+[worksTitle]
+other = "Referenzen"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
@@ -119,6 +126,19 @@ Administrative Features wie das Verwalten und Organisieren von Produkten und Mit
 <br>
 Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
 lediglich durch die neue Web-Oberfläche entstanden.
+'''
+
+[customersPumpItTitle]
+other = "Pump-It"
+
+[customersPumpItDescription]
+other = '''
+Wir haben den iOS und Android MVP für Pump-It entwickelt. Damit können Sportler ganz einfach und genau ihren Wasserbedarf und Energiehaushalt überwachen. Gleichzeitig können Workouts zu Hause geplant und im Fitnessstudio ausgeführt werden, um immer volle Kontrolle über Körper und Erfolge zu haben.
+<br>Viele Merkmale lassen sich individuell anpassen und bringen dadurch frischen Wind in die Fitness-Branche.
+<br>
+<br>
+Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich diesen MVP in Rekordzeit zu entwickeln und währenddessen dynamisch auf die Anforderungen
+des Kunden zu reagieren.
 '''
 
 [serviceTitle]
