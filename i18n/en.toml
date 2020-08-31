@@ -127,8 +127,8 @@ other = "Pump-It"
 
 [customersPumpItDescription]
 other = '''
-We developed the MVP for Pump-It. Pump-It is the App for demanding athletes.
-Many features can be adjusted individually and the unique design injects a breath of fresh are into the fitness industry.
+We developed the iOS and Android MVP for Pump-It. With Pump-It, athletes can easily monitor their water requirements and energy balance. At the same time workouts can be planned at home and then carried out at the gym. This way the athletes always have full control over their body and results.
+<br>Many features can be adjusted individually and the unique design injects a breath of fresh are into the fitness industry.
 <br>
 <br>
 Thanks to <a href="https://flutter.dev/" target="_blank">Flutter</a> we where able to develop this MVP in record-time and we could respond to customer requests dynamically during
