@@ -77,6 +77,11 @@ clients:
         _2x: "img/clients/phntm_xyz_logo.svg"
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
+    - logo:
+        x: "img/clients/mh_production_logo.png"
+        _2x: "img/clients/mh_production_logo@2x.png"
+        alt: "M&H Production"
+        link: ""
 
 works:
   enable: true
