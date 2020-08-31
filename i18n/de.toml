@@ -134,7 +134,7 @@ other = "Pump-It"
 [customersPumpItDescription]
 other = '''
 Wir haben den iOS und Android MVP für Pump-It entwickelt. Damit können Sportler ganz einfach und genau ihren Wasserbedarf und Energiehaushalt überwachen. Gleichzeitig können Workouts zu Hause geplant und im Fitnessstudio ausgeführt werden, um immer volle Kontrolle über Körper und Erfolge zu haben.
-<br>Viele Merkmale lassen sich individuell anpassen und ein einzigartiges Design bringt frischwen Wind in die Fitness-Branche.
+<br>Viele Merkmale lassen sich individuell anpassen und bringen dadurch frischen Wind in die Fitness-Branche.
 <br>
 <br>
 Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich diesen MVP in Rekordzeit zu entwickeln und währenddessen dynamisch auf die Anforderungen
