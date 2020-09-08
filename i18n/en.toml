@@ -21,6 +21,9 @@ other = "Technologies"
 [menuContact]
 other = "Contact"
 
+[menuTestimonials]
+other = "Testimonials"
+
 # footer
 
 [menuLegalNotice]
