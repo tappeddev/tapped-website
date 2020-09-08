@@ -182,6 +182,23 @@ other = "Technologies"
 [testimonialsTitle]
 other = "Testimonials"
 
+[testimonialPhntmContent]
+other = '''
+I’ve initially got in touch with Julian over Twitter after I saw some of his work in the Flutter ecosystem.
+We only had two short video meetings and briefly after that Julian and his team started working for us.
+Overall Tapped has done a great job in supporting us with working on a large-scale multi-platform Flutter app for a big German telecommunications company and I would gladly join forces again in the future!
+'''
+
+[testimonialBarBrainContent]
+other = '''
+Top!
+'''
+
+[testimonialMHProductionContent]
+other = '''
+Top!
+'''
+
 # contact
 
 [contactTitle]
