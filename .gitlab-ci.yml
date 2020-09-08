@@ -15,7 +15,7 @@ test:
 
 pages:
   script:
-    - hugo
+    - hugo -b https://pages.tapped.dev
   artifacts:
     paths:
       - public
