@@ -90,11 +90,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items:flex-end;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .images-with-name-container a {
@@ -208,4 +204,10 @@
 
 .clients {
     justify-content: start;
+}
+
+.contact__info {
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
 }
