@@ -222,7 +222,7 @@ contact:
   form:
     action: "https://formspree.io/mrglvepw"
   phone:
-    number: <a href="tel:+49176 30400083">+ 49 (0) 176 30 40 00 83</a>
+    number: '<a href="tel:+4917630400083">+ 49 (0) 176 30 40 00 83</a>'
   email:
     email: '<a href="mailto:contact@tapped.dev">contact@tapped.dev</a>'
   address:
