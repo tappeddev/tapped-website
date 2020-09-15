@@ -189,6 +189,10 @@ other = "Technologien"
 [testimonialsTitle]
 other = "Empfehlungen"
 
+
+[testimonialPhntmPosition]
+other = '''phntm, Geschäftsführer'''
+
 [testimonialPhntmContent]
 other = '''
 Ich bin zunächst über Twitter mit Julian in Kontakt getreten, nachdem ich einige seiner Arbeiten mit Flutter gesehen habe.
@@ -196,10 +200,8 @@ Wir hatten nur zwei kurze Videokonferenzen, kurz danach begannen Julian und sein
 Insgesamt hat Tapped eine großartige Arbeit geleistet und uns bei der Arbeit an einer großen Multi-Plattform-Flutter-App für ein großes deutsches Telekommunikationsunternehmen unterstützt, und ich würde mit ihnen in Zukunft gerne wieder zusammenarbeiten!
 '''
 
-[testimonialBarBrainContent]
-other = '''
-Top!
-'''
+[testimonialMHProductionPosition]
+other = '''M&H Production, Geschäftsführer'''
 
 [testimonialMHProductionContent]
 other = '''
@@ -209,6 +211,9 @@ Durch die bisherigen Projekte, die Sympathie und Kompetenzen seiner Seits kam es
 Das Team ist sehr zuverlässig und kompetent, Sie machen einen großartigen Job und unterstützen mein Fitness-App-Projekt um es großartig werden zu lassen.
 Das Team arbeitet nicht einfach nur strikt nach Anweisungen, sondern wirft auch Bedenken zu einigen Punkten ein, die später zu Problemen führen könnten, was App Projekte weit aus Stabiler und besser von Beginn an da stehen lässt!
 '''
+
+[testimonialMentzPosition]
+other = '''MENTZ, Technischer Leiter der mobilen Entwicklung'''
 
 [testimonialMentzContent]
 other = '''
