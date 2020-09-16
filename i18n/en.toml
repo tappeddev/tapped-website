@@ -207,6 +207,18 @@ other = '''
 Uncomplicated and competent cooperation convinced us of Tapped. If you need expertise in app development, you've come to the right place.
 '''
 
+
+[testimonialBarBrainPosition]
+other = '''BarBrain, CEO'''
+
+[testimonialBarBrainContent]
+other = '''
+With BarBrain we support all types of gastronomy in Germany, Austria and Switzerland with a precise and cost-efficient inventory.
+We were looking for an IT partner who can develop a reliable app based on our designs.
+With the team of Tapped we have found a reliable and serious partner.
+'''
+
+
 # contact
 
 [contactTitle]

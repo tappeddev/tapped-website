@@ -215,6 +215,16 @@ other = '''
 Unkomplizierte und kompetente Zusammenarbeit hat uns von Tapped überzeugt. Wer Expertise in App-Entwicklung benötigt, ist hier richtig.
 '''
 
+[testimonialBarBrainPosition]
+other = '''BarBrain, Geschäftsführer'''
+
+[testimonialBarBrainContent]
+other = '''
+Mit BarBrain unterstützen wir alle Arten von Gastronomien in Deutschland, Österreich und der Schweiz mit einer präzisen und kosteneffizienten Inventur.
+Wir haben nach einem IT-Partner gesucht, der auf Basis unserer Designs eine zuverlässige App entwickeln kann.
+Mit dem Team von Tapped haben wir einen zuverlässigen und seriösen Partner gefunden.
+'''
+
 # contact
 
 [contactTitle]
