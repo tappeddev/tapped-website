@@ -139,7 +139,7 @@ development.
 '''
 
 [serviceTitle]
-other ="Services"
+other = "Services"
 
 [serviceDescription]
 other = '''
