@@ -145,7 +145,7 @@ des Kunden zu reagieren.
 '''
 
 [serviceTitle]
-other ="Dienstleistungen"
+other = "Dienstleistungen"
 
 [serviceDescription]
 other = '''
@@ -204,7 +204,7 @@ other = '''M&H Production, Geschäftsführer'''
 [testimonialMHProductionContent]
 other = '''
 Das Team ist sehr zuverlässig und kompetent, Sie machen einen großartigen Job und unterstützen mein Fitness-App-Projekt um die App großartig werden zu lassen.
-Das Team arbeitet nicht nur strikt nach Anweisungen, sondern wirft auch Bedenken zu einigen Punkten ein, die später zu Problemen führen könnten, was App Projekte weit aus stabiler und besser von Beginn an da stehen lässt!
+Das Team arbeitet nicht nur strikt nach Anweisungen, sondern wirft auch Bedenken zu einigen Punkten ein, die später zu Problemen führen könnten, was App Projekte weitaus stabiler und besser von Beginn an da stehen lässt!
 '''
 
 [testimonialMentzPosition]
