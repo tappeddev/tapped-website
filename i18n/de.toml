@@ -102,7 +102,7 @@ other = "Unsere Kunden"
 # works
 
 [worksTitle]
-other = "Referenzen"
+other = "Projekte"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
@@ -187,7 +187,7 @@ other = "Technologien"
 # testimonials
 
 [testimonialsTitle]
-other = "Empfehlungen"
+other = "Referenzen"
 
 
 [testimonialPhntmPosition]
