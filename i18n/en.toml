@@ -13,13 +13,16 @@ other = "Services"
 other = "Our clients"
 
 [menuWorks]
-other = "References"
+other = "Projects"
 
 [menuTechnologies]
 other = "Technologies"
 
 [menuContact]
 other = "Contact"
+
+[menuTestimonials]
+other = "Testimonials"
 
 # footer
 
@@ -94,7 +97,7 @@ other = "Our clients"
 # works
 
 [worksTitle]
-other = "References"
+other = "Projects"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
@@ -136,7 +139,7 @@ development.
 '''
 
 [serviceTitle]
-other ="Services"
+other = "Services"
 
 [serviceDescription]
 other = '''
@@ -178,6 +181,31 @@ other = "Technologies"
 
 [testimonialsTitle]
 other = "Testimonials"
+
+[testimonialPhntmPosition]
+other = '''phntm, CEO'''
+
+[testimonialPhntmContent]
+other = '''
+Tapped has done a great job in supporting us with working on a large-scale multi-platform Flutter app for a big German telecommunications company. I would gladly join forces again in the future!
+'''
+
+[testimonialMHProductionPosition]
+other = '''M&H Production, CEO'''
+
+[testimonialMHProductionContent]
+other = '''
+The team is very reliable and competent they did a great job and supported my fitness app project to make it great.
+The team does not only work strictly according to instructions but also raise concerns about some issues that could lead to problems later on, which makes my projects far more stable and better from the beginning!
+'''
+
+[testimonialMentzPosition]
+other = '''MENTZ, Head of Mobile Department'''
+
+[testimonialMentzContent]
+other = '''
+Uncomplicated and competent cooperation convinced us of Tapped. If you need expertise in app development, you've come to the right place.
+'''
 
 # contact
 

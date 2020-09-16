@@ -1,5 +1,5 @@
 {{ if .Site.Data.homepage.testimonial.enable }}
-<section class="section rad-animation-group section--border-bottom">
+<section id="testimonials" class="section rad-animation-group section--border-bottom">
     <div class="container">
         <h2 class="rad-fade-down">{{ i18n "testimonialsTitle" }}</h2>
         <div class="row row--padded mb-0 rad-fade-down">
@@ -7,17 +7,19 @@
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
                 <i class="icon-quote"></i>
                 <p>
-                    {{ .content }}
+                    {{ i18n .content }}
                 </p>
                 <div class="testimonial__author">
-                    <img class="lozad testimonial__author-image"
+                    <!--<img class="lozad testimonial__author-image"
                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
                          data-src="{{ .image.x | absURL }}"
                          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-                         alt="{{ .name }}"/>
+                         alt="{{ .name }}"/>-->
                     <div class="testimonial__author-info">
                         <h4>{{ .name }}</h4>
-                        <span>{{ .position }}</span>
+                        <span>
+                            {{ i18n .position}}
+                        </span>
                     </div>
                 </div>
             </div>

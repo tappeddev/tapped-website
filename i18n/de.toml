@@ -13,13 +13,16 @@ other = "Dienstleistungen"
 other = "Unsere Kunden"
 
 [menuWorks]
-other = "Referenzen"
+other = "Projekte"
 
 [menuTechnologies]
 other = "Technologien"
 
 [menuContact]
 other = "Kontakt"
+
+[menuTestimonials]
+other = "Referenzen"
 
 # footer
 
@@ -99,7 +102,7 @@ other = "Unsere Kunden"
 # works
 
 [worksTitle]
-other = "Referenzen"
+other = "Projekte"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
@@ -142,7 +145,7 @@ des Kunden zu reagieren.
 '''
 
 [serviceTitle]
-other ="Dienstleistungen"
+other = "Dienstleistungen"
 
 [serviceDescription]
 other = '''
@@ -184,7 +187,33 @@ other = "Technologien"
 # testimonials
 
 [testimonialsTitle]
-other = "Testimonials"
+other = "Referenzen"
+
+
+[testimonialPhntmPosition]
+other = '''phntm, Geschäftsführer'''
+
+[testimonialPhntmContent]
+other = '''
+Tapped hat großartige Arbeit geleistet und uns an einer großen Multi-Plattform-Flutter-App für ein großes deutsches Telekommunikationsunternehmen unterstützt. Ich würde in Zukunft gerne wieder mit ihnen zusammenarbeiten!
+'''
+
+[testimonialMHProductionPosition]
+other = '''M&H Production, Geschäftsführer'''
+
+[testimonialMHProductionContent]
+other = '''
+Das Team ist sehr zuverlässig und kompetent, sie machen einen großartigen Job und unterstützen mein Fitness-App-Projekt, um die App großartig werden zu lassen.
+Das Team arbeitet nicht nur strikt nach Anweisungen, sondern wirft auch Bedenken zu Punkten ein, die später zu Problemen führen könnten, was App Projekte von Beginn an weitaus stabiler und besser dastehen lässt!
+'''
+
+[testimonialMentzPosition]
+other = '''MENTZ, Leiter der mobilen Abteilung'''
+
+[testimonialMentzContent]
+other = '''
+Unkomplizierte und kompetente Zusammenarbeit hat uns von Tapped überzeugt. Wer Expertise in App-Entwicklung benötigt, ist hier richtig.
+'''
 
 # contact
 
