@@ -13,7 +13,7 @@ other = "Dienstleistungen"
 other = "Unsere Kunden"
 
 [menuWorks]
-other = "Referenzen"
+other = "Projekte"
 
 [menuTechnologies]
 other = "Technologien"
@@ -22,7 +22,7 @@ other = "Technologien"
 other = "Kontakt"
 
 [menuTestimonials]
-other = "Empfehlungen"
+other = "Referenzen"
 
 # footer
 
