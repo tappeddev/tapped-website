@@ -209,6 +209,14 @@ testimonial:
         #x: "img/testimonials/jonathan-peters.jpg"
         #_2x: "img/testimonials/jonathan-peters@2x.jpg"
 
+
+    - name: "Tobias Reich"
+      position: "testimonialBarBrainPosition"
+      content: "testimonialBarBrainContent"
+      #image:
+        #x: "img/testimonials/jonathan-peters.jpg"
+        #_2x: "img/testimonials/jonathan-peters@2x.jpg"
+
 # contact
 contact:
   enable: true
