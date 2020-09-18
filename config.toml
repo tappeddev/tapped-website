@@ -61,13 +61,13 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
   [[menu.header]]
-  name = "menuContact"
-  URL = "#contact"
+  name = "menuTestimonials"
+  URL = "#testimonials"
   weight = 7
 
   [[menu.header]]
-  name = "menuTestimonials"
-  URL = "#testimonials"
+  name = "menuContact"
+  URL = "#contact"
   weight = 8
 
   [[menu.footer]]
