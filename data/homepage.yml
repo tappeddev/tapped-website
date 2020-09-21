@@ -104,6 +104,12 @@ works:
         x: "img/works/pump_it.jpg"
         _2x: "img/works/pump_it@2x.jpg"
       is_even: true
+    - title: "worksAppellaTitle"
+      description: "worksAppellaDescription"
+      image:
+        x: "img/works/appella.jpg"
+        _2x: "img/works/appella@2x.jpg"
+      is_even: false
 
 # technologies
 technologies:

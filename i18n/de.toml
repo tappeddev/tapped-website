@@ -145,6 +145,17 @@ Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich 
 des Kunden zu reagieren.
 '''
 
+[worksAppellaTitle]
+other = "Appella - Die Musikschul-App"
+
+[worksAppellaDescription]
+other = '''
+Wir entwickeln den MVP der Appella App. Appella ist eine DSGVO-konforme Kommunikationsplattform für
+Musikschulen in Deutschland. Die App besteht aus einem Messenger, einer Videotelefonie Lösung, Unterrichts-Verwaltung und mehr.
+Dank Flutter war es möglich, die App für iOS, Android und Web mit nur einer Codebase zu entwickeln.<br>
+Mehr Informationen finden Sie auf <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
+'''
+
 [serviceTitle]
 other = "Dienstleistungen"
 

@@ -139,6 +139,17 @@ Thanks to <a href="https://flutter.dev/" target="_blank">Flutter</a> we were abl
 development.
 '''
 
+[worksAppellaTitle]
+other = "Appella"
+
+[worksAppellaDescription]
+other = '''
+We develop the MVP of the Appella app. Appella is a DSGVO-complient communication platform for
+music schools in Germany. It provides a messenger, video call integration, lesson management and more.
+Thanks to Flutter we are able to build this app for iOS, Android and Web with just one codebase.</br>
+For more information visit <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
+'''
+
 [serviceTitle]
 other = "Services"
 
