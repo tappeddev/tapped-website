@@ -26,16 +26,19 @@ about:
         _2x: "img/team/julian@2x.png"
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
+      twitter_link: "https://twitter.com/JulianLenz_"
     - image:
         x: "img/team/stefan.png"
         _2x: "img/team/stefan@2x.png"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
+      twitter_link: ""
     - image:
         x: "img/team/tobi.png"
         _2x: "img/team/tobi@2x.png"
       name: "Tobias Marschall"
       title: "Co-Founder"
+      twitter_link: "https://twitter.com/saibotma"
 
 experience:
   enabled: false

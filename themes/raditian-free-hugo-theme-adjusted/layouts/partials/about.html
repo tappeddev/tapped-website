@@ -13,6 +13,9 @@
                     <div class="name-and-title">
                         <span class="name">{{ .name }}</span>
                         <span class="title">{{ .title }}</span>
+                        {{ if .twitter_link }}
+                        <a href="{{ .twitter_link }}" target="_blank"><img style="height: 32px" alt="Twitter Logo" src="{{ "img/icons/Twitter_Logo_Blue_no_left_padding.svg" | absURL }}"></a>
+                        {{ end }}
                     </div>
                 </div>
                 {{ end }}
