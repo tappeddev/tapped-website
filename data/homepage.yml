@@ -167,7 +167,7 @@ technologies:
       logo:
         x: "img/technologies/mysql.svg"
         _2x: "img/technologies/mysql.svg"
-      link: "https://www.mysql.com/de/"
+      link: "https://www.mysql.com/"
 
     - name: "PostgreSQL"
       logo:
@@ -201,7 +201,7 @@ testimonial:
     - name: "Günther Gruber"
       position: "testimonialMentzPosition"
       content: "testimonialMentzContent"
-      link: ""
+      link: "https://www.linkedin.com/in/günther-gruber-777a29152"
 
     - name: "Tobias Reich"
       position: "testimonialBarBrainPosition"
