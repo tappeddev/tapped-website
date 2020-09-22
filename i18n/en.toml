@@ -157,8 +157,10 @@ other = "Services"
 other = '''
 We offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
 <br>
-You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
-other aspects of your business.
+You can outsource your project and get a stable, scalable and high-quality product, so you can focus on your core business.
+<br>
+<br>
+<b>Any questions? Call us now!</b>
 '''
 
 [serviceFlutterTitle]
@@ -178,6 +180,9 @@ other = "Server development"
 
 [serverDescription]
 other = "Database engineering and real time interfaces"
+
+[serviceContactButtonText]
+other = "Contact"
 
 [consultingTitle]
 other = "Technical consulting"

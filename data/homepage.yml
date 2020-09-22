@@ -47,6 +47,8 @@ service:
   enable: true
   title: "serviceTitle"
   description: "serviceDescription"
+  button:
+    icon: "icon-mail-fill"
 
   items:
     - title: "serviceFlutterTitle"

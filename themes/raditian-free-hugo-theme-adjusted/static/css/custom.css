@@ -219,3 +219,9 @@ h4 a {
 h4 a:hover {
     text-decoration: none;
 }
+
+/* For phone icon on contact button */
+.btn [class^="gg"] {
+    transform: scale(0.85); /* In order to have a size that is similar to the mail icon */
+    margin-right: 9px;
+}
