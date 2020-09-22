@@ -13,7 +13,8 @@
             <div class="col">
                 <h2>{{ i18n .Site.Data.homepage.service.title }}</h2>
                 <p class="lead">{{ i18n .Site.Data.homepage.service.description | safeHTML }}</p>
-                <a href="#contact" class="btn btn-primary">
+                <div class="lead mb-3">{{ i18n "serviceAnyQuestions" | safeHTML }}</div>
+                <a href="#contact" class="btn btn-primary service__contact-button mb-sm-5">
                     <i class="gg-phone"></i>
                     {{ i18n "serviceContactButtonText" }}
                 </a>

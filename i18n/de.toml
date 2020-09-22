@@ -166,9 +166,6 @@ Dabei ist es egal, ob Sie ein bestehendes System erweitern oder neu entwickeln w
 <br>
 Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software-Lösungen, damit Sie sich
 ihrem Kerngeschäft widmen können.
-<br>
-<br>
-<b>Haben Sie Fragen? Rufen Sie uns jetzt an!</b>
 '''
 
 [serviceFlutterTitle]
@@ -191,6 +188,11 @@ other = "Database Engineering und Realtime Schnittstellen"
 
 [serviceContactButtonText]
 other = "Kontakt"
+
+[serviceAnyQuestions]
+other = '''
+<b>Haben Sie Fragen? Rufen Sie uns jetzt an!</b>
+'''
 
 [consultingTitle]
 other = "Technische Beratung"
