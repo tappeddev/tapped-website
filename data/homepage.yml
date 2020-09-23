@@ -26,16 +26,22 @@ about:
         _2x: "img/team/julian@2x.png"
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
+      twitter_link: "https://twitter.com/JulianLenz_"
+      linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
     - image:
         x: "img/team/stefan.png"
         _2x: "img/team/stefan@2x.png"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
+      twitter_link: ""
+      linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
     - image:
         x: "img/team/tobi.png"
         _2x: "img/team/tobi@2x.png"
       name: "Tobias Marschall"
       title: "Co-Founder"
+      twitter_link: "https://twitter.com/saibotma"
+      linkedin_link: "https://www.linkedin.com/in/tobias-marschall"
 
 experience:
   enabled: false
@@ -44,6 +50,8 @@ service:
   enable: true
   title: "serviceTitle"
   description: "serviceDescription"
+  button:
+    icon: "icon-mail-fill"
 
   items:
     - title: "serviceFlutterTitle"
@@ -173,7 +181,7 @@ technologies:
       logo:
         x: "img/technologies/mysql.svg"
         _2x: "img/technologies/mysql.svg"
-      link: "https://www.mysql.com/de/"
+      link: "https://www.mysql.com/"
 
     - name: "PostgreSQL"
       logo:
@@ -197,31 +205,22 @@ testimonial:
     - name: "Frederik Schweiger"
       position: "testimonialPhntmPosition"
       content: "testimonialPhntmContent"
-      #image:
-        #x: "img/testimonials/daniel-jordan.jpg"
-        #_2x: "img/testimonials/daniel-jordan@2x.jpg"
+      link: "https://flschweiger.net/"
 
     - name: "Felix Mangold"
       position: "testimonialMHProductionPosition"
       content: "testimonialMHProductionContent"
-      #image:
-        #x: "img/testimonials/antonio-willis.jpg"
-        #_2x: "img/testimonials/antonio-willis@2x.jpg"
+      link: ""
 
     - name: "Günther Gruber"
       position: "testimonialMentzPosition"
       content: "testimonialMentzContent"
-      #image:
-        #x: "img/testimonials/jonathan-peters.jpg"
-        #_2x: "img/testimonials/jonathan-peters@2x.jpg"
-
+      link: "https://www.linkedin.com/in/günther-gruber-777a29152"
 
     - name: "Tobias Reich"
       position: "testimonialBarBrainPosition"
       content: "testimonialBarBrainContent"
-      #image:
-        #x: "img/testimonials/jonathan-peters.jpg"
-        #_2x: "img/testimonials/jonathan-peters@2x.jpg"
+      link: ""
 
 # contact
 contact:

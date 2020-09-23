@@ -211,3 +211,28 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+h4 a {
+    color: inherit;
+}
+
+h4 a:hover {
+    text-decoration: none;
+}
+
+/* For phone icon on contact button */
+.btn [class^="gg"] {
+    transform: scale(0.85); /* In order to have a size that is similar to the mail icon */
+    margin-right: 9px;
+}
+
+.about__social-media-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+}
+
+.about__social-media-icon {
+    margin-right: 8px;
+    height: 24px!important; /* Needed because of css in .person class */
+}

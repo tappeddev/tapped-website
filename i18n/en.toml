@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App and Software Development Company"
+other = "Tapped | App and Software Development Munich and Upper Bavaria"
 
 # top menu
 
@@ -85,6 +85,7 @@ When needed, we bring the knowledge to write native code to ensure that we don't
 and deliver a product that your users love.
 <br>
 </p>
+<p class="lead">Our sites are in Munich und Weilheim in Upper Bavaria, but we also work on international projects.</p>
 '''
 
 [personAlt]
@@ -156,8 +157,7 @@ other = "Services"
 other = '''
 We offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
 <br>
-You can outsource your project and get a stable, scalable and high-quality product, so you can focus on
-other aspects of your business.
+You can outsource your project and get a stable, scalable and high-quality product, so you can focus on your core business.
 '''
 
 [serviceFlutterTitle]
@@ -177,6 +177,12 @@ other = "Server development"
 
 [serverDescription]
 other = "Database engineering and real time interfaces"
+
+[serviceContactButtonText]
+other = "Contact"
+
+[serviceAnyQuestions]
+other = '''<b>Any questions? Call us now!</b>'''
 
 [consultingTitle]
 other = "Technical consulting"

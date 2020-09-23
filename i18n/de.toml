@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App- und Sotware-Entwicklungs Unternehmen"
+other = "Tapped | App und Software Entwicklung München und Oberbayern"
 
 # top menu
 
@@ -90,6 +90,7 @@ Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Pla
 wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
 <br>
 </p>
+<p class="lead">Unsere Standorte sind in München und Weilheim in Oberbayern, wir sind aber international tätig.</p>
 '''
 
 [personAlt]
@@ -164,7 +165,7 @@ Wir bieten Dienstleistungen, um von Ihrer Idee zu dem finalen Produkt zu kommen.
 Dabei ist es egal, ob Sie ein bestehendes System erweitern oder neu entwickeln wollen.
 <br>
 Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software-Lösungen, damit Sie sich
-anderen wichtigen Dingen widmen können.
+ihrem Kerngeschäft widmen können.
 '''
 
 [serviceFlutterTitle]
@@ -184,6 +185,14 @@ other = "Server Development"
 
 [serverDescription]
 other = "Database Engineering und Realtime Schnittstellen"
+
+[serviceContactButtonText]
+other = "Kontakt"
+
+[serviceAnyQuestions]
+other = '''
+<b>Haben Sie Fragen? Rufen Sie uns jetzt an!</b>
+'''
 
 [consultingTitle]
 other = "Technische Beratung"

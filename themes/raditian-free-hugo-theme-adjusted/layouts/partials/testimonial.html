@@ -16,7 +16,11 @@
                          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
                          alt="{{ .name }}"/>-->
                     <div class="testimonial__author-info">
+                        {{ if .link }}
+                        <h4><a href="{{ .link }}" target="_blank">{{ .name }}</a></h4>
+                        {{ else }}
                         <h4>{{ .name }}</h4>
+                        {{ end }}
                         <span>
                             {{ i18n .position}}
                         </span>
