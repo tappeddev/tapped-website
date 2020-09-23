@@ -27,18 +27,21 @@ about:
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
       twitter_link: "https://twitter.com/JulianLenz_"
+      linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
     - image:
         x: "img/team/stefan.png"
         _2x: "img/team/stefan@2x.png"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
       twitter_link: ""
+      linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
     - image:
         x: "img/team/tobi.png"
         _2x: "img/team/tobi@2x.png"
       name: "Tobias Marschall"
       title: "Co-Founder"
       twitter_link: "https://twitter.com/saibotma"
+      linkedin_link: "https://www.linkedin.com/in/tobias-marschall"
 
 experience:
   enabled: false

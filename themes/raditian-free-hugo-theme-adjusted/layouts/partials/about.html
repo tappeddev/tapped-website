@@ -5,17 +5,30 @@
             <div class="col-12 col-md-6 mt-5 mt-sm-0 person-container">
                 {{ range .Site.Data.homepage.about.items }}
                 <div class="person mb-4">
-                    <img class="lozad" 
-                         src="{{ .image.x | absURL }}" 
-                         data-src="{{ .image.x | absURL }}" 
-                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x" 
-                         alt="{{ i18n "personAlt" . }}">
+                    <img class="lozad"
+                         src="{{ .image.x | absURL }}"
+                         data-src="{{ .image.x | absURL }}"
+                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+                         alt="{{ i18n " personAlt" . }}">
                     <div class="name-and-title">
                         <span class="name">{{ .name }}</span>
                         <span class="title">{{ .title }}</span>
-                        {{ if .twitter_link }}
-                        <a href="{{ .twitter_link }}" target="_blank"><img style="height: 32px" alt="Twitter Logo" src="{{ "img/icons/Twitter_Logo_Blue_no_left_padding.svg" | absURL }}"></a>
-                        {{ end }}
+                        <div class="about__social-media-icons">
+                            {{ if .linkedin_link }}
+                            <a href="{{ .linkedin_link }}" target="_blank">
+                                <img class="about__social-media-icon"
+                                     alt="LinkedIn Logo"
+                                     src="{{ "img/icons/linkedin.svg" | absURL }}">
+                            </a>
+                            {{ end }}
+                            {{ if .twitter_link }}
+                            <a href="{{ .twitter_link }}" target="_blank">
+                                <img class="about__social-media-icon"
+                                     alt="Twitter Logo"
+                                     src="{{ "img/icons/twitter.svg" | absURL }}">
+                            </a>
+                            {{ end }}
+                        </div>
                     </div>
                 </div>
                 {{ end }}
