@@ -17,6 +17,7 @@ other = "Projects"
 
 [menuTechnologies]
 other = "Technologies"
+other = "Technologies"
 
 [menuContact]
 other = "Contact"
@@ -85,7 +86,7 @@ When needed, we bring the knowledge to write native code to ensure that we don't
 and deliver a product that your users love.
 <br>
 </p>
-<p class="lead">Our sites are in Munich und Weilheim in Upper Bavaria, but we also work on international projects.</p>
+<p class="lead">Our site is in Munich, but we also work on international projects.</p>
 '''
 
 [personAlt]
