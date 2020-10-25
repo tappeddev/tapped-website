@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App and Software Development Munich and Upper Bavaria"
+other = "Tapped | App and Software Development in Munich and Upper Bavaria"
 
 # top menu
 
@@ -164,19 +164,19 @@ You can outsource your project and get a stable, scalable and high-quality produ
 other = "Flutter app development"
 
 [serviceFlutterDescription]
-other = "iOS and Android apps"
+other = "Cross-Platform app development for iOS & Android"
 
 [serviceAngularTitle]
-other = "Angular web development"
+other = "AngularDart development"
 
 [serviceAngularDescription]
-other = "Web pages and progressive web apps"
+other = "Web app development"
 
 [serverTitle]
-other = "Server development"
+other = "Server development for your App"
 
 [serverDescription]
-other = "Database engineering and real time interfaces"
+other = "REST API development & Database development"
 
 [serviceContactButtonText]
 other = "Contact"
