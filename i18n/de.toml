@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App und Software Entwicklung München und Oberbayern"
+other = "Tapped | App und Software Entwicklung in München und Oberbayern"
 
 # top menu
 
@@ -169,22 +169,22 @@ ihrem Kerngeschäft widmen können.
 '''
 
 [serviceFlutterTitle]
-other = "Flutter App Development"
+other = "Flutter App Entwicklung"
 
 [serviceFlutterDescription]
-other = "Cross-Platform Apps für iOS & Android"
+other = "Cross-Platform App Entwicklung für iOS & Android"
 
 [serviceAngularTitle]
-other = "Angular Web Development"
+other = "Angular Web Entwicklung"
 
 [serviceAngularDescription]
-other = "Webseiten und Progressive Web-Apps"
+other = "Web-App Entwicklung"
 
 [serverTitle]
-other = "Server Development"
+other = "Server Entwicklung für ihre App"
 
 [serverDescription]
-other = "Database Engineering und Realtime Schnittstellen"
+other = "REST API Entwicklung, Datenbank Entwicklung, Echtzeit Schnittstellen Entwicklung"
 
 [serviceContactButtonText]
 other = "Kontakt"
