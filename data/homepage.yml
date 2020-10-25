@@ -56,13 +56,10 @@ service:
   items:
     - title: "serviceFlutterTitle"
       description: "serviceFlutterDescription"
-
-    - title: "serviceAngularTitle"
-      description: "serviceAngularDescription"
-
     - title: "serverTitle"
       description: "serverDescription"
-
+    - title: "serviceAngularTitle"
+      description: "serviceAngularDescription"
     - title: "consultingTitle"
       description: "consultingDescription"
 
