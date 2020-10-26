@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App and Software Development Munich and Upper Bavaria"
+other = "Tapped | App and Software Development in Munich"
 
 # top menu
 
@@ -51,7 +51,7 @@ other = "App & Software Development"
 
 [showcaseDescription]
 other = '''
-A <b>long-term</b> partner that plans and creates mobile apps
+A <b>long-term</b> partner that plans and develops apps
 by combining <b>personal commitment</b>, <b>technical expertise</b> and <b>consulting</b> towards your business goals.
 '''
 
@@ -73,7 +73,7 @@ other = "We are ..."
 
 [aboutContent]
 other = '''<p class="lead">
-... a software development company based in Munich that is specialized in developing mobile apps.
+... an app & software development company based in Munich that is specialized in developing apps and corresponding backend systems.
 </p>
 <p class="lead">
 
@@ -155,7 +155,7 @@ other = "Services"
 
 [serviceDescription]
 other = '''
-We offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
+As an agency we offer every service that you need to turn your idea into reality. No matter if you have an existing product or start from scratch.
 <br>
 You can outsource your project and get a stable, scalable and high-quality product, so you can focus on your core business.
 '''
@@ -164,19 +164,19 @@ You can outsource your project and get a stable, scalable and high-quality produ
 other = "Flutter app development"
 
 [serviceFlutterDescription]
-other = "iOS and Android apps"
+other = "Cross-Platform app development for iOS & Android"
 
 [serviceAngularTitle]
-other = "Angular web development"
+other = "AngularDart development"
 
 [serviceAngularDescription]
-other = "Web pages and progressive web apps"
+other = "Web app development"
 
 [serverTitle]
-other = "Server development"
+other = "Server development for your App"
 
 [serverDescription]
-other = "Database engineering and real time interfaces"
+other = "REST API & Database development"
 
 [serviceContactButtonText]
 other = "Contact"
