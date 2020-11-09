@@ -1,0 +1,50 @@
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {{ partial "head.html" . }}
+
+    {{ partial "head_custom.html" . }}
+
+</head>
+
+<body>
+{{ partial "header.html" . }}
+<section class="job">
+    <span>Vollzeit, Teilzeit oder Werkstudent</span>
+    <h3 class="job__title">Flutter und Kotlin Entwickler (m/w/d)</h3>
+
+    <p>
+        Wir sind auf der Suche nach einem Flutter und Kotlin Entwickler, welcher uns bei spannenden und
+        abwechslungsreichen App und Backend Projekten unterstützt.<br>
+        Wir sind offen für neues und arbeiten mit modernsten Technologien.<br>
+    </p>
+
+    Wir bieten:
+    <ul>
+        <li>📎 Büro in der Mitte von München</li>
+        <li>💻 MacBook Pro</li>
+        <li>🪑 Höhenverstellbaren Schreibtisch</li>
+        <li>👥 Kleines und junges Team</li>
+    </ul>
+
+    <p>
+        Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und den
+        Rest klären wir dann persönlich.
+    </p>
+    <a href="mailto:contact@tapped.dev" class="btn btn-primary">
+        <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
+        Jetzt bewerben
+    </a>
+</section>
+<div class="job-spacer"></div>
+
+{{ partial "footer.html" . }}
+
+{{ partial "base-foot.html" . }}
+</body>
+
+</html>
+<!-- endinject -->

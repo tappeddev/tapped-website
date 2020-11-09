@@ -236,3 +236,24 @@ h4 a:hover {
     margin-right: 8px;
     height: 24px!important; /* Needed because of css in .person class */
 }
+
+/* jobs page */
+
+.job {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 200px;
+}
+
+.job__title {
+    margin-bottom: 32px;
+}
+
+.job-spacer {
+    min-height: 32px;
+    height: 30vh;
+}
+

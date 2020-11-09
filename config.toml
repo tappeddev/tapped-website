@@ -70,6 +70,11 @@ defaultContentLanguageInSubdir = false
   URL = "#contact"
   weight = 8
 
+  [[menu.header]]
+  name = "menuJobs"
+  URL = "/jobs/"
+  weight = 9
+
   [[menu.footer]]
   name = "menuLegalNotice"
   URL = "legal_notice"

@@ -240,3 +240,8 @@ newsletter:
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
+
+
+jobs:
+  button:
+    icon: "icon-mail-fill"
