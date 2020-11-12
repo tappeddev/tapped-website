@@ -4,7 +4,7 @@ other = "Tapped | App und Software Entwicklung in München"
 # top menu
 
 [menuAbout]
-other = "Über uns"
+other = "Wir"
 
 [menuService]
 other = "Dienstleistungen"
@@ -276,3 +276,41 @@ other = "Adresse"
 
 [additionalTitle]
 other = "Anderes"
+
+[jobsTitle]
+other = "Flutter oder Kotlin Entwickler Job in München bei Tapped"
+
+[jobsDescription]
+other = '''Bist du ein Flutter oder Kotlin Entwickler? Wir sind auf der Suche nach einem Flutter oder Kotlin Entwickler,
+welcher uns bei spannenden und abwechslungsreichen App und Backend Projekten unterstützt.'''
+
+[jobsPreTitle]
+other = '''Vollzeit, Teilzeit oder Werkstudent'''
+
+[jobsJobTitle]
+other = '''Flutter und Kotlin Entwickler (m/w/d)'''
+
+[jobsAdditionalInfo]
+other = '''Wir sind offen für neues und arbeiten mit modernsten Technologien.'''
+
+[jobsWeOffer]
+other= '''Wir bieten:'''
+
+[jobsWeOfferOffice]
+other = '''📎 Büro in der Mitte von München'''
+
+[jobsWeOfferMac]
+other = '''💻 MacBook Pro'''
+
+[jobsWeOfferDesk]
+other = '''🪑 Höhenverstellbaren Schreibtisch'''
+
+[jobsWeOfferTeam]
+other = '''👥 Kleines und junges Team'''
+
+[jobsClosingStatement]
+other = '''Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und
+den Rest klären wir dann persönlich.'''
+
+[jobsApplyNow]
+other = '''Jetzt bewerben'''

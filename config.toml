@@ -72,7 +72,7 @@ defaultContentLanguageInSubdir = false
 
   [[menu.header]]
   name = "menuJobs"
-  URL = "/jobs/"
+  URL = "jobs/"
   weight = 9
 
   [[menu.footer]]

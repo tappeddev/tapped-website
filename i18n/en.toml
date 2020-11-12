@@ -267,3 +267,40 @@ other = "Address"
 
 [additionalTitle]
 other = "Other"
+
+[jobsTitle]
+other = "Flutter and Kotlin Developer Job in Munich at Tapped"
+
+[jobsDescription]
+other = '''Are you a Flutter or Kotlin Developer? We are looking for a Flutter or Kotlin Developer that supports us
+at interesting and refreshing App and Backend projects.'''
+
+[jobsPreTitle]
+other = '''Full-time, Part-time or Working student'''
+
+[jobsJobTitle]
+other = '''Flutter or Kotlin Developer (m/w/d)'''
+
+[jobsAdditionalInfo]
+other = '''Wir are open minded and work with latest technologies.'''
+
+[jobsWeOffer]
+other= '''We offer:'''
+
+[jobsWeOfferOffice]
+other = '''📎 Office in the center of Munich'''
+
+[jobsWeOfferMac]
+other = '''💻 MacBook Pro'''
+
+[jobsWeOfferDesk]
+other = '''🪑 Height-adjustable desk'''
+
+[jobsWeOfferTeam]
+other = '''👥 Small and young team'''
+
+[jobsClosingStatement]
+other = '''When you know <b>Flutter, Kotlin or Java</b> then drop us a mail we will contact you as soon as possible.'''
+
+[jobsApplyNow]
+other = '''Apply now'''

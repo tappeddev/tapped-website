@@ -3,40 +3,40 @@
 <html lang="en">
 
 <head>
-
     {{ partial "head.html" . }}
 
     {{ partial "head_custom.html" . }}
 
+    <meta name="title" content="{{ i18n "jobsTitle" }}"/>
+    <meta name="description" content="{{ i18n "jobsDescription" }}"/>
+    <title>{{ i18n "jobsTitle" }}</title>
 </head>
 
 <body>
 {{ partial "header.html" . }}
 <section class="job">
-    <span>Vollzeit, Teilzeit oder Werkstudent</span>
-    <h3 class="job__title">Flutter und Kotlin Entwickler (m/w/d)</h3>
+    <span>{{ i18n "jobsPreTitle" }}</span>
+    <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
 
     <p>
-        Wir sind auf der Suche nach einem Flutter und Kotlin Entwickler, welcher uns bei spannenden und
-        abwechslungsreichen App und Backend Projekten unterstützt.<br>
-        Wir sind offen für neues und arbeiten mit modernsten Technologien.<br>
+        {{ i18n "jobsDescription" }}<br>
+        {{ i18n "jobsAdditionalInfo" }}<br>
     </p>
 
-    Wir bieten:
+    {{ i18n "jobsWeOffer" }}
     <ul>
-        <li>📎 Büro in der Mitte von München</li>
-        <li>💻 MacBook Pro</li>
-        <li>🪑 Höhenverstellbaren Schreibtisch</li>
-        <li>👥 Kleines und junges Team</li>
+        <li>{{ i18n "jobsWeOfferOffice" }}</li>
+        <li>{{ i18n "jobsWeOfferMac" }}</li>
+        <li>{{ i18n "jobsWeOfferDesk" }}</li>
+        <li>{{ i18n "jobsWeOfferTeam" }}</li>
     </ul>
 
     <p>
-        Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und den
-        Rest klären wir dann persönlich.
+        {{ i18n "jobsClosingStatement" | safeHTML }}
     </p>
     <a href="mailto:contact@tapped.dev" class="btn btn-primary">
         <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
-        Jetzt bewerben
+        {{ i18n "jobsApplyNow" }}
     </a>
 </section>
 <div class="job-spacer"></div>
