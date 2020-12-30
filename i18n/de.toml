@@ -314,3 +314,6 @@ den Rest klären wir dann persönlich.'''
 
 [jobsApplyNow]
 other = '''Jetzt bewerben'''
+
+[jobsNoOpenPositions]
+other = '''Im moment haben wir keine offenen Stellenangebote.'''

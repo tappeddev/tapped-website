@@ -14,7 +14,8 @@
 
 <body>
 {{ partial "header.html" . }}
-<section class="job">
+<div style="min-height: 100vh">
+    <!--<section class="job">
     <span>{{ i18n "jobsPreTitle" }}</span>
     <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
 
@@ -38,8 +39,13 @@
         <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
         {{ i18n "jobsApplyNow" }}
     </a>
-</section>
-<div class="job-spacer"></div>
+</section>-->
+
+    <section class="job">
+        <p style="text-align: center">{{ i18n "jobsNoOpenPositions" }}</p>
+    </section>
+    <div class="job-spacer"></div>
+</div>
 
 {{ partial "footer.html" . }}
 

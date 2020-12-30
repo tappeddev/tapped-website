@@ -304,3 +304,6 @@ other = '''When you know <b>Flutter, Kotlin or Java</b> then drop us a mail we w
 
 [jobsApplyNow]
 other = '''Apply now'''
+
+[jobsNoOpenPositions]
+other = '''We don't have any open positions at the moment'''
