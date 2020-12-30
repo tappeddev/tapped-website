@@ -192,6 +192,12 @@ technologies:
         _2x: "img/technologies/docker.png"
       link: "https://www.docker.com/"
 
+    - name: "Appwrite"
+      logo:
+        x: "img/technologies/appwrite.png"
+        _2x: "img/technologies/appwrite.png"
+      link: "https://appwrite.io/"
+
 additional:
   enable: true
 
