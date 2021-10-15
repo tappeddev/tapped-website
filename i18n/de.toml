@@ -311,7 +311,7 @@ other = '''Du hast Erfahrung mit CI/CD'''
 other = '''Du kannst ein Projekt selbst in die Hand nehmen'''
 
 [jobsRequirementsLanguage]
-other = '''Du kannst fließend Deutsch oder Englisch sprechen'''
+other = '''Du sprichst fließend Deutsch oder Englisch sprechen'''
 
 [jobsRequirementsNiceToHave]
 other = '''Nice to have: Erfahrung in der Entwicklung nativer iOS und Android apps'''
