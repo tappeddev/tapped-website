@@ -291,10 +291,34 @@ other= '''We offer:'''
 other = '''📎 Office in the center of Munich'''
 
 [jobsWeOfferMac]
-other = '''💻 MacBook Pro'''
+other = '''💻 MacBook Pro including private use'''
 
 [jobsWeOfferDesk]
 other = '''🪑 Height-adjustable desk'''
+
+[jobsWeOfferWorkAndTravel]
+other = ''' 🏖 Work and travel activities'''
+
+[jobsWeOfferTeamEvents]
+other= '''🎳 Regular team events'''
+
+[jobsWeOfferFlatHierachies]
+other = '''✅ Flat hierarchies'''
+
+[jobsWeOfferFlexbileTimes]
+other = '''🕙 Flexible working hours'''
+
+[jobsWeOfferRemoteWork]
+other = '''🌎 100% remote work'''
+
+[jobsWeOfferBudgetHomeOffice]
+other = '''🏠 Budget for setting up the home office workplace'''
+
+[jobsWeOfferVoucher]
+other = '''🧧 Every month 44€ voucher for the supermarket'''
+
+[jobsWeOfferEducation]
+other = '''📚 Further education in new areas'''
 
 [jobsWeOfferTeam]
 other = '''👥 Small and young team'''

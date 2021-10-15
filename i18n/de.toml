@@ -300,13 +300,38 @@ other= '''Wir bieten:'''
 other = '''📎 Büro in der Mitte von München'''
 
 [jobsWeOfferMac]
-other = '''💻 MacBook Pro'''
+other = '''💻 MacBook Pro mit Privatnutzung'''
 
 [jobsWeOfferDesk]
 other = '''🪑 Höhenverstellbaren Schreibtisch'''
 
+[jobsWeOfferWorkAndTravel]
+other = ''' 🏖 “Work and travel”-Aktivitäten'''
+
+[jobsWeOfferTeamEvents]
+other= '''🎳 Regelmäßige Team-Events'''
+
+[jobsWeOfferFlatHierachies]
+other = '''✅ Flache Hierarchien'''
+
+[jobsWeOfferFlexbileTimes]
+other = '''🕙 Flexible Arbeitszeiten'''
+
+[jobsWeOfferRemoteWork]
+other = '''🌎 100% Remote Arbeit'''
+
+[jobsWeOfferBudgetHomeOffice]
+other = '''🏠 Budget fürs Einrichten des Home Office Arbeitsplatzes'''
+
+[jobsWeOfferVoucher]
+other = '''🧧 Jeden Monat 44€ Gutschein für den Supermarkt'''
+
+[jobsWeOfferEducation]
+other = '''📚 Weiterbildungen in neuen Bereichen'''
+
 [jobsWeOfferTeam]
 other = '''👥 Kleines und junges Team'''
+
 
 [jobsClosingStatement]
 other = '''Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und
