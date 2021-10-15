@@ -272,17 +272,40 @@ other = "Other"
 other = "Flutter and Kotlin Developer Job in Munich at Tapped"
 
 [jobsDescription]
-other = '''Are you a Flutter or Kotlin Developer? We are looking for a Flutter or Kotlin Developer that supports us
-at interesting and refreshing App and Backend projects.'''
+other = '''Are you a Flutter Developer? We are looking for a Flutter Developer that supports us
+at interesting and refreshing App projects.'''
 
 [jobsPreTitle]
 other = '''Full-time, Part-time or Working student'''
 
 [jobsJobTitle]
-other = '''Flutter or Kotlin Developer (m/w/d)'''
+other = '''Flutter Developer (m/w/d)'''
 
 [jobsAdditionalInfo]
-other = '''Wir are open minded and work with latest technologies.'''
+other = '''We are open minded and work with latest technologies.'''
+
+
+[jobsRequirements]
+other = '''Requirements'''
+
+[jobsRequirementsKnowledge]
+other = '''You have good knowledge as a flutter / dart developer (at least 1 year)'''
+
+[jobsRequirementsOwnExperience]
+other = '''You already have experience in building own projects'''
+
+[jobsRequirementsCI]
+other = '''You have experience with CI/CD'''
+
+[jobsRequirementsTakeOwnership]
+other = '''You can take ownership of a project'''
+
+[jobsRequirementsLanguage]
+other = '''You are fluent in german or english'''
+
+[jobsRequirementsNiceToHave]
+other = '''Nice to have: experience in developing native iOS or Android apps'''
+
 
 [jobsWeOffer]
 other= '''We offer:'''

@@ -278,10 +278,10 @@ other = "Adresse"
 other = "Anderes"
 
 [jobsTitle]
-other = "Flutter oder Kotlin Entwickler Job in München bei Tapped"
+other = "Flutter Entwickler Job in München bei Tapped"
 
 [jobsDescription]
-other = '''Bist du ein Flutter oder Kotlin Entwickler? Wir sind auf der Suche nach einem Flutter oder Kotlin Entwickler,
+other = '''Bist du ein Flutter Entwickler? Wir sind auf der Suche nach einem Flutter Entwickler,
 welcher uns bei spannenden und abwechslungsreichen App und Backend Projekten unterstützt.'''
 
 [jobsPreTitle]
@@ -292,6 +292,29 @@ other = '''Flutter und Kotlin Entwickler (m/w/d)'''
 
 [jobsAdditionalInfo]
 other = '''Wir sind offen für neues und arbeiten mit modernsten Technologien.'''
+
+
+
+[jobsRequirements]
+other = '''Voraussetzungen'''
+
+[jobsRequirementsKnowledge]
+other = '''Du hast gute Kenntnisse als Flutter / Dart Entwickler (mind. 1-2 Jahre)'''
+
+[jobsRequirementsOwnExperience]
+other = '''Du hast bereits Erfahrung bei der Umsetzung von eigenen Projekten'''
+
+[jobsRequirementsCI]
+other = '''Du hast Erfahrung mit CI/CD'''
+
+[jobsRequirementsTakeOwnership]
+other = '''Du kannst ein Projekt selbst in die Hand nehmen'''
+
+[jobsRequirementsLanguage]
+other = '''Du kannst fließend Deutsch oder Englisch sprechen'''
+
+[jobsRequirementsNiceToHave]
+other = '''Nice to have: Erfahrung in der Entwicklung nativer iOS und Android apps'''
 
 [jobsWeOffer]
 other= '''Wir bieten:'''
