@@ -7,49 +7,49 @@
 
     {{ partial "head_custom.html" . }}
 
-    <meta name="title" content="{{ i18n "jobsTitle" }}"/>
-    <meta name="description" content="{{ i18n "jobsDescription" }}"/>
+    <meta name="title" content="{{ i18n " jobsTitle" }}" />
+    <meta name="description" content="{{ i18n " jobsDescription" }}" />
     <title>{{ i18n "jobsTitle" }}</title>
 </head>
 
 <body>
-{{ partial "header.html" . }}
-<div style="min-height: 100vh">
-    <!--<section class="job">
-    <span>{{ i18n "jobsPreTitle" }}</span>
-    <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
+    {{ partial "header.html" . }}
+    <div style="min-height: 100vh">
+        <section class="job">
+            <span>{{ i18n "jobsPreTitle" }}</span>
+            <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
 
-    <p>
-        {{ i18n "jobsDescription" }}<br>
-        {{ i18n "jobsAdditionalInfo" }}<br>
-    </p>
+            <p>
+                {{ i18n "jobsDescription" }}<br>
+                {{ i18n "jobsAdditionalInfo" }}<br>
+            </p>
 
-    {{ i18n "jobsWeOffer" }}
-    <ul>
-        <li>{{ i18n "jobsWeOfferOffice" }}</li>
-        <li>{{ i18n "jobsWeOfferMac" }}</li>
-        <li>{{ i18n "jobsWeOfferDesk" }}</li>
-        <li>{{ i18n "jobsWeOfferTeam" }}</li>
-    </ul>
+            {{ i18n "jobsWeOffer" }}
+            <ul>
+                <li>{{ i18n "jobsWeOfferOffice" }}</li>
+                <li>{{ i18n "jobsWeOfferMac" }}</li>
+                <li>{{ i18n "jobsWeOfferDesk" }}</li>
+                <li>{{ i18n "jobsWeOfferTeam" }}</li>
+            </ul>
 
-    <p>
-        {{ i18n "jobsClosingStatement" | safeHTML }}
-    </p>
-    <a href="mailto:contact@tapped.dev" class="btn btn-primary">
-        <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
-        {{ i18n "jobsApplyNow" }}
-    </a>
-</section>-->
+            <p>
+                {{ i18n "jobsClosingStatement" | safeHTML }}
+            </p>
+            <a href="mailto:contact@tapped.dev" class="btn btn-primary">
+                <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
+                {{ i18n "jobsApplyNow" }}
+            </a>
+        </section>
 
-    <section class="job">
-        <p style="text-align: center">{{ i18n "jobsNoOpenPositions" }}</p>
-    </section>
-    <div class="job-spacer"></div>
-</div>
+        <section class="job">
+            <p style="text-align: center">{{ i18n "jobsNoOpenPositions" }}</p>
+        </section>
+        <div class="job-spacer"></div>
+    </div>
 
-{{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
-{{ partial "base-foot.html" . }}
+    {{ partial "base-foot.html" . }}
 </body>
 
 </html>
