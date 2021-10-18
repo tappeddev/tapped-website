@@ -281,14 +281,14 @@ other = "Anderes"
 other = "Flutter Entwickler Job in München bei Tapped"
 
 [jobsDescription]
-other = '''Bist du ein Flutter Entwickler? Wir sind auf der Suche nach einem Flutter Entwickler,
-welcher uns bei spannenden und abwechslungsreichen App und Backend Projekten unterstützt.'''
+other = '''Wir sind auf der Suche nach einem Flutter Entwickler,
+welcher uns bei spannenden und abwechslungsreichen App Projekten unterstützt.'''
 
 [jobsPreTitle]
 other = '''Vollzeit, Teilzeit oder Werkstudent'''
 
 [jobsJobTitle]
-other = '''Flutter und Kotlin Entwickler (m/w/d)'''
+other = '''Flutter Entwickler (m/w/d)'''
 
 [jobsAdditionalInfo]
 other = '''Wir sind offen für neues und arbeiten mit modernsten Technologien.'''
@@ -335,7 +335,7 @@ other = ''' 🏖 “Work and travel”-Aktivitäten'''
 other= '''🎳 Regelmäßige Team-Events'''
 
 [jobsWeOfferFlatHierachies]
-other = '''✅ Flache Hierarchien'''
+other = '''🗣 Flache Hierarchien'''
 
 [jobsWeOfferFlexbileTimes]
 other = '''🕙 Flexible Arbeitszeiten'''
@@ -357,11 +357,8 @@ other = '''👥 Kleines und junges Team'''
 
 
 [jobsClosingStatement]
-other = '''Wenn du die Erfahrung mit <b>Flutter</b> hast, dann bewirb dich doch einfach per E-Mail und
+other = '''Wenn du dich angesprochen fühlst, dann bewirb dich doch einfach per E-Mail und
 den Rest klären wir dann persönlich.'''
 
 [jobsApplyNow]
 other = '''Jetzt bewerben'''
-
-[jobsNoOpenPositions]
-other = '''Im moment haben wir keine offenen Stellenangebote.'''
