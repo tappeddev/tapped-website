@@ -311,7 +311,7 @@ other = '''Du hast Erfahrung mit CI/CD'''
 other = '''Du kannst ein Projekt selbst in die Hand nehmen'''
 
 [jobsRequirementsLanguage]
-other = '''Du sprichst fließend Deutsch oder Englisch sprechen'''
+other = '''Du sprichst fließend Deutsch oder Englisch'''
 
 [jobsRequirementsNiceToHave]
 other = '''Nice to have: Erfahrung in der Entwicklung nativer iOS und Android apps'''
@@ -357,7 +357,7 @@ other = '''👥 Kleines und junges Team'''
 
 
 [jobsClosingStatement]
-other = '''Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und
+other = '''Wenn du die Erfahrung mit <b>Flutter</b> hast, dann bewirb dich doch einfach per E-Mail und
 den Rest klären wir dann persönlich.'''
 
 [jobsApplyNow]

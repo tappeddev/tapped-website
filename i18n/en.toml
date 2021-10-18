@@ -347,7 +347,7 @@ other = '''📚 Further education in new areas'''
 other = '''👥 Small and young team'''
 
 [jobsClosingStatement]
-other = '''When you know <b>Flutter, Kotlin or Java</b> then drop us a mail we will contact you as soon as possible.'''
+other = '''When you know <b>Flutter</b> then drop us a mail we will contact you as soon as possible.'''
 
 [jobsApplyNow]
 other = '''Apply now'''
