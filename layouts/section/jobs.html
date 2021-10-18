@@ -7,49 +7,64 @@
 
     {{ partial "head_custom.html" . }}
 
-    <meta name="title" content="{{ i18n "jobsTitle" }}"/>
-    <meta name="description" content="{{ i18n "jobsDescription" }}"/>
+    <meta name="title" content="{{ i18n " jobsTitle" }}" />
+    <meta name="description" content="{{ i18n " jobsDescription" }}" />
     <title>{{ i18n "jobsTitle" }}</title>
 </head>
 
 <body>
-{{ partial "header.html" . }}
-<div style="min-height: 100vh">
-    <!--<section class="job">
-    <span>{{ i18n "jobsPreTitle" }}</span>
-    <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
+    {{ partial "header.html" . }}
+    <div style="min-height: 100vh">
+        <section class="job">
+            <span>{{ i18n "jobsPreTitle" }}</span>
+            <h3 class="job__title">{{ i18n "jobsJobTitle" }}</h3>
 
-    <p>
-        {{ i18n "jobsDescription" }}<br>
-        {{ i18n "jobsAdditionalInfo" }}<br>
-    </p>
+            <p>
+                {{ i18n "jobsDescription" }}<br>
+                {{ i18n "jobsAdditionalInfo" }}<br>
+            </p>
 
-    {{ i18n "jobsWeOffer" }}
-    <ul>
-        <li>{{ i18n "jobsWeOfferOffice" }}</li>
-        <li>{{ i18n "jobsWeOfferMac" }}</li>
-        <li>{{ i18n "jobsWeOfferDesk" }}</li>
-        <li>{{ i18n "jobsWeOfferTeam" }}</li>
-    </ul>
+            {{ i18n "jobsRequirements" }}
+            <ul>
+                <li>{{ i18n "jobsRequirementsKnowledge" }}</li>
+                <li>{{ i18n "jobsRequirementsOwnExperience" }}</li>
+                <li>{{ i18n "jobsRequirementsCI" }}</li>
+                <li>{{ i18n "jobsRequirementsTakeOwnership" }}</li>
+                <li>{{ i18n "jobsRequirementsLanguage" }}</li>
+                <li>{{ i18n "jobsRequirementsNiceToHave" }}</li>
+            </ul>
 
-    <p>
-        {{ i18n "jobsClosingStatement" | safeHTML }}
-    </p>
-    <a href="mailto:contact@tapped.dev" class="btn btn-primary">
-        <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
-        {{ i18n "jobsApplyNow" }}
-    </a>
-</section>-->
+            {{ i18n "jobsWeOffer" }}
+            <ul>
+                <li>{{ i18n "jobsWeOfferOffice" }}</li>
+                <li>{{ i18n "jobsWeOfferMac" }}</li>
+                <li>{{ i18n "jobsWeOfferDesk" }}</li>
+                <li>{{ i18n "jobsWeOfferWorkAndTravel" }}</li>
+                <li>{{ i18n "jobsWeOfferTeamEvents" }}</li>
+                <li>{{ i18n "jobsWeOfferFlatHierachies" }}</li>
+                <li>{{ i18n "jobsWeOfferFlexbileTimes" }}</li>
+                <li>{{ i18n "jobsWeOfferRemoteWork" }}</li>
+                <li>{{ i18n "jobsWeOfferBudgetHomeOffice" }}</li>
+                <li>{{ i18n "jobsWeOfferVoucher" }}</li>
+                <li>{{ i18n "jobsWeOfferEducation" }}</li>
+                <li>{{ i18n "jobsWeOfferTeam" }}</li>
+            </ul>
 
-    <section class="job">
-        <p style="text-align: center">{{ i18n "jobsNoOpenPositions" }}</p>
-    </section>
-    <div class="job-spacer"></div>
-</div>
+            <p>
+                {{ i18n "jobsClosingStatement" | safeHTML }}
+            </p>
+            <a href="mailto:contact@tapped.dev" class="btn btn-primary">
+                <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
+                {{ i18n "jobsApplyNow" }}
+            </a>
+        </section>
+        <div class="job-spacer"></div>
 
-{{ partial "footer.html" . }}
+    </div>
 
-{{ partial "base-foot.html" . }}
+    {{ partial "footer.html" . }}
+
+    {{ partial "base-foot.html" . }}
 </body>
 
 </html>

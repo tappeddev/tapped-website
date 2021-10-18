@@ -278,20 +278,43 @@ other = "Adresse"
 other = "Anderes"
 
 [jobsTitle]
-other = "Flutter oder Kotlin Entwickler Job in München bei Tapped"
+other = "Flutter Entwickler Job in München bei Tapped"
 
 [jobsDescription]
-other = '''Bist du ein Flutter oder Kotlin Entwickler? Wir sind auf der Suche nach einem Flutter oder Kotlin Entwickler,
-welcher uns bei spannenden und abwechslungsreichen App und Backend Projekten unterstützt.'''
+other = '''Wir sind auf der Suche nach einem Flutter Entwickler,
+welcher uns bei spannenden und abwechslungsreichen App Projekten unterstützt.'''
 
 [jobsPreTitle]
 other = '''Vollzeit, Teilzeit oder Werkstudent'''
 
 [jobsJobTitle]
-other = '''Flutter und Kotlin Entwickler (m/w/d)'''
+other = '''Flutter Entwickler (m/w/d)'''
 
 [jobsAdditionalInfo]
 other = '''Wir sind offen für neues und arbeiten mit modernsten Technologien.'''
+
+
+
+[jobsRequirements]
+other = '''Voraussetzungen'''
+
+[jobsRequirementsKnowledge]
+other = '''Du hast gute Kenntnisse als Flutter / Dart Entwickler (mind. 1-2 Jahre)'''
+
+[jobsRequirementsOwnExperience]
+other = '''Du hast bereits Erfahrung bei der Umsetzung von eigenen Projekten'''
+
+[jobsRequirementsCI]
+other = '''Du hast Erfahrung mit CI/CD'''
+
+[jobsRequirementsTakeOwnership]
+other = '''Du kannst ein Projekt selbst in die Hand nehmen'''
+
+[jobsRequirementsLanguage]
+other = '''Du sprichst fließend Deutsch oder Englisch'''
+
+[jobsRequirementsNiceToHave]
+other = '''Nice to have: Erfahrung in der Entwicklung nativer iOS und Android apps'''
 
 [jobsWeOffer]
 other= '''Wir bieten:'''
@@ -300,20 +323,42 @@ other= '''Wir bieten:'''
 other = '''📎 Büro in der Mitte von München'''
 
 [jobsWeOfferMac]
-other = '''💻 MacBook Pro'''
+other = '''💻 MacBook Pro mit Privatnutzung'''
 
 [jobsWeOfferDesk]
 other = '''🪑 Höhenverstellbaren Schreibtisch'''
 
+[jobsWeOfferWorkAndTravel]
+other = ''' 🏖 “Work and travel”-Aktivitäten'''
+
+[jobsWeOfferTeamEvents]
+other= '''🎳 Regelmäßige Team-Events'''
+
+[jobsWeOfferFlatHierachies]
+other = '''🗣 Flache Hierarchien'''
+
+[jobsWeOfferFlexbileTimes]
+other = '''🕙 Flexible Arbeitszeiten'''
+
+[jobsWeOfferRemoteWork]
+other = '''🌎 100% Remote Arbeit'''
+
+[jobsWeOfferBudgetHomeOffice]
+other = '''🏠 Budget fürs Einrichten des Home Office Arbeitsplatzes'''
+
+[jobsWeOfferVoucher]
+other = '''🧧 Jeden Monat 44€ Gutschein für den Supermarkt'''
+
+[jobsWeOfferEducation]
+other = '''📚 Weiterbildungen in neuen Bereichen'''
+
 [jobsWeOfferTeam]
 other = '''👥 Kleines und junges Team'''
 
+
 [jobsClosingStatement]
-other = '''Wenn du Erfahrung mit <b>Flutter, Kotlin oder Java</b> hast, dann bewirb dich doch einfach per E-Mail und
+other = '''Wenn du dich angesprochen fühlst, dann bewirb dich doch einfach per E-Mail und
 den Rest klären wir dann persönlich.'''
 
 [jobsApplyNow]
 other = '''Jetzt bewerben'''
-
-[jobsNoOpenPositions]
-other = '''Im moment haben wir keine offenen Stellenangebote.'''
