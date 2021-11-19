@@ -1,9 +1,9 @@
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 {{ range .AllTranslations }}
-<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}"/>
+<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}" />
 {{ end }}
 
 <!-- Optimize load performance -->
@@ -11,22 +11,22 @@
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
 <!-- Add the favicon -->
-<link rel="apple-touch-icon" sizes="57x57" href="{{ "/apple-icon-57x57.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="60x60" href="{{ "/apple-icon-60x60.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ "/apple-icon-72x72.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ "/apple-icon-76x76.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ "/apple-icon-114x114.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ "/apple-icon-120x120.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ "/apple-icon-144x144.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ "/apple-icon-152x152.png" | absURL }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-icon-180x180.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ "/android-icon-192x192.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="96x96" href="{{ "/favicon-96x96.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | absURL }}">
-<link rel="manifest" href="{{ "/manifest.json" | absURL }}">
+<link rel="apple-touch-icon" sizes="57x57" href="{{ " /apple-icon-57x57.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="60x60" href="{{ " /apple-icon-60x60.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ " /apple-icon-72x72.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ " /apple-icon-76x76.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ " /apple-icon-114x114.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ " /apple-icon-120x120.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ " /apple-icon-144x144.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ " /apple-icon-152x152.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ " /apple-icon-180x180.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ " /android-icon-192x192.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ " /favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ " /favicon-96x96.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ " /favicon-16x16.png" | absURL }}">
+<link rel="manifest" href="{{ " /manifest.json" | absURL }}">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{ "/ms-icon-144x144.png" | absURL }}">
+<meta name="msapplication-TileImage" content="{{ " /ms-icon-144x144.png" | absURL }}">
 <meta name="theme-color" content="#ffffff">
 
 <link href='https://css.gg/phone.css' rel='stylesheet'>
@@ -46,5 +46,5 @@
 </script>
 
 {{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | absURL }}"/>
+<link rel="stylesheet" href="{{ .URL | absURL }}" />
 {{ end }}

@@ -103,8 +103,51 @@ other = "Our clients"
 [worksTitle]
 other = "Projects"
 
+[customersStorywaysTitle]
+other = "Storyways"
+
+[customersStorywaysDescription]
+other = '''
+Books shaped by your choice. An exciting new way to read.
+<br>
+Feel the power of your choice!
+In interactive books, your choices shape the story and the fate of the protagonist.
+Every path you choose will take you to an entirely different direction or ending.
+Get Storyways and start reading interactive stories of different genres and authors.
+<br>
+<br>
+For more information visit <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
+'''
+
+[customersVVSTitle]
+other = "VVS Cycle Planner"
+
+[customersVVSDescription]
+other = '''
+Whether for commuters or leisure cyclists: with the cycle planner, routes can be found for your own bike, the RegioRad or in combination with buses and trains.
+There is also a wide range of ready-made tours available. All routes can be shared or exported in gpx format.
+<br>
+<br>
+This project was implemented in cooperation with MENTZ and replaces the old native iOS and Android apps.
+'''
+
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
+
+[customersDieRingeTitle]
+other = "Die Ringe Bodyworkout"
+
+[customersDieRingeDescription]
+other = '''
+Your effective strength training on the gymnastic rings.
+<br>
+The Rings Bodyworkout is your app for effective training with gymnastic rings.
+With the Die Ringe Bodyworkout app you can systematically and effectively build strength, learn skills, become more agile and establish sustainable healthy habits.
+You decide when and where you want to work out. Go to the park, hang up the rings and start your workout!
+<br>
+<br>
+For more information visit <a href="https://www.dieringe.com/" target="_blank">www.dieringe.com</a>
+'''
 
 [customersBarBrainMobileDescription]
 other = '''
@@ -115,42 +158,18 @@ Over 400 customers are using the service including companies like <a href ="http
 BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
 '''
 
-[customersBarBrainWebTitle]
-other = "BarBrain - web app"
-
-[customersBarBrainWebDescription]
-other = '''
-BarBrain for web complements the mobile app and gives owners and employees the ability to quickly adjust or configure the bar.
-The collected data can be exported as an Excel file to provide a quick overview of the inventory.
-Features for managing products and employees are available as well.
-<br>
-<br>
-By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
-Additional costs only occurred during the development of the web UI.
-'''
-
-[customersPumpItTitle]
-other = "Pump-It"
-
-[customersPumpItDescription]
-other = '''
-We developed the iOS and Android MVP for Pump-It. With Pump-It, athletes can easily monitor their water requirements and energy balance. At the same time workouts can be planned at home and then carried out at the gym. This way the athletes always have full control over their body and results.
-<br>Many features can be adjusted individually and inject a breath of fresh air into the fitness industry.
-<br>
-<br>
-Thanks to <a href="https://flutter.dev/" target="_blank">Flutter</a> we were able to develop this MVP in record-time, and we could respond to customer requests dynamically during
-development.
-'''
-
 [worksAppellaTitle]
 other = "Appella"
 
 [worksAppellaDescription]
 other = '''
-We develop the MVP of the Appella app. Appella is a DSGVO-complient communication platform for
-music schools in Germany. It provides a messenger, video call integration, lesson management and more.
-Thanks to Flutter we are able to build this app for iOS, Android and Web with just one codebase.</br>
-For more information visit <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
+The GDPR-compliant music school app for the digitalisation of music schools.
+Notifications and informations, attendance list, notice board, and timetable all in one.
+<br>
+100% data protection compliant. Secure. Fast. Simple.
+<br>
+<br>
+For more information visit <a href="https://www.appella.app" target="_blank">www.appella.app</a>
 '''
 
 [serviceTitle]
@@ -168,12 +187,6 @@ other = "Flutter app development"
 
 [serviceFlutterDescription]
 other = "Cross-Platform app development for iOS & Android"
-
-[serviceAngularTitle]
-other = "AngularDart development"
-
-[serviceAngularDescription]
-other = "Web app development"
 
 [serverTitle]
 other = "Server development for your App"
@@ -201,6 +214,14 @@ other = "Technologies"
 
 [testimonialsTitle]
 other = "Testimonials"
+
+[testimonialDieRingePosition]
+other = '''DIE RINGE Bodyworkout, CEO'''
+
+[testimonialDieRingeContent]
+other = '''
+We are passionate about enabling everyone to train on the gymnastics rings. Tapped has proven to be a partner that is not only punctual, reliable and clean, but also has an incredible passion for the project! We hope to be able to collaborate on many more projects with Tapped.
+'''
 
 [testimonialPhntmPosition]
 other = '''phntm, CEO'''

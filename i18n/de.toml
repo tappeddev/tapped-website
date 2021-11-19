@@ -108,6 +108,47 @@ other = "Unsere Kunden"
 [worksTitle]
 other = "Projekte"
 
+[customersStorywaysTitle]
+other = "Storyways"
+
+[customersStorywaysDescription]
+other = '''
+Geschichten, die durch deine Entscheidungen beeinflusst werden. Lese auf eine aufregende neue Weise.
+<br>
+Spüre die Kraft deiner Entscheidungen!
+In interaktiven Büchern gestalten deine Entscheidungen die Geschichte und das Schicksal der Hauptfiguren. Jeder Weg, den du wählst, wird dich zu einem ganz anderen Ende führen. Lade unsere App herunter und lese interaktive Bücher verschiedener Genres und Autor:innen.
+<br>
+<br>
+Mehr Informationen auf <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
+'''
+
+[customersVVSTitle]
+other = "VVS Radroutenplaner"
+
+[customersVVSDescription]
+other = '''
+Ob für Pendler- oder Freizeitradfahrer: Mit dem Radroutenplaner lassen sich Routen mit dem eigenen Rad, dem RegioRad oder in Kombination mit Bussen und Bahnen finden.
+Außerdem steht ein großes Angebot an fertigen Touren zur Verfügung. Alle Routen lassen sich teilen oder im gpx-Format exportieren.
+<br>
+<br>
+Dieses Projekt wurde in Zusammenarbeit mit MENTZ umgesetzt und ersetzt die alte native iOS und Android App.
+'''
+
+[customersDieRingeTitle]
+other = "Die Ringe Bodyworkout"
+
+[customersDieRingeDescription]
+other = '''
+Dein effektives Krafttraining an den Turnringen.
+<br>
+Die Ringe Bodyworkout ist deine App für effektives Training mit Turnringen.
+Mit der Die Ringe Bodyworkout App kannst du systematisch und effektiv Kraft aufbauen, Skills lernen, beweglicher werden und nachhaltig gesunde Gewohnheiten etablieren.
+Dabei bestimmst du, wann und wo du trainieren willst. Gehe in den Park, hänge die Ringe auf und starte dein Training!
+<br>
+<br>
+Mehr Informationen auf <a href="https://www.dieringe.com/" target="_blank">www.dieringe.com</a>
+'''
+
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
 
@@ -120,43 +161,18 @@ Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory
 BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vor allem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
 '''
 
-[customersBarBrainWebTitle]
-other = "BarBrain - Web App"
-
-[customersBarBrainWebDescription]
-other = '''
-BarBrain fürs Web ist die Ergänzung der mobilen App und lässt die Bar-Besitzer und Mitarbeiter
-die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
-Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden und geben den benötigten Überblick.
-Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web-App verfügbar.
-<br>
-<br>
-Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
-lediglich durch die neue Web-Oberfläche entstanden.
-'''
-
-[customersPumpItTitle]
-other = "Pump-It"
-
-[customersPumpItDescription]
-other = '''
-Wir haben den iOS und Android MVP für Pump-It entwickelt. Damit können Sportler ganz einfach und genau ihren Wasserbedarf und Energiehaushalt überwachen. Gleichzeitig können Workouts zu Hause geplant und im Fitnessstudio ausgeführt werden, um immer volle Kontrolle über Körper und Erfolge zu haben.
-<br>Viele Merkmale lassen sich individuell anpassen und bringen dadurch frischen Wind in die Fitness-Branche.
-<br>
-<br>
-Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich diesen MVP in Rekordzeit zu entwickeln und währenddessen dynamisch auf die Anforderungen
-des Kunden zu reagieren.
-'''
-
 [worksAppellaTitle]
 other = "Appella - Die Musikschul-App"
 
 [worksAppellaDescription]
 other = '''
-Wir entwickeln den MVP der Appella App. Appella ist eine DSGVO-konforme Kommunikationsplattform für
-Musikschulen in Deutschland. Die App besteht aus einem Messenger, einer Videotelefonie Lösung, Unterrichts-Verwaltung und mehr.
-Dank Flutter war es möglich, die App für iOS, Android und Web mit nur einer Codebase zu entwickeln.<br>
-Mehr Informationen finden Sie auf <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
+Die DSGVO-konforme Musikschul App zur Digitalisierung von Musikschulen.
+Benachrichtigungen und Kundgebungen, Anwesenheitsliste, Schwarzes Brett und Stundenplan in einem.
+<br>
+100 % datenschutzkonform. Sicher. Schnell. Einfach.
+<br>
+<br>
+Mehr Informationen auf <a href="https://www.appella.app" target="_blank">www.appella.app</a>
 '''
 
 [serviceTitle]
@@ -176,12 +192,6 @@ other = "Flutter App Entwicklung"
 
 [serviceFlutterDescription]
 other = "Cross-Platform App Entwicklung für iOS & Android"
-
-[serviceAngularTitle]
-other = "AngularDart Entwicklung"
-
-[serviceAngularDescription]
-other = "Web App Entwicklung"
 
 [serverTitle]
 other = "Server Entwicklung für ihre App"
@@ -212,6 +222,13 @@ other = "Technologien"
 [testimonialsTitle]
 other = "Referenzen"
 
+[testimonialDieRingePosition]
+other = '''DIE RINGE Bodyworkout, Geschäftsführer'''
+
+[testimonialDieRingeContent]
+other = '''
+Mit Leidenschaft arbeiten wir daran jedem das Training an den Turnringen zu ermöglichen. Tapped hat sich hier als ein Partner erwiesen, der nicht nur pünktlich, zuverlässig und sauber arbeitet, sondern auch mit einer unfassbaren Leidenschaft am Projekt mitgewirkt hat! Wir hoffen viele weitere Projekte mit Tapped umsetzen zu dürfen.
+'''
 
 [testimonialPhntmPosition]
 other = '''phntm, Geschäftsführer'''
