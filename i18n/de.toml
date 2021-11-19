@@ -112,7 +112,14 @@ other = "Projekte"
 other = "Storyways"
 
 [customersStorywaysDescription]
-other = "Desc"
+other = '''
+Geschichten, die durch deine Entscheidungen beeinflusst werden. Lese auf eine aufregende neue Weise.
+<br>
+Spüre die Kraft deiner Entscheidungen!
+In interaktiven Büchern gestalten deine Entscheidungen die Geschichte und das Schicksal der Hauptfiguren. Jeder Weg, den du wählst, wird dich zu einem ganz anderen Ende führen. Lade unsere App herunter und lese interaktive Bücher verschiedener Genres und Autor:innen.
+<br>
+Mehr Informationen finden Sie auf <a href="https://www.storyways.app" target="_blank">https://www.storyways.app</a>.
+'''
 
 [customersVVSTitle]
 other = "VVS Radroutenplaner"

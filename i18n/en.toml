@@ -107,7 +107,14 @@ other = "Projects"
 other = "Storyways"
 
 [customersStorywaysDescription]
-other = "Desc"
+other = '''
+Books shaped by your choice. An exciting new way to read.
+<br>
+Feel the power of your choice!
+In interactive books, your choices shape the story and the fate of the protagonist. Every path you choose will take you to an entirely different direction or ending. Get Storyways and start reading interactive stories of different genres and authors.
+<br>
+For more information visit <a href="https://www.storyways.app" target="_blank">https://www.storyways.app</a>.
+'''
 
 [customersVVSTitle]
 other = "VVS Cycle Planer"
