@@ -131,7 +131,15 @@ other = "Desc"
 other = "DieRinge"
 
 [customersDieRingeDescription]
-other = "Desc"
+other = '''
+Dein effektives Krafttraining an den Turnringen
+<br>
+Die Ringe Bodyworkout ist deine App für effektives Training mit Turnringen.
+Mit der Die Ringe Bodyworkout App kannst du systematisch und effektiv Kraft aufbauen, Skills lernen, beweglicher werden und nachhaltig gesunde Gewohnheiten etablieren.
+Dabei bestimmst du, wann und wo du trainieren willst. Gehe in den Park, hänge die Ringe auf und starte dein Training!
+<br>
+Mehr Informationen finden Sie auf <a href="https://www.dieringe.com/" target="_blank">https://www.dieringe.com/</a>.
+'''
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"

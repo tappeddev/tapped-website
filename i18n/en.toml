@@ -111,7 +111,9 @@ other = '''
 Books shaped by your choice. An exciting new way to read.
 <br>
 Feel the power of your choice!
-In interactive books, your choices shape the story and the fate of the protagonist. Every path you choose will take you to an entirely different direction or ending. Get Storyways and start reading interactive stories of different genres and authors.
+In interactive books, your choices shape the story and the fate of the protagonist.
+Every path you choose will take you to an entirely different direction or ending.
+Get Storyways and start reading interactive stories of different genres and authors.
 <br>
 For more information visit <a href="https://www.storyways.app" target="_blank">https://www.storyways.app</a>.
 '''
@@ -129,7 +131,15 @@ other = "BarBrain - mobile app"
 other = "DieRinge"
 
 [customersDieRingeDescription]
-other = "Desc"
+other = '''
+Your effective strength training on the gymnastic rings.
+<br>
+The Rings Bodyworkout is your app for effective training with gymnastic rings.
+With the Die Ringe Bodyworkout app you can systematically and effectively build strength, learn skills, become more agile and establish sustainable healthy habits.
+You decide when and where you want to work out. Go to the park, hang up the rings and start your workout!
+<br>
+For more information visit <a href="https://www.dieringe.com/" target="_blank">https://www.dieringe.com/</a>.
+'''
 
 [customersBarBrainMobileDescription]
 other = '''
