@@ -103,6 +103,12 @@ other = "Our clients"
 [worksTitle]
 other = "Projects"
 
+[customersStorywaysTitle]
+other = "Storyways"
+
+[customersStorywaysDescription]
+other = "Desc"
+
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
 
@@ -113,33 +119,6 @@ Over 400 customers are using the service including companies like <a href ="http
 <br>
 <br>
 BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
-'''
-
-[customersBarBrainWebTitle]
-other = "BarBrain - web app"
-
-[customersBarBrainWebDescription]
-other = '''
-BarBrain for web complements the mobile app and gives owners and employees the ability to quickly adjust or configure the bar.
-The collected data can be exported as an Excel file to provide a quick overview of the inventory.
-Features for managing products and employees are available as well.
-<br>
-<br>
-By using <a href="https://angulardart.dev/" target="_blank">AngularDart</a> we are able to <b>reuse all</b> the business logic of the mobile app.
-Additional costs only occurred during the development of the web UI.
-'''
-
-[customersPumpItTitle]
-other = "Pump-It"
-
-[customersPumpItDescription]
-other = '''
-We developed the iOS and Android MVP for Pump-It. With Pump-It, athletes can easily monitor their water requirements and energy balance. At the same time workouts can be planned at home and then carried out at the gym. This way the athletes always have full control over their body and results.
-<br>Many features can be adjusted individually and inject a breath of fresh air into the fitness industry.
-<br>
-<br>
-Thanks to <a href="https://flutter.dev/" target="_blank">Flutter</a> we were able to develop this MVP in record-time, and we could respond to customer requests dynamically during
-development.
 '''
 
 [worksAppellaTitle]
