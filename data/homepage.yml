@@ -108,20 +108,26 @@ works:
       image:
         x: "img/works/vvs_cycle_planer.png"
         _2x: "img/works/vvs_cycle_planer@2x.png"
-      is_even: true      
+      is_even: false      
+    - title: "customersDieRingeTitle"
+      description: "customersDieRingeDescription"
+      image:
+        x: "img/works/DieRinge.png"
+        _2x: "img/works/DieRinge@2x.png"
+      is_even: true            
+    - title: "worksAppellaTitle"
+      description: "worksAppellaDescription"
+      image:
+        x: "img/works/appella.png"
+        _2x: "img/works/appella@2x.png"
+      is_even: false
     - title: "customersBarBrainMobileTitle"
       description: "customersBarBrainMobileDescription"
       image:
         x: "img/works/barbrain_mobile.jpg"
         _2x: "img/works/barbrain_mobile@2x.jpg"
       is_even: true
-    - title: "worksAppellaTitle"
-      description: "worksAppellaDescription"
-      image:
-        x: "img/works/appella.jpg"
-        _2x: "img/works/appella@2x.jpg"
-      is_even: false
-
+      
 # technologies
 technologies:
   enable: true

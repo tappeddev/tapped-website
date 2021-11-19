@@ -120,6 +120,11 @@ other = "VVS Radroutenplaner"
 [customersVVSDescription]
 other = "Desc"
 
+[customersDieRingeTitle]
+other = "DieRinge"
+
+[customersDieRingeDescription]
+other = "Desc"
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
