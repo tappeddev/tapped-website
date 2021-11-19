@@ -82,12 +82,17 @@ clients:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
         alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
-        link: "https://www.dieringe.com/"
+        link: "https://www.dieringe.com"
+    - logo:
+        x: "img/clients/appella_logo.png"
+        _2x: "img/clients/appella_logo@2x.png"
+        alt: "Appella UG (haftungsbeschränkt)"
+        link: "https://www.appella.app"
     - logo:
         x: "img/clients/vvs_logo.png"
         _2x: "img/clients/vvs_logo@2x.png"
         alt: "Verkehrs- und Tarifverbund Stuttgart GmbH (VVS)"
-        link: "https://www.vvs.de/"
+        link: "https://www.vvs.de"
 
 works:
   enable: true
