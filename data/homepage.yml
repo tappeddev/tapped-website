@@ -78,6 +78,16 @@ clients:
         _2x: "img/clients/mh_production_logo@2x.png"
         alt: "M&H Production"
         link: ""
+    - logo:
+        x: "img/clients/die_ringe_logo.svg"
+        _2x: "img/clients/die_ringe_logo.svg"
+        alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
+        link: "https://www.dieringe.com/"
+    - logo:
+        x: "img/clients/vvs_logo.svg"
+        _2x: "img/clients/vvs_logo.svg"
+        alt: "Verkehrs- und Tarifverbund Stuttgart GmbH (VVS)"
+        link: "https://www.vvs.de/"
 
 works:
   enable: true
