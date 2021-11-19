@@ -169,12 +169,6 @@ other = "Flutter app development"
 [serviceFlutterDescription]
 other = "Cross-Platform app development for iOS & Android"
 
-[serviceAngularTitle]
-other = "AngularDart development"
-
-[serviceAngularDescription]
-other = "Web app development"
-
 [serverTitle]
 other = "Server development for your App"
 
@@ -201,6 +195,14 @@ other = "Technologies"
 
 [testimonialsTitle]
 other = "Testimonials"
+
+[testimonialDieRingePosition]
+other = '''DIE RINGE Bodyworkout, CEO'''
+
+[testimonialDieRingeContent]
+other = '''
+We are passionate about enabling everyone to train on the gymnastics rings. Tapped has proven to be a partner that is not only punctual, reliable and clean, but also has an incredible passion for the project! We hope to be able to collaborate on many more projects with Tapped.
+'''
 
 [testimonialPhntmPosition]
 other = '''phntm, CEO'''

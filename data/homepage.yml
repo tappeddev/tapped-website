@@ -51,8 +51,6 @@ service:
       description: "serviceFlutterDescription"
     - title: "serverTitle"
       description: "serverDescription"
-    - title: "serviceAngularTitle"
-      description: "serviceAngularDescription"
     - title: "consultingTitle"
       description: "consultingDescription"
 
@@ -198,10 +196,15 @@ additional:
 testimonial:
   enable: true
   items:
+    - name: "Paul Uhler"
+      position: "testimonialDieRingePosition"
+      content: "testimonialDieRingeContent"
+      link: "https://www.dieringe.com/"
+
     - name: "Frederik Schweiger"
       position: "testimonialPhntmPosition"
       content: "testimonialPhntmContent"
-      link: "https://flschweiger.net/"
+      link: "https://phntm.xyz/"
 
     - name: "Felix Mangold"
       position: "testimonialMHProductionPosition"
