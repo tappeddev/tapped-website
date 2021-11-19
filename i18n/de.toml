@@ -114,6 +114,11 @@ other = "Storyways"
 [customersStorywaysDescription]
 other = "Desc"
 
+[customersVVSTitle]
+other = "VVS Radroutenplaner"
+
+[customersVVSDescription]
+other = "Desc"
 
 
 [customersBarBrainMobileTitle]

@@ -98,6 +98,12 @@ works:
         x: "img/works/storyways.png"
         _2x: "img/works/storyways@2x.png"
       is_even: true
+    - title: "customersVVSTitle"
+      description: "customersVVSDescription"
+      image:
+        x: "img/works/vvs_cycle_planer.png"
+        _2x: "img/works/vvs_cycle_planer@2x.png"
+      is_even: true      
     - title: "customersBarBrainMobileTitle"
       description: "customersBarBrainMobileDescription"
       image:

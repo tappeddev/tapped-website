@@ -109,6 +109,12 @@ other = "Storyways"
 [customersStorywaysDescription]
 other = "Desc"
 
+[customersVVSTitle]
+other = "VVS Cycle Planer"
+
+[customersVVSDescription]
+other = "Desc"
+
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
 
