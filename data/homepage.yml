@@ -76,23 +76,23 @@ clients:
     - logo:
         x: "img/clients/mh_production_logo.png"
         _2x: "img/clients/mh_production_logo@2x.png"
-        alt: "M&H Production"
-        link: ""
+      alt: "M&H Production"
+      link: ""
     - logo:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
-        alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
-        link: "https://www.dieringe.com"
+      alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
+      link: "https://www.dieringe.com"
     - logo:
         x: "img/clients/appella_logo.png"
         _2x: "img/clients/appella_logo@2x.png"
-        alt: "Appella UG (haftungsbeschränkt)"
-        link: "https://www.appella.app"
+      alt: "Appella UG (haftungsbeschränkt)"
+      link: "https://www.appella.app"
     - logo:
         x: "img/clients/vvs_logo.png"
         _2x: "img/clients/vvs_logo@2x.png"
-        alt: "Verkehrs- und Tarifverbund Stuttgart GmbH (VVS)"
-        link: "https://www.vvs.de"
+      alt: "Verkehrs- und Tarifverbund Stuttgart GmbH (VVS)"
+      link: "https://www.vvs.de"
 
 works:
   enable: true
