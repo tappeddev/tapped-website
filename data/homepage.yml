@@ -141,24 +141,6 @@ technologies:
         _2x: "img/technologies/swift.png"
       link: "https://developer.apple.com/swift/"
 
-    - name: "AngularDart"
-      logo:
-        x: "img/technologies/angulardart.png"
-        _2x: "img/technologies/angulardart.png"
-      link: "https://angulardart.dev/"
-
-    - name: "HTML"
-      logo:
-        x: "img/technologies/html_5.svg"
-        _2x: "img/technologies/html_5.svg"
-      link: "https://developer.mozilla.org/de/docs/Web/HTML"
-
-    - name: "CSS"
-      logo:
-        x: "img/technologies/css_3.svg"
-        _2x: "img/technologies/css_3.svg"
-      link: "https://wiki.selfhtml.org/wiki/CSS"
-
     - name: "Ktor"
       logo:
         x: "img/technologies/ktor.png"
