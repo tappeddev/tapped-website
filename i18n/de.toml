@@ -108,6 +108,19 @@ other = "Unsere Kunden"
 [worksTitle]
 other = "Projekte"
 
+[customersStorywaysTitle]
+other = "Storyways"
+
+[customersStorywaysDescription]
+other = "Desc"
+
+[customersVVSTitle]
+other = "VVS Radroutenplaner"
+
+[customersVVSDescription]
+other = "Desc"
+
+
 [customersBarBrainMobileTitle]
 other = "BarBrain - Mobile App"
 
@@ -118,34 +131,6 @@ Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory
 <br>
 <br>
 BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vor allem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
-'''
-
-[customersBarBrainWebTitle]
-other = "BarBrain - Web App"
-
-[customersBarBrainWebDescription]
-other = '''
-BarBrain fürs Web ist die Ergänzung der mobilen App und lässt die Bar-Besitzer und Mitarbeiter
-die Bar jederzeit im Handumdrehen konfigurieren und ergänzen.
-Abgeschlossene Inventuren können im handlichen Excel-Format exportiert werden und geben den benötigten Überblick.
-Administrative Features wie das Verwalten und Organisieren von Produkten und Mitarbeitern sind auch in der Web-App verfügbar.
-<br>
-<br>
-Mit <a href="https://angulardart.dev/" target="_blank">AngularDart</a> lässt sich <b>die gesamte</b> Logik der mobilen Anwendung wiederverwenden und Entwicklungskosten sind
-lediglich durch die neue Web-Oberfläche entstanden.
-'''
-
-[customersPumpItTitle]
-other = "Pump-It"
-
-[customersPumpItDescription]
-other = '''
-Wir haben den iOS und Android MVP für Pump-It entwickelt. Damit können Sportler ganz einfach und genau ihren Wasserbedarf und Energiehaushalt überwachen. Gleichzeitig können Workouts zu Hause geplant und im Fitnessstudio ausgeführt werden, um immer volle Kontrolle über Körper und Erfolge zu haben.
-<br>Viele Merkmale lassen sich individuell anpassen und bringen dadurch frischen Wind in die Fitness-Branche.
-<br>
-<br>
-Dank <a href="https://flutter.dev/" target="_blank">Flutter</a> war es möglich diesen MVP in Rekordzeit zu entwickeln und währenddessen dynamisch auf die Anforderungen
-des Kunden zu reagieren.
 '''
 
 [worksAppellaTitle]
