@@ -119,10 +119,16 @@ For more information visit <a href="https://www.storyways.app" target="_blank">h
 '''
 
 [customersVVSTitle]
-other = "VVS Cycle Planer"
+other = "VVS Cycle Planner"
 
 [customersVVSDescription]
-other = "Desc"
+other = '''
+Whether for commuters or leisure cyclists: with the cycle planner, routes can be found for your own bike, the RegioRad or in combination with buses and trains.
+There is also a wide range of ready-made tours available. All routes can be shared or exported in gpx format.
+<br>
+<br>
+This project was implemented in cooperation with MENTZ and replaces the old native iOS and Android apps.
+'''
 
 [customersBarBrainMobileTitle]
 other = "BarBrain - mobile app"
@@ -155,9 +161,12 @@ other = "Appella"
 
 [worksAppellaDescription]
 other = '''
-We develop the MVP of the Appella app. Appella is a DSGVO-complient communication platform for
-music schools in Germany. It provides a messenger, video call integration, lesson management and more.
-Thanks to Flutter we are able to build this app for iOS, Android and Web with just one codebase.</br>
+The GDPR-compliant music school app for the digitalisation of music schools.
+Notifications and informations, attendance list, notice board, and timetable all in one.
+<br>
+100% data protection compliant. Secure. Fast. Simple.
+<br>
+<br>
 For more information visit <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
 '''
 

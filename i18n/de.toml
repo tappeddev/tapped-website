@@ -125,7 +125,13 @@ Mehr Informationen finden Sie auf <a href="https://www.storyways.app" target="_b
 other = "VVS Radroutenplaner"
 
 [customersVVSDescription]
-other = "Desc"
+other = '''
+Ob für Pendler- oder Freizeitradfahrer: Mit dem Radroutenplaner lassen sich Routen mit dem eigenen Rad, dem RegioRad oder in Kombination mit Bussen und Bahnen finden.
+Außerdem steht ein großes Angebot an fertigen Touren zur Verfügung. Alle Routen lassen sich teilen oder im gpx-Format exportieren.
+<br>
+<br>
+Dieses Projekt wurde in Zusammenarbeit mit MENTZ umgesetzt und ersetzt die alte native iOS und Android App.
+'''
 
 [customersDieRingeTitle]
 other = "DieRinge"
@@ -158,9 +164,12 @@ other = "Appella - Die Musikschul-App"
 
 [worksAppellaDescription]
 other = '''
-Wir entwickeln den MVP der Appella App. Appella ist eine DSGVO-konforme Kommunikationsplattform für
-Musikschulen in Deutschland. Die App besteht aus einem Messenger, einer Videotelefonie Lösung, Unterrichts-Verwaltung und mehr.
-Dank Flutter war es möglich, die App für iOS, Android und Web mit nur einer Codebase zu entwickeln.<br>
+Die DSGVO-konforme Musikschul App zur Digitalisierung von Musikschulen.
+Benachrichtigungen und Kundgebungen, Anwesenheitsliste, Schwarzes Brett, und Stundenplan in einem.
+<br>
+100 % datenschutzkonform. Sicher. Schnell. Einfach.
+<br>
+<br>
 Mehr Informationen finden Sie auf <a href="https://www.appella.app" target="_blank">www.appella.app</a>.
 '''
 
