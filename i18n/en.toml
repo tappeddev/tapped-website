@@ -215,20 +215,20 @@ other = "Technologies"
 [testimonialsTitle]
 other = "Testimonials"
 
-[testimonialFictionicPosition]
-other = '''Fictionic, Geschäftsführerin'''
-
-[testimonialFictionicContent]
-other = '''
-We have been working with Tapped for a year now and we are more than satisfied with the cooperation. When we have new ideas, they are immediately start to implement it. They are very reliable in their work and communication. In addition, Tapped does not just blindly implement new features, but thinks along with us and optimizes our ideas. We can absolutely recommend Tapped to anyone who needs a cool app and appreciates professional cooperation.
-'''
-
 [testimonialDieRingePosition]
 other = '''DIE RINGE Bodyworkout, CEO'''
 
 [testimonialDieRingeContent]
 other = '''
 We are passionate about enabling everyone to train on the gymnastics rings. Tapped has proven to be a partner that is not only punctual, reliable and clean, but also has an incredible passion for the project! We hope to be able to collaborate on many more projects with Tapped.
+'''
+
+[testimonialFictionicPosition]
+other = '''Fictionic, Geschäftsführerin'''
+
+[testimonialFictionicContent]
+other = '''
+We have been working with Tapped for a year now and we are more than satisfied with the cooperation. When we have new ideas, they are immediately start to implement it. They are very reliable in their work and communication. In addition, Tapped does not just blindly implement new features, but thinks along with us and optimizes our ideas. We can absolutely recommend Tapped to anyone who needs a cool app and appreciates professional cooperation.
 '''
 
 [testimonialPhntmPosition]
