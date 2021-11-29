@@ -209,6 +209,11 @@ testimonial:
       content: "testimonialPhntmContent"
       link: "https://phntm.xyz/"
 
+    - name: "Darja Vojenina"
+      position: "testimonialFictionicPosition"
+      content: "testimonialFictionicContent"
+      link: "https://www.fictionic.com/"
+
     - name: "Felix Mangold"
       position: "testimonialMHProductionPosition"
       content: "testimonialMHProductionContent"
