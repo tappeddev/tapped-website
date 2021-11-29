@@ -204,11 +204,6 @@ testimonial:
       content: "testimonialDieRingeContent"
       link: "https://www.dieringe.com/"
 
-    - name: "Darja Vojenina"
-      position: "testimonialFictionicPosition"
-      content: "testimonialFictionicContent"
-      link: "https://www.fictionic.com/"
-
     - name: "Frederik Schweiger"
       position: "testimonialPhntmPosition"
       content: "testimonialPhntmContent"
