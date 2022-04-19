@@ -81,11 +81,11 @@ other = "Wir sind ..."
 
 [aboutContent]
 other = '''<p class="lead">
-...ein App & Software Entwicklungs Unternehmen in München, dass sich auf die Entwicklung von Flutter-Apps spezialisiert hat.
+...ein App & Software Entwicklungsunternehmen in München, dass sich auf die Entwicklung von Flutter-Apps spezialisiert hat.
 </p>
 <p class="lead">
 Über die Jahre hat es sich unser Team zur Aufgabe gemacht, Apps effizienter und schneller auf alle Plattformen zu bringen.
-Durch den Einsatz von Cross-Plattform Tools sind wir in der Lage bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
+Durch den Einsatz von Cross-Plattform Tools sind wir in der Lage, bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
 sondern auch Kosten.
 <br>
 <br>
