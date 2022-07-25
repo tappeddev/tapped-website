@@ -121,12 +121,6 @@ works:
         x: "img/works/appella.png"
         _2x: "img/works/appella@2x.png"
       is_even: false
-    - title: "customersBarBrainMobileTitle"
-      description: "customersBarBrainMobileDescription"
-      image:
-        x: "img/works/barbrain_mobile.jpg"
-        _2x: "img/works/barbrain_mobile@2x.jpg"
-      is_even: true
       
 # technologies
 technologies:
@@ -223,11 +217,6 @@ testimonial:
       position: "testimonialMentzPosition"
       content: "testimonialMentzContent"
       link: "https://www.linkedin.com/in/günther-gruber-777a29152"
-
-    - name: "Lukas Stojetz"
-      position: "testimonialBarBrainPosition"
-      content: "testimonialBarBrainContent"
-      link: ""
 
 # contact
 contact:

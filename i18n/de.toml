@@ -149,18 +149,6 @@ Dabei bestimmst du, wann und wo du trainieren willst. Gehe in den Park, hänge d
 Mehr Informationen auf <a href="https://www.dieringe.com/" target="_blank">www.dieringe.com</a>
 '''
 
-[customersBarBrainMobileTitle]
-other = "BarBrain - Mobile App"
-
-[customersBarBrainMobileDescription]
-other = '''
-Mit BarBrain für iOS und Android können Bar-Besitzer Inventur einfacher, schneller und genauer machen.
-Unter den über 400 Kunden finden sich Unternehmen wie <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> oder das <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a> in München.
-<br>
-<br>
-BarBrain profitiert durch die Nutzung von <a href="https://flutter.dev/" target="_blank">Flutter</a> vor allem an der schnellen Entwicklungszeit neuer Features und kann mit Feature-Parität auf allen Plattformen glänzen.
-'''
-
 [worksAppellaTitle]
 other = "Appella - Die Musikschul-App"
 
@@ -261,16 +249,6 @@ other = '''MENTZ, Leiter der mobilen Abteilung'''
 [testimonialMentzContent]
 other = '''
 Unkomplizierte und kompetente Zusammenarbeit hat uns von Tapped überzeugt. Wer Expertise in App-Entwicklung benötigt, ist hier richtig.
-'''
-
-[testimonialBarBrainPosition]
-other = '''BarBrain, Mit-Gründer'''
-
-[testimonialBarBrainContent]
-other = '''
-Mit BarBrain unterstützen wir alle Arten von Gastronomien in Deutschland, Österreich und der Schweiz mit einer präzisen und kosteneffizienten Inventur.
-Wir haben nach einem IT-Partner gesucht, der auf Basis unserer Designs eine zuverlässige App entwickeln kann.
-Mit dem Team von Tapped haben wir einen zuverlässigen und seriösen Partner gefunden.
 '''
 
 # contact

@@ -131,9 +131,6 @@ There is also a wide range of ready-made tours available. All routes can be shar
 This project was implemented in cooperation with MENTZ and replaces the old native iOS and Android apps.
 '''
 
-[customersBarBrainMobileTitle]
-other = "BarBrain - mobile app"
-
 [customersDieRingeTitle]
 other = "Die Ringe Bodyworkout"
 
@@ -147,15 +144,6 @@ You decide when and where you want to work out. Go to the park, hang up the ring
 <br>
 <br>
 For more information visit <a href="https://www.dieringe.com/" target="_blank">www.dieringe.com</a>
-'''
-
-[customersBarBrainMobileDescription]
-other = '''
-BarBrain for iOS and Android provides a quick, easy and more accurate way to create inventories for bar owners.
-Over 400 customers are using the service including companies like <a href ="https://www.ory.bar/" target="_blank">Ory</a>, <a href="https://www.herzog.bar/" target="_blank">Herzog</a>, <a href="https://www.schloss-elmau.de/" target="_blank">Schloss Elmau</a> or <a href="https://www.25hours-hotels.com/" target="_blank">25hours hotel</a>.
-<br>
-<br>
-BarBrain uses <a href="https://flutter.dev/" target="_blank">Flutter</a> to ship features faster and to unify the teams of developers. It also provides a consistent set of features on every platform.
 '''
 
 [worksAppellaTitle]
@@ -256,18 +244,6 @@ other = '''
 Uncomplicated and competent cooperation convinced us of Tapped. If you need expertise in app development, you've come to the right place.
 '''
 
-
-[testimonialBarBrainPosition]
-other = '''BarBrain, Co-Founder'''
-
-[testimonialBarBrainContent]
-other = '''
-With BarBrain we support all types of gastronomy in Germany, Austria and Switzerland with a precise and cost-efficient inventory.
-We were looking for an IT partner who can develop a reliable app based on our designs.
-With the team of Tapped we have found a reliable and serious partner.
-'''
-
-
 # contact
 
 [contactTitle]
@@ -336,7 +312,7 @@ other = '''Nice to have: experience in developing native iOS or Android apps'''
 
 
 [jobsWeOffer]
-other= '''We offer:'''
+other = '''We offer:'''
 
 [jobsWeOfferOffice]
 other = '''📎 Office in the center of Munich'''
@@ -351,7 +327,7 @@ other = '''🪑 Height-adjustable desk'''
 other = ''' 🏖 Work and travel activities'''
 
 [jobsWeOfferTeamEvents]
-other= '''🎳 Regular team events'''
+other = '''🎳 Regular team events'''
 
 [jobsWeOfferFlatHierachies]
 other = '''🗣 Flat hierarchies'''
