@@ -17,3 +17,7 @@ After the setup you could simply call:
 The page should be available at: [localhost:1313/](http://localhost:1313/)
 
 Hot Reload will also work. If you save something with `cmd + s` the page should be reloaded.
+
+## Deployment 
+
+Works automatically when any branches will be merged into the `master`. 
