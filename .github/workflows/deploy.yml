@@ -22,7 +22,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public  # Pfad zum generierten Hugo-Output
+          path: ./public
 
   deploy:
     runs-on: ubuntu-latest
