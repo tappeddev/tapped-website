@@ -1,4 +1,4 @@
-baseURL = "https://www.tapped.dev/"
+baseURL = "https://tappeddev.github.io/tapped-website/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme-adjusted"
 
