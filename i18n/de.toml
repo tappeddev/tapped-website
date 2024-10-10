@@ -210,6 +210,14 @@ other = "Technologien"
 [testimonialsTitle]
 other = "Referenzen"
 
+[testimonialKosysPosition]
+other = '''KOSYS, Lead Developer'''
+
+[testimonialKosysContent]
+other = '''
+Seit vielen Monaten arbeiten wir von KOSYS mit der Firma Tapped Hand in Hand und können sagen, dass wir mit der Zusammenarbeit sehr zufrieden sind. Die Firma Tapped unterstützt uns bei der stetigen Weiterentwicklung unserer bestehenden Apps und konzipiert mit großem Engagement neue, zukunftsträchtige Anwendungen. Wir schätzen die reibungslose Kommunikation zwischen dem Tapped Team und unseren Organisationseinheiten. Laufend bringt sich Tapped mit Verbesserungsvorschlägen ein und erweitert das eigene Skillset, um neue Technologien, die wiederum unsere Produkte bereichern. Dank der Zusammenarbeit haben sich unsere Entwicklungszyklen extrem verkürzt und unsere Kunden danken uns das mit ihrem positiven Feedback.
+'''
+
 [testimonialDieRingePosition]
 other = '''DIE RINGE Bodyworkout, Geschäftsführer'''
 
