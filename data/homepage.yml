@@ -193,10 +193,10 @@ additional:
 testimonial:
   enable: true
   items:
-    - name: "Steffen Süß"
+    - name: "Josua Kohberg"
       position: "testimonialKosysPosition"
       content: "testimonialKosysContent"
-      link: "https://www.linkedin.com/in/steffen-suess-5975a21b9/"
+      link: "https://kosys.com/"
 
     - name: "Paul Uhler"
       position: "testimonialDieRingePosition"
