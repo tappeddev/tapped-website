@@ -203,6 +203,14 @@ other = "Technologies"
 [testimonialsTitle]
 other = "Testimonials"
 
+[testimonialKosysPosition]
+other = '''KOSYS, Lead Developer'''
+
+[testimonialKosysContent]
+other = '''
+We at KOSYS have been working hand in hand with Tapped for many months and can say that we are very satisfied with the cooperation. Tapped supports us in the continuous development of our existing apps and is highly committed to designing new, future-oriented applications. We appreciate the smooth communication between the Tapped team and our organization. Tapped is constantly contributing suggestions for improvement and expanding its own skillset with new technologies, which in turn enrich our products. Thanks to this collaboration, our development cycles have become extremely short and our customers thank us for this with their positive feedback.
+'''
+
 [testimonialDieRingePosition]
 other = '''DIE RINGE Bodyworkout, CEO'''
 
