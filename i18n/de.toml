@@ -181,11 +181,17 @@ other = "Flutter App Entwicklung"
 [serviceFlutterDescription]
 other = "Cross-Platform App Entwicklung für iOS & Android"
 
-[serverTitle]
-other = "Server Entwicklung für ihre App"
+[serviceDesignTitle]
+other = "UI/UX Design"
 
-[serverDescription]
-other = "REST API & Datenbank Entwicklung"
+[serviceDesignDescription]
+other = "Erstellung intuitiver und ästhetischer UI / UX Designs"
+
+[serviceSupportTitle]
+other = "Wartung & Support"
+
+[serviceSupportDescription]
+other = "Damit Ihre Anwendungen reibungslos und sicher laufen."
 
 [serviceContactButtonText]
 other = "Kontakt"

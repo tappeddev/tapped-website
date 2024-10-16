@@ -26,15 +26,15 @@ about:
         _2x: "img/team/julian@2x.png"
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
-      twitter_link: "https://twitter.com/JulianLenz_"
       linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
+      x_link: "https://twitter.com/JulianLenz_"
     - image:
         x: "img/team/stefan.png"
         _2x: "img/team/stefan@2x.png"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
-      twitter_link: ""
       linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
+      x_link: ""
 
 experience:
   enabled: false
@@ -49,10 +49,13 @@ service:
   items:
     - title: "serviceFlutterTitle"
       description: "serviceFlutterDescription"
-    - title: "serverTitle"
-      description: "serverDescription"
     - title: "consultingTitle"
       description: "consultingDescription"
+    - title: "serviceDesignTitle"
+      description: "serviceDesignDescription"
+    - title: "serviceSupportTitle"
+      description: "serviceSupportDescription"
+
 
 clients:
   enable: true
@@ -73,11 +76,6 @@ clients:
         _2x: "img/clients/phntm_xyz_logo@2x.png"
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
-    - logo:
-        x: "img/clients/mh_production_logo.png"
-        _2x: "img/clients/mh_production_logo@2x.png"
-      alt: "M&H Production"
-      link: ""
     - logo:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
