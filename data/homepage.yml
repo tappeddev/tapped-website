@@ -49,10 +49,13 @@ service:
   items:
     - title: "serviceFlutterTitle"
       description: "serviceFlutterDescription"
-    - title: "serverTitle"
-      description: "serverDescription"
     - title: "consultingTitle"
       description: "consultingDescription"
+    - title: "serviceDesignTitle"
+      description: "serviceDesignDescription"
+    - title: "serviceSupportTitle"
+      description: "serviceSupportDescription"
+
 
 clients:
   enable: true

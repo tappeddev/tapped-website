@@ -176,11 +176,18 @@ other = "Flutter app development"
 [serviceFlutterDescription]
 other = "Cross-Platform app development for iOS & Android"
 
-[serverTitle]
-other = "Server development for your App"
+[serviceDesignTitle]
+other = "UI/UX Design"
 
-[serverDescription]
-other = "REST API & Database development"
+[serviceDesignDescription]
+other = "Creating intuitive and estetic UI / UX designs"
+
+[serviceSupportTitle]
+other = "Maintenance & Support"
+
+[serviceSupportDescription]
+other = "Support to ensure your applications run smoothly and securely."
+
 
 [serviceContactButtonText]
 other = "Contact"
