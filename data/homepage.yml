@@ -77,11 +77,6 @@ clients:
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
     - logo:
-        x: "img/clients/mh_production_logo.png"
-        _2x: "img/clients/mh_production_logo@2x.png"
-      alt: "M&H Production"
-      link: ""
-    - logo:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
       alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
