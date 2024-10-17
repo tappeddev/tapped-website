@@ -20,21 +20,6 @@ showcase:
 # about
 about:
   enable: true
-  items:
-    - image:
-        x: "img/team/julian.png"
-        _2x: "img/team/julian@2x.png"
-      name: "Julian Bissekkou"
-      title: "CTO / Co-Founder"
-      linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
-      x_link: "https://twitter.com/JulianLenz_"
-    - image:
-        x: "img/team/stefan.png"
-        _2x: "img/team/stefan@2x.png"
-      name: "Stefan Schaller"
-      title: "CEO / Co-Founder"
-      linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
-      x_link: ""
 
 experience:
   enabled: false
@@ -224,8 +209,6 @@ testimonial:
 # contact
 contact:
   enable: true
-  form:
-    action: "https://formspree.io/mrglvepw"
   phone:
     number: '<a href="tel:+4917630400083">+ 49 (0) 176 30 40 00 83</a>'
   email:
@@ -234,6 +217,21 @@ contact:
     address: "Tapped UG (Haftungsbeschränkt)<br />Auerfeldstraße 4a, 81541 München"
   button:
     icon: "icon-mail-fill"
+  items:
+    - image:
+        x: "img/team/julian.png"
+        _2x: "img/team/julian@2x.png"
+      name: "Julian Bissekkou"
+      title: "CTO / Co-Founder"
+      linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
+      x_link: "https://twitter.com/JulianLenz_"
+    - image:
+        x: "img/team/stefan.png"
+        _2x: "img/team/stefan@2x.png"
+      name: "Stefan Schaller"
+      title: "CEO / Co-Founder"
+      linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
+      x_link: ""
 
 # newsletter
 newsletter:
@@ -242,8 +240,3 @@ newsletter:
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
-
-
-jobs:
-  button:
-    icon: "icon-mail-fill"

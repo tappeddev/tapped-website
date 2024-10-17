@@ -2,38 +2,15 @@
 <section id="about" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
-            <div class="col-12 col-md-6 mt-5 mt-sm-0 person-container">
-                {{ range .Site.Data.homepage.about.items }}
-                <div class="person mb-4">
-                    <img class="lozad"
-                         src="{{ .image.x | absURL }}"
-                         data-src="{{ .image.x | absURL }}"
-                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-                         alt="{{ i18n " personAlt" . }}">
-                    <div class="name-and-title">
-                        <span class="name">{{ .name }}</span>
-                        <span class="title">{{ .title }}</span>
-                        <div class="about__social-media-icons">
-                            {{ if .linkedin_link }}
-                            <a href="{{ .linkedin_link }}" target="_blank">
-                                <img class="about__social-media-icon"
-                                     alt="LinkedIn Logo"
-                                     src="{{ "img/icons/linkedin.svg" | absURL }}">
-                            </a>
-                            {{ end }}
-                            {{ if .x_link }}
-                            <a href="{{ .x_link }}" target="_blank">
-                                <img class="about__social-media-icon"
-                                     alt="X Logo"
-                                     src="{{ "img/icons/x.svg" | absURL }}">
-                            </a>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
+            <div class="col-12 col-md-6 mt-5 mt-sm-0">
+                <img
+                    class="lozad"
+                    alt="Team"
+                    data-src="{{ "img/team/team.png" | absURL }}"
+                    data-srcset="{{ "img/team/team.png" | absURL }} 1x, {{ "img/team/team@2x.png" | absURL }} 2x"
+                />
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mt-5 mt-sm-0">
                 <h2>{{ i18n "aboutTitle" }}</h2>
                 <p class="lead">
                     {{ i18n "aboutContent" | safeHTML}}
