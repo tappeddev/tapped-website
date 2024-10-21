@@ -50,7 +50,7 @@ other = "English"
 other = "Hello, we’re Tapped."
 
 [showcaseSubtitle]
-other = "App & Software Development"
+other = "Flutter Development"
 
 [showcaseDescription]
 other = '''
@@ -287,86 +287,3 @@ other = "Address"
 
 [additionalTitle]
 other = "Other"
-
-[jobsTitle]
-other = "Flutter and Kotlin Developer Job in Munich at Tapped"
-
-[jobsDescription]
-other = '''We are looking for a Flutter Developer that supports us
-at interesting and refreshing App projects.'''
-
-[jobsPreTitle]
-other = '''Full-time, Part-time or Working student'''
-
-[jobsJobTitle]
-other = '''Flutter Developer (m/w/d)'''
-
-[jobsAdditionalInfo]
-other = '''We are open minded and work with latest technologies.'''
-
-[jobsRequirements]
-other = '''Requirements'''
-
-[jobsRequirementsKnowledge]
-other = '''You have good knowledge as a Flutter / Dart developer (at least 1-2 years)'''
-
-[jobsRequirementsOwnExperience]
-other = '''You already have experience in building own projects'''
-
-[jobsRequirementsCI]
-other = '''You have experience with CI/CD'''
-
-[jobsRequirementsTakeOwnership]
-other = '''You can take ownership of a project'''
-
-[jobsRequirementsLanguage]
-other = '''You are fluent in german or english'''
-
-[jobsRequirementsNiceToHave]
-other = '''Nice to have: experience in developing native iOS or Android apps'''
-
-
-[jobsWeOffer]
-other = '''We offer:'''
-
-[jobsWeOfferOffice]
-other = '''📎 Office in the center of Munich'''
-
-[jobsWeOfferMac]
-other = '''💻 MacBook Pro including private use'''
-
-[jobsWeOfferDesk]
-other = '''🪑 Height-adjustable desk'''
-
-[jobsWeOfferWorkAndTravel]
-other = ''' 🏖 Work and travel activities'''
-
-[jobsWeOfferTeamEvents]
-other = '''🎳 Regular team events'''
-
-[jobsWeOfferFlatHierachies]
-other = '''🗣 Flat hierarchies'''
-
-[jobsWeOfferFlexbileTimes]
-other = '''🕙 Flexible working hours'''
-
-[jobsWeOfferRemoteWork]
-other = '''🌎 100% remote work'''
-
-[jobsWeOfferBudgetHomeOffice]
-other = '''🏠 Budget for setting up the home office workplace'''
-
-[jobsWeOfferVoucher]
-other = '''🧧 Every month 44€ voucher for the supermarket'''
-
-[jobsWeOfferEducation]
-other = '''📚 Further education in new areas'''
-
-[jobsWeOfferTeam]
-other = '''👥 Small and young team'''
-
-[jobsClosingStatement]
-other = '''If you feel addressed, then simply apply by e-mail and we will clarify the rest personally.'''
-
-[jobsApplyNow]
-other = '''Apply now'''
