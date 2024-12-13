@@ -214,7 +214,7 @@ contact:
   email:
     email: '<a href="mailto:contact@tapped.dev">contact@tapped.dev</a>'
   address:
-    address: "Tapped UG (Haftungsbeschränkt)<br />Auerfeldstraße 4a, 81541 München"
+    address: "Tapped GmbH<br />Krumpenhofweg 2, 80639 München"
   button:
     icon: "icon-mail-fill"
   items:
