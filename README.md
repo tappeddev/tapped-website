@@ -20,4 +20,4 @@ Hot Reload will also work. If you save something with `cmd + s` the page should 
 
 ## Deployment 
 
-Works automatically when any branches will be merged into the `master`. 
+Works automatically when any branches will be merged into the `main`. 
