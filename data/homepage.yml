@@ -47,10 +47,15 @@ clients:
 
   clients:
     - logo:
-        x: "img/clients/barbrain_logo.png"
-        _2x: "img/clients/barbrain_logo@2x.png"
-      alt: "BarBrain GmbH"
-      link: "https://barbrain.com"
+        x: "img/clients/fcb_inside_logo.png"
+        _2x: "img/clients/fcb_inside_logo@2x.png"
+      alt: "ballnews media GmbH"
+      link: "https://fcbinside.de/"
+    - logo:
+        x: "img/clients/kaddick_logo.png"
+        _2x: "img/clients/kaddick_logo@2x.png"
+      alt: "Kaddick Goldschmiede GmbH"
+      link: "https://www.kaddick.de/"
     - logo:
         x: "img/clients/mentz_logo.png"
         _2x: "img/clients/mentz_logo@2x.png"
@@ -80,6 +85,18 @@ clients:
 works:
   enable: true
   works:
+    - title: "customersFcbInsideTitle"
+      description: "customersFcbInsideDescription"
+      image:
+        x: "img/works/fcb_inside.png"
+        _2x: "img/works/fcb_inside@2x.png"
+      is_even: true
+    - title: "customersAurumToolsTitle"
+      description: "customersAurumToolsDescription"
+      image:
+        x: "img/works/aurum_tools.png"
+        _2x: "img/works/aurum_tools@2x.png"
+      is_even: false
     - title: "customersStorywaysTitle"
       description: "customersStorywaysDescription"
       image:

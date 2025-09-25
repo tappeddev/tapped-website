@@ -122,6 +122,32 @@ In interaktiven Büchern gestalten deine Entscheidungen die Geschichte und das S
 Mehr Informationen auf <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
 '''
 
+[customersFcbInsideTitle]
+other = "FcbInside"
+
+[customersFcbInsideDescription]
+other = '''
+Fühle das Herz des Vereins!
+FCBinside — tagesaktuelle News, Transfers, Analysen und Podcasts rund um den FC Bayern.
+Kurze, prägnante Stories und Transfer-Updates liefern dir das Vereinsgeschehen direkt auf den Punkt — perfekt für Fans, die kein Detail verpassen wollen.
+<br>
+<br>
+Mehr Informationen auf <a href="https://fcbinside.de/" target="_blank">www.fcbinside.de</a>.
+'''
+
+[customersAurumToolsTitle]
+other = "AurumTools"
+
+[customersAurumToolsDescription]
+other = '''
+Spüre die Kraft deiner Werkbank!
+AurumTools — die kostenlose All-in-one-App für Goldschmiede.
+Mit praktischen Helfern wie Legierungsrechnern, Edelstein-Tools und Atelier-Utilities macht sie den Alltag im Studio einfacher und unterstützt traditionelle Handwerkskunst.
+<br>
+<br>
+Mehr Informationen auf <a href="https://www.kaddick.de/aurumtools/" target="_blank">www.kaddick.de/aurumtools</a>.
+'''
+
 [customersVVSTitle]
 other = "VVS Radroutenplaner"
 

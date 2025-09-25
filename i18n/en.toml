@@ -119,6 +119,31 @@ Get Storyways and start reading interactive stories of different genres and auth
 For more information visit <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
 '''
 
+[customersFcbInsideTitle]
+other = "FcbInside"
+
+[customersFcbInsideDescription]
+other = '''
+Feel the club’s pulse!
+FCBinside — daily news, transfers, analysis and podcasts about FC Bayern.
+Short, punchy stories and transfer updates deliver the club’s happenings straight to the point — perfect for fans who don’t want to miss a single detail.
+<br>
+<br>
+More information at <a href="https://fcbinside.de/" target="_blank">www.fcbinside.de</a>.
+'''
+
+[customersAurumToolsTitle]
+other = "AurumTools"
+
+[customersAurumToolsDescription]
+other = '''
+Feel the power of your workbench!
+AurumTools — the free all-in-one app for goldsmiths. With handy helpers like alloy calculators, gemstone tools and studio utilities, it simplifies daily workflows in the workshop and supports traditional craftsmanship.
+<br>
+<br>
+More information at <a href="https://www.kaddick.de/aurumtools/" target="_blank">www.kaddick.de/aurumtools</a>.
+'''
+
 [customersVVSTitle]
 other = "VVS Cycle Planner"
 
