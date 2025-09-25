@@ -85,6 +85,18 @@ clients:
 works:
   enable: true
   works:
+    - title: "customersFcbInsideTitle"
+      description: "customersFcbInsideDescription"
+      image:
+        x: "img/works/fcb_inside.png"
+        _2x: "img/works/fcb_inside@2x.png"
+      is_even: true
+    - title: "customersAurumToolsTitle"
+      description: "customersAurumToolsDescription"
+      image:
+        x: "img/works/aurum_tools.png"
+        _2x: "img/works/aurum_tools@2x.png"
+      is_even: false
     - title: "customersStorywaysTitle"
       description: "customersStorywaysDescription"
       image:
