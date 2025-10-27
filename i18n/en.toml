@@ -119,6 +119,17 @@ Get Storyways and start reading interactive stories of different genres and auth
 For more information visit <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
 '''
 
+[customersVVSMobileTitle]
+other = "VVS Mobil"
+
+[customersVVSMobileDescription]
+other = '''
+The VVS Mobil app is the central mobility platform for the Stuttgart region. It combines public transport, sharing services, and individual mobility options in a single, intuitive application. Users receive real-time journey information, can purchase tickets directly, and plan their entire trip seamlessly — from door to destination.
+<br>
+<br>
+This project was developed in collaboration with MENTZ and replaces the previous native iOS and Android apps.
+'''
+
 [customersFcbInsideTitle]
 other = "FcbInside"
 
