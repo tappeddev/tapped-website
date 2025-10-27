@@ -85,6 +85,11 @@ clients:
 works:
   enable: true
   works:
+    - title: "customersVVSMobileTitle"
+      description: "customersVVSMobileDescription"
+      image:
+        x: "img/works/vvs_mobil.png"
+        _2x: "img/works/vvs_mobil@2x.png"
     - title: "customersFcbInsideTitle"
       description: "customersFcbInsideDescription"
       image:

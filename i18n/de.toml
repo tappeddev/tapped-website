@@ -122,6 +122,17 @@ In interaktiven Büchern gestalten deine Entscheidungen die Geschichte und das S
 Mehr Informationen auf <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
 '''
 
+[customersVVSMobileTitle]
+other = "VVS Mobil"
+
+[customersVVSMobileDescription]
+other = '''
+Die VVS Mobil App ist die zentrale Mobilitätsplattform für die Region Stuttgart. Sie vereint ÖPNV, Sharing-Angebote und individuelle Mobilitätsformen in einer einzigen, intuitiven Anwendung. Nutzer erhalten in Echtzeit die besten Verbindungen, können Tickets direkt buchen und ihre gesamte Reise nahtlos planen – von der Haustür bis zum Ziel.
+<br>
+<br>
+Dieses Projekt wurde in Zusammenarbeit mit MENTZ umgesetzt und ersetzt die alte native iOS und Android App.
+'''
+
 [customersFcbInsideTitle]
 other = "FcbInside"
 
