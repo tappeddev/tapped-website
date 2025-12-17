@@ -239,21 +239,157 @@ h4 a:hover {
 
 /* jobs page */
 
-.job {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 200px;
+.job-page {
+    padding-bottom: 80px;
 }
 
-.job__title {
-    margin-bottom: 32px;
+.job-page__top-spacer {
+    height: 120px;
 }
 
-.job-spacer {
-    min-height: 32px;
-    height: 30vh;
+@media (min-width: 992px) {
+    .job-page__top-spacer {
+        height: 140px;
+    }
+}
+
+.job-page__notice {
+    border: 1px solid #e7edf2;
+    border-radius: 12px;
+}
+
+.job-page__hero {
+    margin-bottom: 48px;
+}
+
+.job-page__kicker {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6c757d;
+    margin-bottom: 12px;
+}
+
+.job-page__title {
+    margin-bottom: 16px;
+}
+
+.job-page__lead {
+    margin-bottom: 24px;
+}
+
+.job-page__cta {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media (min-width: 576px) {
+    .job-page__cta {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.job-page__what-to-include {
+    color: #6c757d;
+}
+
+.job-section {
+    margin-top: 56px;
+}
+
+.job-section__title {
+    margin-bottom: 20px;
+}
+
+.job-card {
+    background: #ffffff;
+    border: 1px solid #e7edf2;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.04);
+}
+
+.job-card--benefit {
+    height: 100%;
+}
+
+.job-card--cta {
+    text-align: center;
+}
+
+.job-card__title {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.job-card__benefit {
+    font-weight: 600;
+}
+
+.job-card__benefit-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 4px;
+}
+
+.job-dl {
+    margin: 0;
+}
+
+.job-dl__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #edf1f4;
+}
+
+.job-dl__row:last-child {
+    border-bottom: none;
+}
+
+.job-dl dt {
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.job-dl dd {
+    margin: 0;
+    text-align: right;
+}
+
+.job-list {
+    padding-left: 1.1rem;
+}
+
+.job-list li {
+    margin-bottom: 0.5rem;
+}
+
+.job-list--compact li {
+    margin-bottom: 0.35rem;
+}
+
+.job-process {
+    padding-left: 1.1rem;
+}
+
+.job-process__item {
+    margin-bottom: 16px;
+}
+
+.job-process__title {
+    font-weight: 700;
+}
+
+.job-process__desc {
+    margin-top: 4px;
+    color: #6c757d;
+}
+
+.job-page__closing {
+    margin-bottom: 20px;
 }
 

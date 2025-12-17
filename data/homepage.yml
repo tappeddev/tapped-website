@@ -255,6 +255,11 @@ contact:
       linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
       x_link: ""
 
+# jobs
+jobs:
+  button:
+    icon: "icon-mail-fill"
+
 # newsletter
 newsletter:
   enable: false

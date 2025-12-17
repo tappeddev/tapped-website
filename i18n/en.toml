@@ -323,3 +323,167 @@ other = "Address"
 
 [additionalTitle]
 other = "Other"
+
+# jobs
+[jobsTitle]
+other = "Flutter & Dart Developer Job in Munich at Tapped"
+
+[jobsDescription]
+other = '''Are you a Flutter developer who loves writing clean Dart? We are looking for engineers who want to build great mobile apps in a small team.
+Experience with Kotlin or Java is a plus.'''
+
+[jobsPreTitle]
+other = '''Full-time, Part-time'''
+
+[jobsJobTitle]
+other = '''Flutter & Dart Developer (m/w/d)'''
+
+[jobsAdditionalInfo]
+other = '''We are open-minded and love working with modern technologies.'''
+
+[jobsWeOffer]
+other = '''What we offer'''
+
+[jobsWeOfferOffice]
+other = '''📎 Office in the center of Munich'''
+
+[jobsWeOfferMac]
+other = '''💻 MacBook Pro'''
+
+[jobsWeOfferTeam]
+other = '''👥 Small team'''
+
+[jobsWeOfferSalary]
+other = '''💰 Competitive salary'''
+
+[jobsWeOfferGym]
+other = '''🏋️ Wellpass gym membership'''
+
+[jobsWeOfferOfficeSubtitle]
+other = '''We are remote-first, but feel free to visit us in our office'''
+
+[jobsWeOfferMacSubtitle]
+other = '''Latest hardware for your best work. Private use allowed.'''
+
+[jobsWeOfferTeamSubtitle]
+other = '''We keep things simpel and focus on what we all love. Building great apps.'''
+
+[jobsWeOfferSalarySubtitle]
+other = '''Fair compensation for your expertise'''
+
+[jobsWeOfferGymSubtitle]
+other = '''Stay healthy with access to thousands of gyms'''
+
+[jobsWeOfferWorkationSubtitle]
+other = '''We meet somewhere in Europe for 1-2 weeks where we all come together, do hackathons and fun activities'''
+
+[jobsWeOfferWorkation]
+other = '''🏝️ Annual team workation'''
+
+[jobsRequirements]
+other = '''Requirements'''
+
+[jobsRequirementsFlutter]
+other = '''Experience with Flutter'''
+
+[jobsRequirementsDart]
+other = '''Experience with Dart'''
+
+[jobsRequirementsNative]
+other = '''Basic knowledge of native iOS and Android development'''
+
+[jobsNiceToHave]
+other = '''Nice to have'''
+
+[jobsNiceToHaveKotlin]
+other = '''Experience with Kotlin'''
+
+[jobsNiceToHaveJava]
+other = '''Experience with Java'''
+
+[jobsClosingStatement]
+other = '''If you have experience with <b>Flutter and Dart</b>, then drop us a mail and we will contact you as soon as possible.'''
+
+[jobsApplyNow]
+other = '''Apply now'''
+
+[jobsNoOpenPositions]
+other = '''We don't have any open positions at the moment — but if you're excited about Flutter and Dart, we'd still love to hear from you.'''
+
+[jobsWhatToInclude]
+other = '''Include your CV or LinkedIn, GitHub (optional), and your availability.'''
+
+[jobsAtAGlanceTitle]
+other = '''At a glance'''
+
+[jobsAtAGlanceLocationLabel]
+other = '''Location'''
+
+[jobsAtAGlanceLocationValue]
+other = '''Munich (office in the center)'''
+
+[jobsAtAGlanceContractLabel]
+other = '''Contract'''
+
+[jobsAtAGlanceContractValue]
+other = '''Full-time / Part-time'''
+
+[jobsAtAGlanceStackLabel]
+other = '''Required'''
+
+[jobsAtAGlanceStackValue]
+other = '''Flutter, Dart'''
+
+[jobsAtAGlanceNiceToHaveLabel]
+other = '''Nice to have'''
+
+[jobsAtAGlanceNiceToHaveValue]
+other = '''Kotlin, Java'''
+
+[jobsResponsibilitiesTitle]
+other = '''What you'll do'''
+
+[jobsResponsibilities1]
+other = '''Build and ship Flutter apps with a focus on quality and maintainability.'''
+
+[jobsResponsibilities2]
+other = '''Collaborate with product and design to turn ideas into great user experiences.'''
+
+[jobsResponsibilities3]
+other = '''Write clean Dart code, review pull requests, and improve our codebase continuously.'''
+
+[jobsResponsibilities4]
+other = '''Integrate APIs and services and help shape technical decisions.'''
+
+[jobsResponsibilities5]
+other = '''Take ownership of features from concept to release.'''
+
+[jobsResponsibilities6]
+other = '''Lead other developers and innovate what Flutter can do.'''
+
+[jobsProcessTitle]
+other = '''Hiring process'''
+
+[jobsProcessStep1Title]
+other = '''Intro call'''
+
+[jobsProcessStep1Desc]
+other = '''A short call to get to know each other and align on expectations.'''
+
+[jobsProcessStep2Title]
+other = '''Technical interview'''
+
+[jobsProcessStep2Desc]
+other = '''A developer-to-developer conversation about Flutter/Dart and your past projects.'''
+
+[jobsProcessStep3Title]
+other = '''Meet the team'''
+
+[jobsProcessStep3Desc]
+other = '''Talk with the team and get a feel for how we work together.'''
+
+[jobsProcessStep4Title]
+other = '''Decision'''
+
+[jobsProcessStep4Desc]
+other = '''We’ll get back to you with feedback and next steps.'''
