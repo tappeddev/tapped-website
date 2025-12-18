@@ -41,11 +41,6 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
   [[menu.header]]
-  name = "menuService"
-  URL = "#service"
-  weight = 3
-
-  [[menu.header]]
   name = "menuClients"
   URL = "#clients"
   weight = 4
@@ -54,11 +49,6 @@ defaultContentLanguageInSubdir = false
   name = "menuWorks"
   URL = "#works"
   weight = 5
-
-  [[menu.header]]
-  name = "menuTechnologies"
-  URL = "#technologies"
-  weight = 6
 
   [[menu.header]]
   name = "menuTestimonials"
