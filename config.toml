@@ -94,3 +94,4 @@ defaultContentLanguageInSubdir = false
 
   [params.jobs]
     show_no_open_positions = false
+    show_hiring_banner = true

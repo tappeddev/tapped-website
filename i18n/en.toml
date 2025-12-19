@@ -335,6 +335,12 @@ Experience with Kotlin or Java is a plus.'''
 [jobsPreTitle]
 other = '''Full-time, Part-time'''
 
+[jobsBannerText]
+other = "We're hiring! Join our team"
+
+[jobsBannerCta]
+other = "View jobs"
+
 [jobsJobTitle]
 other = '''Flutter & Dart Developer (m/w/d)'''
 

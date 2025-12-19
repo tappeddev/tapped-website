@@ -342,6 +342,12 @@ Kotlin oder Java sind ein Plus.'''
 [jobsPreTitle]
 other = '''Vollzeit, Teilzeit'''
 
+[jobsBannerText]
+other = "Wir suchen Verstärkung! Werde Teil unseres Teams"
+
+[jobsBannerCta]
+other = "Zu den Jobs"
+
 [jobsJobTitle]
 other = '''Flutter & Dart Entwickler (m/w/d)'''
 
