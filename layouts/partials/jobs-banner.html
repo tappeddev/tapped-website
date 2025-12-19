@@ -1,0 +1,18 @@
+{{ if and .IsHome .Site.Params.jobs.show_hiring_banner }}
+<section class="jobs-banner">
+  <div class="container">
+    <div class="jobs-banner__card">
+      <div class="jobs-banner__content">
+        <div class="jobs-banner__text-wrapper">
+          <i class="{{ .Site.Data.homepage.jobs.button.icon }} jobs-banner__icon"></i>
+          <span class="jobs-banner__text">{{ i18n "jobsBannerText" }}</span>
+        </div>
+        <a href="{{ "jobs/" | relLangURL }}" class="btn btn-primary jobs-banner__button">
+          {{ i18n "jobsBannerCta" }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+

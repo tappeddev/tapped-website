@@ -41,11 +41,6 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
   [[menu.header]]
-  name = "menuService"
-  URL = "#service"
-  weight = 3
-
-  [[menu.header]]
   name = "menuClients"
   URL = "#clients"
   weight = 4
@@ -56,11 +51,6 @@ defaultContentLanguageInSubdir = false
   weight = 5
 
   [[menu.header]]
-  name = "menuTechnologies"
-  URL = "#technologies"
-  weight = 6
-
-  [[menu.header]]
   name = "menuTestimonials"
   URL = "#testimonials"
   weight = 7
@@ -69,6 +59,11 @@ defaultContentLanguageInSubdir = false
   name = "menuContact"
   URL = "#contact"
   weight = 8
+
+  [[menu.header]]
+  name = "menuJobs"
+  URL = "jobs/"
+  weight = 9
 
   [[menu.footer]]
   name = "menuLegalNotice"
@@ -96,3 +91,7 @@ defaultContentLanguageInSubdir = false
 
   [params.footer]
       copyright = "© Tapped GmbH. All rights reserved."
+
+  [params.jobs]
+    show_no_open_positions = false
+    show_hiring_banner = true
