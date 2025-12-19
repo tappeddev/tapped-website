@@ -116,6 +116,10 @@
     transition: opacity 0.3s ease;
 }
 
+.images-with-name-item img {
+    margin-bottom: 16px;
+}
+
 .images-with-name-item:hover {
     opacity: 0.5 !important;
 }
