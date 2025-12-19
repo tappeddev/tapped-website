@@ -107,17 +107,17 @@
     width: 160px;
 }
 
-.images-with-name-item:hover .img-greyscaled {
-    filter: grayscale(0);
+
+/* .img-greyscaled - Grayscale filter completely removed, class kept for HTML compatibility but no styles applied */
+
+/* Remove default opacity from client items - override main.css */
+.images-with-name-item {
+    opacity: 1 !important;
+    transition: opacity 0.3s ease;
 }
 
-.images-with-name-item img {
-    margin-bottom: 8px;
-}
-
-.img-greyscaled {
-    transition: filter 200ms;
-    filter: grayscale(100%);
+.images-with-name-item:hover {
+    opacity: 0.5 !important;
 }
 
 /* jobs banner */
@@ -267,6 +267,16 @@
 
 .clients {
     justify-content: start;
+}
+
+/* Remove default opacity from client items - override main.css */
+.clients__item {
+    opacity: 1 !important;
+    transition: opacity 0.3s ease;
+}
+
+.clients__item:hover {
+    opacity: 0.5 !important;
 }
 
 .contact__info {
