@@ -1,6 +1,6 @@
 <!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}">
 
 <head>
 
@@ -15,6 +15,9 @@
 <body>
 
 {{ partial "legal_notice.html" . }}
+
+{{ partial "footer.html" . }}
+{{ partial "base-foot.html" . }}
 
 </body>
 

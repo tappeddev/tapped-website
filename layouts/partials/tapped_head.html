@@ -1,3 +1,23 @@
-<meta name="title" content="{{ i18n "title" }}"/>
-<meta name="description" content="{{ i18n "showcaseDescriptionRaw" }}"/>
-<title>{{ i18n "title" }}</title>
+{{- $title := i18n "title" -}}
+{{- $description := i18n "showcaseDescriptionRaw" -}}
+{{- if eq .Section "jobs" -}}
+  {{- $title = i18n "jobsTitle" -}}
+  {{- $description = i18n "jobsDescription" -}}
+{{- else if eq .Section "legal_notice" -}}
+  {{- $title = i18n "legalNoticeTitle" -}}
+  {{- $description = i18n "legalNoticeDescription" -}}
+{{- else if eq .Section "general_conditions" -}}
+  {{- $title = i18n "generalConditionsTitle" -}}
+  {{- $description = i18n "generalConditionsDescription" -}}
+{{- else if eq .Section "privacy" -}}
+  {{- $title = i18n "privacyTitle" -}}
+  {{- $description = i18n "privacyDescription" -}}
+{{- end -}}
+<meta name="title" content="{{ $title }}" />
+<meta name="description" content="{{ $description }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<title>{{ $title }}</title>

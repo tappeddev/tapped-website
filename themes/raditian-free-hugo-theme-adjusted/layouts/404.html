@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,8 @@
       })(window, document, "script", "dataLayer", "GTM-XXXXXXX");
     </script>
     <!-- End Google Tag Manager -->
-    <title>404 Page Not Found | Raditian</title>
+    <meta name="robots" content="noindex" />
+    <title>404 | {{ i18n "title" }}</title>
     <style>
       /* Fade In animation triggering after font load or 3s timeout */
       .rad-fade-in {
