@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "css/main.css"
+  URL = "css/main.purged.css"
   [[params.plugins.css]]
   URL = "css/rad-icons.css"
   [[params.plugins.css]]

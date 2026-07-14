@@ -12,10 +12,13 @@
             <a href="{{ .link }}" target="_blank" rel="noopener" aria-label="{{ .alt }}">
               <span class="sr-only">{{ .alt }}</span>
               <img
-                class="lozad img-responsive"
-                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x | absURL }}"
-                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                class="img-responsive"
+                src="{{ .logo.x | absURL }}"
+                srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                width="{{ .width }}"
+                height="{{ .height }}"
+                loading="lazy"
+                decoding="async"
                 alt="{{ .alt }}"
               />
             </a>

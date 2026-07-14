@@ -4,10 +4,15 @@
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
             <div class="col-12 col-md-6 mt-5 mt-sm-0">
                 <img
-                    class="lozad"
-                    alt="Team"
-                    data-src="{{ "img/team/team.png" | absURL }}"
-                    data-srcset="{{ "img/team/team.png" | absURL }} 1x, {{ "img/team/team@2x.png" | absURL }} 2x"
+                    class="img-responsive"
+                    src="{{ "img/team/team.webp" | absURL }}"
+                    srcset="{{ "img/team/team.webp" | absURL }} 700w, {{ "img/team/team-800.webp" | absURL }} 800w, {{ "img/team/team@2x.webp" | absURL }} 1400w"
+                    sizes="(max-width: 767px) calc(100vw - 48px), 50vw"
+                    width="700"
+                    height="525"
+                    loading="lazy"
+                    decoding="async"
+                    alt="{{ i18n "aboutPictureAlt" }}"
                 />
             </div>
             <div class="col-12 col-md-6 mt-5 mt-sm-0">

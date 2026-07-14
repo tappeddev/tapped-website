@@ -1,13 +1,23 @@
 {{ if .Site.Data.homepage.showcase.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="rad-showcase__bg">
-    <picture class="lozad img-responsive" data-alt="Showcase keyboard and mouse image">
+    <picture>
       <source
-        srcset="{{ .Site.Data.homepage.showcase.image.x_webp | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x_webp | absURL }} 2x"
+        srcset="{{ .Site.Data.homepage.showcase.image.mobile_webp | absURL }} 824w, {{ .Site.Data.homepage.showcase.image.x_webp | absURL }} 1178w, {{ .Site.Data.homepage.showcase.image._2x_webp | absURL }} 1473w"
+        sizes="(max-width: 767px) 100vw, 50vw"
         type="image/webp">
       <source
         srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
         type="image/png">
+      <img
+        class="img-responsive"
+        src="{{ .Site.Data.homepage.showcase.image.mobile_webp | absURL }}"
+        width="824"
+        height="786"
+        style="aspect-ratio: 824 / 786"
+        alt=""
+        fetchpriority="high"
+        decoding="async">
     </picture>
   </div>
   <div class="container">
@@ -30,9 +40,18 @@
     </div>
   </div>
   <div class="rad-showcase__bg rad-showcase__bg--mobile">
-    <picture class="lozad img-responsive" data-alt="Showcase keyboard and mouse image">
-      <source srcset="{{ .Site.Data.homepage.showcase.imageMobile.x_webp | absURL }}" type="image/webp">
+    <picture>
+      <source srcset="{{ .Site.Data.homepage.showcase.image.mobile_webp | absURL }}" type="image/webp">
       <source srcset="{{ .Site.Data.homepage.showcase.imageMobile.x | absURL }}" type="image/png">
+      <img
+        class="img-responsive"
+        src="{{ .Site.Data.homepage.showcase.image.mobile_webp | absURL }}"
+        width="824"
+        height="786"
+        style="aspect-ratio: 824 / 786"
+        alt=""
+        fetchpriority="high"
+        decoding="async">
     </picture>
   </div>
 </section>

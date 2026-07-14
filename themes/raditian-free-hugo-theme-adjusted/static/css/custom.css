@@ -8,8 +8,90 @@
     background: #be3369!important; /* Gecko Browsers */
 }
 
-* {
-    outline: none!important;
+*:focus-visible {
+    outline: 3px solid #96143c !important;
+    outline-offset: 3px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img-responsive {
+    height: auto;
+}
+
+.rad-fade-down,
+.rad-fade-in,
+.rad-fade-in-long,
+.rad-scale-down {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+@font-face {
+    font-family: "AutumnMoon";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/autumn-moon/AutumnMoon.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/inter/Inter-Black.woff2") format("woff2");
 }
 
 .header--sticky-triggered {
@@ -96,6 +178,19 @@
 .images-with-name-container a {
     color: #4d4d4d;
     text-decoration: none;
+}
+
+.experience__company,
+.testimonial__author-info > span {
+    color: #c52d25;
+}
+
+.testimonial__author-info h3 {
+    font-size: 1.25rem;
+}
+
+.testimonial__author-info h3 a {
+    color: #0056b3;
 }
 
 .images-with-name-item {
@@ -188,7 +283,9 @@
 }
 
 .img-technology {
+    width: 160px;
     height: 40px;
+    object-fit: contain;
 }
 
 .rad-showcase_bg img {
@@ -228,8 +325,9 @@
     transform: skew(-13deg);
 }
 
-.person img {
+.person > img {
     z-index: 2;
+    width: auto;
     height: 130px;
 }
 
@@ -308,10 +406,16 @@ h4 a:hover {
     }
 }
 
-/* For phone icon on contact button */
-.btn [class^="gg"] {
-    transform: scale(0.85); /* In order to have a size that is similar to the mail icon */
+/* Phone icon on contact button */
+.service__contact-icon {
+    display: inline-block;
     margin-right: 9px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 .about__social-media-icons {
