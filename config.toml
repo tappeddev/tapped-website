@@ -1,6 +1,9 @@
-baseURL = "https://www.tapped.dev/"
-languageCode = "en-us"
+baseURL = "https://tapped.dev/"
+locale = "en"
 theme = "raditian-free-hugo-theme-adjusted"
+disableKinds = ["taxonomy", "term"]
+disableDefaultLanguageRedirect = true
+enableRobotsTXT = true
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -8,8 +11,10 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.en]
+    locale = "en"
     weight = 2
   [languages.de]
+    locale = "de"
     weight = 1
 
 # Plugins

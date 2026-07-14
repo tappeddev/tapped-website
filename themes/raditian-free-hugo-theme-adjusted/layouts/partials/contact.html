@@ -15,14 +15,16 @@
                         <span class="title">{{ .title }}</span>
                         <div class="about__social-media-icons">
                             {{ if .linkedin_link }}
-                            <a href="{{ .linkedin_link }}" target="_blank">
+                            <a href="{{ .linkedin_link }}" target="_blank" rel="noopener" aria-label="{{ .name }} on LinkedIn">
+                                <span class="sr-only">{{ .name }} on LinkedIn</span>
                                 <img class="about__social-media-icon"
                                      alt="LinkedIn Logo"
                                      src="{{ "img/icons/linkedin.svg" | absURL }}">
                             </a>
                             {{ end }}
                             {{ if .x_link }}
-                            <a href="{{ .x_link }}" target="_blank">
+                            <a href="{{ .x_link }}" target="_blank" rel="noopener" aria-label="{{ .name }} on X">
+                                <span class="sr-only">{{ .name }} on X</span>
                                 <img class="about__social-media-icon"
                                      alt="X Logo"
                                      src="{{ "img/icons/x.svg" | absURL }}">

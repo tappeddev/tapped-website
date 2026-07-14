@@ -1,0 +1,17 @@
+# Tapped
+
+> Tapped GmbH is an app and software development company based in Munich, Germany, specializing in Flutter applications for mobile and web.
+
+## Main pages
+
+- [English homepage](https://tapped.dev/)
+- [German homepage](https://tapped.dev/de/)
+- [Jobs](https://tapped.dev/jobs/)
+- [Legal notice](https://tapped.dev/legal_notice/)
+- [General terms and conditions](https://tapped.dev/general_conditions/)
+- [Privacy policy](https://tapped.dev/privacy/)
+
+## Contact
+
+- Website: https://tapped.dev/
+- Email: info@tapped.dev

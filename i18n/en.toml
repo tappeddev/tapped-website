@@ -38,6 +38,24 @@ other = "General conditions"
 [menuPrivacy]
 other = "Privacy"
 
+[legalNoticeTitle]
+other = "Legal Notice | Tapped"
+
+[legalNoticeDescription]
+other = "Legal information and company details for Tapped GmbH in Munich."
+
+[generalConditionsTitle]
+other = "General Terms and Conditions | Tapped"
+
+[generalConditionsDescription]
+other = "General terms and conditions governing services provided by Tapped GmbH."
+
+[privacyTitle]
+other = "Privacy Policy | Tapped"
+
+[privacyDescription]
+other = "Information about how Tapped GmbH processes and protects personal data."
+
 [german]
 other = "German"
 

@@ -9,7 +9,8 @@
         <div class="clients">
           {{ range .Site.Data.homepage.clients.clients }}
           <div class="clients__item">
-            <a href="{{ .link }}" target="_blank">
+            <a href="{{ .link }}" target="_blank" rel="noopener" aria-label="{{ .alt }}">
+              <span class="sr-only">{{ .alt }}</span>
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="

@@ -38,6 +38,24 @@ other = "Allgemeine Geschäftsbedingungen"
 [menuPrivacy]
 other = "Datenschutz"
 
+[legalNoticeTitle]
+other = "Impressum | Tapped"
+
+[legalNoticeDescription]
+other = "Rechtliche Informationen und Unternehmensangaben der Tapped GmbH in München."
+
+[generalConditionsTitle]
+other = "Allgemeine Geschäftsbedingungen | Tapped"
+
+[generalConditionsDescription]
+other = "Allgemeine Geschäftsbedingungen für die Leistungen der Tapped GmbH."
+
+[privacyTitle]
+other = "Datenschutzerklärung | Tapped"
+
+[privacyDescription]
+other = "Informationen zur Verarbeitung und zum Schutz personenbezogener Daten durch die Tapped GmbH."
+
 [german]
 other = "Deutsch"
 
