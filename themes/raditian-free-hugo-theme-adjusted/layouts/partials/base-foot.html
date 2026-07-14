@@ -5,8 +5,13 @@
     const navbar = document.querySelector(".navbar-collapse");
     const header = document.querySelector(".header");
 
+    if (!toggler || !navbar || !header) {
+      return;
+    }
+
     function setMenuOpen(open) {
       navbar.classList.toggle("show", open);
+      header.classList.toggle("collapse", open);
       header.classList.toggle("show", open);
       toggler.setAttribute("aria-expanded", String(open));
     }
