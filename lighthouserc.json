@@ -1,0 +1,21 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./public",
+      "url": ["http://localhost/"],
+      "numberOfRuns": 3,
+      "settings": {
+        "blockedUrlPatterns": [
+          "*osano.com*",
+          "*googletagmanager.com*",
+          "*google-analytics.com*",
+          "*google.com/ccm*",
+          "*doubleclick.net*"
+        ]
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
