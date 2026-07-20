@@ -17,21 +17,27 @@
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
-          class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x | absURL }}"
-          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-          alt="{{ .title }}"
+          class='img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
+          src="{{ .image.x | absURL }}"
+          srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+          width="713"
+          height="500"
+          loading="lazy"
+          decoding="async"
+          alt="{{ i18n .title }}"
         />
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
-          class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x | absURL }}"
-          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-          alt="{{ .title }}"
+          class='img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
+          src="{{ .image.x | absURL }}"
+          srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+          width="713"
+          height="500"
+          loading="lazy"
+          decoding="async"
+          alt="{{ i18n .title }}"
         />
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">

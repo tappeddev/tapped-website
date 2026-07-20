@@ -10,8 +10,40 @@
 {{ end }}
 
 <!-- Optimize load performance -->
+<link rel="preconnect" href="https://cmp.osano.com" crossorigin>
+<link rel="dns-prefetch" href="https://cmp.osano.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="preload" href="{{ "/fonts/inter/Inter-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "/fonts/inter/Inter-ExtraBold.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+{{ if .IsHome }}
+<link rel="preload" as="image"
+      href="{{ "/img/showcase/showcase-824.webp" | absURL }}"
+      imagesrcset="{{ "/img/showcase/showcase-824.webp" | absURL }} 824w, {{ "/img/showcase/showcase.webp" | absURL }} 1178w, {{ "/img/showcase/showcase@2x.webp" | absURL }} 1473w"
+      imagesizes="(max-width: 991.98px) 100vw, 50vw"
+      type="image/webp"
+      fetchpriority="high">
+{{ end }}
+
+{{ range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .URL | relURL }}" />
+{{ end }}
+
+{{/* Osano must stay synchronous and before analytics so consent is established first (GDPR). */}}
+<script src="https://cmp.osano.com/AzZcqSSE5Emm31K4m/b5cedee9-b960-400f-b786-7ac47fb8f057/osano.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QMPL87BZ5X"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-QMPL87BZ5X');
+</script>
 
 <!-- Add the favicon -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ "/apple-icon-57x57.png" | absURL }}">
@@ -31,23 +63,3 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="{{ "/ms-icon-144x144.png" | absURL }}">
 <meta name="theme-color" content="#ffffff">
-
-<link href='https://css.gg/phone.css' rel='stylesheet'>
-<script src="https://cmp.osano.com/AzZcqSSE5Emm31K4m/b5cedee9-b960-400f-b786-7ac47fb8f057/osano.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QMPL87BZ5X"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-QMPL87BZ5X');
-</script>
-
-{{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | absURL }}" />
-{{ end }}

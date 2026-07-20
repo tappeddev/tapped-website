@@ -13,11 +13,58 @@
   {{- $title = i18n "privacyTitle" -}}
   {{- $description = i18n "privacyDescription" -}}
 {{- end -}}
-<meta name="title" content="{{ $title }}" />
+{{- $locale := cond (eq .Lang "de") "de_DE" "en_US" -}}
+{{- $alternateLocale := cond (eq .Lang "de") "en_US" "de_DE" -}}
+{{- $socialImage := "img/social-card.webp" | absURL -}}
 <meta name="description" content="{{ $description }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{ $description }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="Tapped" />
+<meta property="og:locale" content="{{ $locale }}" />
+<meta property="og:locale:alternate" content="{{ $alternateLocale }}" />
+<meta property="og:image" content="{{ $socialImage }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Tapped app development agency in Munich" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:image" content="{{ $socialImage }}" />
 <title>{{ $title }}</title>
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "{{ .Site.BaseURL }}#organization",
+  "name": "Tapped GmbH",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "img/logo_tapped_colored_black.svg" | absURL }}",
+  "image": "{{ $socialImage }}",
+  "description": {{ $description | jsonify | safeJS }},
+  "email": "contact@tapped.dev",
+  "telephone": "+49 176 30400083",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Krumpenhofweg 2",
+    "postalCode": "80639",
+    "addressLocality": "München",
+    "addressCountry": "DE"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "München"
+  },
+  "knowsAbout": [
+    "App development",
+    "Flutter development",
+    "iOS development",
+    "Android development",
+    "UI/UX design"
+  ]
+}
+</script>
+{{ end }}

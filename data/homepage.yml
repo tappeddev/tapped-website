@@ -8,6 +8,7 @@ showcase:
   image:
     x: "img/showcase/showcase.png"
     x_webp: "img/showcase/showcase.webp"
+    mobile_webp: "img/showcase/showcase-824.webp"
     _2x: "img/showcase/showcase@2x.png"
     _2x_webp: "img/showcase/showcase@2x.webp"
   imageMobile:
@@ -51,36 +52,50 @@ clients:
         _2x: "img/clients/fcb_inside_logo@2x.png"
       alt: "ballnews media GmbH"
       link: "https://fcbinside.de/"
+      width: 160
+      height: 27
     - logo:
         x: "img/clients/kaddick_logo.png"
         _2x: "img/clients/kaddick_logo@2x.png"
       alt: "Kaddick Goldschmiede GmbH"
       link: "https://www.kaddick.de/"
+      width: 145
+      height: 88
     - logo:
         x: "img/clients/mentz_logo.png"
         _2x: "img/clients/mentz_logo@2x.png"
       alt: "Mentz GmbH"
       link: "https://mentz.net"
+      width: 125
+      height: 30
     - logo:
         x: "img/clients/phntm_xyz_logo.png"
         _2x: "img/clients/phntm_xyz_logo@2x.png"
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
+      width: 284
+      height: 30
     - logo:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
       alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
       link: "https://www.dieringe.com"
+      width: 121
+      height: 42
     - logo:
         x: "img/clients/appella_logo.png"
         _2x: "img/clients/appella_logo@2x.png"
       alt: "Appella UG (haftungsbeschränkt)"
       link: "https://www.appella.app"
+      width: 161
+      height: 48
     - logo:
         x: "img/clients/vvs_logo.png"
         _2x: "img/clients/vvs_logo@2x.png"
       alt: "Verkehrs- und Tarifverbund Stuttgart GmbH (VVS)"
       link: "https://www.vvs.de"
+      width: 96
+      height: 93
 
 works:
   enable: true
@@ -88,43 +103,43 @@ works:
     - title: "customersVVSMobileTitle"
       description: "customersVVSMobileDescription"
       image:
-        x: "img/works/vvs_mobil.png"
-        _2x: "img/works/vvs_mobil@2x.png"
+        x: "img/works/vvs_mobil.webp"
+        _2x: "img/works/vvs_mobil@2x.webp"
     - title: "customersFcbInsideTitle"
       description: "customersFcbInsideDescription"
       image:
-        x: "img/works/fcb_inside.png"
-        _2x: "img/works/fcb_inside@2x.png"
+        x: "img/works/fcb_inside.webp"
+        _2x: "img/works/fcb_inside@2x.webp"
       is_even: true
     - title: "customersAurumToolsTitle"
       description: "customersAurumToolsDescription"
       image:
-        x: "img/works/aurum_tools.png"
-        _2x: "img/works/aurum_tools@2x.png"
+        x: "img/works/aurum_tools.webp"
+        _2x: "img/works/aurum_tools@2x.webp"
       is_even: false
     - title: "customersStorywaysTitle"
       description: "customersStorywaysDescription"
       image:
-        x: "img/works/storyways.png"
-        _2x: "img/works/storyways@2x.png"
+        x: "img/works/storyways.webp"
+        _2x: "img/works/storyways@2x.webp"
       is_even: true
     - title: "customersVVSTitle"
       description: "customersVVSDescription"
       image:
-        x: "img/works/vvs_cycle_planer.png"
-        _2x: "img/works/vvs_cycle_planer@2x.png"
+        x: "img/works/vvs_cycle_planer.webp"
+        _2x: "img/works/vvs_cycle_planer@2x.webp"
       is_even: false
     - title: "customersDieRingeTitle"
       description: "customersDieRingeDescription"
       image:
-        x: "img/works/DieRinge.png"
-        _2x: "img/works/DieRinge@2x.png"
+        x: "img/works/DieRinge.webp"
+        _2x: "img/works/DieRinge@2x.webp"
       is_even: true
     - title: "worksAppellaTitle"
       description: "worksAppellaDescription"
       image:
-        x: "img/works/appella.png"
-        _2x: "img/works/appella@2x.png"
+        x: "img/works/appella.webp"
+        _2x: "img/works/appella@2x.webp"
       is_even: false
 
 # technologies
@@ -241,19 +256,21 @@ contact:
     icon: "icon-mail-fill"
   items:
     - image:
-        x: "img/team/julian.png"
-        _2x: "img/team/julian@2x.png"
+        x: "img/team/julian.webp"
+        _2x: "img/team/julian@2x.webp"
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
+      width: 116
+      height: 130
       linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
-      x_link: "https://twitter.com/JulianLenz_"
     - image:
-        x: "img/team/stefan.png"
-        _2x: "img/team/stefan@2x.png"
+        x: "img/team/stefan.webp"
+        _2x: "img/team/stefan@2x.webp"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
+      width: 107
+      height: 130
       linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
-      x_link: ""
 
 # jobs
 jobs:

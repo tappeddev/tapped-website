@@ -22,20 +22,11 @@ defaultContentLanguageInSubdir = false
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "css/main.css"
+  URL = "css/main.purged.css"
   [[params.plugins.css]]
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "js/rad-animations.js"
-  [[params.plugins.js]]
-  URL = "js/sticky-header.js"
-  [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
-
 
 # navigation
 [menu]

@@ -6,13 +6,15 @@
                 <h2>{{ i18n "technologiesTitle" }}</h2>
                 <div class="images-with-name-container pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.technologies.items }}
-                    <a class="images-with-name-item" href="{{ .link }}" target="_blank">
+                    <a class="images-with-name-item" href="{{ .link }}" target="_blank" rel="noopener">
                         <img
-                                class="lozad img-responsive img-greyscaled img-technology"
-                                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                                data-src="{{ .logo.x | absURL }}"
-                                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
-                                alt="{{ .alt }}"
+                                class="img-responsive img-greyscaled img-technology"
+                                src="{{ .logo.x | absURL }}"
+                                width="160"
+                                height="40"
+                                loading="lazy"
+                                decoding="async"
+                                alt="{{ .name }} logo"
                         />
                         <span>{{ .name }}</span>
                     </a>
