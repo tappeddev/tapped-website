@@ -15,7 +15,7 @@
                 <p class="lead">{{ i18n .Site.Data.homepage.service.description | safeHTML }}</p>
                 <div class="lead mb-3">{{ i18n "serviceAnyQuestions" | safeHTML }}</div>
                 <a href="#contact" class="btn btn-primary service__contact-button mb-sm-5">
-                    <span class="service__contact-icon" aria-hidden="true">☎</span>
+                    <i class="{{ .Site.Data.homepage.service.button.icon }}" aria-hidden="true"></i>
                     {{ i18n "serviceContactButtonText" }}
                 </a>
             </div>
