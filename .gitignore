@@ -14,9 +14,6 @@ dist/
 /public/
 /resources/_gen/
 
-# Lighthouse CI local results
-.lighthouseci/
-
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
