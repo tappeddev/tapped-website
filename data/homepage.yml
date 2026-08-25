@@ -205,6 +205,11 @@ technologies:
             x: "img/technologies/supabase.svg"
             _2x: "img/technologies/supabase.svg"
           link: "https://supabase.com/"
+        - name: "Firebase"
+          logo:
+            x: "img/technologies/firebase.svg"
+            _2x: "img/technologies/firebase.svg"
+          link: "https://firebase.google.com/"
         - name: "MySQL"
           logo:
             x: "img/technologies/mysql.svg"
