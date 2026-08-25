@@ -540,21 +540,7 @@ body {
     align-items: center;
 }
 
-.person::before {
-    content: '';
-    position: absolute;
-    left: 50px;
-    top: 0;
-    width: 70px;
-    height: 100%;
-    z-index: 1;
-    background-color: #edf1f4;
-    -webkit-transform: skew(-13deg);
-    transform: skew(-13deg);
-}
-
 .person > img {
-    z-index: 2;
     width: auto;
     height: 130px;
 }
@@ -2943,10 +2929,6 @@ button.work-stats__item {
 .person .name-and-title a.name:hover,
 .person .name-and-title a.name:focus-visible {
     color: #96143c;
-}
-
-.person--plain::before {
-    content: none;
 }
 
 .person--plain > img {
