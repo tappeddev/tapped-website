@@ -15,8 +15,10 @@
 <!-- Optimize load performance -->
 <link rel="preconnect" href="https://cmp.osano.com" crossorigin>
 <link rel="dns-prefetch" href="https://cmp.osano.com">
+{{ if hugo.IsProduction }}
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+{{ end }}
 <link rel="preload" href="{{ "/fonts/inter/Inter-latin.var.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
 {{ if .IsHome }}
 <link rel="preload" as="image"
@@ -45,19 +47,31 @@
 
 {{/* Osano must stay synchronous and before analytics so consent is established first (GDPR). */}}
 <script src="https://cmp.osano.com/AzZcqSSE5Emm31K4m/b5cedee9-b960-400f-b786-7ac47fb8f057/osano.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QMPL87BZ5X"></script>
+{{ if hugo.IsProduction }}
+<!-- Global site tag (gtag.js) - Google Analytics; skipped on localhost even in production builds -->
 <script>
-    window.dataLayer = window.dataLayer || [];
+(function () {
+    var host = location.hostname;
+    if (host === 'localhost' || host === '127.0.0.1' || host === '[::1]') {
+        return;
+    }
 
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-QMPL87BZ5X';
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
     function gtag() {
         dataLayer.push(arguments);
     }
+    window.gtag = gtag;
 
     gtag('js', new Date());
-
     gtag('config', 'G-QMPL87BZ5X');
+})();
 </script>
+{{ end }}
 
 <!-- Add the favicon -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ "/apple-icon-57x57.png" | absURL }}">
