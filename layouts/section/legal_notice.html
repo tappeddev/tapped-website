@@ -4,9 +4,6 @@
     <header class="page-hero">
       <p class="page-kicker">{{ i18n "legalPageKicker" }}</p>
       <h1>{{ .Title }}</h1>
-      {{ with .Description }}
-      <p class="lead">{{ . }}</p>
-      {{ end }}
     </header>
     <div class="page-prose legal-prose">
       {{ partial "legal_notice.html" . }}
