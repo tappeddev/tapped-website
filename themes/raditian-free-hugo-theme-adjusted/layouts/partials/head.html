@@ -1,12 +1,15 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="google" content="notranslate" />
 
 {{ range .AllTranslations }}
 <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}" />
 {{ end }}
-{{ if .IsHome }}
-<link rel="alternate" href="{{ .Site.BaseURL }}" hreflang="x-default" />
+{{ range .AllTranslations }}
+{{ if eq .Lang "en" }}
+<link rel="alternate" href="{{ .Permalink }}" hreflang="x-default" />
+{{ end }}
 {{ end }}
 
 <!-- Optimize load performance -->

@@ -5,17 +5,22 @@
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 pr-lg-5 mt-sm-0 mt-md-3">
         <h1 class="display-1">
           {{ i18n "showcaseTitle" }}
-          <br />
-          <span>{{ i18n "showcaseSubtitle" }}</span>
         </h1>
         <p class="lead">
-          {{ i18n "showcaseDescription" | safeHTML }}
+          {{ i18n "showcaseSubtitle" }}. {{ i18n "showcaseDescription" | safeHTML }}
         </p>
-        <!-- TODO: Don´t hardcode contact url -->
-        <a href="#contact" class="btn btn-primary">
-          <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
-          {{ i18n "showcaseContactButtonText" }}
-        </a>
+        <div class="rad-showcase__actions">
+          {{ with .Site.GetPage "/contact" }}
+          <a href="{{ .RelPermalink }}" class="btn-pill btn-pill--primary">
+            {{ i18n "showcasePrimaryCta" }}
+          </a>
+          {{ end }}
+          {{ with .Site.GetPage "/work" }}
+          <a href="{{ .RelPermalink }}" class="btn-pill btn-pill--secondary">
+            {{ i18n "showcaseSecondaryCta" }}
+          </a>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
@@ -44,7 +49,7 @@
         width="824"
         height="786"
         style="aspect-ratio: 824 / 786"
-        alt=""
+        alt="{{ i18n "showcaseImageAlt" }}"
         fetchpriority="high"
         decoding="async">
     </picture>

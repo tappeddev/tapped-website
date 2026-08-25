@@ -1,28 +1,61 @@
 <footer class="footer">
-    <div class="container">
-        <div class="footer__left">
-            <div class="footer__copy">
-                {{ .Site.Params.footer.copyright }}
-                <br>
-                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </div>
-        </div>
-        <div class="footer__links">
-            <ul class="navbar-nav ">
-                {{ range .Site.Menus.footer }}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL | relLangURL }}">{{ i18n .Name | upper }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        </div>
-        <div class="language-switcher">
-            {{ range $index, $translation := .AllTranslations }}
-            {{ if $index }}<span aria-hidden="true"> • </span>{{ end }}
-            <a href="{{ $translation.RelPermalink }}" lang="{{ $translation.Lang }}" hreflang="{{ $translation.Lang }}">
-                {{ if eq $translation.Lang "de" }}Deutsch{{ else }}English{{ end }}
-            </a>
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="footer__logo" href="{{ .Site.Home.RelPermalink }}">
+          <img
+            src="{{ .Site.Data.homepage.header.image.x | absURL }}"
+            width="110"
+            height="30"
+            alt="{{ i18n "logoAlt" }}"
+          />
+        </a>
+        <p class="footer__blurb">{{ i18n "footerBlurb" }}</p>
+      </div>
+
+      <nav class="footer__col" aria-label="{{ i18n "footerSite" }}">
+        <p class="footer__heading">{{ i18n "footerSite" }}</p>
+        <ul>
+          {{ range .Site.Menus.header }}
+          <li>
+            {{ $href := .URL | relLangURL }}
+            {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+            <a href="{{ $href }}">{{ i18n .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="{{ i18n "footerLegal" }}">
+        <p class="footer__heading">{{ i18n "footerLegal" }}</p>
+        <ul>
+          {{ range .Site.Menus.footer }}
+            {{ if ge .Weight 12 }}
+            <li>
+              {{ $href := .URL | relLangURL }}
+              {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+              <a href="{{ $href }}">{{ i18n .Name }}</a>
+            </li>
             {{ end }}
-        </div>
+          {{ end }}
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <p class="footer__heading">{{ i18n "footerLang" }}</p>
+        {{ range .AllTranslations }}
+          {{ if ne .Lang $.Lang }}
+          <a class="footer__lang" href="{{ .RelPermalink }}" lang="{{ .Lang }}" hreflang="{{ .Lang }}">
+            {{ if eq .Lang "de" }}Deutsch{{ else }}English{{ end }} →
+          </a>
+          {{ end }}
+        {{ end }}
+        <a class="footer__email" href="mailto:contact@tapped.dev">contact@tapped.dev</a>
+      </div>
     </div>
+
+    <div class="footer__bar">
+      <p>{{ i18n "footerCopyright" }}</p>
+    </div>
+  </div>
 </footer>

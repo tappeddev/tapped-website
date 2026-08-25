@@ -33,48 +33,68 @@ defaultContentLanguageInSubdir = false
 
   [[menu.header]]
   name = "menuAbout"
-  URL = "#about"
+  pageRef = "/about"
   weight = 2
 
   [[menu.header]]
-  name = "menuClients"
-  URL = "#clients"
-  weight = 4
+  name = "menuService"
+  pageRef = "/services"
+  weight = 3
 
   [[menu.header]]
   name = "menuWorks"
-  URL = "#works"
+  pageRef = "/work"
   weight = 5
 
   [[menu.header]]
-  name = "menuTestimonials"
-  URL = "#testimonials"
-  weight = 7
-
-  [[menu.header]]
   name = "menuContact"
-  URL = "#contact"
+  pageRef = "/contact"
   weight = 8
 
   [[menu.header]]
   name = "menuJobs"
-  URL = "jobs/"
+  pageRef = "/jobs"
   weight = 9
 
   [[menu.footer]]
-  name = "menuLegalNotice"
-  URL = "legal_notice"
+  name = "menuAbout"
+  pageRef = "/about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "menuService"
+  pageRef = "/services"
   weight = 2
 
   [[menu.footer]]
-  name = "menuGeneralConditions"
-  URL = "general_conditions"
+  name = "menuWorks"
+  pageRef = "/work"
   weight = 3
 
   [[menu.footer]]
-  name = "menuPrivacy"
-  URL = "privacy"
+  name = "menuContact"
+  pageRef = "/contact"
   weight = 4
+
+  [[menu.footer]]
+  name = "menuJobs"
+  pageRef = "/jobs"
+  weight = 5
+
+      [[menu.footer]]
+      name = "menuLegalNotice"
+      pageRef = "/legal_notice"
+      weight = 12
+
+      [[menu.footer]]
+      name = "menuGeneralConditions"
+      pageRef = "/general_conditions"
+      weight = 13
+
+      [[menu.footer]]
+      name = "menuPrivacy"
+      pageRef = "/privacy"
+      weight = 14
 
 
 [params]
@@ -89,5 +109,6 @@ defaultContentLanguageInSubdir = false
       copyright = "© Tapped GmbH. All rights reserved."
 
   [params.jobs]
-    show_no_open_positions = false
-    show_hiring_banner = false
+    # true  = open-role listing + homepage hiring banner
+    # false = "no open roles" page (design next)
+    hiring = false

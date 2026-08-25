@@ -1,0 +1,249 @@
+{{- $p := .page -}}
+{{- $description := .description -}}
+{{- $socialImage := .socialImage -}}
+{{- $home := $p.Site.Home.Permalink -}}
+{{- $orgID := printf "%s#organization" $home -}}
+{{- $services := slice -}}
+{{- with $p.Site.GetPage "/services" -}}
+  {{- $services = .RegularPages.ByWeight -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": {{ $orgID | jsonify | safeJS }},
+  "name": "Tapped",
+  "legalName": "Tapped GmbH",
+  "url": {{ $home | jsonify | safeJS }},
+  "logo": {{ "img/logo_tapped_colored_black.svg" | absURL | jsonify | safeJS }},
+  "image": {{ $socialImage | jsonify | safeJS }},
+  "email": "contact@tapped.dev",
+  "telephone": "+49 176 30400083",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Krumpenhofweg 2",
+    "postalCode": "80639",
+    "addressLocality": "München",
+    "addressCountry": "DE"
+  },
+  "foundingDate": "2019-09-16",
+  "areaServed": [
+    { "@type": "City", "name": "München" },
+    { "@type": "Country", "name": "Germany" }
+  ],
+  "knowsAbout": ["App development", "Flutter development", "Dart", "iOS development", "Android development", "UI/UX design", "Native to Flutter migration"],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Stefan Schaller",
+      "jobTitle": "CEO / Co-Founder",
+      "sameAs": "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
+    },
+    {
+      "@type": "Person",
+      "name": "Julian Bissekkou",
+      "jobTitle": "CTO / Co-Founder",
+      "sameAs": "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
+    }
+  ]
+  {{- if $services -}},
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": {{ i18n "serviceTitle" | jsonify | safeJS }},
+    "itemListElement": [
+      {{- range $i, $s := $services -}}
+      {{- if $i }},{{ end }}
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": {{ $s.Title | jsonify | safeJS }},
+          "url": {{ $s.Permalink | jsonify | safeJS }}
+        }
+      }
+      {{- end }}
+    ]
+  }
+  {{- end }}
+}
+</script>
+{{ if $p.IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tapped",
+  "url": {{ $home | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "publisher": { "@id": {{ $orgID | jsonify | safeJS }} },
+  "inLanguage": ["en", "de"]
+}
+</script>
+{{ end }}
+{{ if and (eq $p.Section "services") (eq $p.Kind "page") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ $p.Title | jsonify | safeJS }},
+  "serviceType": {{ $p.Title | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ $p.Permalink | jsonify | safeJS }},
+  "provider": { "@id": {{ $orgID | jsonify | safeJS }} },
+  "areaServed": [
+    { "@type": "City", "name": "München" },
+    { "@type": "Country", "name": "Germany" }
+  ]
+}
+</script>
+{{ end }}
+{{ if and (eq $p.Section "work") (eq $p.Kind "page") }}
+{{- $workName := $p.Title -}}
+{{- with $p.Params.heading }}{{ $workName = . }}{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": {{ $workName | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ $p.Permalink | jsonify | safeJS }},
+  "image": {{ ($p.Params.image | absURL) | jsonify | safeJS }},
+  "inLanguage": {{ $p.Lang | jsonify | safeJS }},
+  "about": { "@type": "Thing", "name": "Flutter" },
+  "creator": { "@id": {{ $orgID | jsonify | safeJS }} }
+  {{- with $p.Params.client -}},
+  "contributor": { "@type": "Organization", "name": {{ . | jsonify | safeJS }} }
+  {{- end }}
+}
+</script>
+{{ end }}
+{{ if eq $p.Section "about" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": {{ $p.Title | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ $p.Permalink | jsonify | safeJS }},
+  "inLanguage": {{ $p.Lang | jsonify | safeJS }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Tapped",
+    "url": {{ $home | jsonify | safeJS }}
+  },
+  "about": { "@id": {{ $orgID | jsonify | safeJS }} },
+  "mainEntity": { "@id": {{ $orgID | jsonify | safeJS }} }
+}
+</script>
+{{ end }}
+{{ if eq $p.Section "contact" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": {{ $p.Title | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ $p.Permalink | jsonify | safeJS }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Tapped",
+    "url": {{ $home | jsonify | safeJS }}
+  },
+  "about": { "@id": {{ $orgID | jsonify | safeJS }} }
+}
+</script>
+{{ end }}
+{{ if and (eq $p.Section "jobs") $p.Site.Params.jobs.hiring }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": {{ i18n "jobsJobTitle" | jsonify | safeJS }},
+  "description": {{ i18n "jobsDescription" | jsonify | safeJS }},
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Tapped",
+    "value": "flutter-dart-developer"
+  },
+  "datePosted": "2026-07-01",
+  "validThrough": "2027-07-01",
+  "employmentType": ["FULL_TIME", "PART_TIME"],
+  "hiringOrganization": { "@id": {{ $orgID | jsonify | safeJS }} },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "München",
+      "addressCountry": "DE"
+    }
+  },
+  "jobLocationType": "TELECOMMUTE",
+  "applicantLocationRequirements": { "@type": "Country", "name": "Germany" },
+  "skills": "Flutter, Dart",
+  "directApply": true,
+  "applicationContact": {
+    "@type": "ContactPoint",
+    "email": "jobs@tapped.dev",
+    "contactType": "HR"
+  },
+  "url": {{ $p.Permalink | jsonify | safeJS }}
+}
+</script>
+{{ end }}
+{{ with $p.Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := . -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.question | jsonify | safeJS }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.answer | $p.RenderString | jsonify | safeJS }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+{{ if not $p.IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Tapped",
+      "item": {{ $home | jsonify | safeJS }}
+    }
+    {{- if and $p.Parent (not $p.Parent.IsHome) -}}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ $p.Parent.Title | jsonify | safeJS }},
+      "item": {{ $p.Parent.Permalink | jsonify | safeJS }}
+    },{
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ $p.Title | jsonify | safeJS }},
+      "item": {{ $p.Permalink | jsonify | safeJS }}
+    }
+    {{- else -}}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ $p.Title | jsonify | safeJS }},
+      "item": {{ $p.Permalink | jsonify | safeJS }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}

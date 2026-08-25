@@ -1,5 +1,5 @@
 [title]
-other = "Tapped | App und Software Entwicklung in München"
+other = "Flutter Agentur München – App Entwicklung | Tapped"
 
 # top menu
 
@@ -44,6 +44,36 @@ other = "Impressum | Tapped"
 [legalNoticeDescription]
 other = "Rechtliche Informationen und Unternehmensangaben der Tapped GmbH in München."
 
+[legalNoticeCompany]
+other = "Unternehmen"
+
+[legalNoticeRegisterNumber]
+other = "Registernummer"
+
+[legalNoticeRegisteredIn]
+other = "Eintragung in"
+
+[legalNoticeRegisteredSince]
+other = "Eintragung seit"
+
+[legalNoticeVatId]
+other = "USt-IdNr."
+
+[legalNoticeManagingDirectors]
+other = "Geschäftsführung"
+
+[legalNoticeReachability]
+other = "Erreichbarkeit"
+
+[legalNoticeManagingDirector]
+other = "Geschäftsführer"
+
+[legalNoticeEmail]
+other = "E-Mail"
+
+[agbDownload]
+other = "Download der AGBs als PDF"
+
 [generalConditionsTitle]
 other = "Allgemeine Geschäftsbedingungen | Tapped"
 
@@ -65,61 +95,151 @@ other = "Englisch"
 # showcase
 
 [showcaseTitle]
-other = "Hallo, wir sind Tapped."
+other = "Flutter Agentur in München"
 
 [showcaseSubtitle]
-other = "Flutter Entwicklung"
+other = "App-Entwicklung für iOS, Android & Web"
 
 [showcaseDescription]
 other = '''
-Ihr verlässlicher Partner für die Planung und Entwicklung von Apps.
-Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
-unterstützen Sie weiterhin bei Ihren Zielen.
+Dein verlässlicher Partner für die Planung und Entwicklung von Apps.
+<br>Egal ob iOS, Android oder Web, wir bringen dein Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
+unterstützen dich weiterhin bei deinen Zielen.
 '''
 
 [showcaseDescriptionRaw]
-other = '''
-Ihr verlässlicher Partner für die Planung und Umsetzung von Apps.
-Egal ob iOS, Android oder Web, wir bringen Ihr Produkt mit der nötigen Expertise und Leidenschaft auf den Markt und
-unterstützen Sie weiterhin bei Ihren Zielen.
-'''
+other = "Tapped ist deine Flutter-Agentur in München. Apps für iOS, Android und Web aus einer Codebasis — von der Planung bis zum App Store."
 
 # Ein Langzeit
 
 [showcaseContactButtonText]
 other = "Kontakt"
 
+[showcasePrimaryCta]
+other = "Projekt starten"
+
+[showcaseSecondaryCta]
+other = "Unsere Projekte"
+
 # about
 
 [aboutPictureAlt]
-other = "About picture alt"
+other = "Das Tapped-Team in München"
 
 [aboutTitle]
-other = "Wir sind ..."
+other = "Hallo, wir sind Tapped."
 
-[aboutContent]
-other = '''<p class="lead">
-...ein App & Software Entwicklungsunternehmen in München, dass sich auf die Entwicklung von Flutter-Apps spezialisiert hat.
-</p>
-<p class="lead">
-Über die Jahre hat es sich unser Team zur Aufgabe gemacht, Apps effizienter und schneller auf alle Plattformen zu bringen.
-Durch den Einsatz von Cross-Plattform Tools sind wir in der Lage, bereits geschriebenen Quellcode wiederzuverwenden. Damit sparen wir für Sie nicht nur Entwicklungszeit,
-sondern auch Kosten.
-<br>
-<br>
-Darüber hinaus bringen wir die Expertise und das Verständnis jeder nativen Plattform mit, um sicherzustellen, dass
-wir die Qualität liefern, die Ihre Nutzer von nativen Apps gewohnt sind.
-<br>
-</p>
-<p class="lead">Unser Hauptsitz ist in München, wir sind aber international tätig.</p>
-'''
+[aboutApproachTitle]
+other = "Wie wir arbeiten"
+
+[aboutApproachLead]
+other = '''Wir sind ein eingespieltes Team. Du sprichst direkt mit den Leuten, die dein Produkt entwickeln, vom ersten Gespräch bis zum Release. Dabei verstehen wir das Unternehmen hinter dem Produkt, den Kunden vor dem Bildschirm und die Richtung, in die es gehen muss. Häufig arbeiten wir in bestehende Teams eingebunden und unterstützen dort, wo Kapazität oder Erfahrung fehlt.<br>Nach einem <a href="/de/contact/">kostenlosen Erstgespräch</a> klären wir Anforderungen, skizzieren den Weg und schätzen Zeit und Budget.'''
+
+[aboutStatFounded]
+other = "Tapped gegründet"
+
+[aboutStatProjects]
+other = "abgeschlossene Projekte"
+
+[aboutStatProjectsValue]
+other = "15+"
+
+[aboutStatUsersValue]
+other = "> 1 Mio"
+
+[aboutStatUsers]
+other = "zufriedene App-Nutzerinnen und Nutzer"
+
+[aboutStatUsersTooltip]
+other = "Berechnete Nutzerzahl aus Apps, die wir entwickelt haben, mit mehr als 4,5 Sternen. Stand: 26. August 2026."
+
+[foundersTitle]
+other = "Die Gründer"
+
+[teamTitle]
+other = "Das Team"
+
+[teamEventsTitle]
+other = "Team-Events"
+
+[teamEventsLead]
+other = "Wir arbeiten nicht nur remote, unser Team kommt regelmäßig zu unterschiedlichen Events zusammen."
+
+[teamPhotosLabel]
+other = "Fotos von Team-Events"
+
+[teamPhotosPrev]
+other = "Vorherige Fotos"
+
+[teamPhotosNext]
+other = "Nächste Fotos"
+
+[teamPhotoAltTogether]
+other = "Das Tapped-Team steht zusammen am Wasser, in Firmen-Hoodies"
+
+[teamPhotoAltTrail]
+other = "Tapped-Teamkollegen im Gespräch auf einer Holzbrücke im Wald"
+
+[teamPhotoAltWinter]
+other = "Drei Tapped-Teamkollegen im Schnee, in Firmen-Hoodies"
+
+[teamPhotoAltHike]
+other = "Das Tapped-Team auf einer Holzbrücke während einer Wanderung"
+
+[teamPhotoAltMountains]
+other = "Tapped-Teamkollegen auf einem Bergweg"
+
+[teamPhotoAltCarts]
+other = "Das Tapped-Team auf Mountaincarts, mit Helmen"
+
+[teamRoleCto]
+other = "CTO, Mitgründer"
+
+[teamRoleCeo]
+other = "CEO, Mitgründer"
+
+[teamRoleDeveloper]
+other = "Entwickler"
+
+[teamDialogClose]
+other = "Schließen"
+
+[teamBioStefan]
+other = "Stefan ist Geschäftsführer und Flutter/Mobile-Entwickler mit mehr als 6 Jahren Erfahrung in der Entwicklung von mobilen Applikationen und Websites mit Flutter. Zuständig für die Projektleitung und die technische Koordination der Projekte."
+
+[teamBioJulian]
+other = "Zuständig für die Projektleitung und die technische Koordination der Projekte. In den 10 Jahren Arbeitserfahrung wurde eine Vielzahl an Projekten betreut, darunter auch die Planung von Projekten mit klaren Deadlines und Förderungs-Budgets. Das technische Wissen ist hierbei essentiell, um effektive Entscheidungen treffen zu können und Kunden optimal zu beraten."
+
+[teamBioTarek]
+other = "Zuständig für Architektur und Entwicklung. Tarek ist ein Multitalent mit dem Fokus auf Flutter und mobile Applikationen sowie auf Backend-Integration mit Supabase und CMS-Lösungen wie Strapi und Directus. In seiner knapp 7-jährigen Karriere in der Entwicklung mobiler Applikationen baut Tarek sein Wissen weiter aus, arbeitet sich sehr schnell in neue Konzepte ein und überführt Anforderungen in eine solide Architektur."
+
+[teamBioOtto]
+other = "Zuständig für Entwicklung. Otto bringt Erfahrung in Flutter sowie in Backend-Systemen wie Strapi und Supabase mit und verbindet mobile App-Entwicklung mit solider Backend-Integration."
+
+[teamBioSteffen]
+other = "Zuständig für Architektur und Entwicklung. Steffen bringt mehrjährige Erfahrung in der Entwicklung von Web- und Mobilanwendungen mit und hat ein breites Spektrum an Projekten von der Konzeption bis zur Auslieferung begleitet. Mit seiner Begeisterung für Cloud-Technologien und moderne Backend-Systeme ist er eine große Bereicherung für das Team."
+
+[teamBioJean]
+other = "Zuständig für Entwicklung. Jean punktet nicht nur mit jahrelanger Flutter-Erfahrung, sondern taucht auch gern in neue komplexe Themengebiete ein und scheut sich vor keiner neuen Herausforderung. Beispielsweise Visualisierung, Aufbereitung und Analyse von Positionsdaten mit Python."
+
+[teamBioStefanB]
+other = "Zuständig für Strategie und Entwicklung. Stefan bringt tiefes Flutter-Know-how aus mehreren Produktlinien und Kundenprojekten mit und verbindet saubere App-Architektur mit einem starken Blick für UI/UX. Neben Dart/SQL und CI/CD hat er zuletzt vor allem Lösungen rund um mobile ERP-Anbindung, sichere Dokumentenprozesse und datengetriebene Auswertungen umgesetzt."
+
+[techGroupFrontend]
+other = "Frontend"
+
+[techGroupBackend]
+other = "Backend & APIs"
+
+[techGroupContent]
+other = "Inhalt & Lokalisierung"
 
 [personAlt]
-other = "Ein Memoji Bild von {{ .name }}"
+other = "Foto von {{ .name }}"
 
 # clients
 [clientsTitle]
-other = "Unsere Kunden"
+other = "Unternehmen, mit denen wir arbeiten"
 
 # works
 
@@ -131,13 +251,12 @@ other = "Storyways"
 
 [customersStorywaysDescription]
 other = '''
-Geschichten, die durch deine Entscheidungen beeinflusst werden. Lese auf eine aufregende neue Weise.
+Spielbücher, in denen du zu einer bestimmten Seite springst, neu als App: interaktiver, unterhaltsamer und deutlich cooler.
 <br>
-Spüre die Kraft deiner Entscheidungen!
-In interaktiven Büchern gestalten deine Entscheidungen die Geschichte und das Schicksal der Hauptfiguren. Jeder Weg, den du wählst, wird dich zu einem ganz anderen Ende führen. Lade unsere App herunter und lese interaktive Bücher verschiedener Genres und Autor:innen.
+Wir haben das gesamte System entwickelt: Backend, Frontend und eine SugarCube Runtime aus ANTLR und einer Grammatik, damit Autor:innen vollständig flexible interaktive Geschichten gestalten konnten.
 <br>
 <br>
-Mehr Informationen auf <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
+Das Projekt ist inzwischen eingestellt. Mehr auf <a href="https://www.storyways.app" target="_blank">www.storyways.app</a>
 '''
 
 [customersVVSMobileTitle]
@@ -170,11 +289,10 @@ other = "AurumTools"
 [customersAurumToolsDescription]
 other = '''
 Spüre die Kraft deiner Werkbank!
-AurumTools — die kostenlose All-in-one-App für Goldschmiede.
-Mit praktischen Helfern wie Legierungsrechnern, Edelstein-Tools und Atelier-Utilities macht sie den Alltag im Studio einfacher und unterstützt traditionelle Handwerkskunst.
+AurumTools — die kostenlose All-in-one-App für Goldschmiede, ein Nebenprojekt der Kaddick Goldschmiede in München. Legierungsrechner, Edelstein-Tools, Ringweiten, Live-Edelmetallkurse und B2B/B2C-Preise gehören an die Werkbank, nicht in eine Tabelle. iOS, Android und eine Web App.
 <br>
 <br>
-Mehr Informationen auf <a href="https://www.kaddick.de/aurumtool/" target="_blank">www.kaddick.de/aurumtool</a>.
+Die Vorstellung gibt es auf <a href="https://www.youtube.com/watch?v=iefLNMQhrmM" target="_blank">YouTube</a>. Mehr auf <a href="https://www.kaddick.de/aurumtool/" target="_blank">kaddick.de/aurumtool</a>, im <a href="https://apps.apple.com/de/app/aurumtools/id6739778914" target="_blank">App Store</a> und bei <a href="https://play.google.com/store/apps/details?id=com.goldschmiede.kaddick.aurumtools&hl=de" target="_blank">Google Play</a>.
 '''
 
 [customersVVSTitle]
@@ -209,10 +327,7 @@ other = "Appella - Die Musikschul-App"
 
 [worksAppellaDescription]
 other = '''
-Die DSGVO-konforme Musikschul App zur Digitalisierung von Musikschulen.
-Benachrichtigungen und Kundgebungen, Anwesenheitsliste, Schwarzes Brett und Stundenplan in einem.
-<br>
-100 % datenschutzkonform. Sicher. Schnell. Einfach.
+Die erste Appella-Flutter-App: Dashboard, Stundenplan und Anwesenheit für Musikschulen auf iOS und Android.
 <br>
 <br>
 Mehr Informationen auf <a href="https://www.appella.app" target="_blank">www.appella.app</a>
@@ -221,14 +336,11 @@ Mehr Informationen auf <a href="https://www.appella.app" target="_blank">www.app
 [serviceTitle]
 other = "Dienstleistungen"
 
+[serviceHomeTitle]
+other = "Ein Team für das ganze Produkt"
+
 [serviceDescription]
-other = '''
-Als Agentur bieten wir alle Dienstleistungen, um von Ihrer Idee zu dem finalen Produkt zu kommen.
-Dabei ist es egal, ob Sie ein bestehendes System erweitern oder neu entwickeln wollen.
-<br>
-Outsourcen Sie Ihr Projekt und wir kümmern uns um stabile und skalierbare Software-Lösungen, damit Sie sich
-ihrem Kerngeschäft widmen können.
-'''
+other = "Alle Leistungen, um aus deiner Idee ein Produkt zu machen — bestehend oder neu. Wir liefern stabile, skalierbare Software, damit du dich aufs Kerngeschäft konzentrieren kannst."
 
 [serviceFlutterTitle]
 other = "Flutter App Entwicklung"
@@ -246,21 +358,21 @@ other = "Erstellung intuitiver und ästhetischer UI / UX Designs"
 other = "Wartung & Support"
 
 [serviceSupportDescription]
-other = "Damit Ihre Anwendungen reibungslos und sicher laufen."
+other = "Damit deine Anwendungen reibungslos und sicher laufen."
 
 [serviceContactButtonText]
 other = "Kontakt"
 
 [serviceAnyQuestions]
 other = '''
-<b>Haben Sie Fragen? Rufen Sie uns jetzt an!</b>
+<b>Hast du Fragen? Ruf uns jetzt an!</b>
 '''
 
 [consultingTitle]
-other = "Technische Beratung"
+other = "Technische Beratung und Audit"
 
 [consultingDescription]
-other = "Beratung für neue und bestehende Software-Lösungen"
+other = "Technologie-Wahl, Kosten und Tempo, Audits von Code, Workflows und Systemen"
 
 # technologies
 [technologiesTitle]
@@ -270,6 +382,15 @@ other = "Technologien"
 
 [testimonialsTitle]
 other = "Referenzen"
+
+[testimonialsPrev]
+other = "Vorherige Referenzen"
+
+[testimonialsNext]
+other = "Nächste Referenzen"
+
+[testimonialsPage]
+other = "Seite"
 
 [testimonialKosysPosition]
 other = '''KOSYS, Geschäftsführer'''
@@ -292,7 +413,7 @@ other = '''Fictionic, Geschäftsführerin'''
 
 [testimonialFictionicContent]
 other = '''
-Wir arbeiten bereits seit einem Jahr mit Tapped zusammen und sind mehr als zufrieden mit der Kooperation. Wenn wir neue Ideen haben, sind sie sofort am Start diese umzusetzen. Sie sind sehr zuverlässig in ihrer Arbeit und Kommunikation. Zudem setzen Tapped neue Features nicht einfach blind um, sondern denken mit und optimieren unsere Ideen. Wir können Tapped absolut an alle weiterempfehlen, die eine  coole App brauchen und eine professionelle Zusammenarbeit schätzen.
+Wir arbeiten bereits seit einem Jahr mit Tapped zusammen und sind mehr als zufrieden mit der Kooperation. Sie sind sehr zuverlässig in ihrer Arbeit und Kommunikation. Zudem setzen Tapped neue Features nicht einfach blind um, sondern denken mit und optimieren unsere Ideen. Wir können Tapped absolut an alle weiterempfehlen, die eine professionelle Zusammenarbeit schätzen.
 '''
 
 [testimonialPhntmPosition]
@@ -313,7 +434,7 @@ Das Team arbeitet nicht nur strikt nach Anweisungen, sondern wirft auch Bedenken
 '''
 
 [testimonialMentzPosition]
-other = '''MENTZ, Leiter der mobilen Abteilung'''
+other = '''MENTZ, Chief Strategy Officer'''
 
 [testimonialMentzContent]
 other = '''
@@ -324,6 +445,30 @@ Unkomplizierte und kompetente Zusammenarbeit hat uns von Tapped überzeugt. Wer 
 
 [contactTitle]
 other = "Kontakt"
+
+[contactLead]
+other = "Ein kurzes Gespräch ist oft der schnellste Start. Wer lieber schreibt, erreicht uns per E-Mail."
+
+[contactCallTitle]
+other = "Gespräch buchen"
+
+[contactCallText]
+other = "Zwanzig Minuten, um zu klären, was du entwickeln willst und ob wir helfen können."
+
+[contactCallPickTime]
+other = "Zeit wählen"
+
+[contactEmailOptionTitle]
+other = "Per E-Mail schreiben"
+
+[contactEmailOptionText]
+other = "Schildere uns in ein paar Zeilen dein Projekt. Wir lesen jede Nachricht und antworten zügig."
+
+[contactEmailSubject]
+other = "Projektanfrage"
+
+[contactWhoTitle]
+other = "Mit wem du sprichst"
 
 [contactFormFullName]
 other = "Name"
@@ -354,17 +499,29 @@ other = "Anderes"
 other = "Flutter & Dart Entwickler Job in München bei Tapped"
 
 [jobsDescription]
-other = '''Bist du Flutter-Entwickler und arbeitest gerne mit Dart? Wir freuen uns über Bewerbungen von Entwickler:innen, die großartige Apps bauen wollen.
-Kotlin oder Java sind ein Plus.'''
+other = '''Bist du Flutter-Entwickler und arbeitest gerne mit Dart? Wir freuen uns über Bewerbungen von Entwickler:innen, die großartige Apps entwickeln wollen.
+Backend-Erfahrung mit Supabase, Quarkus oder OpenShift ist ein Plus.'''
 
 [jobsPreTitle]
 other = '''Vollzeit, Teilzeit'''
 
+[jobsPageKicker]
+other = "Offene Stelle"
+
+[jobsEmptyKicker]
+other = "Jobs"
+
+[jobsEmptyTitle]
+other = "Aktuell keine offenen Stellen"
+
+[jobsCtaTitle]
+other = "Schick uns eine kurze Bewerbung"
+
 [jobsBannerText]
-other = "Wir suchen Verstärkung! Werde Teil unseres Teams"
+other = "Wir suchen Verstärkung im Team"
 
 [jobsBannerCta]
-other = "Zu den Jobs"
+other = "Bewirb dich jetzt!"
 
 [jobsJobTitle]
 other = '''Flutter & Dart Entwickler (m/w/d)'''
@@ -376,28 +533,28 @@ other = '''Wir sind offen für neues und arbeiten mit modernsten Technologien.''
 other = '''Wir bieten'''
 
 [jobsWeOfferOffice]
-other = '''📎 Büro in der Mitte von München'''
+other = '''Büro in der Mitte von München'''
 
 [jobsWeOfferMac]
-other = '''💻 MacBook Pro'''
+other = '''MacBook Pro'''
 
 [jobsWeOfferTeam]
-other = '''👥 Kleines Team'''
+other = '''Kleines Team'''
 
 [jobsWeOfferSalary]
-other = '''💰 Attraktives Gehalt'''
+other = '''Attraktives Gehalt'''
 
 [jobsWeOfferGym]
-other = '''🏋️ Wellpass Mitgliedschaft'''
+other = '''Wellpass Mitgliedschaft'''
 
 [jobsWeOfferOfficeSubtitle]
-other = '''Wir sind Remote-First, aber komm gerne jederzeit ins Büro'''
+other = '''Wir sind Remote-First und treffen uns regelmäßig.'''
 
 [jobsWeOfferMacSubtitle]
 other = '''Neueste Hardware für deine beste Arbeit. Private Nutzung erlaubt.'''
 
 [jobsWeOfferTeamSubtitle]
-other = '''Wir halten die Dinge simpel und konzentrieren uns auf das, was wir alle lieben. Großartige Apps bauen.'''
+other = '''Wir halten die Dinge simpel und konzentrieren uns auf das, was wir alle lieben. Großartige Apps entwickeln.'''
 
 [jobsWeOfferSalarySubtitle]
 other = '''Faire Vergütung für deine Expertise'''
@@ -409,28 +566,34 @@ other = '''Bleib fit mit Zugang zu tausenden Studios'''
 other = '''Wir treffen uns für 1-2 Wochen in Europa für Hackathons und gemeinsame Aktivitäten'''
 
 [jobsWeOfferWorkation]
-other = '''🏝️ Jährliche Team-Workation'''
+other = '''Jährliche Team-Workation'''
 
 [jobsRequirements]
 other = '''Anforderungen'''
 
-[jobsRequirementsFlutter]
-other = '''Erfahrung mit Flutter'''
-
-[jobsRequirementsDart]
-other = '''Erfahrung mit Dart'''
+[jobsRequirementsFlutterDart]
+other = '''Mindestens drei Jahre Flutter und Dart an Produktiv-Apps'''
 
 [jobsRequirementsNative]
 other = '''Grundkenntnisse in nativer iOS- und Android-Entwicklung'''
 
+[jobsRequirementsWeb]
+other = '''Grundverständnis von Web-Stacks'''
+
+[jobsRequirementsAgents]
+other = '''Coding-Agents nutzen und einfache Aufgaben mit KI automatisieren'''
+
 [jobsNiceToHave]
 other = '''Nice-to-have'''
 
-[jobsNiceToHaveKotlin]
-other = '''Erfahrung mit Kotlin'''
+[jobsNiceToHaveSupabase]
+other = '''Backend-Erfahrung mit Supabase'''
 
-[jobsNiceToHaveJava]
-other = '''Erfahrung mit Java'''
+[jobsNiceToHaveQuarkus]
+other = '''Erfahrung mit Quarkus'''
+
+[jobsNiceToHaveOpenShift]
+other = '''Erfahrung mit OpenShift'''
 
 [jobsClosingStatement]
 other = '''Wenn du Erfahrung mit <b>Flutter und Dart</b> hast, dann bewirb dich doch einfach per E-Mail und
@@ -440,10 +603,10 @@ den Rest klären wir dann persönlich.'''
 other = '''Jetzt bewerben'''
 
 [jobsNoOpenPositions]
-other = '''Im Moment haben wir keine offenen Stellenangebote — wenn du aber Erfahrung mit Flutter und Dart hast, freuen wir uns über deine Initiativbewerbung.'''
+other = '''Im Moment haben wir keine offenen Stellenangebote. Wenn du aber Erfahrung mit Flutter und Dart hast, freuen wir uns über deine Initiativbewerbung.'''
 
 [jobsWhatToInclude]
-other = '''Bitte sende uns deinen CV oder LinkedIn, GitHub (optional) und deine Verfügbarkeit.'''
+other = '''Bitte sende uns deinen CV, GitHub (optional) und deine Verfügbarkeit.'''
 
 [jobsAtAGlanceTitle]
 other = '''Auf einen Blick'''
@@ -452,7 +615,7 @@ other = '''Auf einen Blick'''
 other = '''Standort'''
 
 [jobsAtAGlanceLocationValue]
-other = '''München (Büro im Zentrum)'''
+other = '''Remote-First, wir treffen uns regelmäßig'''
 
 [jobsAtAGlanceContractLabel]
 other = '''Anstellung'''
@@ -460,29 +623,29 @@ other = '''Anstellung'''
 [jobsAtAGlanceContractValue]
 other = '''Vollzeit / Teilzeit'''
 
-[jobsAtAGlanceStackLabel]
-other = '''Pflicht'''
+[jobsAtAGlanceLanguageLabel]
+other = '''Sprache'''
 
-[jobsAtAGlanceStackValue]
-other = '''Flutter, Dart'''
+[jobsAtAGlanceLanguageValue]
+other = '''Fließend Deutsch'''
 
-[jobsAtAGlanceNiceToHaveLabel]
-other = '''Nice-to-have'''
+[jobsAtAGlanceResidenceLabel]
+other = '''Wohnsitz'''
 
-[jobsAtAGlanceNiceToHaveValue]
-other = '''Kotlin, Java'''
+[jobsAtAGlanceResidenceValue]
+other = '''Deutschland'''
 
 [jobsResponsibilitiesTitle]
 other = '''Deine Aufgaben'''
 
 [jobsResponsibilities1]
-other = '''Du entwickelst und lieferst Flutter-Apps mit Fokus auf Qualität und Wartbarkeit.'''
+other = '''Du entwickelst viele Apps für Android, iOS und Web, mit Fokus auf Qualität, Wartbarkeit, Architektur und gute UX.'''
 
 [jobsResponsibilities2]
-other = '''Du arbeitest eng mit Produkt und Design zusammen, um großartige Nutzererlebnisse zu bauen.'''
+other = '''Du arbeitest eng mit Produkt und Design zusammen, um großartige Nutzererlebnisse zu entwickeln.'''
 
 [jobsResponsibilities3]
-other = '''Du schreibst sauberen Dart-Code, machst Code Reviews und verbesserst die Codebase kontinuierlich.'''
+other = '''Du kennst die aktuellen Packages und Libraries im Ökosystem und schreibst Code mit Agents.'''
 
 [jobsResponsibilities4]
 other = '''Du integrierst APIs und Services und hilfst dabei, technische Entscheidungen zu treffen.'''
@@ -497,25 +660,151 @@ other = '''Du leitest andere Entwickler:innen an und treibst Innovationen voran,
 other = '''Bewerbungsprozess'''
 
 [jobsProcessStep1Title]
-other = '''Kennenlernen'''
+other = '''Kennenlernen und technisches Gespräch'''
 
 [jobsProcessStep1Desc]
-other = '''Kurzes Gespräch zum gegenseitigen Kennenlernen und Abgleich der Erwartungen.'''
+other = '''Wir lernen uns kennen und sprechen über Flutter, Dart und deine bisherigen Projekte.'''
 
 [jobsProcessStep2Title]
-other = '''Technisches Gespräch'''
+other = '''Kleine Aufgabe'''
 
 [jobsProcessStep2Desc]
-other = '''Developer-to-developer Gespräch über Flutter/Dart und deine bisherigen Projekte.'''
+other = '''Du bekommst eine überschaubare Übungsaufgabe.'''
 
 [jobsProcessStep3Title]
-other = '''Team kennenlernen'''
-
-[jobsProcessStep3Desc]
-other = '''Du sprichst mit dem Team und bekommst ein Gefühl für unsere Zusammenarbeit.'''
-
-[jobsProcessStep4Title]
 other = '''Entscheidung'''
 
-[jobsProcessStep4Desc]
+[jobsProcessStep3Desc]
 other = '''Wir melden uns mit Feedback und den nächsten Schritten.'''
+
+[jobsProcessStep4Title]
+other = '''Team kennenlernen'''
+
+[jobsProcessStep4Desc]
+other = '''Du sprichst mit dem Team und bekommst ein Gefühl für unsere Zusammenarbeit.'''
+
+[aboutTeaser]
+other = '''Tapped ist eine App-Entwicklungsagentur aus München. Gegründet 2019, Flutter seit der Beta, native iOS- und Android-Erfahrung davor. Cross-Platform zuerst — nativ, wo es nötig ist.'''
+
+[aboutReadMore]
+other = "Mehr über Tapped"
+
+[aboutPageKicker]
+other = "Das Unternehmen"
+
+[viewAllServices]
+other = "Alle Leistungen"
+
+[viewAllProjects]
+other = "Alle Projekte"
+
+[featuredProjects]
+other = "Ausgewählte Projekte"
+
+[viewCase]
+other = "Zum Projekt"
+
+[visitLabel]
+other = "Live-Produkt"
+
+[visitProduct]
+other = "{{ . }} besuchen"
+
+[highlightsTitle]
+other = "Worauf wir stolz sind"
+
+[footerBlurb]
+other = "Tapped entwickelt Flutter Apps. iOS, Android und Web aus einer Codebasis."
+
+[footerSite]
+other = "Seiten"
+
+[footerLegal]
+other = "Rechtliches"
+
+[footerLang]
+other = "Sprache"
+
+[footerCopyright]
+other = "© 2026 Tapped GmbH · München"
+
+[readMore]
+other = "Mehr erfahren"
+
+[relatedProjects]
+other = "Passende Projekte"
+
+[relatedService]
+other = "Passende Leistung"
+
+[stackLabel]
+other = "Technik"
+
+[clientLabel]
+other = "Kunde"
+
+[partnerLabel]
+other = "In Zusammenarbeit mit"
+
+[releasedLabel]
+other = "Veröffentlicht"
+
+[projectPeriodLabel]
+other = "Unser Einsatz"
+
+[workStatsLabel]
+other = "Projektzahlen"
+
+[statsSourcePrefix]
+other = "Quelle:"
+
+[contactCtaTitle]
+other = "Kostenlose Erstberatung"
+
+[contactCtaText]
+other = "Erzähl uns, was du entwickeln willst. In einer kostenlosen Erstberatung sprechen wir kurz über dein Projekt und schätzen Zeit und Budget."
+
+[contactCtaButton]
+other = "Kontakt"
+
+[ogImageAlt]
+other = "Tapped, eine Flutter-Agentur in München"
+
+[showcaseImageAlt]
+other = "Stilisierte Illustration einer Mobile-App neben der Tapped-Überschrift"
+
+[logoAlt]
+other = "Tapped Logo"
+
+[linkedinProfileAlt]
+other = "{{ . }} auf LinkedIn"
+
+[servicesPageKicker]
+other = "Was wir tun"
+
+[workPageKicker]
+other = "Ausgewählte Arbeiten"
+
+[workIndexLead]
+other = "Flutter-Apps, die wir geplant, entwickelt oder weiterbetrieben haben — von Mobility in Stuttgart bis zu Musikschulen und der Goldschmiedewerkbank."
+
+[contactPageKicker]
+other = "München"
+
+[backToServices]
+other = "Alle Leistungen"
+
+[backToWork]
+other = "Alle Projekte"
+
+[visitProject]
+other = "Zum Produkt"
+
+[technologiesDescription]
+other = "Sprachen, Frameworks und Tools, die wir im Einsatz haben."
+
+[faqTitle]
+other = "Häufige Fragen"
+
+[legalPageKicker]
+other = "Rechtliches"

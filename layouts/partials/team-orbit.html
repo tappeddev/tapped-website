@@ -1,0 +1,51 @@
+{{- /*
+    Team constellation: members sit in a loose ring around the "more about
+    Tapped" link. Each spot carries a position (x/y in % of the field) and a
+    parallax depth. Spots repeat if the team outgrows the list.
+*/ -}}
+{{- $spots := slice
+    (dict "x" 32 "y" 18 "depth" 1.1)
+    (dict "x" 62 "y" 12 "depth" 0.9)
+    (dict "x" 84 "y" 32 "depth" 0.6)
+    (dict "x" 86 "y" 62 "depth" 1.0)
+    (dict "x" 66 "y" 84 "depth" 0.8)
+    (dict "x" 38 "y" 86 "depth" 1.15)
+    (dict "x" 14 "y" 66 "depth" 0.7)
+    (dict "x" 12 "y" 34 "depth" 0.95)
+-}}
+<div class="team-orbit" data-team-orbit>
+    <div class="team-orbit__rings" aria-hidden="true"></div>
+    {{- with .Site.GetPage "/about" }}
+    <div class="team-orbit__center">
+        <a class="text-cta" href="{{ .RelPermalink }}">{{ i18n "aboutReadMore" }} →</a>
+    </div>
+    {{- end }}
+    {{- range $i, $m := .Site.Data.team.members }}
+    {{- $spot := index $spots (mod $i (len $spots)) }}
+    <div
+        class="team-orbit__member"
+        style="{{ printf "--spot-x:%v%%;--spot-y:%v%%" $spot.x $spot.y | safeCSS }}"
+        data-depth="{{ $spot.depth }}"
+    >
+        <span class="team-orbit__para" data-parallax>
+            <img
+                src="{{ $m.image | absURL }}"
+                srcset="{{ $m.image | absURL }} 1x, {{ $m.image2x | absURL }} 2x"
+                width="112"
+                height="112"
+                loading="lazy"
+                decoding="async"
+                alt=""
+            >
+            <span class="team-orbit__label">
+                <span class="team-orbit__name">{{ $m.name }}</span>
+                {{- with $m.role }}
+                <span class="team-orbit__role">{{ i18n . }}</span>
+                {{- end }}
+            </span>
+        </span>
+    </div>
+    {{- end }}
+</div>
+
+<script defer src='{{ "js/team-orbit.js" | absURL }}'></script>

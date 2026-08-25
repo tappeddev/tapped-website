@@ -1,17 +1,31 @@
 {{- $title := i18n "title" -}}
 {{- $description := i18n "showcaseDescriptionRaw" -}}
-{{- if eq .Section "jobs" -}}
-  {{- $title = i18n "jobsTitle" -}}
-  {{- $description = i18n "jobsDescription" -}}
-{{- else if eq .Section "legal_notice" -}}
-  {{- $title = i18n "legalNoticeTitle" -}}
-  {{- $description = i18n "legalNoticeDescription" -}}
-{{- else if eq .Section "general_conditions" -}}
-  {{- $title = i18n "generalConditionsTitle" -}}
-  {{- $description = i18n "generalConditionsDescription" -}}
-{{- else if eq .Section "privacy" -}}
-  {{- $title = i18n "privacyTitle" -}}
-  {{- $description = i18n "privacyDescription" -}}
+{{- if not .IsHome -}}
+  {{- if and (eq .Section "jobs") (not .Site.Params.jobs.hiring) -}}
+    {{- $title = printf "%s | Tapped" (i18n "jobsEmptyTitle") -}}
+    {{- $description = i18n "jobsNoOpenPositions" -}}
+  {{- else -}}
+    {{- if .Params.seo_title -}}
+      {{- $title = .Params.seo_title -}}
+    {{- else if .Title -}}
+      {{- $title = .Title -}}
+    {{- end -}}
+    {{- if .Params.description -}}
+      {{- $description = .Params.description -}}
+    {{- else if eq .Section "legal_notice" -}}
+      {{- $title = i18n "legalNoticeTitle" -}}
+      {{- $description = i18n "legalNoticeDescription" -}}
+    {{- else if eq .Section "general_conditions" -}}
+      {{- $title = i18n "generalConditionsTitle" -}}
+      {{- $description = i18n "generalConditionsDescription" -}}
+    {{- else if eq .Section "privacy" -}}
+      {{- $title = i18n "privacyTitle" -}}
+      {{- $description = i18n "privacyDescription" -}}
+    {{- else if eq .Section "jobs" -}}
+      {{- $title = i18n "jobsTitle" -}}
+      {{- $description = i18n "jobsDescription" -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 {{- $locale := cond (eq .Lang "de") "de_DE" "en_US" -}}
 {{- $alternateLocale := cond (eq .Lang "de") "en_US" "de_DE" -}}
@@ -20,7 +34,7 @@
 <link rel="canonical" href="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{ $description }}" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="{{ if and (eq .Section "work") (eq .Kind "page") }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="Tapped" />
 <meta property="og:locale" content="{{ $locale }}" />
@@ -28,43 +42,10 @@
 <meta property="og:image" content="{{ $socialImage }}" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Tapped app development agency in Munich" />
+<meta property="og:image:alt" content="{{ i18n "ogImageAlt" }}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ $title }}" />
 <meta name="twitter:description" content="{{ $description }}" />
 <meta name="twitter:image" content="{{ $socialImage }}" />
 <title>{{ $title }}</title>
-{{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": ["Organization", "ProfessionalService"],
-  "@id": "{{ .Site.BaseURL }}#organization",
-  "name": "Tapped GmbH",
-  "url": "{{ .Site.BaseURL }}",
-  "logo": "{{ "img/logo_tapped_colored_black.svg" | absURL }}",
-  "image": "{{ $socialImage }}",
-  "description": {{ $description | jsonify | safeJS }},
-  "email": "contact@tapped.dev",
-  "telephone": "+49 176 30400083",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Krumpenhofweg 2",
-    "postalCode": "80639",
-    "addressLocality": "München",
-    "addressCountry": "DE"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "München"
-  },
-  "knowsAbout": [
-    "App development",
-    "Flutter development",
-    "iOS development",
-    "Android development",
-    "UI/UX design"
-  ]
-}
-</script>
-{{ end }}
+{{ partial "schema.html" (dict "page" . "title" $title "description" $description "socialImage" $socialImage) }}

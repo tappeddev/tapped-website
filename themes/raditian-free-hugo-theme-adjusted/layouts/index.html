@@ -1,6 +1,6 @@
 <!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
-<html lang="{{ .Lang }}">
+<html lang="{{ .Lang }}" translate="no">
 
 <head>
 
@@ -25,19 +25,13 @@
 
 	{{ partial "service.html" . }}
 
-	{{ partial "experience.html" . }}
-
 	{{ partial "clients.html" . }}
 
-	{{ partial "works.html" . }}
-
-	{{ partial "technologies.html" . }}
+	{{ partial "work-list.html" . }}
 
     {{ partial "testimonial.html" . }}
 
-    {{ partial "contact.html" . }}
-
-    {{ partial "newsletter.html" . }}
+    {{ partial "contact-cta.html" . }}
 	</main>
 
 	{{ partial "footer.html" . }}

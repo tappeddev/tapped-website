@@ -1,0 +1,54 @@
+{{ if .Site.Data.homepage.technologies.enable }}
+<section id="technologies" class="section rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ i18n "technologiesTitle" }}</h2>
+                <p class="lead">{{ i18n "technologiesDescription" }}</p>
+                {{ with .Site.Data.homepage.technologies.groups }}
+                <div class="tech-groups pt-2 pt-md-4">
+                    {{ range . }}
+                    <div class="tech-group">
+                        <h3 class="tech-group__title">{{ i18n .title }}</h3>
+                        <div class="images-with-name-container">
+                            {{ range .items }}
+                            <a class="images-with-name-item" href="{{ .link }}" target="_blank" rel="noopener">
+                                <img
+                                        class="img-responsive img-greyscaled img-technology"
+                                        src="{{ .logo.x | absURL }}"
+                                        width="160"
+                                        height="40"
+                                        loading="lazy"
+                                        decoding="async"
+                                        alt="{{ .name }} logo"
+                                />
+                                <span>{{ .name }}</span>
+                            </a>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ else }}
+                <div class="images-with-name-container pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.technologies.items }}
+                    <a class="images-with-name-item" href="{{ .link }}" target="_blank" rel="noopener">
+                        <img
+                                class="img-responsive img-greyscaled img-technology"
+                                src="{{ .logo.x | absURL }}"
+                                width="160"
+                                height="40"
+                                loading="lazy"
+                                decoding="async"
+                                alt="{{ .name }} logo"
+                        />
+                        <span>{{ .name }}</span>
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

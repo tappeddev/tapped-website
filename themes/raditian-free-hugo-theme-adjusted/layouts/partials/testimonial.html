@@ -1,33 +1,57 @@
 {{ if .Site.Data.homepage.testimonial.enable }}
-<section id="testimonials" class="section rad-animation-group section--border-bottom">
+<section id="testimonials" class="home-testimonials" aria-labelledby="home-testimonials-title">
     <div class="container">
-        <h2 class="rad-fade-down">{{ i18n "testimonialsTitle" }}</h2>
-        <div class="row row--padded mb-0 rad-fade-down">
-            {{ range .Site.Data.homepage.testimonial.items }}
-            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
-                <i class="icon-quote"></i>
-                <p>
-                    {{ i18n .content }}
-                </p>
-                <div class="testimonial__author">
-                    <!--<img class="lozad testimonial__author-image"
-                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                         data-src="{{ .image.x | absURL }}"
-                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-                         alt="{{ .name }}"/>-->
-                    <div class="testimonial__author-info">
-                        {{ if .link }}
-                        <h3><a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a></h3>
-                        {{ else }}
-                        <h3>{{ .name }}</h3>
-                        {{ end }}
-                        <span>
-                            {{ i18n .position}}
-                        </span>
-                    </div>
+        <header class="home-testimonials__header">
+            <h2 id="home-testimonials-title" class="page-kicker">{{ i18n "testimonialsTitle" }}</h2>
+        </header>
+
+        <div
+            class="home-testimonials__carousel"
+            data-testimonial-carousel
+            data-page-label="{{ i18n "testimonialsPage" }}"
+        >
+            <div class="home-testimonials__controls">
+                <button
+                    type="button"
+                    class="home-testimonials__nav home-testimonials__nav--prev"
+                    data-testimonial-prev
+                    aria-label="{{ i18n "testimonialsPrev" }}"
+                >
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M10.5 3.5 6 8l4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button
+                    type="button"
+                    class="home-testimonials__nav home-testimonials__nav--next"
+                    data-testimonial-next
+                    aria-label="{{ i18n "testimonialsNext" }}"
+                >
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M5.5 3.5 10 8l-4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="home-testimonials__viewport" data-testimonial-viewport>
+                <div class="home-testimonials__track">
+                    {{ range .Site.Data.homepage.testimonial.items }}
+                    <blockquote class="home-testimonials__item">
+                        <p class="home-testimonials__quote">{{ i18n .content }}</p>
+                        <footer class="home-testimonials__author">
+                            {{ if .link }}
+                            <cite class="home-testimonials__name"><a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a></cite>
+                            {{ else }}
+                            <cite class="home-testimonials__name">{{ .name }}</cite>
+                            {{ end }}
+                            <span class="home-testimonials__role">{{ i18n .position }}</span>
+                        </footer>
+                    </blockquote>
+                    {{ end }}
                 </div>
             </div>
-            {{ end }}
+
+            <div class="home-testimonials__pager" data-testimonial-pager role="tablist" aria-label="{{ i18n "testimonialsTitle" }}"></div>
         </div>
     </div>
 </section>

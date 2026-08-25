@@ -1,17 +1,38 @@
 # Tapped
 
-> Tapped GmbH is an app and software development company based in Munich, Germany, specializing in Flutter applications for mobile and web.
+> Tapped GmbH is an app and software development company based in Munich, Germany, specializing in Flutter applications for mobile and web. Founded in 2019 by Stefan Schaller and Julian Bissekkou.
 
 ## Main pages
 
-- [English homepage](https://tapped.dev/)
-- [German homepage](https://tapped.dev/de/)
-- [Jobs](https://tapped.dev/jobs/)
-- [Legal notice](https://tapped.dev/legal_notice/)
-- [General terms and conditions](https://tapped.dev/general_conditions/)
-- [Privacy policy](https://tapped.dev/privacy/)
+- [English homepage](https://tapped.dev/): Flutter app development agency in Munich
+- [German homepage](https://tapped.dev/de/): Flutter Agentur in München
+- [Services](https://tapped.dev/services/) / [Leistungen](https://tapped.dev/de/services/)
+- [Projects](https://tapped.dev/work/) / [Projekte](https://tapped.dev/de/work/)
+- [About](https://tapped.dev/about/) / [Über uns](https://tapped.dev/de/about/)
+- [Contact](https://tapped.dev/contact/) / [Kontakt](https://tapped.dev/de/contact/)
+- [Jobs](https://tapped.dev/jobs/): no open roles currently
+
+## Services
+
+- [Flutter app development](https://tapped.dev/services/flutter-app-development/)
+- [Flutter App Entwicklung](https://tapped.dev/de/services/flutter-app-development/)
+- [UI/UX design](https://tapped.dev/services/ui-ux-design/)
+- [Technical consulting](https://tapped.dev/services/technical-consulting/)
+- [Technische Beratung](https://tapped.dev/de/services/technical-consulting/)
+- [Maintenance and support](https://tapped.dev/services/maintenance-support/)
+- [Wartung und Support](https://tapped.dev/de/services/maintenance-support/)
+
+## Selected work
+
+- [VVS Mobil](https://tapped.dev/work/vvs-mobil/): Flutter mobility app for Stuttgart, with MENTZ
+- [FCBinside](https://tapped.dev/work/fcbinside/): FC Bayern news app
+- [Appella](https://tapped.dev/work/appella/): GDPR-compliant music school app
+- [AurumTools](https://tapped.dev/work/aurum-tools/): Flutter workshop app for goldsmiths (Kaddick) on iOS, Android and the web, with [product page](https://www.kaddick.de/aurumtool/) and [YouTube intro](https://www.youtube.com/watch?v=iefLNMQhrmM)
+- [Storyways](https://tapped.dev/work/storyways/)
+- [VVS Cycle Planner](https://tapped.dev/work/vvs-cycle-planner/)
+- [Die Ringe Bodyworkout](https://tapped.dev/work/die-ringe/)
 
 ## Contact
 
 - Website: https://tapped.dev/
-- Email: info@tapped.dev
+- Email: contact@tapped.dev

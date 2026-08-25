@@ -1,0 +1,12 @@
+{{ with .Params.faq }}
+{{ $page := $ }}
+<section class="page-faq" id="faq">
+  <h2>{{ i18n "faqTitle" }}</h2>
+  <dl class="page-faq__list">
+    {{ range . }}
+    <dt>{{ .question }}</dt>
+    <dd>{{ .answer | $page.RenderString }}</dd>
+    {{ end }}
+  </dl>
+</section>
+{{ end }}

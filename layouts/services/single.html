@@ -1,0 +1,59 @@
+{{ partial "site-open.html" . }}
+<main class="page-main">
+  <div class="container">
+    <header class="page-hero">
+      {{ with .Parent }}
+      <p class="page-kicker page-kicker--back">
+        <a class="work-back" href="{{ .RelPermalink }}">← {{ i18n "backToServices" }}</a>
+      </p>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}
+      <p class="lead">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="page-prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.relatedWork }}
+    <section class="page-related">
+      <h2>{{ i18n "relatedProjects" }}</h2>
+      <div class="page-card-grid page-related__grid">
+        {{ range . }}
+          {{ with $.Site.GetPage . }}
+          {{ $work := . }}
+          <a class="page-card page-card--work" href="{{ $work.RelPermalink }}">
+            {{ if $work.Params.image }}
+            <span class="page-card__media">
+              <img
+                src="{{ $work.Params.image | absURL }}"
+                {{ with $work.Params.image2x }}srcset="{{ $work.Params.image | absURL }} 1x, {{ . | absURL }} 2x"{{ end }}
+                width="713"
+                height="500"
+                loading="lazy"
+                decoding="async"
+                alt="{{ with $work.Params.image_alt }}{{ . }}{{ else }}{{ $work.Title }}{{ end }}"
+              />
+            </span>
+            {{ end }}
+            <span class="page-card__body">
+              <h3 class="page-card__title">{{ $work.Title }}</h3>
+              {{ with $work.Params.summary }}
+              <p class="page-card__summary">{{ . }}</p>
+              {{ end }}
+              <span class="page-card__more">{{ i18n "readMore" }}</span>
+            </span>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ partial "faq.html" . }}
+  </div>
+  {{ partial "contact-cta.html" . }}
+</main>
+{{ partial "site-close.html" . }}

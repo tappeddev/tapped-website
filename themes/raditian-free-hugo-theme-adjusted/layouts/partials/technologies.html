@@ -1,9 +1,10 @@
 {{ if .Site.Data.homepage.technologies.enable }}
-<section id="technologies" class="section section--border-bottom rad-animation-group">
+<section id="technologies" class="section rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
                 <h2>{{ i18n "technologiesTitle" }}</h2>
+                <p class="lead">{{ i18n "technologiesDescription" }}</p>
                 <div class="images-with-name-container pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.technologies.items }}
                     <a class="images-with-name-item" href="{{ .link }}" target="_blank" rel="noopener">
