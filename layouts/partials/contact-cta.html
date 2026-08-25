@@ -1,0 +1,37 @@
+{{- /* Accepts either a Page (default contact copy) or a dict:
+       page, title, text, label, href, titleID */ -}}
+{{- $page := . -}}
+{{- $title := "" -}}
+{{- $text := "" -}}
+{{- $label := "" -}}
+{{- $href := "" -}}
+{{- $titleID := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .page -}}
+  {{- with .title }}{{ $title = . }}{{ end -}}
+  {{- with .text }}{{ $text = . }}{{ end -}}
+  {{- with .label }}{{ $label = . }}{{ end -}}
+  {{- with .href }}{{ $href = . }}{{ end -}}
+  {{- with .titleID }}{{ $titleID = . }}{{ end -}}
+{{- end -}}
+{{- if not $title }}{{ $title = i18n "contactCtaTitle" }}{{ end -}}
+{{- if not $text }}{{ $text = i18n "contactCtaText" }}{{ end -}}
+{{- if not $label }}{{ $label = i18n "contactCtaButton" }}{{ end -}}
+{{- if not $href }}{{ with $page.Site.GetPage "/contact" }}{{ $href = .RelPermalink }}{{ end }}{{ end -}}
+<section class="contact-cta"{{ with $titleID }} aria-labelledby="{{ . }}"{{ end }}>
+  <div class="container">
+    <div class="contact-cta__inner">
+      <div class="contact-cta__copy">
+        <h2 class="contact-cta__title"{{ with $titleID }} id="{{ . }}"{{ end }}>{{ $title }}</h2>
+        <p class="lead contact-cta__text">{{ $text | safeHTML }}</p>
+      </div>
+      {{ with $href }}
+      <div class="contact-cta__actions">
+        <a href="{{ . }}" class="btn-pill btn-pill--light">
+          {{ $label }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

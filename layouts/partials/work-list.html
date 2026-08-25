@@ -1,0 +1,83 @@
+{{ $isWorkIndex := eq .Section "work" }}
+{{ $pages := slice }}
+{{ if $isWorkIndex }}
+  {{ $pages = .RegularPages.ByWeight }}
+{{ else }}
+  {{ with .Site.GetPage "/work" }}
+    {{ $pages = where .RegularPages "Params.featured" true }}
+    {{ $pages = $pages.ByWeight }}
+  {{ end }}
+{{ end }}
+
+{{ if $isWorkIndex }}
+<section class="work-rows" aria-label="{{ i18n "worksTitle" }}">
+  <div class="container">
+    {{ range $index, $page := $pages }}
+    <a class="work-row{{ if not (modBool $index 2) }} work-row--flip{{ end }}" href="{{ $page.RelPermalink }}">
+      <div class="work-row__media">
+        {{ if $page.Params.image }}
+        <img
+          src="{{ $page.Params.image | absURL }}"
+          {{ with $page.Params.image2x }}srcset="{{ $page.Params.image | absURL }} 1x, {{ . | absURL }} 2x"{{ end }}
+          width="713"
+          height="500"
+          loading="lazy"
+          decoding="async"
+          alt="{{ with $page.Params.image_alt }}{{ . }}{{ else }}{{ $page.Title }}{{ end }}"
+        />
+        {{ end }}
+      </div>
+      <div class="work-row__body">
+        {{ with $page.Params.client }}
+        <span class="work-row__client">{{ . }}</span>
+        {{ end }}
+        <h2 class="work-row__title">{{ $page.Title }}</h2>
+        {{ with $page.Params.summary }}
+        <p class="work-row__summary">{{ . }}</p>
+        {{ end }}
+        <span class="work-row__more">{{ i18n "viewCase" }} →</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ else }}
+<section id="works" class="work-featured{{ if eq .Section "about" }} work-featured--about{{ end }}">
+  <div class="container">
+    <div class="work-featured__header">
+      <div class="work-featured__intro">
+        <p class="page-kicker">{{ i18n "workPageKicker" }}</p>
+        <h2>{{ i18n "featuredProjects" }}</h2>
+      </div>
+      {{ with .Site.GetPage "/work" }}
+      <a class="text-cta work-featured__all" href="{{ .RelPermalink }}">{{ i18n "viewAllProjects" }} →</a>
+      {{ end }}
+    </div>
+    <div class="work-featured__grid">
+      {{ range $pages }}
+      {{ $work := . }}
+      <a class="work-card" href="{{ $work.RelPermalink }}">
+        <span class="work-card__media">
+          {{ if $work.Params.image }}
+          <img
+            src="{{ $work.Params.image | absURL }}"
+            width="713"
+            height="500"
+            loading="lazy"
+            decoding="async"
+            alt="{{ with $work.Params.image_alt }}{{ . }}{{ else }}{{ $work.Title }}{{ end }}"
+          />
+          {{ end }}
+        </span>
+        <span class="work-card__body">
+          <h3 class="work-card__title">{{ $work.Title }}</h3>
+          {{ with $work.Params.summary }}
+          <p class="work-card__summary">{{ . }}</p>
+          {{ end }}
+        </span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

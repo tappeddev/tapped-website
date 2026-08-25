@@ -13,6 +13,7 @@ dist/
 # Generated files by hugo
 /public/
 /resources/_gen/
+/.shots/
 
 # Executable may be added to repository
 hugo.exe

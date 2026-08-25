@@ -1,0 +1,99 @@
+{{- /*
+    Team people grid, then a filmstrip of team events.
+    Two columns on small screens, four from tablet up, so eight people fill
+    even rows.
+*/ -}}
+<section id="team" class="about-team rad-animation-group" aria-labelledby="about-team-title">
+    <div class="container">
+        <div class="about-team__header rad-fade-down">
+            <h2 id="about-team-title">{{ i18n "teamTitle" }}</h2>
+        </div>
+        <ul class="team-strip rad-fade-down" aria-label="{{ i18n "teamTitle" }}">
+            {{- range .Site.Data.team.members }}
+            <li class="team-strip__card">
+                {{ $m := . }}
+                <img
+                    src="{{ $m.image | absURL }}"
+                    srcset="{{ $m.image | absURL }} 1x, {{ $m.image2x | absURL }} 2x"
+                    width="116"
+                    height="116"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                >
+                <span class="team-strip__name">{{ $m.name }}</span>
+                {{- with $m.role }}
+                <span class="team-strip__role">{{ i18n . }}</span>
+                {{- end }}
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</section>
+{{- if .Site.Data.team.photos }}
+<section id="team-events" class="team-events rad-animation-group" aria-labelledby="team-events-title">
+    <div class="container">
+        <div class="team-events__header rad-fade-down">
+            <div class="team-events__intro">
+                <h2 id="team-events-title">{{ i18n "teamEventsTitle" }}</h2>
+                <p class="lead">{{ i18n "teamEventsLead" }}</p>
+            </div>
+            <div class="team-photos__controls">
+                <button
+                    type="button"
+                    class="team-photos__nav team-photos__nav--prev"
+                    data-team-photos-prev
+                    aria-label="{{ i18n "teamPhotosPrev" }}"
+                    disabled
+                >
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M10.5 3.5 6 8l4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button
+                    type="button"
+                    class="team-photos__nav team-photos__nav--next"
+                    data-team-photos-next
+                    aria-label="{{ i18n "teamPhotosNext" }}"
+                >
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M5.5 3.5 10 8l-4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="team-photos rad-fade-down" data-team-photos>
+        <div
+            class="team-photos__viewport"
+            data-team-photos-viewport
+            tabindex="0"
+            role="region"
+            aria-label="{{ i18n "teamPhotosLabel" }}"
+        >
+            <ul class="team-photos__track">
+                {{- range .Site.Data.team.photos }}
+                {{- $photo := . }}
+                <li class="team-photos__frame team-photos__frame--{{ $photo.shape | default "landscape" }}">
+                    <figure class="team-photos__shot">
+                        {{- if $photo.image }}
+                        <img
+                            src="{{ $photo.image | absURL }}"
+                            {{- with $photo.image2x }} srcset="{{ $photo.image | absURL }} 1x, {{ . | absURL }} 2x"{{- end }}
+                            width="{{ if eq $photo.shape "portrait" }}334{{ else if eq $photo.shape "wide" }}589{{ else }}486{{ end }}"
+                            height="380"
+                            loading="lazy"
+                            decoding="async"
+                            alt="{{ with $photo.alt }}{{ i18n . }}{{ end }}"
+                        >
+                        {{- else }}
+                        <div class="team-photos__placeholder" aria-hidden="true"></div>
+                        {{- end }}
+                    </figure>
+                </li>
+                {{- end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{- end }}

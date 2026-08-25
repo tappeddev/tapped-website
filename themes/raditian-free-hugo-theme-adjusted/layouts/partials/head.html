@@ -1,12 +1,15 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="google" content="notranslate" />
 
 {{ range .AllTranslations }}
 <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}" />
 {{ end }}
-{{ if .IsHome }}
-<link rel="alternate" href="{{ .Site.BaseURL }}" hreflang="x-default" />
+{{ range .AllTranslations }}
+{{ if eq .Lang "en" }}
+<link rel="alternate" href="{{ .Permalink }}" hreflang="x-default" />
+{{ end }}
 {{ end }}
 
 <!-- Optimize load performance -->
@@ -14,8 +17,7 @@
 <link rel="dns-prefetch" href="https://cmp.osano.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="preload" href="{{ "/fonts/inter/Inter-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ "/fonts/inter/Inter-ExtraBold.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "/fonts/inter/Inter-latin.var.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
 {{ if .IsHome }}
 <link rel="preload" as="image"
       href="{{ "/img/showcase/showcase-824.webp" | absURL }}"
@@ -25,8 +27,20 @@
       fetchpriority="high">
 {{ end }}
 
-{{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | relURL }}" />
+{{ $stylesheets := .Site.Params.plugins.css }}
+{{ if .IsHome }}
+{{ $stylesheets = slice
+  (dict "URL" "css/home/main.purged.css")
+  (dict "URL" "css/home/custom.css")
+}}
+{{ end }}
+{{ range $stylesheets }}
+{{ $sourcePath := printf "static/%s" .URL }}
+{{ if not (os.FileExists $sourcePath) }}
+{{ $sourcePath = printf "themes/raditian-free-hugo-theme-adjusted/static/%s" .URL }}
+{{ end }}
+{{ $stylesheet := resources.FromString .URL (os.ReadFile $sourcePath) | minify }}
+<link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" />
 {{ end }}
 
 {{/* Osano must stay synchronous and before analytics so consent is established first (GDPR). */}}

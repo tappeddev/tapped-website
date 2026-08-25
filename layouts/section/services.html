@@ -1,0 +1,24 @@
+{{ partial "site-open.html" . }}
+<main class="page-main">
+  <div class="container">
+    <header class="page-hero">
+      <p class="page-kicker">{{ i18n "servicesPageKicker" }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ i18n "serviceDescription" | safeHTML }}</p>
+    </header>
+
+    <div class="page-card-grid">
+      {{ range .RegularPages.ByWeight }}
+      <a class="page-card" href="{{ .RelPermalink }}">
+        <h2 class="page-card__title">{{ .Title }}</h2>
+        {{ with .Params.summary }}
+        <p class="page-card__summary">{{ . }}</p>
+        {{ end }}
+        <span class="page-card__more">{{ i18n "readMore" }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ partial "contact-cta.html" . }}
+</main>
+{{ partial "site-close.html" . }}

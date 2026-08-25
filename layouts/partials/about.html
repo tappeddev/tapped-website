@@ -1,0 +1,63 @@
+{{ if .Site.Data.homepage.about.enable }}
+{{ if .IsHome }}
+<section id="about" class="home-about" aria-labelledby="home-about-title">
+    <div class="container">
+        <div class="home-about__grid">
+            <div class="home-about__copy">
+                <p class="page-kicker">{{ i18n "aboutPageKicker" }}</p>
+                <h2 id="home-about-title">{{ i18n "aboutTitle" }}</h2>
+                <p class="lead">{{ i18n "aboutTeaser" | safeHTML }}</p>
+                {{ with .Site.GetPage "/about" }}
+                <a class="text-cta home-about__cta" href="{{ .RelPermalink }}">{{ i18n "aboutReadMore" }} →</a>
+                {{ end }}
+            </div>
+            <div class="home-about__media">
+                {{ partial "team-orbit.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ else }}
+<section id="about" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12 col-lg-9 mt-5 mt-sm-0">
+                <p class="page-kicker">{{ i18n "aboutPageKicker" }}</p>
+                <h1>{{ .Title }}</h1>
+                <div class="about-intro">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        <div class="about-stats work-stats-block rad-fade-down">
+            <div class="work-stats">
+                <div class="work-stats__item">
+                    <p class="work-stats__value">2019</p>
+                    <p class="work-stats__label">{{ i18n "aboutStatFounded" }}</p>
+                </div>
+                {{ with .Site.GetPage "/work" }}
+                <a class="work-stats__item" href="{{ .RelPermalink }}">
+                    <p class="work-stats__value">{{ i18n "aboutStatProjectsValue" }}</p>
+                    <p class="work-stats__label">{{ i18n "aboutStatProjects" }}</p>
+                </a>
+                {{ end }}
+                <button type="button" class="work-stats__item work-stats__item--tip" aria-describedby="about-stat-users-tip">
+                    <span class="work-stats__value">{{ i18n "aboutStatUsersValue" }}</span>
+                    <span class="work-stats__label">{{ i18n "aboutStatUsers" }}</span>
+                    <span id="about-stat-users-tip" class="work-stats__tip" role="tooltip">{{ i18n "aboutStatUsersTooltip" }}</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{{ partial "team-strip.html" . }}
+<section id="approach" class="section about-approach rad-animation-group" aria-labelledby="about-approach-title">
+    <div class="container">
+        <div class="about-approach__copy rad-fade-down">
+            <h2 id="about-approach-title">{{ i18n "aboutApproachTitle" }}</h2>
+            <p class="lead">{{ i18n "aboutApproachLead" | safeHTML }}</p>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

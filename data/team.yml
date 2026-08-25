@@ -1,0 +1,75 @@
+# People currently at Tapped. Photos come from the Typst company documents.
+# Optional per-member fields (shown in the landing-page constellation dialog):
+#   bio: i18n key with a short description (add it to i18n/en.toml and de.toml)
+#   linkedin: full profile URL
+#
+# Horizontal gallery of team events on the about page.
+# Files are numbered by how many people are in the frame.
+# shape: portrait | landscape | wide
+photos:
+  - shape: landscape
+    image: "img/team/events/event-01.webp"
+    image2x: "img/team/events/event-01@2x.webp"
+    alt: "teamPhotoAltHike"
+  - shape: portrait
+    image: "img/team/events/event-02.webp"
+    image2x: "img/team/events/event-02@2x.webp"
+    alt: "teamPhotoAltCarts"
+  - shape: landscape
+    image: "img/team/events/event-03.webp"
+    image2x: "img/team/events/event-03@2x.webp"
+    alt: "teamPhotoAltTogether"
+  - shape: portrait
+    image: "img/team/events/event-04.webp"
+    image2x: "img/team/events/event-04@2x.webp"
+    alt: "teamPhotoAltTrail"
+  - shape: wide
+    image: "img/team/events/event-05.webp"
+    image2x: "img/team/events/event-05@2x.webp"
+    alt: "teamPhotoAltWinter"
+  - shape: wide
+    image: "img/team/events/event-06.webp"
+    image2x: "img/team/events/event-06@2x.webp"
+    alt: "teamPhotoAltMountains"
+members:
+  - name: "Stefan Schaller"
+    role: "teamRoleCeo"
+    image: "img/team/members/stefan.webp"
+    image2x: "img/team/members/stefan@2x.webp"
+    linkedin: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
+    bio: "teamBioStefan"
+  - name: "Julian Bissekkou"
+    role: "teamRoleCto"
+    image: "img/team/members/julian.webp"
+    image2x: "img/team/members/julian@2x.webp"
+    linkedin: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
+    bio: "teamBioJulian"
+  - name: "Tarek Tolba"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/tarek.webp"
+    image2x: "img/team/members/tarek@2x.webp"
+    bio: "teamBioTarek"
+  - name: "Otto Dämpfle"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/otto.webp"
+    image2x: "img/team/members/otto@2x.webp"
+    bio: "teamBioOtto"
+  - name: "Steffen Süß"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/steffen.webp"
+    image2x: "img/team/members/steffen@2x.webp"
+    bio: "teamBioSteffen"
+  - name: "Jean-Francis Devezi Savula"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/jean.webp"
+    image2x: "img/team/members/jean@2x.webp"
+    bio: "teamBioJean"
+  - name: "Stefan Bergmair"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/stefan-bergmair.webp"
+    image2x: "img/team/members/stefan-bergmair@2x.webp"
+    bio: "teamBioStefanB"
+  - name: "Dominik Rakowski"
+    role: "teamRoleDeveloper"
+    image: "img/team/members/dominik.webp"
+    image2x: "img/team/members/dominik@2x.webp"

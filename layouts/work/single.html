@@ -1,0 +1,140 @@
+{{ partial "site-open.html" . }}
+<main class="page-main work-detail">
+  <div class="container">
+    <header class="page-hero page-hero--work">
+      {{ with .Parent }}
+      <p class="page-kicker page-kicker--back">
+        <a class="work-back" href="{{ .RelPermalink }}">← {{ i18n "backToWork" }}</a>
+      </p>
+      {{ end }}
+      <h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ with .Params.summary }}
+      <p class="lead page-hero__lead">{{ . }}</p>
+      {{ end }}
+      <dl class="page-meta">
+        {{ with .Params.client }}
+        <div class="page-meta__row">
+          <dt>{{ i18n "clientLabel" }}</dt>
+          <dd>{{ . }}</dd>
+        </div>
+        {{ end }}
+        {{ with .Params.partner }}
+        <div class="page-meta__row">
+          <dt>{{ i18n "partnerLabel" }}</dt>
+          <dd>{{ . }}</dd>
+        </div>
+        {{ end }}
+        {{ with .Params.stack }}
+        <div class="page-meta__row">
+          <dt>{{ i18n "stackLabel" }}</dt>
+          <dd>{{ delimit . " · " }}</dd>
+        </div>
+        {{ end }}
+        {{ with .Params.released }}
+        <div class="page-meta__row">
+          <dt>{{ i18n "releasedLabel" }}</dt>
+          <dd>{{ . }}</dd>
+        </div>
+        {{ end }}
+        {{ with .Params.projectPeriod }}
+        <div class="page-meta__row">
+          <dt>{{ i18n "projectPeriodLabel" }}</dt>
+          <dd>{{ . }}</dd>
+        </div>
+        {{ end }}
+      </dl>
+    </header>
+
+    {{ with .Params.stats }}
+    <section class="work-stats-block" aria-label="{{ i18n "workStatsLabel" }}">
+      <div class="work-stats">
+        {{ range . }}
+        <div class="work-stats__item">
+          <p class="work-stats__value">{{ .value }}</p>
+          <p class="work-stats__label">{{ .label }}</p>
+          {{ with .note }}
+          <p class="work-stats__note">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ with .Params.image }}
+    <figure class="work-detail__figure">
+      <img
+        class="img-responsive"
+        src="{{ . | absURL }}"
+        {{ with $.Params.image2x }}srcset="{{ $.Params.image | absURL }} 1x, {{ . | absURL }} 2x"{{ end }}
+        width="713"
+        height="500"
+        decoding="async"
+        alt="{{ with $.Params.image_alt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}"
+      />
+    </figure>
+    {{ end }}
+
+    <div class="page-prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.highlights }}
+    <section class="work-highlights" aria-labelledby="work-highlights-title">
+      <h2 id="work-highlights-title">{{ i18n "highlightsTitle" }}</h2>
+      <div class="work-highlights__grid">
+        {{ range . }}
+        <article class="work-highlight">
+          {{ with .tag }}<p class="work-highlight__tag">{{ . }}</p>{{ end }}
+          <h3>{{ .title }}</h3>
+          <p>{{ .body }}</p>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if or .Params.external .Params.relatedService }}
+    <div class="work-actions">
+      {{ with .Params.external }}
+        {{ $urls := . }}
+        {{ if not (reflect.IsSlice .) }}
+          {{ $urls = slice . }}
+        {{ end }}
+        {{ range $urls }}
+        {{ $host := strings.TrimPrefix "www." (urls.Parse .).Host }}
+        <a class="work-action" href="{{ . }}" target="_blank" rel="noopener">
+          <span class="work-action__label">{{ i18n "visitLabel" }}</span>
+          <span class="work-action__value">{{ i18n "visitProduct" $host }} →</span>
+        </a>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.relatedService }}
+        {{ $services := . }}
+        {{ if not (reflect.IsSlice .) }}
+          {{ $services = slice . }}
+        {{ end }}
+        {{ range $services }}
+        {{ with $.Site.GetPage . }}
+        <a class="work-action" href="{{ .RelPermalink }}">
+          <span class="work-action__label">{{ i18n "relatedService" }}</span>
+          <span class="work-action__value">{{ .Title }} →</span>
+        </a>
+        {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ partial "faq.html" . }}
+
+    {{ with .Params.statsSource }}
+    <p class="work-stats__source">
+      {{ i18n "statsSourcePrefix" }}
+      {{ if .url }}<a href="{{ .url }}" rel="noopener" target="_blank">{{ .text }}</a>{{ else }}{{ .text }}{{ end }}
+    </p>
+    {{ end }}
+  </div>
+  {{ partial "contact-cta.html" . }}
+</main>
+{{ partial "site-close.html" . }}

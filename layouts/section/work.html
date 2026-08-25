@@ -1,0 +1,13 @@
+{{ partial "site-open.html" . }}
+<main class="page-main page-main--work">
+  <div class="container">
+    <header class="page-hero">
+      <p class="page-kicker">{{ i18n "workPageKicker" }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ i18n "workIndexLead" }}</p>
+    </header>
+  </div>
+  {{ partial "work-list.html" . }}
+  {{ partial "contact-cta.html" . }}
+</main>
+{{ partial "site-close.html" . }}

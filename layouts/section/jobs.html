@@ -1,162 +1,142 @@
-<!-- inject:../components/baseHead/baseHeadStart.html -->
-<!DOCTYPE html>
-<html lang="{{ .Lang }}">
+{{ partial "site-open.html" . }}
+<main class="page-main page-main--jobs">
+  {{ if .Site.Params.jobs.hiring }}
+  <div class="container">
+    <header class="page-hero page-hero--jobs">
+      <p class="page-kicker">{{ i18n "jobsPageKicker" }}</p>
+      <h1>{{ i18n "jobsJobTitle" }}</h1>
+      <p class="lead">{{ i18n "jobsDescription" }}</p>
 
-<head>
-    {{ partial "head.html" . }}
-
-    {{ partial "tapped_head.html" . }}
-
-    {{ partial "head_custom.html" . }}
-</head>
-
-<body>
-    {{ partial "header.html" . }}
-    <main class="job-page">
-        <div class="container">
-            <div class="job-page__top-spacer"></div>
-
-            {{ if .Site.Params.jobs.show_no_open_positions }}
-            <div class="alert alert-light job-page__notice" role="alert">
-                {{ i18n "jobsNoOpenPositions" }}
-            </div>
-            {{ end }}
-
-            <header class="job-page__hero">
-                <div class="row align-items-start">
-                    <div class="col-12">
-                        <div class="job-page__kicker">{{ i18n "jobsPreTitle" }}</div>
-                        <h1 class="job-page__title">{{ i18n "jobsJobTitle" }}</h1>
-                        <p class="lead job-page__lead">
-                            {{ i18n "jobsDescription" }}<br>
-                            {{ i18n "jobsAdditionalInfo" }}
-                        </p>
-
-                        <div class="job-page__cta">
-                            <a href="mailto:jobs@tapped.dev" class="btn btn-primary">
-                                <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
-                                {{ i18n "jobsApplyNow" }}
-                            </a>
-                            <div class="job-page__what-to-include">
-                                {{ i18n "jobsWhatToInclude" | safeHTML }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <section class="job-section">
-                <h2 class="job-section__title">{{ i18n "jobsResponsibilitiesTitle" }}</h2>
-                <ul class="job-list">
-                    <li>{{ i18n "jobsResponsibilities1" }}</li>
-                    <li>{{ i18n "jobsResponsibilities2" }}</li>
-                    <li>{{ i18n "jobsResponsibilities3" }}</li>
-                    <li>{{ i18n "jobsResponsibilities4" }}</li>
-                    <li>{{ i18n "jobsResponsibilities5" }}</li>
-                    <li>{{ i18n "jobsResponsibilities6" }}</li>
-                </ul>
-            </section>
-
-            <section class="job-section">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="job-card job-card--section">
-                            <h2 class="job-card__title">{{ i18n "jobsRequirements" }}</h2>
-                            <ul class="job-list job-list--compact mb-0">
-                                <li>{{ i18n "jobsRequirementsFlutter" }}</li>
-                                <li>{{ i18n "jobsRequirementsDart" }}</li>
-                                <li>{{ i18n "jobsRequirementsNative" }}</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
-                        <div class="job-card job-card--section">
-                            <h2 class="job-card__title">{{ i18n "jobsNiceToHave" }}</h2>
-                            <ul class="job-list job-list--compact mb-0">
-                                <li>{{ i18n "jobsNiceToHaveKotlin" }}</li>
-                                <li>{{ i18n "jobsNiceToHaveJava" }}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="job-section">
-                <h2 class="job-section__title">{{ i18n "jobsWeOffer" }}</h2>
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferOffice" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferOfficeSubtitle" }}</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferMac" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferMacSubtitle" }}</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferTeam" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferTeamSubtitle" }}</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferSalary" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferSalarySubtitle" }}</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferGym" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferGymSubtitle" }}</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="job-card job-card--benefit">
-                            <div class="job-card__benefit">{{ i18n "jobsWeOfferWorkation" }}</div>
-                            <div class="job-card__benefit-subtitle">{{ i18n "jobsWeOfferWorkationSubtitle" }}</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="job-section">
-                <h2 class="job-section__title">{{ i18n "jobsProcessTitle" }}</h2>
-                <ol class="job-process">
-                    <li class="job-process__item">
-                        <div class="job-process__title">{{ i18n "jobsProcessStep1Title" }}</div>
-                        <div class="job-process__desc">{{ i18n "jobsProcessStep1Desc" }}</div>
-                    </li>
-                    <li class="job-process__item">
-                        <div class="job-process__title">{{ i18n "jobsProcessStep2Title" }}</div>
-                        <div class="job-process__desc">{{ i18n "jobsProcessStep2Desc" }}</div>
-                    </li>
-                    <li class="job-process__item">
-                        <div class="job-process__title">{{ i18n "jobsProcessStep4Title" }}</div>
-                        <div class="job-process__desc">{{ i18n "jobsProcessStep4Desc" }}</div>
-                    </li>
-                </ol>
-            </section>
-
-            <section class="job-section job-section--cta">
-                <div class="job-card job-card--cta">
-                    <p class="job-page__closing">{{ i18n "jobsClosingStatement" | safeHTML }}</p>
-                    <a href="mailto:jobs@tapped.dev" class="btn btn-primary">
-                        <i class="{{ .Site.Data.homepage.jobs.button.icon }}"></i>
-                        {{ i18n "jobsApplyNow" }}
-                    </a>
-                </div>
-            </section>
+      <dl class="page-meta">
+        <div class="page-meta__row">
+          <dt>{{ i18n "jobsAtAGlanceLocationLabel" }}</dt>
+          <dd>{{ i18n "jobsAtAGlanceLocationValue" }}</dd>
         </div>
-    </main>
+        <div class="page-meta__row">
+          <dt>{{ i18n "jobsAtAGlanceContractLabel" }}</dt>
+          <dd>{{ i18n "jobsAtAGlanceContractValue" }}</dd>
+        </div>
+        <div class="page-meta__row">
+          <dt>{{ i18n "jobsAtAGlanceLanguageLabel" }}</dt>
+          <dd>{{ i18n "jobsAtAGlanceLanguageValue" }}</dd>
+        </div>
+        <div class="page-meta__row">
+          <dt>{{ i18n "jobsAtAGlanceResidenceLabel" }}</dt>
+          <dd>{{ i18n "jobsAtAGlanceResidenceValue" }}</dd>
+        </div>
+      </dl>
 
-    {{ partial "footer.html" . }}
+      <div class="jobs-hero__cta">
+        <a href="mailto:jobs@tapped.dev" class="btn-pill btn-pill--primary">
+          {{ i18n "jobsApplyNow" }}
+        </a>
+        <p class="jobs-hero__note">{{ i18n "jobsWhatToInclude" | safeHTML }}</p>
+      </div>
+    </header>
 
-    {{ partial "base-foot.html" . }}
-</body>
+    <section class="jobs-section" aria-labelledby="jobs-do-title">
+      <h2 id="jobs-do-title">{{ i18n "jobsResponsibilitiesTitle" }}</h2>
+      <ul class="jobs-list">
+        <li>{{ i18n "jobsResponsibilities1" }}</li>
+        <li>{{ i18n "jobsResponsibilities2" }}</li>
+        <li>{{ i18n "jobsResponsibilities3" }}</li>
+        <li>{{ i18n "jobsResponsibilities4" }}</li>
+        <li>{{ i18n "jobsResponsibilities5" }}</li>
+        <li>{{ i18n "jobsResponsibilities6" }}</li>
+      </ul>
+    </section>
 
-</html>
-<!-- endinject -->
+    <section class="jobs-section">
+      <div class="jobs-split">
+        <div class="jobs-split__col">
+          <h2>{{ i18n "jobsRequirements" }}</h2>
+          <ul class="jobs-list">
+            <li>{{ i18n "jobsRequirementsFlutterDart" }}</li>
+            <li>{{ i18n "jobsRequirementsNative" }}</li>
+            <li>{{ i18n "jobsRequirementsWeb" }}</li>
+            <li>{{ i18n "jobsRequirementsAgents" }}</li>
+          </ul>
+        </div>
+        <div class="jobs-split__col">
+          <h2>{{ i18n "jobsNiceToHave" }}</h2>
+          <ul class="jobs-list">
+            <li>{{ i18n "jobsNiceToHaveSupabase" }}</li>
+            <li>{{ i18n "jobsNiceToHaveQuarkus" }}</li>
+            <li>{{ i18n "jobsNiceToHaveOpenShift" }}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="jobs-section" aria-labelledby="jobs-offer-title">
+      <h2 id="jobs-offer-title">{{ i18n "jobsWeOffer" }}</h2>
+      <div class="jobs-perks">
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferOffice" }}</h3>
+          <p>{{ i18n "jobsWeOfferOfficeSubtitle" }}</p>
+        </article>
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferMac" }}</h3>
+          <p>{{ i18n "jobsWeOfferMacSubtitle" }}</p>
+        </article>
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferTeam" }}</h3>
+          <p>{{ i18n "jobsWeOfferTeamSubtitle" }}</p>
+        </article>
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferSalary" }}</h3>
+          <p>{{ i18n "jobsWeOfferSalarySubtitle" }}</p>
+        </article>
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferGym" }}</h3>
+          <p>{{ i18n "jobsWeOfferGymSubtitle" }}</p>
+        </article>
+        <article class="jobs-perk">
+          <h3>{{ i18n "jobsWeOfferWorkation" }}</h3>
+          <p>{{ i18n "jobsWeOfferWorkationSubtitle" }}</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="jobs-section" aria-labelledby="jobs-process-title">
+      <h2 id="jobs-process-title">{{ i18n "jobsProcessTitle" }}</h2>
+      <ol class="jobs-process">
+        <li>
+          <h3>{{ i18n "jobsProcessStep1Title" }}</h3>
+          <p>{{ i18n "jobsProcessStep1Desc" }}</p>
+        </li>
+        <li>
+          <h3>{{ i18n "jobsProcessStep2Title" }}</h3>
+          <p>{{ i18n "jobsProcessStep2Desc" }}</p>
+        </li>
+        <li>
+          <h3>{{ i18n "jobsProcessStep3Title" }}</h3>
+          <p>{{ i18n "jobsProcessStep3Desc" }}</p>
+        </li>
+        <li>
+          <h3>{{ i18n "jobsProcessStep4Title" }}</h3>
+          <p>{{ i18n "jobsProcessStep4Desc" }}</p>
+        </li>
+      </ol>
+    </section>
+
+  </div>
+
+  {{ partial "contact-cta.html" (dict
+    "page" .
+    "title" (i18n "jobsCtaTitle")
+    "text" (i18n "jobsClosingStatement")
+    "label" (i18n "jobsApplyNow")
+    "href" "mailto:jobs@tapped.dev"
+    "titleID" "jobs-cta-title") }}
+  {{ else }}
+  <div class="container">
+    <header class="page-hero page-hero--jobs">
+      <p class="page-kicker">{{ i18n "jobsEmptyKicker" }}</p>
+      <h1>{{ i18n "jobsEmptyTitle" }}</h1>
+      <p class="lead">{{ i18n "jobsNoOpenPositions" }}</p>
+    </header>
+  </div>
+  {{ end }}
+</main>
+{{ partial "site-close.html" . }}

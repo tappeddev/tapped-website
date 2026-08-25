@@ -69,16 +69,16 @@ clients:
       width: 125
       height: 30
     - logo:
-        x: "img/clients/phntm_xyz_logo.png"
-        _2x: "img/clients/phntm_xyz_logo@2x.png"
+        x: "img/clients/phntm_xyz_logo.svg"
+        _2x: "img/clients/phntm_xyz_logo.svg"
       alt: "phntm GmbH"
       link: "https://phntm.xyz"
-      width: 284
-      height: 30
+      width: 181
+      height: 181
     - logo:
         x: "img/clients/die_ringe_logo.png"
         _2x: "img/clients/die_ringe_logo@2x.png"
-      alt: "DIE RINGE Bodyworkout UG (haftungsbeschränkt)"
+      alt: "DIE RINGE Bodyworkout GmbH"
       link: "https://www.dieringe.com"
       width: 121
       height: 42
@@ -145,66 +145,103 @@ works:
 # technologies
 technologies:
   enable: true
-  items:
-    - name: "Flutter"
-      logo:
-        x: "img/technologies/flutter.svg"
-        _2x: "img/technologies/flutter.svg"
-      link: "https://flutter.dev/"
-
-    - name: "Dart"
-      logo:
-        x: "img/technologies/dart.svg"
-        _2x: "img/technologies/dart.svg"
-      link: "https://dart.dev/"
-
-    - name: "Kotlin"
-      logo:
-        x: "img/technologies/kotlin.svg"
-        _2x: "img/technologies/kotlin.svg"
-      link: "https://kotlinlang.org/"
-
-    - name: "Java"
-      logo:
-        x: "img/technologies/java.svg"
-        _2x: "img/technologies/java.svg"
-      link: "https://www.java.com/"
-
-    - name: "Swift"
-      logo:
-        x: "img/technologies/swift.png"
-        _2x: "img/technologies/swift.png"
-      link: "https://developer.apple.com/swift/"
-
-    - name: "Ktor"
-      logo:
-        x: "img/technologies/ktor.png"
-        _2x: "img/technologies/ktor.png"
-      link: "https://ktor.io/"
-
-    - name: "MySQL"
-      logo:
-        x: "img/technologies/mysql.svg"
-        _2x: "img/technologies/mysql.svg"
-      link: "https://www.mysql.com/"
-
-    - name: "PostgreSQL"
-      logo:
-        x: "img/technologies/postgresql.svg"
-        _2x: "img/technologies/postgresql.svg"
-      link: "https://www.postgresql.org/"
-
-    - name: "Docker"
-      logo:
-        x: "img/technologies/docker.png"
-        _2x: "img/technologies/docker.png"
-      link: "https://www.docker.com/"
-
-    - name: "Appwrite"
-      logo:
-        x: "img/technologies/appwrite.png"
-        _2x: "img/technologies/appwrite.png"
-      link: "https://appwrite.io/"
+  groups:
+    - title: "techGroupFrontend"
+      items:
+        - name: "Flutter"
+          logo:
+            x: "img/technologies/flutter.svg"
+            _2x: "img/technologies/flutter.svg"
+          link: "https://flutter.dev/"
+        - name: "Dart"
+          logo:
+            x: "img/technologies/dart.svg"
+            _2x: "img/technologies/dart.svg"
+          link: "https://dart.dev/"
+        - name: "Kotlin"
+          logo:
+            x: "img/technologies/kotlin.svg"
+            _2x: "img/technologies/kotlin.svg"
+          link: "https://kotlinlang.org/"
+        - name: "Kotlin Multiplatform"
+          logo:
+            x: "img/technologies/kotlin-multiplatform.svg"
+            _2x: "img/technologies/kotlin-multiplatform.svg"
+          link: "https://kotlinlang.org/lp/multiplatform/"
+        - name: "Swift"
+          logo:
+            x: "img/technologies/swift.png"
+            _2x: "img/technologies/swift.png"
+          link: "https://developer.apple.com/swift/"
+        - name: "Java"
+          logo:
+            x: "img/technologies/java.svg"
+            _2x: "img/technologies/java.svg"
+          link: "https://www.java.com/"
+    - title: "techGroupBackend"
+      items:
+        - name: "Ktor"
+          logo:
+            x: "img/technologies/ktor.png"
+            _2x: "img/technologies/ktor.png"
+          link: "https://ktor.io/"
+        - name: "Spring"
+          logo:
+            x: "img/technologies/spring.svg"
+            _2x: "img/technologies/spring.svg"
+          link: "https://spring.io/"
+        - name: "Quarkus"
+          logo:
+            x: "img/technologies/quarkus.svg"
+            _2x: "img/technologies/quarkus.svg"
+          link: "https://quarkus.io/"
+        - name: "Appwrite"
+          logo:
+            x: "img/technologies/appwrite.png"
+            _2x: "img/technologies/appwrite.png"
+          link: "https://appwrite.io/"
+        - name: "Supabase"
+          logo:
+            x: "img/technologies/supabase.svg"
+            _2x: "img/technologies/supabase.svg"
+          link: "https://supabase.com/"
+        - name: "MySQL"
+          logo:
+            x: "img/technologies/mysql.svg"
+            _2x: "img/technologies/mysql.svg"
+          link: "https://www.mysql.com/"
+        - name: "PostgreSQL"
+          logo:
+            x: "img/technologies/postgresql.svg"
+            _2x: "img/technologies/postgresql.svg"
+          link: "https://www.postgresql.org/"
+        - name: "Docker"
+          logo:
+            x: "img/technologies/docker.png"
+            _2x: "img/technologies/docker.png"
+          link: "https://www.docker.com/"
+    - title: "techGroupContent"
+      items:
+        - name: "Phrase"
+          logo:
+            x: "img/technologies/phrase.svg"
+            _2x: "img/technologies/phrase.svg"
+          link: "https://phrase.com/"
+        - name: "Tolgee"
+          logo:
+            x: "img/technologies/tolgee.svg"
+            _2x: "img/technologies/tolgee.svg"
+          link: "https://tolgee.io/"
+        - name: "Directus"
+          logo:
+            x: "img/technologies/directus.svg"
+            _2x: "img/technologies/directus.svg"
+          link: "https://directus.io/"
+        - name: "Strapi"
+          logo:
+            x: "img/technologies/strapi.svg"
+            _2x: "img/technologies/strapi.svg"
+          link: "https://strapi.io/"
 
 additional:
   enable: true
@@ -213,11 +250,6 @@ additional:
 testimonial:
   enable: true
   items:
-    - name: "Josua Kohberg"
-      position: "testimonialKosysPosition"
-      content: "testimonialKosysContent"
-      link: "https://kosys.com/"
-
     - name: "Paul Uhler"
       position: "testimonialDieRingePosition"
       content: "testimonialDieRingeContent"
@@ -247,29 +279,33 @@ testimonial:
 contact:
   enable: true
   phone:
-    number: '<a href="tel:+4917630400083">+ 49 (0) 176 30 40 00 83</a>'
+    display: "+49 (0) 176 30 40 00 83"
+    tel: "+4917630400083"
   email:
-    email: '<a href="mailto:contact@tapped.dev">contact@tapped.dev</a>'
+    address: "contact@tapped.dev"
+  # Optional scheduling page (Google Calendar, Calendly, Cal.com). If set, "Book a call" opens it.
+  booking:
+    url: "https://calendar.app.google/1DozujSxsMiq9esx9"
   address:
     address: "Tapped GmbH<br />Krumpenhofweg 2, 80639 München"
   button:
     icon: "icon-mail-fill"
   items:
     - image:
-        x: "img/team/julian.webp"
-        _2x: "img/team/julian@2x.webp"
+        x: "img/team/members/julian.webp"
+        _2x: "img/team/members/julian@2x.webp"
       name: "Julian Bissekkou"
       title: "CTO / Co-Founder"
       width: 116
-      height: 130
+      height: 116
       linkedin_link: "https://www.linkedin.com/in/julian-bissekkou-5075751a5/"
     - image:
-        x: "img/team/stefan.webp"
-        _2x: "img/team/stefan@2x.webp"
+        x: "img/team/members/stefan.webp"
+        _2x: "img/team/members/stefan@2x.webp"
       name: "Stefan Schaller"
       title: "CEO / Co-Founder"
-      width: 107
-      height: 130
+      width: 116
+      height: 116
       linkedin_link: "https://www.linkedin.com/in/stefan-schaller-a6980b1a6/"
 
 # jobs

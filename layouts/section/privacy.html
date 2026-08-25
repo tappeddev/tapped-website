@@ -1,29 +1,13 @@
-<!-- inject:../components/baseHead/baseHeadStart.html -->
-<!DOCTYPE html>
-<html lang="{{ .Lang }}">
-
-<head>
-
-    {{ partial "head.html" . }}
-
-    {{ partial "tapped_head.html" . }}
-
-    {{ partial "head_custom.html" . }}
-
-</head>
-
-<body>
-
-{{ partial "header.html" . }}
-
-<main class="legal-main">
-    {{ partial "privacy.html" . }}
+{{ partial "site-open.html" . }}
+<main class="page-main page-main--legal">
+  <div class="container">
+    <header class="page-hero">
+      <p class="page-kicker">{{ i18n "legalPageKicker" }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="page-prose legal-prose">
+      {{ partial "privacy.html" . }}
+    </div>
+  </div>
 </main>
-
-{{ partial "footer.html" . }}
-{{ partial "base-foot.html" . }}
-
-</body>
-
-</html>
-<!-- endinject -->
+{{ partial "site-close.html" . }}

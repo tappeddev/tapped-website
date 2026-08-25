@@ -1,15 +1,14 @@
 <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="{{ "/" | absLangURL }}">
+      <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
         <span class="sr-only">Tapped</span>
         <!--<span>{{ .Site.Params.logo.text1 }}</span>
         <span>{{ .Site.Params.logo.text2 }}</span>-->
-        <!-- TODO: Use smaller images & i18n alt text -->
         <img class="img-responsive" src="{{ .Site.Data.homepage.header.image.x | absURL }}"
           width="156"
           height="55"
-          alt="Tapped logo" />
+          alt="{{ i18n "logoAlt" }}" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent, #header"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,12 +18,14 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           {{ range .Site.Menus.header }}
-          {{ $url := print ("" | absLangURL) .URL }}
-          {{ if $.IsHome }}
-            {{ $url = .URL }}
-          {{ end }}
+          {{- $active := or ($.IsMenuCurrent "header" .) ($.HasMenuCurrent "header" .) -}}
+          {{- if and (not $active) .Page (not $.IsHome) -}}
+            {{- if eq $.Section .Page.Section -}}
+              {{- $active = true -}}
+            {{- end -}}
+          {{- end -}}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ $url }}">{{ i18n .Name | upper }}</a>
+            <a class="nav-link{{ if $active }} active{{ end }}" href="{{ .URL }}">{{ i18n .Name }}</a>
           </li>
           {{ end }}
         </ul>
