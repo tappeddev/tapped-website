@@ -196,57 +196,9 @@ html {
 @font-face {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-Light.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-Regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-Medium.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-SemiBold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-Bold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-ExtraBold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("../fonts/inter/Inter-Black.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: optional;
+    src: url("/fonts/inter/Inter-latin.var.woff2") format("woff2-variations");
 }
 
 body {
@@ -2222,7 +2174,7 @@ h3.experience__title {
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #979797;
+    color: #6c757d;
 }
 
 .footer__col ul {
@@ -2275,7 +2227,7 @@ h3.experience__title {
 .footer__bar p {
     margin: 0;
     font-size: 13px;
-    color: #979797;
+    color: #6c757d;
 }
 
 /* Homepage services */

@@ -24,8 +24,6 @@ defaultContentLanguageInSubdir = false
   [[params.plugins.css]]
   URL = "css/main.purged.css"
   [[params.plugins.css]]
-  URL = "css/rad-icons.css"
-  [[params.plugins.css]]
   URL = "css/custom.css"
 
 # navigation

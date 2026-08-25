@@ -61,7 +61,6 @@
           {{ if $work.Params.image }}
           <img
             src="{{ $work.Params.image | absURL }}"
-            {{ with $work.Params.image2x }}srcset="{{ $work.Params.image | absURL }} 1x, {{ . | absURL }} 2x"{{ end }}
             width="713"
             height="500"
             loading="lazy"
