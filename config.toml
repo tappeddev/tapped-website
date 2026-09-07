@@ -110,3 +110,8 @@ defaultContentLanguageInSubdir = false
     # true  = open-role listing + homepage hiring banner
     # false = "no open roles" page (design next)
     hiring = false
+
+  [params.spatial]
+    # Announcement bar above the header, on every page. Flip to false to retire it.
+    enabled = true
+    url = "https://spatial.tapped.dev"

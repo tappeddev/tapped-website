@@ -519,6 +519,25 @@ other = "We're looking for someone to join the team"
 [jobsBannerCta]
 other = "Apply now!"
 
+# spatial announcement bar
+[spatialBannerLabel]
+other = "Product announcement"
+
+[spatialBannerBadge]
+other = "NEW"
+
+[spatialBannerText]
+other = "We just launched Spatial."
+
+[spatialBannerTextDetail]
+other = "Location telemetry and analysis for mobile apps."
+
+[spatialBannerCta]
+other = "View"
+
+[opensInNewTab]
+other = "(opens in a new tab)"
+
 [jobsJobTitle]
 other = '''Flutter & Dart Developer (m/w/d)'''
 

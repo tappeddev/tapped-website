@@ -523,6 +523,25 @@ other = "Wir suchen Verstärkung im Team"
 [jobsBannerCta]
 other = "Bewirb dich jetzt!"
 
+# spatial announcement bar
+[spatialBannerLabel]
+other = "Produktankündigung"
+
+[spatialBannerBadge]
+other = "NEU"
+
+[spatialBannerText]
+other = "Wir haben Spatial gelauncht."
+
+[spatialBannerTextDetail]
+other = "Standorttelemetrie und Analyse für mobile Apps."
+
+[spatialBannerCta]
+other = "Öffnen"
+
+[opensInNewTab]
+other = "(öffnet in neuem Tab)"
+
 [jobsJobTitle]
 other = '''Flutter & Dart Entwickler (m/w/d)'''
 

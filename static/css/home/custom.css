@@ -200,24 +200,26 @@ body {
 
 .header {
     flex-shrink: 0;
-    padding-top: 16px;
+    padding-top: 0;
     padding-bottom: 0;
     background: #fff;
 }
 
-/* Bottom breathing room lives on the container so the colour stripe stays
-   flush with the bottom edge of the bar. */
+/* All of the bar's breathing room lives on the container so the announcement bar
+   stays flush with the top edge and the colour stripe with the bottom edge. */
 .header > .container {
+    padding-top: 16px;
     padding-bottom: 16px;
-    transition: padding-bottom 0.35s ease;
+    transition: padding 0.35s ease;
 }
 
 .header--sticky-triggered {
-    padding-top: 10px;
+    padding-top: 0;
     padding-bottom: 0;
 }
 
 .header--sticky-triggered > .container {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -320,6 +322,160 @@ body {
 .header .navbar .navbar-collapse.collapsing .navbar-nav {
     padding-top: 40px;
     border-top: none;
+}
+
+/* spatial announcement bar
+   Lives inside the fixed header, above the nav, so it appears on every page and
+   stays visible while scrolling. --spatial-banner-h is the height it reserves, and
+   every offset that clears the fixed header adds it on top. The :has() switch means
+   those offsets disappear by themselves when params.spatial.enabled is false and the
+   bar is never rendered. */
+:root {
+    --spatial-banner-h: 0px;
+}
+
+html:has(.spatial-banner) {
+    --spatial-banner-h: 40px;
+}
+
+.spatial-banner {
+    /* .header::before is a full-size absolutely positioned overlay (it fades in as the
+       mobile menu backdrop). Without its own positioned layer the bar paints below it
+       and the overlay swallows clicks on the CTA. */
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(90deg, #96143c 0%, #be3269 58%, #e6508c 100%);
+    color: #fff;
+}
+
+/* The bar is full bleed with centred content, so it has no reason to inherit the site
+   grid's max-width. Visually identical, but it leaves far more room for the sentence
+   between 768px and 1200px, where the grid caps out well below the viewport. */
+.spatial-banner .container {
+    max-width: none;
+}
+
+.spatial-banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: var(--spatial-banner-h);
+}
+
+.spatial-banner__badge {
+    flex: 0 0 auto;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.22);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.spatial-banner__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+}
+
+/* The bar has to stay on one line at every width, because the page offsets are
+   derived from a fixed height. The explanation is the first thing to go, since the
+   headline on its own still carries the announcement. */
+.spatial-banner__detail {
+    display: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.spatial-banner__cta {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff;
+    white-space: nowrap;
+    /* The rule is a border rather than text-decoration on purpose. The arrow is a
+       flex item, so an underline breaks at the gap and skips the glyph; a border is
+       drawn across the whole box, giving one continuous line under label and arrow.
+       text-decoration stays off because the global a:hover rule sets it. */
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid currentColor;
+    transition: opacity 0.15s ease;
+}
+
+.spatial-banner__cta:hover,
+.spatial-banner__cta:focus {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.82;
+}
+
+/* The global focus ring is brand crimson, which is invisible against this bar. */
+.spatial-banner__cta:focus-visible {
+    outline: 3px solid #fff !important;
+    outline-offset: 2px;
+}
+
+@media (max-width: 575.98px) {
+    .spatial-banner .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .spatial-banner__inner {
+        gap: 8px;
+    }
+
+    .spatial-banner__text {
+        font-size: 13px;
+    }
+
+    /* Arrow only. The link keeps its aria-label, so it is still announced by name. */
+    .spatial-banner__cta-label {
+        display: none;
+    }
+
+    .spatial-banner__cta-arrow {
+        font-size: 17px;
+    }
+}
+
+/* 768px is where the sentence still fits on one line in both languages; below that
+   the container is too narrow for it. */
+@media (min-width: 768px) {
+    .spatial-banner__detail {
+        display: inline;
+    }
+}
+
+/* The bar makes the fixed header taller, so the mobile menu overlay has that much
+   less room for the nav list. */
+@media (max-width: 991.98px) {
+    .header .navbar-collapse {
+        max-height: calc(100vh - 123px - var(--spatial-banner-h));
+    }
+}
+
+/* Hero: below 992px it clears the fixed header with padding, from 992px up it
+   centres its content inside a min-height box that the header overlays. Both need
+   the bar's height added. */
+.rad-showcase {
+    padding-top: calc(120px + var(--spatial-banner-h));
+}
+
+@media (min-width: 992px) {
+    .rad-showcase {
+        padding-top: var(--spatial-banner-h);
+    }
 }
 
 .color-stripe {

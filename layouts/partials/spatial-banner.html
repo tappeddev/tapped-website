@@ -1,0 +1,37 @@
+{{- /* Announcement bar for the Spatial product. Rendered as the first child of the
+       fixed header (see partials/header.html), so it shows on every page and stays
+       visible while scrolling. Toggle with params.spatial.enabled.
+
+       __detail carries the short explanation of what Spatial actually is. It is
+       hidden below 768px and the CTA label collapses to a bare arrow below 576px,
+       which keeps the bar to a single line at every width. The page offsets are
+       calculated from the reserved height (--spatial-banner-h), so the bar must never
+       wrap. See the .spatial-banner block in custom.css.
+
+       The CTA carries an aria-label because its visible label is dropped on narrow
+       screens; without it the link would announce as just an arrow glyph. */ -}}
+{{- with .Site.Params.spatial -}}
+{{- if .enabled -}}
+<aside class="spatial-banner" aria-label="{{ i18n "spatialBannerLabel" }}">
+  <div class="container">
+    <div class="spatial-banner__inner">
+      <span class="spatial-banner__badge">{{ i18n "spatialBannerBadge" }}</span>
+      <span class="spatial-banner__text">
+        <span class="spatial-banner__lead">{{ i18n "spatialBannerText" }}</span>
+        <span class="spatial-banner__detail">{{ i18n "spatialBannerTextDetail" }}</span>
+      </span>
+      <a
+        class="spatial-banner__cta"
+        href="{{ .url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="{{ i18n "spatialBannerCta" }} {{ i18n "opensInNewTab" }}"
+      >
+        <span class="spatial-banner__cta-label">{{ i18n "spatialBannerCta" }}</span>
+        <span class="spatial-banner__cta-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</aside>
+{{- end -}}
+{{- end -}}
