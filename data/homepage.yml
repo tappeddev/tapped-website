@@ -290,7 +290,7 @@ contact:
     address: "contact@tapped.dev"
   # Optional scheduling page (Google Calendar, Calendly, Cal.com). If set, "Book a call" opens it.
   booking:
-    url: "https://calendar.app.google/1DozujSxsMiq9esx9"
+    url: "https://calendly.com/julian-bissekkou-tapped/erstberatung-tapped"
   address:
     address: "Tapped GmbH<br />Krumpenhofweg 2, 80639 München"
   button:
