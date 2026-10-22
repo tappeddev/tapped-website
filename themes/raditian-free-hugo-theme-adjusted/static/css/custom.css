@@ -1504,6 +1504,25 @@ main {
     text-decoration-color: #96143c;
 }
 
+.page-callout {
+    margin: 2rem 0;
+    padding: 22px 26px;
+    background: #edf1f4;
+    border-left: 4px solid #be3369;
+    border-radius: 12px;
+}
+
+.page-prose .page-callout p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: #212529;
+}
+
+.page-prose .page-callout p + p {
+    margin-top: 0.6rem;
+}
+
 .page-meta {
     margin: 32px 0 0;
     padding: 22px 0;
