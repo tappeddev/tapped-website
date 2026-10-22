@@ -1,7 +1,7 @@
 ---
 title: "Technical consulting and audit"
 seo_title: "App consulting and audit Munich | Tapped"
-description: "Technical consulting and audits for apps and products: stack decisions, what drives cost and speed, architecture reviews, native to Flutter migration, and audits of code, workflows and systems."
+description: "Technical consulting and app audits from Munich: stack decisions, architecture reviews, native to Flutter migration, and what drives cost and speed."
 summary: "We help you choose the stack and name what drives cost, what slows you down, and what makes you fast."
 weight: 2
 translationKey: service-consulting

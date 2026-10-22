@@ -2,7 +2,7 @@
 title: "FCBinside"
 heading: "FCBinside: native Flutter apps for ballnews media"
 seo_title: "FCBinside Flutter app — 10,000+ installs, 4.4★ | Tapped"
-description: "Tapped built the FCBinside Flutter app for ballnews media — and the same white-label client for BVBWLD and SchalkeTOTAL. Native news, ads and push, not a website wrapper."
+description: "Tapped built the FCBinside Flutter app for ballnews media and the same white-label client for BVBWLD and SchalkeTOTAL: native news, ads and push."
 summary: "Daily FC Bayern news in a native Flutter app — and the same white-label client for BVBWLD and SchalkeTOTAL."
 weight: 2
 featured: true

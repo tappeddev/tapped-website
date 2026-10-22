@@ -1,7 +1,7 @@
 ---
 title: "Storyways"
-seo_title: "Storyways interaktive Bücher und ANTLR SugarCube Runtime | Tapped"
-description: "Tapped hat Storyways entwickelt: Spielbücher als App, mit Backend, Frontend und einer SugarCube Runtime, entwickelt mit ANTLR und einer Grammatik. Das Projekt ist inzwischen eingestellt."
+seo_title: "Storyways: interaktive Bücher als App | Tapped"
+description: "Tapped hat Storyways entwickelt: Spielbücher als App, mit Backend, Frontend und einer SugarCube Runtime auf Basis von ANTLR. Inzwischen eingestellt."
 summary: "Spielbücher, neu als App, mit einer SugarCube Runtime aus ANTLR und einer Grammatik. Inzwischen eingestellt."
 weight: 4
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Technische Beratung und Audit"
 seo_title: "App Beratung und Audit München | Tapped"
-description: "Technische Beratung und Audits für Apps und Produkte: Stackwahl, was Kosten und Tempo treibt, Architektur Reviews, Native zu Flutter Migration und Audits von Code, Workflows und Systemen."
+description: "Technische Beratung und App Audits aus München: Stackwahl, Architektur Reviews, Native zu Flutter Migration und was Kosten und Tempo treibt."
 summary: "Wir helfen dir bei der Technologiewahl und benennen, was Kosten treibt, was dich ausbremst und was dich schnell macht."
 weight: 2
 translationKey: service-consulting

@@ -2,7 +2,7 @@
 title: "AurumTools"
 heading: "AurumTools: Flutter app for the bench"
 seo_title: "AurumTools: Flutter app for the bench | Tapped"
-description: "AurumTools for Kaddick Goldschmiede: a Flutter app on iOS, Android and the web, with in-app subscriptions, one design system and workshop calculators for goldsmiths."
+description: "AurumTools for Kaddick Goldschmiede: a Flutter app on iOS, Android and the web, with in-app subscriptions and workshop calculators for goldsmiths."
 summary: "The app runs on iOS, Android and the web, with in-app subscriptions and one design system across every device."
 weight: 3
 featured: false

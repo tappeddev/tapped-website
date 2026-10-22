@@ -1,7 +1,7 @@
 ---
 title: "Storyways"
-seo_title: "Storyways interactive books and ANTLR SugarCube runtime | Tapped"
-description: "Tapped built Storyways: choose your path books as an app, with a backend, frontend, and a SugarCube runtime built with ANTLR and a grammar. The project is now sunsetted."
+seo_title: "Storyways: interactive books as an app | Tapped"
+description: "Tapped built Storyways: choose your path books as an app, with a backend, frontend and a SugarCube runtime built with ANTLR. Now sunsetted."
 summary: "Choose your path books, rebuilt as an app, with a SugarCube runtime built from ANTLR and a grammar. Now sunsetted."
 weight: 4
 featured: false

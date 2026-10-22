@@ -2,7 +2,7 @@
 title: "VVS Radroutenplaner"
 heading: "VVS Radroutenplaner: Flutter Fahrradrouting für Stuttgart"
 seo_title: "VVS Radroutenplaner: Flutter Fahrradrouting | Tapped"
-description: "Tapped und MENTZ haben den VVS Radroutenplaner in Flutter neu entwickelt: eine App statt zwei nativer Clients, für Fahrrad, RegioRad und Mischrouten in der Region Stuttgart."
+description: "Tapped und MENTZ haben den VVS Radroutenplaner in Flutter neu gebaut: eine App statt zwei nativer Clients, für Fahrrad, RegioRad und Mischrouten."
 summary: "Mit MENTZ für den VVS entwickelt: Fahrradrouting für Stuttgart, eigenes Rad, RegioRad oder Mix mit ÖPNV."
 weight: 5
 featured: false
