@@ -1,0 +1,49 @@
+{{/* Trust band directly under the hero: the Flutter listing next to the client
+    logos, then store figures summed over our live apps. */}}
+<section class="trust-band" aria-labelledby="trust-title">
+  <div class="container">
+    <h2 id="trust-title" class="sr-only">{{ i18n "trustSectionTitle" }}</h2>
+    <div class="trust-band__row">
+      <div class="trust-band__credential">
+        {{/* White on transparent; the stylesheet inverts it to match the grey logos. */}}
+        <a
+          class="trust-badge"
+          href="https://flutter.dev/consultants"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="{{ i18n "flutterConsultantLink" }} {{ i18n "opensInNewTab" }}"
+        >
+          <img
+            src="{{ "img/trust/official-flutter-consultant.png" | absURL }}"
+            width="184"
+            height="59"
+            alt=""
+          />
+        </a>
+        <p class="trust-band__caption">{{ i18n "trustBadgeCaption" }}</p>
+      </div>
+      <div class="trust-band__clients">
+        <p class="page-kicker trust-band__kicker">{{ i18n "clientsTitle" }}</p>
+        {{ partial "trust/logos.html" (dict "page" . "base" 32.0) }}
+      </div>
+    </div>
+
+    {{/* Figures as of October 2026, summed over our live apps; see internal
+        analytics for the per-app breakdown. */}}
+    <ul class="trust-stats">
+      <li class="trust-stats__item">
+        <p class="trust-stats__value">{{ i18n "trustStatRatingValue" }}</p>
+        <p class="trust-stats__label">{{ i18n "trustStatRatingLabel" }}</p>
+        <p class="trust-stats__note">{{ i18n "trustStatRatingNote" }}</p>
+      </li>
+      <li class="trust-stats__item">
+        <p class="trust-stats__value">{{ i18n "trustStatInstallsValue" }}</p>
+        <p class="trust-stats__label">{{ i18n "trustStatInstallsLabel" }}</p>
+      </li>
+      <li class="trust-stats__item">
+        <p class="trust-stats__value">{{ i18n "trustStatAppsValue" }}</p>
+        <p class="trust-stats__label">{{ i18n "trustStatAppsLabel" }}</p>
+      </li>
+    </ul>
+  </div>
+</section>

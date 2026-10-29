@@ -790,6 +790,36 @@ other = "Stylised illustration of a mobile app next to the Tapped headline"
 [logoAlt]
 other = "Tapped logo"
 
+[flutterConsultantLink]
+other = "Official Flutter Consultant, listed in the Flutter consultant directory"
+
+[trustSectionTitle]
+other = "Credentials and clients"
+
+[trustBadgeCaption]
+other = "Listed in the official Flutter consultant directory."
+
+[trustStatRatingValue]
+other = "4.4 ★"
+
+[trustStatRatingLabel]
+other = "Average store rating across all our apps"
+
+[trustStatRatingNote]
+other = "25,800+ ratings on the App Store and Google Play"
+
+[trustStatInstallsValue]
+other = "800,000+"
+
+[trustStatInstallsLabel]
+other = "Downloads across all our apps on iOS and Android"
+
+[trustStatAppsValue]
+other = "10 apps"
+
+[trustStatAppsLabel]
+other = "Live on the App Store and Google Play"
+
 [linkedinProfileAlt]
 other = "{{ . }} on LinkedIn"
 

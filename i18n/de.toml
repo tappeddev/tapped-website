@@ -795,6 +795,36 @@ other = "Stilisierte Illustration einer Mobile-App neben der Tapped-Überschrift
 [logoAlt]
 other = "Tapped Logo"
 
+[flutterConsultantLink]
+other = "Offizieller Flutter-Consultant, gelistet im Flutter-Consultant-Verzeichnis"
+
+[trustSectionTitle]
+other = "Nachweise und Kunden"
+
+[trustBadgeCaption]
+other = "Gelistet im offiziellen Flutter-Consultant-Verzeichnis."
+
+[trustStatRatingValue]
+other = "4,4 ★"
+
+[trustStatRatingLabel]
+other = "Durchschnittliche Bewertung aller unserer Apps"
+
+[trustStatRatingNote]
+other = "25.800+ Bewertungen im App Store und bei Google Play"
+
+[trustStatInstallsValue]
+other = "800.000+"
+
+[trustStatInstallsLabel]
+other = "Downloads aller unserer Apps auf iOS und Android"
+
+[trustStatAppsValue]
+other = "10 Apps"
+
+[trustStatAppsLabel]
+other = "Live im App Store und bei Google Play"
+
 [linkedinProfileAlt]
 other = "{{ . }} auf LinkedIn"
 

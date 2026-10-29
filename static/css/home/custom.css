@@ -541,6 +541,176 @@ html:has(.spatial-banner) {
     margin-top: 8px;
 }
 
+/* Trust band, directly under the hero: credential and client logos, then
+   store figures. */
+.trust-band {
+    position: relative;
+    z-index: 2;
+    padding: 28px 0;
+    background: #fff;
+    border-top: 1px solid #e7edf2;
+    border-bottom: 1px solid #e7edf2;
+}
+
+/* Beats the `.rad-showcase + section` pull-up, which was tuned for the about
+   section and would slide the band under the hero image. */
+main > section.trust-band {
+    margin-top: 0;
+}
+
+.trust-band p {
+    margin: 0;
+}
+
+.trust-band .trust-band__kicker {
+    margin: 0 0 14px;
+}
+
+.trust-badge {
+    display: inline-block;
+    flex: 0 0 auto;
+    line-height: 0;
+}
+
+/* The source mark is white on transparent. Inverting it and applying the
+   logo row's grey treatment keeps it in the same visual family. */
+.trust-badge img {
+    display: block;
+    height: 40px;
+    width: auto;
+    filter: invert(1) grayscale(1);
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.trust-badge:hover img,
+.trust-badge:focus-visible img {
+    opacity: 1;
+}
+
+.trust-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.trust-logos__item {
+    display: flex;
+    align-items: center;
+}
+
+.trust-logos__link {
+    display: flex;
+    align-items: center;
+}
+
+.trust-logos__logo {
+    width: var(--trust-logo-width, 90px);
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(1);
+    opacity: 0.7;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.trust-logos__link:hover .trust-logos__logo,
+.trust-logos__link:focus-visible .trust-logos__logo {
+    filter: none;
+    opacity: 1;
+}
+
+.trust-band__row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.trust-band__credential {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.trust-band .trust-band__caption {
+    max-width: 18em;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.trust-band__clients {
+    min-width: 0;
+}
+
+@media (min-width: 992px) {
+    .trust-band__row {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .trust-band__credential {
+        flex: 0 0 auto;
+    }
+
+    .trust-band__clients {
+        flex: 1 1 auto;
+        padding-left: 40px;
+        border-left: 1px solid #e7edf2;
+    }
+}
+
+.trust-stats {
+    display: grid;
+    gap: 24px;
+    margin: 28px 0 0;
+    padding: 28px 0 0;
+    border-top: 1px solid #e7edf2;
+    list-style: none;
+}
+
+.trust-stats__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+@media (min-width: 768px) {
+    .trust-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 40px;
+    }
+}
+
+.trust-band .trust-stats__value {
+    font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+    color: #96143c;
+    margin-bottom: 4px;
+}
+
+.trust-band .trust-stats__label {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.trust-band .trust-stats__note {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
 .rad-showcase__bg {
     display: flex;
     position: relative;
