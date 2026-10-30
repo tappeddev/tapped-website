@@ -148,7 +148,7 @@ other = "> 1 million"
 other = "happy app users"
 
 [aboutStatUsersTooltip]
-other = "Calculated number of users from apps we developed that have more than 4.5 stars. As of 26 August 2026."
+other = "Based on more than 1.4 million downloads of the apps we developed, on the App Store and Google Play. As of October 2026."
 
 [foundersTitle]
 other = "The founders"
@@ -387,6 +387,19 @@ other = "Next testimonials"
 
 [testimonialsPage]
 other = "Page"
+
+# Highlights must match a phrase in the testimonial's content exactly.
+[testimonialDieRingeHighlight]
+other = "punctual, reliable and clean"
+
+[testimonialPhntmHighlight]
+other = "Tapped has done a great job"
+
+[testimonialFictionicHighlight]
+other = "thinks along with us and optimizes our ideas"
+
+[testimonialMentzHighlight]
+other = "If you need expertise in app development, you've come to the right place."
 
 [testimonialKosysPosition]
 other = '''KOSYS, CEO'''
@@ -709,6 +722,9 @@ other = "The company"
 [viewAllServices]
 other = "All services"
 
+[viewAllTestimonials]
+other = "All testimonials"
+
 [viewAllProjects]
 other = "All projects"
 
@@ -789,6 +805,33 @@ other = "Stylised illustration of a mobile app next to the Tapped headline"
 
 [logoAlt]
 other = "Tapped logo"
+
+[flutterConsultantLink]
+other = "Official Flutter Consultant, listed in the Flutter consultant directory"
+
+[trustSectionTitle]
+other = "Credentials and clients"
+
+[trustBadgeCaption]
+other = "Listed in the official Flutter consultant directory."
+
+[trustStatRatingsValue]
+other = "58,000+"
+
+[trustStatRatingsLabel]
+other = "Ratings on the App Store and Google Play"
+
+[trustStatRatingsNote]
+other = "4.3 ★ average across all our apps"
+
+[trustStatInstallsValue]
+other = "1.4M+"
+
+[trustStatInstallsLabel]
+other = "Downloads across all our apps on iOS and Android"
+
+[trustStatProjectsLabel]
+other = "Completed projects since 2019"
 
 [linkedinProfileAlt]
 other = "{{ . }} on LinkedIn"

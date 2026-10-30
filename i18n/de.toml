@@ -151,7 +151,7 @@ other = "> 1 Mio"
 other = "zufriedene App-Nutzerinnen und Nutzer"
 
 [aboutStatUsersTooltip]
-other = "Berechnete Nutzerzahl aus Apps, die wir entwickelt haben, mit mehr als 4,5 Sternen. Stand: 26. August 2026."
+other = "Berechnet aus über 1,4 Mio. Downloads der Apps, die wir entwickelt haben, im App Store und bei Google Play. Stand: Oktober 2026."
 
 [foundersTitle]
 other = "Die Gründer"
@@ -391,6 +391,19 @@ other = "Nächste Referenzen"
 
 [testimonialsPage]
 other = "Seite"
+
+# Highlights must match a phrase in the testimonial's content exactly.
+[testimonialDieRingeHighlight]
+other = "pünktlich, zuverlässig und sauber arbeitet"
+
+[testimonialPhntmHighlight]
+other = "Tapped hat großartige Arbeit geleistet"
+
+[testimonialFictionicHighlight]
+other = "denken mit und optimieren unsere Ideen"
+
+[testimonialMentzHighlight]
+other = "Wer Expertise in App-Entwicklung benötigt, ist hier richtig."
 
 [testimonialKosysPosition]
 other = '''KOSYS, Geschäftsführer'''
@@ -714,6 +727,9 @@ other = "Das Unternehmen"
 [viewAllServices]
 other = "Alle Leistungen"
 
+[viewAllTestimonials]
+other = "Alle Referenzen"
+
 [viewAllProjects]
 other = "Alle Projekte"
 
@@ -794,6 +810,33 @@ other = "Stilisierte Illustration einer Mobile-App neben der Tapped-Überschrift
 
 [logoAlt]
 other = "Tapped Logo"
+
+[flutterConsultantLink]
+other = "Offizieller Flutter-Consultant, gelistet im Flutter-Consultant-Verzeichnis"
+
+[trustSectionTitle]
+other = "Nachweise und Kunden"
+
+[trustBadgeCaption]
+other = "Gelistet im offiziellen Flutter-Consultant-Verzeichnis."
+
+[trustStatRatingsValue]
+other = "58.000+"
+
+[trustStatRatingsLabel]
+other = "Bewertungen im App Store und bei Google Play"
+
+[trustStatRatingsNote]
+other = "Ø 4,3 ★ über alle unsere Apps"
+
+[trustStatInstallsValue]
+other = "1,4 Mio.+"
+
+[trustStatInstallsLabel]
+other = "Downloads aller unserer Apps auf iOS und Android"
+
+[trustStatProjectsLabel]
+other = "Abgeschlossene Projekte seit 2019"
 
 [linkedinProfileAlt]
 other = "{{ . }} auf LinkedIn"
