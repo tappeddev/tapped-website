@@ -751,7 +751,6 @@ main > section.trust-band {
    longest quote and doesn't jump while it rotates. */
 .trust-quotes__stage {
     display: grid;
-    flex: 0 1 34rem;
     min-width: 0;
     max-width: 34rem;
     overflow: hidden;
