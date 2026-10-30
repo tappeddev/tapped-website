@@ -1,0 +1,31 @@
+{{/* One testimonial at a time, rotating in place. The quote sits in a short
+    window, scrolled so its highlight is centred and the rest fades out.
+    Hover, focus or tap expands it to the whole quote. */}}
+{{ if site.Data.homepage.testimonial.enable }}
+<div class="trust-quotes" data-trust-quotes>
+  <div class="trust-quotes__stage" data-trust-quotes-stage tabindex="0" aria-roledescription="carousel" aria-label="{{ i18n "testimonialsTitle" }}">
+    {{ $index := 0 }}
+    {{ range site.Data.homepage.testimonial.items }}
+      {{ $content := i18n .content | strings.TrimSpace }}
+      {{ $highlight := "" }}
+      {{ with .highlight }}{{ $highlight = i18n . | strings.TrimSpace }}{{ end }}
+      {{ if and $highlight (strings.Contains $content $highlight) }}
+      {{ $parts := split $content $highlight }}
+      <blockquote class="trust-quotes__item{{ if eq $index 0 }} is-active{{ end }}" data-trust-quote>
+        <span class="trust-quotes__window" data-trust-quote-window>
+          <span class="trust-quotes__text" data-trust-quote-text>
+            {{- index $parts 0 -}}
+            <span class="trust-quotes__highlight">{{ $highlight }}</span>
+            {{- delimit (after 1 $parts) $highlight -}}
+          </span>
+        </span>
+        <span class="trust-quotes__author">{{ .name }}, {{ i18n .position }}</span>
+      </blockquote>
+      {{ $index = add $index 1 }}
+      {{ end }}
+    {{ end }}
+  </div>
+  <a class="text-cta trust-quotes__all" href="#testimonials">{{ i18n "viewAllTestimonials" }} →</a>
+</div>
+<script defer src="{{ "js/trust-quotes.js" | absURL }}"></script>
+{{ end }}

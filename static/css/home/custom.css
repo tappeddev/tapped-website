@@ -711,6 +711,174 @@ main > section.trust-band {
     color: #6c757d;
 }
 
+.trust-quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 22px;
+    border-top: 1px solid #e7edf2;
+}
+
+/* Same three columns as the stats above: the quote spans two, the link sits
+   in the third. */
+@media (min-width: 768px) {
+    .trust-quotes {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .trust-quotes__stage {
+        grid-column: 1 / span 2;
+    }
+}
+
+.trust-quotes__all {
+    align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+    .trust-quotes__all {
+        grid-column: 3;
+        align-self: center;
+        justify-self: start;
+    }
+}
+
+/* Every quote shares one grid cell, so the row keeps the height of the
+   longest quote and doesn't jump while it rotates. */
+.trust-quotes__stage {
+    display: grid;
+    flex: 0 1 34rem;
+    min-width: 0;
+    max-width: 34rem;
+    overflow: hidden;
+    border-radius: 2px;
+    outline: none;
+}
+
+.trust-quotes__stage:focus-visible {
+    outline: 2px solid #96143c;
+    outline-offset: 6px;
+}
+
+.trust-quotes__item {
+    grid-area: 1 / 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+.trust-quotes:not(.is-ready) .trust-quotes__item:not(.is-active) {
+    visibility: hidden;
+}
+
+.trust-quotes.is-ready .trust-quotes__item {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.7s cubic-bezier(0.65, 0, 0.25, 1), opacity 0.5s ease, visibility 0s linear 0.7s;
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-active {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition: transform 0.7s cubic-bezier(0.65, 0, 0.25, 1), opacity 0.5s ease 0.1s, visibility 0s;
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-leaving {
+    transform: translateY(-100%);
+}
+
+.trust-quotes.is-ready .trust-quotes__item.no-anim {
+    transition: none;
+}
+
+/* Five lines tall on phones, where a highlight can wrap to three; four from
+   tablet up. The script reads the line count to centre the highlight. */
+.trust-quotes__window {
+    --trust-quote-lines: 5;
+    display: block;
+    position: relative;
+    height: calc(var(--trust-quote-lines) * 1.5em);
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 1.5;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+    transition: height 0.4s ease;
+}
+
+@media (min-width: 768px) {
+    .trust-quotes__window {
+        --trust-quote-lines: 4;
+        font-size: 18px;
+    }
+}
+
+.trust-quotes.is-expanded .trust-quotes__item.is-active .trust-quotes__window {
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.trust-quotes__text {
+    display: block;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #6c757d;
+    text-wrap: pretty;
+    transition: color 0.3s ease, transform 0.4s ease;
+}
+
+.trust-quotes.is-expanded .trust-quotes__item.is-active .trust-quotes__text {
+    color: #3a3a3a;
+}
+
+.trust-quotes__highlight {
+    font-weight: 700;
+    color: #212529;
+    background: linear-gradient(rgba(150, 20, 60, 0.16), rgba(150, 20, 60, 0.16)) no-repeat 0 88% / 100% 38%;
+}
+
+.trust-quotes.is-ready .trust-quotes__highlight {
+    background-size: 0 38%;
+    transition: background-size 0.8s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-active .trust-quotes__highlight {
+    background-size: 100% 38%;
+    transition-delay: 0.5s;
+}
+
+.trust-quotes__author {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .trust-quotes.is-ready .trust-quotes__item,
+    .trust-quotes.is-ready .trust-quotes__item.is-active,
+    .trust-quotes.is-ready .trust-quotes__item.is-leaving {
+        transform: none;
+    }
+
+    .trust-quotes__window,
+    .trust-quotes__text,
+    .trust-quotes.is-ready .trust-quotes__highlight {
+        transition: none;
+    }
+}
+
 .rad-showcase__bg {
     display: flex;
     position: relative;

@@ -148,7 +148,7 @@ other = "> 1 million"
 other = "happy app users"
 
 [aboutStatUsersTooltip]
-other = "Calculated number of users from apps we developed that have more than 4.5 stars. As of 26 August 2026."
+other = "Based on more than 1.4 million downloads of the apps we developed, on the App Store and Google Play. As of October 2026."
 
 [foundersTitle]
 other = "The founders"
@@ -387,6 +387,18 @@ other = "Next testimonials"
 
 [testimonialsPage]
 other = "Page"
+
+# Highlights must match a phrase in the testimonial's content exactly.
+[testimonialDieRingeHighlight]
+other = "punctual, reliable and clean"
+
+[testimonialPhntmHighlight]
+other = "Tapped has done a great job"
+
+[testimonialFictionicHighlight]
+other = "thinks along with us and optimizes our ideas"
+[testimonialMentzHighlight]
+other = "If you need expertise in app development, you've come to the right place."
 
 [testimonialKosysPosition]
 other = '''KOSYS, CEO'''
@@ -709,6 +721,9 @@ other = "The company"
 [viewAllServices]
 other = "All services"
 
+[viewAllTestimonials]
+other = "All testimonials"
+
 [viewAllProjects]
 other = "All projects"
 
@@ -799,26 +814,23 @@ other = "Credentials and clients"
 [trustBadgeCaption]
 other = "Listed in the official Flutter consultant directory."
 
-[trustStatRatingValue]
-other = "4.4 ★"
+[trustStatRatingsValue]
+other = "58,000+"
 
-[trustStatRatingLabel]
-other = "Average store rating across all our apps"
+[trustStatRatingsLabel]
+other = "Ratings on the App Store and Google Play"
 
-[trustStatRatingNote]
-other = "25,800+ ratings on the App Store and Google Play"
+[trustStatRatingsNote]
+other = "4.3 ★ average across all our apps"
 
 [trustStatInstallsValue]
-other = "800,000+"
+other = "1.4M+"
 
 [trustStatInstallsLabel]
 other = "Downloads across all our apps on iOS and Android"
 
-[trustStatAppsValue]
-other = "10 apps"
-
-[trustStatAppsLabel]
-other = "Live on the App Store and Google Play"
+[trustStatProjectsLabel]
+other = "Completed projects since 2019"
 
 [linkedinProfileAlt]
 other = "{{ . }} on LinkedIn"

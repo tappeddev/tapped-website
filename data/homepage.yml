@@ -258,16 +258,19 @@ testimonial:
     - name: "Paul Uhler"
       position: "testimonialDieRingePosition"
       content: "testimonialDieRingeContent"
+      highlight: "testimonialDieRingeHighlight"
       link: "https://www.dieringe.com/"
 
     - name: "Frederik Schweiger"
       position: "testimonialPhntmPosition"
       content: "testimonialPhntmContent"
+      highlight: "testimonialPhntmHighlight"
       link: "https://phntm.xyz/"
 
     - name: "Darja Vojenina"
       position: "testimonialFictionicPosition"
       content: "testimonialFictionicContent"
+      highlight: "testimonialFictionicHighlight"
       link: "https://www.fictionic.com/"
 
     - name: "Felix Mangold"
@@ -278,6 +281,7 @@ testimonial:
     - name: "Günther Gruber"
       position: "testimonialMentzPosition"
       content: "testimonialMentzContent"
+      highlight: "testimonialMentzHighlight"
       link: "https://www.linkedin.com/in/günther-gruber-777a29152"
 
 # contact
