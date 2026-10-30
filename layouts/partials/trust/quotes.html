@@ -3,7 +3,7 @@
     Hover, focus or tap expands it to the whole quote. */}}
 {{ if site.Data.homepage.testimonial.enable }}
 <div class="trust-quotes" data-trust-quotes>
-  <div class="trust-quotes__stage" data-trust-quotes-stage tabindex="0" aria-roledescription="carousel" aria-label="{{ i18n "testimonialsTitle" }}">
+  <div class="trust-quotes__stage" data-trust-quotes-stage tabindex="0" role="region" aria-roledescription="carousel" aria-label="{{ i18n "testimonialsTitle" }}">
     {{ $index := 0 }}
     {{ range site.Data.homepage.testimonial.items }}
       {{ $content := i18n .content | strings.TrimSpace }}

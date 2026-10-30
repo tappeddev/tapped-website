@@ -22,10 +22,12 @@
         </a>
         <p class="trust-band__caption">{{ i18n "trustBadgeCaption" }}</p>
       </div>
+      {{ if site.Data.homepage.clients.enable }}
       <div class="trust-band__clients">
         <p class="page-kicker trust-band__kicker">{{ i18n "clientsTitle" }}</p>
         {{ partial "trust/logos.html" (dict "page" . "base" 32.0) }}
       </div>
+      {{ end }}
     </div>
 
     {{/* Figures as of October 2026, summed over our live apps; see internal

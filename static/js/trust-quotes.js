@@ -18,10 +18,11 @@
   let hovering = false;
   let expanded = false;
   let offscreen = true;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   function collapsedHeight(win) {
     const style = getComputedStyle(win);
-    const lines = parseFloat(style.getPropertyValue("--trust-quote-lines")) || 3.5;
+    const lines = parseFloat(style.getPropertyValue("--trust-quote-lines")) || 5;
     return lines * parseFloat(style.lineHeight);
   }
 
@@ -119,7 +120,7 @@
 
   window.setInterval(function () {
     const now = performance.now();
-    if (!(hovering || expanded || offscreen || document.hidden)) {
+    if (!(hovering || expanded || offscreen || document.hidden || reducedMotion.matches)) {
       elapsed += now - last;
     }
     last = now;
