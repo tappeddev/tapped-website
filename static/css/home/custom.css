@@ -541,6 +541,343 @@ html:has(.spatial-banner) {
     margin-top: 8px;
 }
 
+/* Trust band, directly under the hero: credential and client logos, then
+   store figures. */
+.trust-band {
+    position: relative;
+    z-index: 2;
+    padding: 28px 0;
+    background: #fff;
+    border-top: 1px solid #e7edf2;
+    border-bottom: 1px solid #e7edf2;
+}
+
+/* Beats the `.rad-showcase + section` pull-up, which was tuned for the about
+   section and would slide the band under the hero image. */
+main > section.trust-band {
+    margin-top: 0;
+}
+
+.trust-band p {
+    margin: 0;
+}
+
+.trust-band .trust-band__kicker {
+    margin: 0 0 14px;
+}
+
+.trust-badge {
+    display: inline-block;
+    flex: 0 0 auto;
+    line-height: 0;
+}
+
+/* The source mark is white on transparent. Inverting it and applying the
+   logo row's grey treatment keeps it in the same visual family. */
+.trust-badge img {
+    display: block;
+    height: 40px;
+    width: auto;
+    filter: invert(1) grayscale(1);
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.trust-badge:hover img,
+.trust-badge:focus-visible img {
+    opacity: 1;
+}
+
+.trust-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.trust-logos__item {
+    display: flex;
+    align-items: center;
+}
+
+.trust-logos__link {
+    display: flex;
+    align-items: center;
+}
+
+.trust-logos__logo {
+    width: var(--trust-logo-width, 90px);
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(1);
+    opacity: 0.7;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.trust-logos__link:hover .trust-logos__logo,
+.trust-logos__link:focus-visible .trust-logos__logo {
+    filter: none;
+    opacity: 1;
+}
+
+.trust-band__row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.trust-band__credential {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.trust-band .trust-band__caption {
+    max-width: 18em;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.trust-band__clients {
+    min-width: 0;
+}
+
+@media (min-width: 992px) {
+    .trust-band__row {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .trust-band__credential {
+        flex: 0 0 auto;
+    }
+
+    .trust-band__clients {
+        flex: 1 1 auto;
+        padding-left: 40px;
+        border-left: 1px solid #e7edf2;
+    }
+}
+
+.trust-stats {
+    display: grid;
+    gap: 24px;
+    margin: 28px 0 0;
+    padding: 28px 0 0;
+    border-top: 1px solid #e7edf2;
+    list-style: none;
+}
+
+.trust-stats__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+@media (min-width: 768px) {
+    .trust-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 40px;
+    }
+}
+
+.trust-band .trust-stats__value {
+    font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+    color: #96143c;
+    margin-bottom: 4px;
+}
+
+.trust-band .trust-stats__label {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.trust-band .trust-stats__note {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.trust-quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 22px;
+    border-top: 1px solid #e7edf2;
+}
+
+/* Same three columns as the stats above: the quote spans two, the link sits
+   in the third. */
+@media (min-width: 768px) {
+    .trust-quotes {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .trust-quotes__stage {
+        grid-column: 1 / span 2;
+    }
+}
+
+.trust-quotes__all {
+    align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+    .trust-quotes__all {
+        grid-column: 3;
+        align-self: center;
+        justify-self: start;
+    }
+}
+
+/* Every quote shares one grid cell, so the row keeps the height of the
+   longest quote and doesn't jump while it rotates. */
+.trust-quotes__stage {
+    display: grid;
+    min-width: 0;
+    max-width: 34rem;
+    overflow: hidden;
+    border-radius: 2px;
+    outline: none;
+}
+
+.trust-quotes__stage:focus-visible {
+    outline: 2px solid #96143c;
+    outline-offset: 6px;
+}
+
+.trust-quotes__item {
+    grid-area: 1 / 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+.trust-quotes:not(.is-ready) .trust-quotes__item:not(.is-active) {
+    visibility: hidden;
+}
+
+.trust-quotes.is-ready .trust-quotes__item {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.7s cubic-bezier(0.65, 0, 0.25, 1), opacity 0.5s ease, visibility 0s linear 0.7s;
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-active {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition: transform 0.7s cubic-bezier(0.65, 0, 0.25, 1), opacity 0.5s ease 0.1s, visibility 0s;
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-leaving {
+    transform: translateY(-100%);
+}
+
+.trust-quotes.is-ready .trust-quotes__item.no-anim {
+    transition: none;
+}
+
+/* Five lines tall on phones, where a highlight can wrap to three; four from
+   tablet up. The script reads the line count to centre the highlight. */
+.trust-quotes__window {
+    --trust-quote-lines: 5;
+    display: block;
+    position: relative;
+    height: calc(var(--trust-quote-lines) * 1.5em);
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 1.5;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+    transition: height 0.4s ease;
+}
+
+@media (min-width: 768px) {
+    .trust-quotes__window {
+        --trust-quote-lines: 4;
+        font-size: 18px;
+    }
+}
+
+.trust-quotes.is-expanded .trust-quotes__item.is-active .trust-quotes__window {
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.trust-quotes__text {
+    display: block;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #6c757d;
+    text-wrap: pretty;
+    transition: color 0.3s ease, transform 0.4s ease;
+}
+
+.trust-quotes.is-expanded .trust-quotes__item.is-active .trust-quotes__text {
+    color: #3a3a3a;
+}
+
+.trust-quotes__highlight {
+    font-weight: 700;
+    color: #212529;
+    background: linear-gradient(rgba(150, 20, 60, 0.16), rgba(150, 20, 60, 0.16)) no-repeat 0 88% / 100% 38%;
+}
+
+.trust-quotes.is-ready .trust-quotes__highlight {
+    background-size: 0 38%;
+    transition: background-size 0.8s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+.trust-quotes.is-ready .trust-quotes__item.is-active .trust-quotes__highlight {
+    background-size: 100% 38%;
+    transition-delay: 0.5s;
+}
+
+.trust-quotes__author {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .trust-quotes.is-ready .trust-quotes__item,
+    .trust-quotes.is-ready .trust-quotes__item.is-active,
+    .trust-quotes.is-ready .trust-quotes__item.is-leaving {
+        transform: none;
+    }
+
+    .trust-quotes__window,
+    .trust-quotes__text,
+    .trust-quotes.is-ready .trust-quotes__highlight {
+        transition: none;
+    }
+}
+
 .rad-showcase__bg {
     display: flex;
     position: relative;
@@ -620,90 +957,6 @@ html:has(.spatial-banner) {
         gap: 40px 56px;
         align-items: center;
     }
-}
-
-/* Homepage client logos */
-
-.home-clients {
-    padding: 52px 0 44px;
-    background: #fff;
-}
-
-@media (min-width: 768px) {
-    .home-clients {
-        padding: 64px 0 48px;
-    }
-}
-
-.home-clients .home-clients__title {
-    margin: 0 0 36px;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .home-clients .home-clients__title {
-        margin-bottom: 40px;
-    }
-}
-
-.client-logos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px 24px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-/* Two per row on phones, four from tablet up: seven logos then wrap 4 + 3
-   instead of leaving a single orphan on the last row. */
-.client-logos__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 1 calc((100% - 24px) / 2);
-    min-height: 56px;
-}
-
-@media (min-width: 768px) {
-    .client-logos {
-        gap: 32px;
-    }
-
-    .client-logos__item {
-        flex-basis: calc((100% - 96px) / 4);
-        min-height: 64px;
-    }
-}
-
-@media (min-width: 992px) {
-    .client-logos {
-        gap: 36px 48px;
-    }
-
-    .client-logos__item {
-        flex-basis: calc((100% - 144px) / 4);
-    }
-}
-
-.client-logos__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    transition: opacity 0.2s ease;
-}
-
-.client-logos__link:hover,
-.client-logos__link:focus-visible {
-    opacity: 0.6;
-}
-
-.client-logos__logo {
-    width: min(100%, var(--client-logo-width, 140px));
-    height: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {

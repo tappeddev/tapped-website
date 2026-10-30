@@ -1,0 +1,28 @@
+{{- /* Compact client logo row. Accepts a dict: page, base (px height basis). */ -}}
+{{- $base := .base | default 34.0 -}}
+<ul class="trust-logos">
+  {{ range .page.Site.Data.homepage.clients.clients }}
+  {{ $ratio := div (float .width) (float .height) }}
+  {{ $displayWidth := mul $base (math.Pow $ratio 0.65) }}
+  <li class="trust-logos__item">
+    <a
+      class="trust-logos__link"
+      href="{{ .link }}"
+      target="_blank"
+      rel="noopener"
+      style="--trust-logo-width: {{ printf "%.0f" $displayWidth }}px"
+    >
+      <img
+        class="trust-logos__logo"
+        src="{{ .logo.x | absURL }}"
+        srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+        width="{{ .width }}"
+        height="{{ .height }}"
+        loading="lazy"
+        decoding="async"
+        alt="{{ .alt }}"
+      />
+    </a>
+  </li>
+  {{ end }}
+</ul>
