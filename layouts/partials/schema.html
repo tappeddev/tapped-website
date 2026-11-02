@@ -154,12 +154,25 @@
 </script>
 {{ end }}
 {{ if and (eq $p.Section "jobs") $p.Site.Params.jobs.hiring }}
+{{- $jobSections := slice
+  (dict "title" "jobsResponsibilitiesTitle" "items" (slice "jobsResponsibilities1" "jobsResponsibilities2" "jobsResponsibilities3" "jobsResponsibilities4" "jobsResponsibilities5" "jobsResponsibilities6"))
+  (dict "title" "jobsRequirements" "items" (slice "jobsRequirementsGerman" "jobsRequirementsFlutterDart" "jobsRequirementsLeadership" "jobsRequirementsAgents" "jobsRequirementsNative"))
+  (dict "title" "jobsNiceToHave" "items" (slice "jobsRequirementsWeb" "jobsNiceToHaveSupabase" "jobsNiceToHaveQuarkus" "jobsNiceToHaveOpenShift"))
+  (dict "title" "jobsWeOffer" "items" (slice "jobsWeOfferOffice" "jobsWeOfferMac" "jobsWeOfferTeam" "jobsWeOfferSalary" "jobsWeOfferGym" "jobsWeOfferWorkation")) -}}
+{{- $jobDescription := printf "<p>%s</p>" (i18n "jobsDescription") -}}
+{{- range $jobSections -}}
+  {{- $jobDescription = printf "%s<h3>%s</h3><ul>" $jobDescription (i18n .title) -}}
+  {{- range .items -}}
+    {{- $jobDescription = printf "%s<li>%s</li>" $jobDescription (i18n .) -}}
+  {{- end -}}
+  {{- $jobDescription = printf "%s</ul>" $jobDescription -}}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "JobPosting",
   "title": {{ i18n "jobsJobTitle" | jsonify | safeJS }},
-  "description": {{ i18n "jobsDescription" | jsonify | safeJS }},
+  "description": {{ $jobDescription | jsonify | safeJS }},
   "identifier": {
     "@type": "PropertyValue",
     "name": "Tapped",

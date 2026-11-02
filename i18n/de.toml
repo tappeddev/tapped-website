@@ -509,10 +509,10 @@ other = "Anderes"
 
 # jobs
 [jobsTitle]
-other = "Lead Flutter Developer Job (KI-first) in München bei Tapped"
+other = "Lead Flutter Developer Job (KI-first) bei Tapped"
 
 [jobsDescription]
-other = '''Wir suchen eine:n Lead Flutter Developer, der:die KI ganz selbstverständlich im Entwicklungsalltag nutzt und Lust hat, ein kleines Entwicklerteam zu führen. Fließendes Deutsch ist Voraussetzung.'''
+other = '''Wir suchen eine:n Lead Flutter Developer, der:die KI ganz selbstverständlich im Entwicklungsalltag nutzt und Lust hat, ein kleines Entwicklungsteam zu führen. Fließendes Deutsch ist Voraussetzung.'''
 
 [jobsPreTitle]
 other = '''Vollzeit, Teilzeit'''
@@ -612,7 +612,7 @@ other = '''Mindestens fünf Jahre Flutter und Dart an Produktiv-Apps'''
 other = '''Erfahrung in der Führung von Entwickler:innen, z. B. als Tech Lead oder Teamlead'''
 
 [jobsRequirementsAgents]
-other = '''Du arbeitest täglich mit Coding-Agents und KI-Tools und weißt, wo sie helfen und wo nicht'''
+other = '''Täglicher Einsatz von Coding-Agents und KI-Tools und ein gutes Gespür dafür, wo sie helfen und wo nicht'''
 
 [jobsRequirementsNative]
 other = '''Fundierte Kenntnisse in nativer iOS- und Android-Entwicklung'''
@@ -622,6 +622,7 @@ other = '''Grundverständnis von Web-Stacks'''
 
 [jobsNiceToHave]
 other = '''Nice-to-have'''
+
 [jobsNiceToHaveSupabase]
 other = '''Backend-Erfahrung mit Supabase'''
 
@@ -632,7 +633,7 @@ other = '''Erfahrung mit Quarkus'''
 other = '''Erfahrung mit OpenShift'''
 
 [jobsClosingStatement]
-other = '''Wenn du als erfahrene:r <b>Flutter-Entwickler:in</b> ein Team führen und mit KI bauen willst, schreib uns einfach eine E-Mail. Den Rest klären wir dann persönlich.'''
+other = '''Wenn du als erfahrene:r <b>Flutter-Entwickler:in</b> ein Team führen und mit KI entwickeln willst, schreib uns einfach eine E-Mail. Den Rest klären wir dann persönlich.'''
 
 [jobsApplyNow]
 other = '''Jetzt bewerben'''
@@ -674,10 +675,10 @@ other = '''Deutschland'''
 other = '''Deine Aufgaben'''
 
 [jobsResponsibilities1]
-other = '''Du führst ein kleines Team aus Flutter-Entwickler:innen: Du setzt Prioritäten, skalierst und wartest Anwendungen und hilfst allen, sich weiterzuentwickeln.'''
+other = '''Du führst ein kleines Team aus Flutter-Entwickler:innen: Du setzt Prioritäten, skalierst und pflegst Anwendungen und hilfst allen, sich weiterzuentwickeln.'''
 
 [jobsResponsibilities2]
-other = '''Du verantwortest Architektur und technische Ausrichtung unserer Apps für Android, iOS und Web.'''
+other = '''Du verantwortest die Architektur und technische Ausrichtung unserer Apps für Android, iOS und Web.'''
 
 [jobsResponsibilities3]
 other = '''Du bringst KI in unsere Arbeitsweise: Coding-Agents, automatisierte Reviews und Tests sowie smarte Tools für das Team.'''
