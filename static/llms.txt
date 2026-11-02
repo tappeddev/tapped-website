@@ -10,7 +10,7 @@
 - [Projects](https://tapped.dev/work/) / [Projekte](https://tapped.dev/de/work/)
 - [About](https://tapped.dev/about/) / [Über uns](https://tapped.dev/de/about/)
 - [Contact](https://tapped.dev/contact/) / [Kontakt](https://tapped.dev/de/contact/)
-- [Jobs](https://tapped.dev/jobs/): no open roles currently
+- [Jobs](https://tapped.dev/jobs/) / [Jobs](https://tapped.dev/de/jobs/): Lead Flutter Developer (m/w/d), AI-first, fluent German required
 
 ## Services
 
