@@ -603,7 +603,7 @@ other = '''Jährliche Team-Workation'''
 other = '''Anforderungen'''
 
 [jobsRequirementsGerman]
-other = '''Fließendes Deutsch in Wort und Schrift'''
+other = '''Fließendes Deutsch in Wort und Schrift (Muttersprache bevorzugt)'''
 
 [jobsRequirementsFlutterDart]
 other = '''Mindestens fünf Jahre Flutter und Dart an Produktiv-Apps'''
@@ -651,7 +651,7 @@ other = '''Auf einen Blick'''
 other = '''Standort'''
 
 [jobsAtAGlanceLocationValue]
-other = '''Remote-First, wir treffen uns regelmäßig'''
+other = '''Remote möglich, Raum München bevorzugt'''
 
 [jobsAtAGlanceContractLabel]
 other = '''Anstellung'''
@@ -663,7 +663,7 @@ other = '''Vollzeit / Teilzeit'''
 other = '''Sprache'''
 
 [jobsAtAGlanceLanguageValue]
-other = '''Fließend Deutsch'''
+other = '''Fließend Deutsch, Muttersprache bevorzugt'''
 
 [jobsAtAGlanceResidenceLabel]
 other = '''Wohnsitz'''

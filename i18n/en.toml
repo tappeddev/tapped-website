@@ -599,7 +599,7 @@ other = '''Annual team workation'''
 other = '''Requirements'''
 
 [jobsRequirementsGerman]
-other = '''Fluent German, spoken and written'''
+other = '''Fluent German, spoken and written (native speaker preferred)'''
 
 [jobsRequirementsFlutterDart]
 other = '''At least five years of Flutter and Dart on production apps'''
@@ -647,7 +647,7 @@ other = '''At a glance'''
 other = '''Location'''
 
 [jobsAtAGlanceLocationValue]
-other = '''Remote-first, we meet regularly'''
+other = '''Remote possible, Munich area preferred'''
 
 [jobsAtAGlanceContractLabel]
 other = '''Contract'''
@@ -659,7 +659,7 @@ other = '''Full-time / Part-time'''
 other = '''Language'''
 
 [jobsAtAGlanceLanguageValue]
-other = '''Fluent German'''
+other = '''Fluent German, native preferred'''
 
 [jobsAtAGlanceResidenceLabel]
 other = '''Residence'''
