@@ -529,7 +529,7 @@ other = "Send a short application"
 other = "We're hiring a Lead Flutter Developer"
 
 [jobsBannerCta]
-other = "Apply now!"
+other = "Apply now"
 
 # spatial announcement bar
 [spatialBannerLabel]

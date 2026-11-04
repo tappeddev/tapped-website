@@ -531,6 +531,53 @@ html:has(.spatial-banner) {
 /* Remove default opacity from client items - override main.css */
 
 /* jobs banner */
+.jobs-banner {
+    padding: 20px 0;
+    background: #f6f8fa;
+}
+
+.jobs-banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.jobs-banner__text {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #495057;
+}
+
+.jobs-banner .btn-pill {
+    min-height: 44px;
+    padding: 10px 24px;
+    font-size: 15px;
+}
+
+.jobs-banner .btn-pill:hover,
+.jobs-banner .btn-pill:focus {
+    padding-left: calc(24px - 0.7em);
+    padding-right: calc(24px + 0.7em);
+}
+
+.jobs-banner .btn-pill::after {
+    right: 12px;
+}
+
+@media (max-width: 575.98px) {
+    .jobs-banner__inner {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .jobs-banner__inner .btn-pill {
+        width: 100%;
+    }
+}
 
 /* Single showcase image: in-flow on mobile, absolute on desktop (avoids dual LCP fetches). */
 .rad-showcase__actions {
