@@ -505,11 +505,10 @@ other = "Other"
 
 # jobs
 [jobsTitle]
-other = "Flutter & Dart Developer Job in Munich at Tapped"
+other = "Lead Flutter Developer Job (AI-first) at Tapped"
 
 [jobsDescription]
-other = '''Are you a Flutter developer who loves writing clean Dart? We are looking for engineers who want to build great mobile apps in a small team.
-Backend experience with Supabase, Quarkus or OpenShift is a plus.'''
+other = '''We're looking for a Lead Flutter Developer who can apply AI efficiently in their daily work and lead a small development team. Fluent German is a must.'''
 
 [jobsPreTitle]
 other = '''Full-time, Part-time'''
@@ -527,10 +526,10 @@ other = "No open roles right now"
 other = "Send a short application"
 
 [jobsBannerText]
-other = "We're looking for someone to join the team"
+other = "We're hiring a Lead Flutter Developer"
 
 [jobsBannerCta]
-other = "Apply now!"
+other = "Apply now"
 
 # spatial announcement bar
 [spatialBannerLabel]
@@ -552,7 +551,7 @@ other = "View"
 other = "(opens in a new tab)"
 
 [jobsJobTitle]
-other = '''Flutter & Dart Developer (m/w/d)'''
+other = '''Lead Flutter Developer (m/w/d)'''
 
 [jobsAdditionalInfo]
 other = '''We are open-minded and love working with modern technologies.'''
@@ -599,17 +598,23 @@ other = '''Annual team workation'''
 [jobsRequirements]
 other = '''Requirements'''
 
+[jobsRequirementsGerman]
+other = '''Fluent German, spoken and written (native speaker preferred)'''
+
 [jobsRequirementsFlutterDart]
-other = '''At least three years of Flutter and Dart on production apps'''
+other = '''At least five years of Flutter and Dart on production apps'''
+
+[jobsRequirementsLeadership]
+other = '''Experience leading developers, as a tech lead or team lead'''
+
+[jobsRequirementsAgents]
+other = '''Daily work with coding agents and AI tools, and a clear sense of where they help and where they don't'''
 
 [jobsRequirementsNative]
-other = '''Basic knowledge of native iOS and Android development'''
+other = '''Solid knowledge of native iOS and Android development'''
 
 [jobsRequirementsWeb]
 other = '''Basic understanding of web stacks'''
-
-[jobsRequirementsAgents]
-other = '''Use coding agents and automate basic tasks with AI'''
 
 [jobsNiceToHave]
 other = '''Nice to have'''
@@ -624,7 +629,7 @@ other = '''Experience with Quarkus'''
 other = '''Experience with OpenShift'''
 
 [jobsClosingStatement]
-other = '''If you have experience with <b>Flutter and Dart</b>, then drop us a mail and we will contact you as soon as possible.'''
+other = '''If you're an experienced <b>Flutter developer</b> who wants to lead a team and build with AI, send us an email and we'll get back to you as soon as possible.'''
 
 [jobsApplyNow]
 other = '''Apply now'''
@@ -633,7 +638,7 @@ other = '''Apply now'''
 other = '''We don't have any open positions at the moment. If you're excited about Flutter and Dart, we'd still love to hear from you.'''
 
 [jobsWhatToInclude]
-other = '''Include your CV, GitHub (optional), and your availability.'''
+other = '''Include your CV, GitHub (optional), your availability, and a few lines about a team you've led.'''
 
 [jobsAtAGlanceTitle]
 other = '''At a glance'''
@@ -642,7 +647,7 @@ other = '''At a glance'''
 other = '''Location'''
 
 [jobsAtAGlanceLocationValue]
-other = '''Remote-first, we meet regularly'''
+other = '''Remote possible, Munich area preferred'''
 
 [jobsAtAGlanceContractLabel]
 other = '''Contract'''
@@ -654,7 +659,7 @@ other = '''Full-time / Part-time'''
 other = '''Language'''
 
 [jobsAtAGlanceLanguageValue]
-other = '''Fluent German'''
+other = '''Fluent German, native preferred'''
 
 [jobsAtAGlanceResidenceLabel]
 other = '''Residence'''
@@ -666,22 +671,22 @@ other = '''Germany'''
 other = '''What you'll do'''
 
 [jobsResponsibilities1]
-other = '''Build and ship lots of apps for Android, iOS and the web, with a focus on quality, maintainability, architecture and good UX.'''
+other = '''Lead a small team of Flutter developers: set priorities, scale and maintain applications and help everyone grow.'''
 
 [jobsResponsibilities2]
-other = '''Collaborate with product and design to turn ideas into great user experiences.'''
+other = '''Own the architecture and technical direction of our apps for Android, iOS and the web.'''
 
 [jobsResponsibilities3]
-other = '''Know the state-of-the-art packages and libraries in the ecosystem, and write code with agents.'''
+other = '''Bring AI into how we work: coding agents, automated reviews and tests, and smart tooling for the team.'''
 
 [jobsResponsibilities4]
-other = '''Integrate APIs and services and help shape technical decisions.'''
+other = '''Build AI-powered features into client apps, from LLM integrations to on-device models.'''
 
 [jobsResponsibilities5]
-other = '''Take ownership of features from concept to release.'''
+other = '''Work directly with clients, product and design to turn ideas into great apps.'''
 
 [jobsResponsibilities6]
-other = '''Lead other developers and innovate what Flutter can do.'''
+other = '''Take ownership of projects from concept to release and keep the quality bar high.'''
 
 [jobsProcessTitle]
 other = '''Hiring process'''
@@ -690,7 +695,7 @@ other = '''Hiring process'''
 other = '''Intro and technical interview'''
 
 [jobsProcessStep1Desc]
-other = '''We get to know each other and talk through Flutter, Dart and your past projects.'''
+other = '''We get to know each other and talk through Flutter, leading teams, your AI workflow and your past projects.'''
 
 [jobsProcessStep2Title]
 other = '''Small exercise'''

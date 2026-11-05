@@ -1,6 +1,6 @@
 ---
 title: "Jobs"
-seo_title: "Flutter & Dart Entwickler Job in München bei Tapped"
-description: "Du bist Flutter-Entwickler:in und schreibst gern sauberes Dart? Wir suchen Leute, die in einem kleinen Team starke Mobile Apps entwickeln. Backend-Erfahrung mit Supabase, Quarkus oder OpenShift ist ein Plus."
+seo_title: "Lead Flutter Developer Job (KI-first) bei Tapped"
+description: "Lead Flutter Developer bei Tapped: Du führst ein kleines Team, entwickelst Apps mit KI und verantwortest die Architektur. Fließendes Deutsch ist Voraussetzung."
 translationKey: jobs
 ---

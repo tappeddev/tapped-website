@@ -169,19 +169,32 @@
 </script>
 {{ end }}
 {{ if and (eq $p.Section "jobs") $p.Site.Params.jobs.hiring }}
+{{- $jobSections := slice
+  (dict "title" "jobsResponsibilitiesTitle" "items" (slice "jobsResponsibilities1" "jobsResponsibilities2" "jobsResponsibilities3" "jobsResponsibilities4" "jobsResponsibilities5" "jobsResponsibilities6"))
+  (dict "title" "jobsRequirements" "items" (slice "jobsRequirementsGerman" "jobsRequirementsFlutterDart" "jobsRequirementsLeadership" "jobsRequirementsAgents" "jobsRequirementsNative"))
+  (dict "title" "jobsNiceToHave" "items" (slice "jobsRequirementsWeb" "jobsNiceToHaveSupabase" "jobsNiceToHaveQuarkus" "jobsNiceToHaveOpenShift"))
+  (dict "title" "jobsWeOffer" "items" (slice "jobsWeOfferOffice" "jobsWeOfferMac" "jobsWeOfferTeam" "jobsWeOfferSalary" "jobsWeOfferGym" "jobsWeOfferWorkation")) -}}
+{{- $jobDescription := printf "<p>%s</p>" (i18n "jobsDescription") -}}
+{{- range $jobSections -}}
+  {{- $jobDescription = printf "%s<h3>%s</h3><ul>" $jobDescription (i18n .title) -}}
+  {{- range .items -}}
+    {{- $jobDescription = printf "%s<li>%s</li>" $jobDescription (i18n .) -}}
+  {{- end -}}
+  {{- $jobDescription = printf "%s</ul>" $jobDescription -}}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "JobPosting",
   "title": {{ i18n "jobsJobTitle" | jsonify | safeJS }},
-  "description": {{ i18n "jobsDescription" | jsonify | safeJS }},
+  "description": {{ $jobDescription | jsonify | safeJS }},
   "identifier": {
     "@type": "PropertyValue",
     "name": "Tapped",
-    "value": "flutter-dart-developer"
+    "value": "lead-flutter-developer"
   },
-  "datePosted": "2026-07-01",
-  "validThrough": "2027-07-01",
+  "datePosted": "2026-11-02",
+  "validThrough": "2027-11-02",
   "employmentType": ["FULL_TIME", "PART_TIME"],
   "hiringOrganization": { "@id": {{ $orgID | jsonify | safeJS }} },
   "jobLocation": {
@@ -194,7 +207,7 @@
   },
   "jobLocationType": "TELECOMMUTE",
   "applicantLocationRequirements": { "@type": "Country", "name": "Germany" },
-  "skills": "Flutter, Dart",
+  "skills": "Flutter, Dart, Team leadership, AI-assisted development, German (fluent)",
   "directApply": true,
   "applicationContact": {
     "@type": "ContactPoint",
