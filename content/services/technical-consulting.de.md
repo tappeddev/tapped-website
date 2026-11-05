@@ -22,6 +22,8 @@ Bei bestehenden Produkten schauen wir uns an:
 
 Du bekommst eine schriftliche Reihenfolge: was zu ändern ist, was bleiben kann, und was es kostet, so weiterzumachen wie bisher.
 
+Soll KI danach auch im Team ankommen, setzen wir das in einem [KI-Workshop]({{< relref "/services/ai-workshops.md" >}}) gemeinsam mit euch am eigenen Code um.
+
 ## Native zu Flutter Migration
 
 Zwei native Apps zu ersetzen ist eine Produktentscheidung, kein Framework Demo. Wir starten bei dem, was du schon auslieferst, und wählen den Weg:

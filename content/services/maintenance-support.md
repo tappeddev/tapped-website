@@ -21,6 +21,8 @@ Launch is not the end of the product. OS versions move, stores change policy, an
 
 We also analyse the app. We look at how people use it, whether there are bugs or issues, and come back with improvements. You can focus on everything else. We keep improving the product.
 
+If your own team should analyse bugs and user feedback with AI agents, we show how in our [AI workshops]({{< relref "/services/ai-workshops.md" >}}).
+
 That can be a retainer (planned releases, monitoring, dependency updates) or on-demand work when something breaks. Either way you are not explaining the project from scratch to a new vendor.
 
 ## What we cover

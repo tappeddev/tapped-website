@@ -22,6 +22,8 @@ For products that already exist, we look at:
 
 You get a written ranking of what to fix, what to leave, and what it costs to keep going as you are.
 
+If AI should then also land in the team, we put it into practice with you in an [AI workshop]({{< relref "/services/ai-workshops.md" >}}) on your own code.
+
 ## Native to Flutter migration
 
 Replacing two native apps is a product decision, not a framework demo. We start with what you already ship, then choose a path:

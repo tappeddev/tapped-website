@@ -1,7 +1,10 @@
 ---
 title: "KI-Workshops für Entwickler"
-seo_title: "KI-Workshop für Entwickler & App-Teams in München | Tapped"
-description: "KI-Workshop am eigenen Repository: Claude Code, Codex, Cursor und Copilot sicher im Team nutzen, vom Ticket bis zum Pull-Request. Von Tapped aus München."
+heading: "KI im Entwicklungsteam einführen: Workshop am eigenen Code"
+seo_title: "KI-Workshop: Coding-Agents im Team einführen | Tapped"
+description: "Agentic Coding am eigenen Code: Claude Code, Codex, Cursor und Copilot sicher im Team einführen, vom Ticket bis zum Pull-Request. Inhouse oder remote."
+price_from: "[PREIS]"
+price_unit: "pro Tag und Gruppe"
 summary: "Euer Team setzt KI-Agenten wie Claude Code, Codex, Cursor und Copilot am eigenen Code ein, vom Ticket bis zum Pull-Request."
 weight: 5
 translationKey: service-ai-workshops
@@ -9,11 +12,11 @@ faq:
   - question: "Ist das eine ChatGPT-Schulung für die ganze Firma?"
     answer: "Nein. Der Workshop ist für Engineering und die Leute ums Produkt, die dieselben Rahmenbedingungen haben. Einen generischen Prompt-Kurs machen wir nicht."
   - question: "Wie lange dauert ein KI-Workshop?"
-    answer: "Einen oder zwei Tage, oder mehrere kürzere Termine über einige Wochen. Dazu kommt ein Follow-up nach drei bis vier Wochen im Alltag. Was passt, hängt von Team und Ziel ab. Das klären wir im Erstgespräch."
+    answer: "Vom halben Tag für den Einstieg über ein bis zwei Tage am eigenen Repository bis zur Begleitung über mehrere Wochen. Dazu kommt ein Follow-up nach drei bis vier Wochen im Alltag. Was passt, hängt von Team und Ziel ab. Das klären wir im Erstgespräch."
   - question: "Findet der Workshop vor Ort oder remote statt?"
     answer: "Beides. In München und Umgebung kommen wir zu euch ins Büro, sonst arbeiten wir remote oder reisen nach Absprache an. Pro Gruppe arbeiten bis zu zwölf Personen mit, auf Deutsch oder Englisch."
   - question: "Was kostet ein KI-Workshop?"
-    answer: "Das hängt von Dauer, Teamgröße und Vorbereitung ab. Nach einem kostenlosen Erstgespräch bekommst du ein Angebot."
+    answer: "Ab {{< param price_from >}} € {{< param price_unit >}}, zzgl. USt. Der genaue Preis hängt von Format, Teamgröße und Vorbereitung ab. Nach einem kostenlosen Erstgespräch bekommst du ein festes Angebot."
   - question: "Braucht ihr Zugriff auf unser Repository oder andere Daten?"
     answer: "Meistens ja. Ein Workshop an einem Demo-Projekt sagt dir nicht, ob Agents auf deinem Repo zuverlässig und selbstständig arbeiten. Was wir sehen dürfen, klären wir vorher."
   - question: "Welche Tools verwendet ihr?"
@@ -30,26 +33,26 @@ faq:
 
 Firmen kaufen Copilot- oder Claude-Lizenzen, und ein Teil davon wird kaum genutzt. Eine [Auswertung von Opsera](https://opsera.ai/resources/report/ai-coding-impact-2026-benchmark-report) über 250.000 Entwickler in mehr als 60 Unternehmen zeigt: Rund 21 Prozent der KI-Coding-Lizenzen bleiben ungenutzt, in der Industrie sind es etwa 40 Prozent. Und selbst wo KI läuft, bleibt viel liegen. Laut [Bitkom](https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI) setzen 57 Prozent der deutschen Unternehmen KI ein, 59 Prozent davon schöpfen das Potenzial aber überhaupt nicht aus.
 
-- „Wir haben drei KI-Tools im Einsatz und keine gemeinsamen Regeln.“
-- „Die Pull-Requests werden immer größer, das Review bleibt bei zwei Seniors hängen.“
-- „Der Agent ignoriert unsere Architekturregeln, obwohl sie im Repo stehen.“
-- „Im neuen Projekt fliegt es, an unserem Legacy-Code bringt es kaum etwas.“
-- „Die Token-Rechnung steigt jeden Monat, und keiner weiß, wofür.“
-- „Wir wissen nicht, welcher Code von der KI kommt und wer dafür geradesteht.“
+- „Die Lizenzen sind da, aber keiner weiß genau, was erlaubt ist und was nicht.“
+- „Bei einigen im Team läuft es richtig gut, bei anderen bringt es gar nichts.“
+- „Das Team ist gespalten: Die einen arbeiten nur noch mit KI, die anderen halten es für Spielerei.“
+- „Im Alltag fehlt die Zeit, sich einzuarbeiten, und bis man dazu kommt, hat sich schon wieder alles geändert.“
 - „Solange Datenschutz und Betriebsrat nicht zugestimmt haben, nutzt jeder sein eigenes Tool.“
+- „Die Pull-Requests werden immer größer, das Review bleibt bei zwei Seniors hängen.“
 
 Damit seid ihr nicht allein: In einer [Umfrage von GitLab](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/default.aspx) unter 1.528 Entwicklern und Tech-Entscheidern (Juni 2026) sagen 85 Prozent, dass sich der Engpass vom Schreiben zum Prüfen von Code verschoben hat. 80 Prozent haben KI-Tools schneller eingeführt, als sie Regeln dafür aufgestellt haben.
 
 {{< callout >}}
-**Wir machen KI-Workshops für Teams, die mit KI schneller, günstiger oder besser werden wollen.** Von der Planung neuer Tickets über die Analyse von Bugs und Nutzerfeedback bis zum fertigen Pull-Request.
+**Wir helfen genau dort, wo die meisten Unternehmen scheitern: KI sicher und effizient einzuführen, passend zu den Anforderungen und Regeln eures Unternehmens.**
 
 Wir arbeiten an eurem Repository und an Aufgaben aus eurem Backlog, nicht an einem Demo-Projekt.
 {{< /callout >}}
 
 ## Auf einen Blick
 
-- **Dauer:** ein Tag, zwei Tage oder mehrere Termine über einige Wochen
-- **Format:** Inhouse-Schulung bei euch vor Ort in München oder remote
+- **Dauer:** ein halber Tag bis mehrere Wochen, je nach [Format](#formate)
+- **Format:** Inhouse-Schulung bei euch vor Ort oder remote
+- **Preis:** ab {{< param price_from >}} € {{< param price_unit >}}, zzgl. USt.
 - **Für:** Entwicklerteams und Tech Leads, gern zusammen mit Product und QA, bis zu 12 Personen pro Gruppe
 - **Sprache:** Deutsch oder Englisch
 - **Woran:** euer Repository und eure echten Aufgaben
@@ -59,9 +62,27 @@ Wir arbeiten an eurem Repository und an Aufgaben aus eurem Backlog, nicht an ein
 
 ## Für wen der Workshop ist
 
-- Tech Leads, die für Lizenzen zahlen und wissen wollen, was sie dem Team bringen
-- Entwicklerteams, in denen jeder andere Tools und eigene Regeln nutzt und die Ergebnisse stark schwanken
-- Product Owner, QA und alle, die Tickets schreiben oder Ergebnisse prüfen
+Für alle, die das Gefühl haben, dass in ihrem Team mit KI noch mehr geht. Egal, wo ihr gerade steht:
+
+- Ihr fangt gerade an und wollt die Grundlagen klären und das ganze Team mitnehmen.
+- Einige nutzen KI schon täglich, andere kaum, und ihr wollt alle auf einen Stand bringen.
+- Ihr arbeitet schon mit Agents und wollt sie eigenständig laufen lassen, vom Ticket bis zum Pull-Request.
+
+Dabei sind Entwickler und Tech Leads genauso gefragt wie Product Owner, QA und alle, die Tickets schreiben oder Ergebnisse prüfen.
+
+## Formate {#formate}
+
+### Einstieg: ein halber bis ein ganzer Tag
+
+Für Teams, die gerade anfangen oder bei denen jeder anders arbeitet. Wir klären, welche Tools und Daten erlaubt sind, bringen alle auf denselben Stand und setzen die ersten Aufgaben gemeinsam mit Agents um. Danach hat das Team gemeinsame Regeln und weiß, wofür sich KI bei euch lohnt.
+
+### Team-Workshop: ein bis zwei Tage am eigenen Repository
+
+Das Kernformat. Vorab ein Audit von Team, Workflows und Code, dann richten wir die Agents ein und arbeiten an Tickets aus eurem Backlog. Danach liegen eine `AGENTS.md`, eingerichtete Agents und die ersten umgesetzten Aufgaben in eurem Repository.
+
+### Begleitung: mehrere Wochen
+
+Für Teams, die schon mit Agents arbeiten und weiter wollen. Wir bauen mit euch Agents, die eigenständig laufen, etwa für Reviews in der Pipeline, die Analyse von Bugs und Nutzerfeedback oder die Vorbereitung von Tickets. Dazu regelmäßige Termine, in denen wir nachziehen, was im Alltag nicht trägt.
 
 ## Inhalte: KI und Agentic Coding in der Softwareentwicklung
 
