@@ -94,21 +94,6 @@
     { "@type": "City", "name": "München" },
     { "@type": "Country", "name": "Germany" }
   ]
-  {{- with $p.Params.price_from }}{{ $price := replace (string .) "." "" }}{{ if findRE `^[0-9]+$` $price }},
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "EUR",
-    "priceSpecification": {
-      "@type": "UnitPriceSpecification",
-      "minPrice": {{ int $price }},
-      "priceCurrency": "EUR",
-      "valueAddedTaxIncluded": false
-      {{- with $p.Params.price_unit }},
-      "unitText": {{ . | jsonify | safeJS }}
-      {{- end }}
-    }
-  }
-  {{- end }}{{ end }}
 }
 </script>
 {{ end }}

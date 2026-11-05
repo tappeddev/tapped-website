@@ -3,8 +3,6 @@ title: "KI-Workshops für Entwickler"
 heading: "KI im Entwicklungsteam einführen: Workshop am eigenen Code"
 seo_title: "KI-Workshop: Coding-Agents im Team einführen | Tapped"
 description: "Agentic Coding am eigenen Code: Claude Code, Codex, Cursor und Copilot sicher im Team einführen, vom Ticket bis zum Pull-Request. Inhouse oder remote."
-price_from: "[PREIS]"
-price_unit: "pro Tag und Gruppe"
 summary: "Euer Team setzt KI-Agenten wie Claude Code, Codex, Cursor und Copilot am eigenen Code ein, vom Ticket bis zum Pull-Request."
 weight: 5
 translationKey: service-ai-workshops
@@ -15,12 +13,10 @@ faq:
     answer: "Vom halben Tag für den Einstieg über ein bis zwei Tage am eigenen Repository bis zur Begleitung über mehrere Wochen. Dazu kommt ein Follow-up nach drei bis vier Wochen im Alltag. Was passt, hängt von Team und Ziel ab. Das klären wir im Erstgespräch."
   - question: "Findet der Workshop vor Ort oder remote statt?"
     answer: "Beides. In München und Umgebung kommen wir zu euch ins Büro, sonst arbeiten wir remote oder reisen nach Absprache an. Pro Gruppe arbeiten bis zu zwölf Personen mit, auf Deutsch oder Englisch."
-  - question: "Was kostet ein KI-Workshop?"
-    answer: "Ab {{< param price_from >}} € {{< param price_unit >}}, zzgl. USt. Der genaue Preis hängt von Format, Teamgröße und Vorbereitung ab. Nach einem kostenlosen Erstgespräch bekommst du ein festes Angebot."
   - question: "Braucht ihr Zugriff auf unser Repository oder andere Daten?"
     answer: "Meistens ja. Ein Workshop an einem Demo-Projekt sagt dir nicht, ob Agents auf deinem Repo zuverlässig und selbstständig arbeiten. Was wir sehen dürfen, klären wir vorher."
   - question: "Welche Tools verwendet ihr?"
-    answer: "Claude Code, Codex, Cursor, GitHub Copilot, OpenCode und was sonst gerade taugt. Welches Tool für euch funktioniert und was es kostet, finden wir gemeinsam heraus."
+    answer: "Claude Code, Codex, Cursor, GitHub Copilot, OpenCode und was sonst gerade taugt. Welches Tool für euch funktioniert, finden wir gemeinsam heraus."
   - question: "Welche Vorkenntnisse braucht das Team?"
     answer: "Erfahrung mit der eigenen Codebasis reicht. Vorwissen zu KI-Tools ist nicht nötig. Wenn einige schon viel damit arbeiten, holen wir die anderen ab. Für die Praxis braucht ihr Zugänge zu den Tools, die ihr nutzen wollt."
   - question: "Zählt der Workshop als KI-Schulung nach dem EU AI Act?"
@@ -52,7 +48,6 @@ Wir arbeiten an eurem Repository und an Aufgaben aus eurem Backlog, nicht an ein
 
 - **Dauer:** ein halber Tag bis mehrere Wochen, je nach [Format](#formate)
 - **Format:** Inhouse-Schulung bei euch vor Ort oder remote
-- **Preis:** ab {{< param price_from >}} € {{< param price_unit >}}, zzgl. USt.
 - **Für:** Entwicklerteams und Tech Leads, gern zusammen mit Product und QA, bis zu 12 Personen pro Gruppe
 - **Sprache:** Deutsch oder Englisch
 - **Woran:** euer Repository und eure echten Aufgaben
@@ -94,7 +89,7 @@ Wir schauen uns an, wie euer Team arbeitet: per kurzer Umfrage oder in Interview
 
 Ohne dieses Bild wären Verbesserungsvorschläge geraten.
 
-### 2. Coding-Agents einrichten und anbinden
+### 2. Coding-Agents integrieren und anbinden
 
 Wir richten die Agents ein, die zu euch passen, und verbinden sie über MCP mit den Quellen, die eure Entwickler brauchen, zum Beispiel Ticketsystem, Dokumentation, Git-Hosting, Monitoring und Crash-Reports oder Designs. Dazu kommt eine `AGENTS.md` oder `CLAUDE.md` mit euren echten Build- und Testbefehlen und Regeln für Bereiche, die kein Agent anfassen darf. So kann das Team direkt loslegen.
 
@@ -102,31 +97,16 @@ Wir richten die Agents ein, die zu euch passen, und verbinden sie über MCP mit 
 
 Danach geht es an echte Aufgaben aus eurem Backlog. Typische Themen, je nachdem, was das Audit ergeben hat:
 
-#### Vom Ticket zum Pull-Request
-
-Aufgaben so zuschneiden, dass ein Agent fertig wird und ein Mensch das Ergebnis reviewen kann. Erst planen, dann umsetzen, dann prüfen.
-
-#### Code-Review und Tests automatisieren
-
-KI-Reviews in der Pipeline, Tests, die der Agent selbst ausführt, und die typischen Fehlermuster in KI-Code erkennen.
-
-#### Bugs und Nutzerfeedback analysieren
-
-Crash-Reports, Tickets und Store-Bewertungen auswerten lassen und daraus Fixes vorbereiten.
-
-#### Sicherheit, Rechte und Secrets
-
-Was ein Agent darf, wo er nachfragen muss und was gesperrt ist. Keine Secrets im Kontext und keine Diffs, die niemand mehr lesen kann.
-
-#### Tools und Kosten
-
-Welche Tools und Modelle sich für euch lohnen und was sie pro Entwickler kosten.
+- **Vom Ticket zum Pull-Request:** Aufgaben so zuschneiden, dass ein Agent fertig wird und ein Mensch das Ergebnis reviewen kann. Erst planen, dann umsetzen, dann prüfen.
+- **Code-Review und Tests automatisieren:** KI-Reviews in der Pipeline, Tests, die der Agent selbst ausführt, und die typischen Fehlermuster in KI-Code erkennen.
+- **Bugs und Nutzerfeedback analysieren:** Crash-Reports, Tickets und Store-Bewertungen auswerten lassen und daraus Fixes vorbereiten.
+- **Sicherheit, Rechte und Secrets:** Was ein Agent darf, wo er nachfragen muss und was gesperrt ist. Keine Secrets im Kontext und keine Diffs, die niemand mehr lesen kann.
 
 ## Claude Code, Codex, Cursor oder Copilot?
 
 Die Tools liegen näher beieinander, als das Marketing glauben lässt. Wichtiger als die Wahl ist, dass Repository und Abläufe zum Arbeiten mit Agents passen. Grob gesagt: Copilot ist oft schon da, weil es mit GitHub- oder Microsoft-Lizenzen kommt. Cursor ist inzwischen vor allem eine Oberfläche für Agents: Mehrere Agents laufen parallel, lokal oder in der Cloud, und das Team prüft ihre Änderungen an einem Ort. Claude Code, Codex und OpenCode kommen aus dem Terminal und eignen sich für größere, eigenständige Aufgaben.
 
-Tools und Modelle wechseln ständig. Nützliches von Marketing zu trennen, kostet Nerven. Wenn wir wissen, wie dein Team arbeitet, sagen wir dir, was sich für euren Stack, eure Sicherheitsvorgaben und euer Budget lohnt.
+Tools und Modelle wechseln ständig. Nützliches von Marketing zu trennen, kostet Nerven. Wenn wir wissen, wie dein Team arbeitet, sagen wir dir, was sich für euren Stack und eure Sicherheitsvorgaben lohnt.
 
 ## KI in der App-Entwicklung mit Flutter
 
@@ -134,9 +114,9 @@ Tapped ist eine Flutter-Agentur aus München. Bei App-Teams gehen wir deshalb ti
 
 Dazu richten wir das [offizielle Agent-Plugin von Flutter](https://docs.flutter.dev/ai/get-started) ein: Skills und Regeln aus den Flutter- und Dart-Repositories, den MCP-Server für Dart und Flutter, über den der Agent Analyzer-Meldungen, Testergebnisse und die laufende App sieht, und einen eigenen Agent für Barrierefreiheit. Mehr zu unserer App-Entwicklung findest du unter [Flutter App Entwicklung]({{< relref "/services/flutter-app-development.md" >}}).
 
-## Datenschutz, Betriebsrat und EU AI Act
+## Datenschutz und EU AI Act
 
-Bevor wir anfangen, klären wir, was wir sehen dürfen und welche Daten in welches Tool dürfen. Wenn Datenschutz oder Betriebsrat mitreden wollen, beziehen wir sie früh ein. Die Regeln, die wir gemeinsam festlegen, bleiben als Dokument im Repository.
+Bevor wir anfangen, klären wir, was wir sehen dürfen und welche Daten in welches Tool dürfen. Wenn Datenschutzbeauftragte mitreden wollen, beziehen wir sie früh ein. Die Regeln, die wir gemeinsam festlegen, bleiben als Dokument im Repository.
 
 Seit Februar 2025 verlangt Artikel 4 der KI-Verordnung, dass Unternehmen die KI-Kompetenz ihrer Mitarbeitenden fördern. Seit August 2026 prüfen die Behörden das. Ein Zertifikat ist nicht vorgeschrieben, die Bundesnetzagentur empfiehlt aber, die Maßnahmen zu dokumentieren. Wir halten Inhalte und Teilnehmende des Workshops dafür schriftlich fest.
 
@@ -170,5 +150,3 @@ All das nach den Sicherheitsstandards und Datenschutzbestimmungen eures Unterneh
 - die gemeinsam festgelegten Regeln zu Tools, Daten und Reviews als Dokument im Repository
 - die ersten Aufgaben aus eurem Backlog, mit Agents umgesetzt
 - eine Übersicht über Inhalte und Teilnehmende, mit der ihr die Schulung nach dem EU AI Act dokumentiert
-
-Wenn du nur das Audit als schriftlichen Bericht brauchst, ohne Workshop, schau dir die [technische Beratung]({{< relref "/services/technical-consulting.md" >}}) an.
