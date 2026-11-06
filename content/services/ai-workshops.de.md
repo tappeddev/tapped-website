@@ -6,6 +6,20 @@ description: "Agentic Coding am eigenen Code: Claude Code, Codex, Cursor und Cop
 summary: "Euer Team setzt KI-Agenten wie Claude Code, Codex, Cursor und Copilot am eigenen Code ein, vom Ticket bis zum Pull-Request."
 weight: 5
 translationKey: service-ai-workshops
+facts:
+  - label: "Dauer"
+    value: "½ Tag bis mehrere Wochen"
+  - label: "Ort"
+    value: "vor Ort in München oder remote"
+  - label: "Gruppe"
+    value: "bis zu 12 Personen"
+  - label: "Sprache"
+    value: "Deutsch oder Englisch"
+  - label: "Tools"
+    value: "Claude Code, Codex, Cursor, Copilot, OpenCode"
+  - label: "Danach"
+    value: "Follow-up nach 3–4 Wochen"
+toc: true
 faq:
   - question: "Ist das eine ChatGPT-Schulung für die ganze Firma?"
     answer: "Nein. Der Workshop ist für Engineering und die Leute ums Produkt, die dieselben Rahmenbedingungen haben. Einen generischen Prompt-Kurs machen wir nicht."
@@ -29,12 +43,14 @@ faq:
 
 Firmen kaufen Copilot- oder Claude-Lizenzen, und ein Teil davon wird kaum genutzt. Eine [Auswertung von Opsera](https://opsera.ai/resources/report/ai-coding-impact-2026-benchmark-report) über 250.000 Entwickler in mehr als 60 Unternehmen zeigt: Rund 21 Prozent der KI-Coding-Lizenzen bleiben ungenutzt, in der Industrie sind es etwa 40 Prozent. Und selbst wo KI läuft, bleibt viel liegen. Laut [Bitkom](https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI) setzen 57 Prozent der deutschen Unternehmen KI ein, 59 Prozent davon schöpfen das Potenzial aber überhaupt nicht aus.
 
+{{< quotes >}}
 - „Die Lizenzen sind da, aber keiner weiß genau, was erlaubt ist und was nicht.“
 - „Bei einigen im Team läuft es richtig gut, bei anderen bringt es gar nichts.“
 - „Das Team ist gespalten: Die einen arbeiten nur noch mit KI, die anderen halten es für Spielerei.“
 - „Im Alltag fehlt die Zeit, sich einzuarbeiten, und bis man dazu kommt, hat sich schon wieder alles geändert.“
 - „Solange Datenschutz und Betriebsrat nicht zugestimmt haben, nutzt jeder sein eigenes Tool.“
 - „Die Pull-Requests werden immer größer, das Review bleibt bei zwei Seniors hängen.“
+{{< /quotes >}}
 
 Damit seid ihr nicht allein: In einer [Umfrage von GitLab](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/default.aspx) unter 1.528 Entwicklern und Tech-Entscheidern (Juni 2026) sagen 85 Prozent, dass sich der Engpass vom Schreiben zum Prüfen von Code verschoben hat. 80 Prozent haben KI-Tools schneller eingeführt, als sie Regeln dafür aufgestellt haben.
 
@@ -43,17 +59,6 @@ Damit seid ihr nicht allein: In einer [Umfrage von GitLab](https://ir.gitlab.com
 
 Wir arbeiten an eurem Repository und an Aufgaben aus eurem Backlog, nicht an einem Demo-Projekt.
 {{< /callout >}}
-
-## Auf einen Blick
-
-- **Dauer:** ein halber Tag bis mehrere Wochen, je nach [Format](#formate)
-- **Format:** Inhouse-Schulung bei euch vor Ort oder remote
-- **Für:** Entwicklerteams und Tech Leads, gern zusammen mit Product und QA, bis zu 12 Personen pro Gruppe
-- **Sprache:** Deutsch oder Englisch
-- **Woran:** euer Repository und eure echten Aufgaben
-- **Tools:** Claude Code, Codex, Cursor, GitHub Copilot, OpenCode
-- **Danach:** ein Follow-up nach drei bis vier Wochen im Alltag
-- **Mit:** [Stefan Schaller und Julian Bissekkou]({{< relref "/about" >}}), den Gründern von Tapped
 
 ## Für wen der Workshop ist
 
@@ -83,24 +88,24 @@ Für Teams, die schon mit Agents arbeiten und weiter wollen. Wir bauen mit euch 
 
 Jeder Workshop beginnt mit einem Audit. Erst danach richten wir die Agents ein und arbeiten mit euch an euren Themen.
 
-### 1. Audit: Team, Workflows und Code
-
+{{< steps >}}
+{{< step title="Audit: Team, Workflows und Code" >}}
 Wir schauen uns an, wie euer Team arbeitet: per kurzer Umfrage oder in Interviews, entlang eurer Workflows vom Ticket bis zum Release und im Code. Wo geht Zeit verloren? Welche Teile des Repositories sind bereit für Agents und welche nicht?
 
 Ohne dieses Bild wären Verbesserungsvorschläge geraten.
-
-### 2. Coding-Agents integrieren und anbinden
-
+{{< /step >}}
+{{< step title="Coding-Agents integrieren und anbinden" >}}
 Wir richten die Agents ein, die zu euch passen, und verbinden sie über MCP mit den Quellen, die eure Entwickler brauchen, zum Beispiel Ticketsystem, Dokumentation, Git-Hosting, Monitoring und Crash-Reports oder Designs. Dazu kommt eine `AGENTS.md` oder `CLAUDE.md` mit euren echten Build- und Testbefehlen und Regeln für Bereiche, die kein Agent anfassen darf. So kann das Team direkt loslegen.
-
-### 3. An euren Aufgaben arbeiten
-
+{{< /step >}}
+{{< step title="An euren Aufgaben arbeiten" cards="true" >}}
 Danach geht es an echte Aufgaben aus eurem Backlog. Typische Themen, je nachdem, was das Audit ergeben hat:
 
-- **Vom Ticket zum Pull-Request:** Aufgaben so zuschneiden, dass ein Agent fertig wird und ein Mensch das Ergebnis reviewen kann. Erst planen, dann umsetzen, dann prüfen.
-- **Code-Review und Tests automatisieren:** KI-Reviews in der Pipeline, Tests, die der Agent selbst ausführt, und die typischen Fehlermuster in KI-Code erkennen.
-- **Bugs und Nutzerfeedback analysieren:** Crash-Reports, Tickets und Store-Bewertungen auswerten lassen und daraus Fixes vorbereiten.
-- **Sicherheit, Rechte und Secrets:** Was ein Agent darf, wo er nachfragen muss und was gesperrt ist. Keine Secrets im Kontext und keine Diffs, die niemand mehr lesen kann.
+- **Vom Ticket zum Pull-Request** Aufgaben so zuschneiden, dass ein Agent fertig wird und ein Mensch das Ergebnis reviewen kann. Erst planen, dann umsetzen, dann prüfen.
+- **Code-Review und Tests automatisieren** KI-Reviews in der Pipeline, Tests, die der Agent selbst ausführt, und die typischen Fehlermuster in KI-Code erkennen.
+- **Bugs und Nutzerfeedback analysieren** Crash-Reports, Tickets und Store-Bewertungen auswerten lassen und daraus Fixes vorbereiten.
+- **Sicherheit, Rechte und Secrets** Was ein Agent darf, wo er nachfragen muss und was gesperrt ist. Keine Secrets im Kontext und keine Diffs, die niemand mehr lesen kann.
+{{< /step >}}
+{{< /steps >}}
 
 ## Claude Code, Codex, Cursor oder Copilot?
 

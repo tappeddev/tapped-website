@@ -1,0 +1,4 @@
+<li class="page-step{{ if .Get "cards" }} page-step--cards{{ end }}">
+  <h3>{{ .Get "title" }}</h3>
+  {{ .Inner | .Page.RenderString (dict "display" "block") }}
+</li>

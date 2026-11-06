@@ -870,3 +870,15 @@ other = "Frequently asked questions"
 
 [legalPageKicker]
 other = "Legal"
+
+[pageRailAtAGlance]
+other = "At a glance"
+
+[pageRailFounders]
+other = "With <b>Stefan</b> and <b>Julian</b>, the founders of Tapped"
+
+[pageRailCta]
+other = "Book an intro call"
+
+[pageTocTitle]
+other = "On this page"

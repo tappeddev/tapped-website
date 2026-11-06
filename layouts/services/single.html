@@ -13,6 +13,9 @@
       {{ end }}
     </header>
 
+    {{ $rail := or .Params.facts .Params.toc }}
+    {{ if $rail }}<div class="page-layout">{{ partial "page-rail.html" . }}<div class="page-layout__main">{{ end }}
+
     <div class="page-prose">
       {{ .Content }}
     </div>
@@ -53,6 +56,7 @@
     {{ end }}
 
     {{ partial "faq.html" . }}
+    {{ if $rail }}</div></div>{{ end }}
   </div>
   {{ partial "contact-cta.html" . }}
 </main>

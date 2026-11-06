@@ -1,0 +1,74 @@
+{{- /* Side rail for long service pages: a facts card (front matter `facts`)
+       and an in-page index of the h2 sections (front matter `toc: true`). */ -}}
+{{- $page := . -}}
+<aside class="page-rail" aria-label="{{ i18n "pageRailAtAGlance" }}">
+  {{ with $page.Params.facts }}
+  <div class="page-rail__card">
+    <h2 class="page-rail__title">{{ i18n "pageRailAtAGlance" }}</h2>
+    <dl class="page-rail__facts">
+      {{ range . }}
+      <div>
+        <dt>{{ .label }}</dt>
+        <dd>{{ .value }}</dd>
+      </div>
+      {{ end }}
+    </dl>
+    <div class="page-rail__people">
+      <span class="page-rail__avatars" aria-hidden="true">
+        <img src="{{ "img/team/stefan.png" | relURL }}" srcset="{{ "img/team/stefan.png" | relURL }} 1x, {{ "img/team/stefan@2x.png" | relURL }} 2x" width="40" height="40" alt="" loading="lazy" decoding="async">
+        <img src="{{ "img/team/julian.png" | relURL }}" srcset="{{ "img/team/julian.png" | relURL }} 1x, {{ "img/team/julian@2x.png" | relURL }} 2x" width="40" height="40" alt="" loading="lazy" decoding="async">
+      </span>
+      <p>{{ i18n "pageRailFounders" | safeHTML }}</p>
+    </div>
+    {{ with $page.Site.GetPage "/contact" }}
+    <a class="page-rail__cta" href="{{ .RelPermalink }}">{{ i18n "pageRailCta" }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if $page.Params.toc }}
+  {{ $h2s := slice }}
+  {{ range $page.Fragments.Headings }}
+    {{ if eq .Level 2 }}{{ $h2s = $h2s | append . }}{{ end }}
+    {{ range .Headings }}{{ if eq .Level 2 }}{{ $h2s = $h2s | append . }}{{ end }}{{ end }}
+  {{ end }}
+  <nav class="page-toc" aria-label="{{ i18n "pageTocTitle" }}">
+    <p class="page-toc__title">{{ i18n "pageTocTitle" }}</p>
+    <ol>
+      {{ range $h2s }}
+      <li><a href="#{{ .ID }}">{{ index (split .Title ":") 0 }}</a></li>
+      {{ end }}
+      {{ with $page.Params.faq }}
+      <li><a href="#faq">{{ i18n "faqTitle" }}</a></li>
+      {{ end }}
+    </ol>
+  </nav>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = [].slice.call(document.querySelectorAll('.page-toc a'));
+    var targets = links.map(function (a) {
+      return document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));
+    });
+    var ticking = false;
+    function update() {
+      ticking = false;
+      var line = window.innerHeight * 0.3;
+      var current = -1;
+      targets.forEach(function (el, i) {
+        if (el && el.getBoundingClientRect().top <= line) current = i;
+      });
+      links.forEach(function (a, i) {
+        var active = i === current;
+        a.classList.toggle('is-active', active);
+        if (active) { a.setAttribute('aria-current', 'location'); } else { a.removeAttribute('aria-current'); }
+      });
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+    }, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+  </script>
+  {{ end }}
+</aside>
