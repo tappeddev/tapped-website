@@ -1795,7 +1795,7 @@ main {
         padding-bottom: 48px;
     }
 
-    .page-layout h2[id] {
+    .page-layout [id] {
         scroll-margin-top: calc(130px + var(--spatial-banner-h));
     }
 
