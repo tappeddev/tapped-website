@@ -38,18 +38,18 @@ faq:
   - question: "Is there a version for Flutter and app teams?"
     answer: "Yes. As a Flutter agency we go deeper with app teams: agents that write Dart and Flutter code to your architecture rules, tests they run themselves, and AI features in the app."
   - question: "How is this different from technical consulting?"
-    answer: "Consulting ends with a written review or audit and a ranked recommendation. In the workshop the audit is only the start: after it we set up the agents and put the improvements in place together with your team."
+    answer: "Consulting ends with a written review or audit and a prioritised recommendation. In the workshop the audit is only the start: after it we set up the agents and put the improvements in place together with your team."
 ---
 
 Companies buy Copilot or Claude licences, and some of them barely get used. An [analysis by Opsera](https://opsera.ai/resources/report/ai-coding-impact-2026-benchmark-report) of 250,000 developers at more than 60 companies shows that around 21 percent of AI coding licences go unused, and about 40 percent in manufacturing. Even where AI is in use, a lot is left on the table. According to [Bitkom](https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI), 57 percent of German companies use AI, but 59 percent of them are not tapping its potential at all.
 
 {{< quotes >}}
-- “The licences are there, but nobody really knows what is allowed and what isn’t.”
-- “For some people on the team it works really well, for others it does nothing at all.”
-- “The team is split: some only work with AI now, the others think it’s a toy.”
-- “There’s no time to get into it day to day, and by the time you do, everything has changed again.”
-- “Until data protection and the works council sign off, everyone uses their own tool.”
-- “Pull requests keep getting bigger, and reviews pile up with two seniors.”
+- The licences are there, but nobody really knows what is allowed and what isn’t.
+- For some people on the team it works really well, for others it does nothing at all.
+- The team is split: some only work with AI now, the others think it’s a toy.
+- There’s no time to get into it day to day, and by the time you do, everything has changed again.
+- Until data protection and the works council sign off, everyone uses their own tool.
+- Pull requests keep getting bigger, and reviews pile up with two seniors.
 {{< /quotes >}}
 
 You are not alone in this. In a [GitLab survey](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/default.aspx) of 1,528 developers and technology decision-makers (June 2026), 85 percent say the bottleneck has moved from writing code to reviewing it. 80 percent rolled out AI tools faster than they set rules for them.

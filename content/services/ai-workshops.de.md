@@ -28,7 +28,7 @@ faq:
   - question: "Findet der Workshop vor Ort oder remote statt?"
     answer: "Beides. In München und Umgebung kommen wir zu euch ins Büro, sonst arbeiten wir remote oder reisen nach Absprache an. Pro Gruppe arbeiten bis zu zwölf Personen mit, auf Deutsch oder Englisch."
   - question: "Braucht ihr Zugriff auf unser Repository oder andere Daten?"
-    answer: "Meistens ja. Ein Workshop an einem Demo-Projekt sagt dir nicht, ob Agents auf deinem Repo zuverlässig und selbstständig arbeiten. Was wir sehen dürfen, klären wir vorher."
+    answer: "Meistens ja. Ein Workshop an einem Demo-Projekt sagt euch nicht, ob Agents auf eurem Repo zuverlässig und selbstständig arbeiten. Was wir sehen dürfen, klären wir vorher."
   - question: "Welche Tools verwendet ihr?"
     answer: "Claude Code, Codex, Cursor, GitHub Copilot, OpenCode und was sonst gerade taugt. Welches Tool für euch funktioniert, finden wir gemeinsam heraus."
   - question: "Welche Vorkenntnisse braucht das Team?"
@@ -38,18 +38,18 @@ faq:
   - question: "Gibt es den Workshop auch für Flutter- und App-Teams?"
     answer: "Ja. Als Flutter-Agentur gehen wir bei App-Teams tiefer: Agents, die Dart- und Flutter-Code nach euren Architekturregeln schreiben, Tests, die sie selbst ausführen, und KI-Features in der App."
   - question: "Worin unterscheidet sich das von der technischen Beratung?"
-    answer: "Die Beratung endet mit einem schriftlichen Review oder Audit und einer priorisierten Empfehlung. Im Workshop ist das Audit erst der Anfang: Danach richten wir die Agents ein und setzen die Verbesserungen gemeinsam mit deinem Team um."
+    answer: "Die Beratung endet mit einem schriftlichen Review oder Audit und einer priorisierten Empfehlung. Im Workshop ist das Audit erst der Anfang: Danach richten wir die Agents ein und setzen die Verbesserungen gemeinsam mit eurem Team um."
 ---
 
 Firmen kaufen Copilot- oder Claude-Lizenzen, und ein Teil davon wird kaum genutzt. Eine [Auswertung von Opsera](https://opsera.ai/resources/report/ai-coding-impact-2026-benchmark-report) über 250.000 Entwickler in mehr als 60 Unternehmen zeigt: Rund 21 Prozent der KI-Coding-Lizenzen bleiben ungenutzt, in der Industrie sind es etwa 40 Prozent. Und selbst wo KI läuft, bleibt viel liegen. Laut [Bitkom](https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI) setzen 57 Prozent der deutschen Unternehmen KI ein, 59 Prozent davon schöpfen das Potenzial aber überhaupt nicht aus.
 
 {{< quotes >}}
-- „Die Lizenzen sind da, aber keiner weiß genau, was erlaubt ist und was nicht.“
-- „Bei einigen im Team läuft es richtig gut, bei anderen bringt es gar nichts.“
-- „Das Team ist gespalten: Die einen arbeiten nur noch mit KI, die anderen halten es für Spielerei.“
-- „Im Alltag fehlt die Zeit, sich einzuarbeiten, und bis man dazu kommt, hat sich schon wieder alles geändert.“
-- „Solange Datenschutz und Betriebsrat nicht zugestimmt haben, nutzt jeder sein eigenes Tool.“
-- „Die Pull-Requests werden immer größer, das Review bleibt bei zwei Seniors hängen.“
+- Die Lizenzen sind da, aber keiner weiß genau, was erlaubt ist und was nicht.
+- Bei einigen im Team läuft es richtig gut, bei anderen bringt es gar nichts.
+- Das Team ist gespalten: Die einen arbeiten nur noch mit KI, die anderen halten es für Spielerei.
+- Im Alltag fehlt die Zeit, sich einzuarbeiten, und bis man dazu kommt, hat sich schon wieder alles geändert.
+- Solange Datenschutz und Betriebsrat nicht zugestimmt haben, nutzt jeder sein eigenes Tool.
+- Die Pull-Requests werden immer größer, das Review bleibt bei zwei Seniors hängen.
 {{< /quotes >}}
 
 Damit seid ihr nicht allein: In einer [Umfrage von GitLab](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/default.aspx) unter 1.528 Entwicklern und Tech-Entscheidern (Juni 2026) sagen 85 Prozent, dass sich der Engpass vom Schreiben zum Prüfen von Code verschoben hat. 80 Prozent haben KI-Tools schneller eingeführt, als sie Regeln dafür aufgestellt haben.
@@ -111,13 +111,13 @@ Danach geht es an echte Aufgaben aus eurem Backlog. Typische Themen, je nachdem,
 
 Die Tools liegen näher beieinander, als das Marketing glauben lässt. Wichtiger als die Wahl ist, dass Repository und Abläufe zum Arbeiten mit Agents passen. Grob gesagt: Copilot ist oft schon da, weil es mit GitHub- oder Microsoft-Lizenzen kommt. Cursor ist inzwischen vor allem eine Oberfläche für Agents: Mehrere Agents laufen parallel, lokal oder in der Cloud, und das Team prüft ihre Änderungen an einem Ort. Claude Code, Codex und OpenCode kommen aus dem Terminal und eignen sich für größere, eigenständige Aufgaben.
 
-Tools und Modelle wechseln ständig. Nützliches von Marketing zu trennen, kostet Nerven. Wenn wir wissen, wie dein Team arbeitet, sagen wir dir, was sich für euren Stack und eure Sicherheitsvorgaben lohnt.
+Tools und Modelle wechseln ständig. Nützliches von Marketing zu trennen, kostet Nerven. Wenn wir wissen, wie euer Team arbeitet, sagen wir euch, was sich für euren Stack und eure Sicherheitsvorgaben lohnt.
 
 ## KI in der App-Entwicklung mit Flutter
 
 Tapped ist eine Flutter-Agentur aus München. Bei App-Teams gehen wir deshalb tiefer: Agents, die Dart- und Flutter-Code nach euren Architekturregeln schreiben, Widget- und Integrationstests, die der Agent selbst ausführt, und KI-Features in der App selbst.
 
-Dazu richten wir das [offizielle Agent-Plugin von Flutter](https://docs.flutter.dev/ai/get-started) ein: Skills und Regeln aus den Flutter- und Dart-Repositories, den MCP-Server für Dart und Flutter, über den der Agent Analyzer-Meldungen, Testergebnisse und die laufende App sieht, und einen eigenen Agent für Barrierefreiheit. Mehr zu unserer App-Entwicklung findest du unter [Flutter App Entwicklung]({{< relref "/services/flutter-app-development.md" >}}).
+Dazu richten wir das [offizielle Agent-Plugin von Flutter](https://docs.flutter.dev/ai/get-started) ein: Skills und Regeln aus den Flutter- und Dart-Repositories, den MCP-Server für Dart und Flutter, über den der Agent Analyzer-Meldungen, Testergebnisse und die laufende App sieht, und einen eigenen Agent für Barrierefreiheit. Mehr zu unserer App-Entwicklung findet ihr unter [Flutter App Entwicklung]({{< relref "/services/flutter-app-development.md" >}}).
 
 ## Datenschutz und EU AI Act
 
@@ -133,7 +133,7 @@ Wir prüfen Team, Workflows und Code und klären, was Zeit und Geld frisst. Dara
 
 ### Workshop
 
-Wir richten die Agents mit euch ein und arbeiten an Aufgaben aus eurem Backlog, an einem oder zwei Tagen oder in mehreren kürzeren Terminen. Du bekommst kein langes PDF voller Fachwörter und Toolnamen. Wir setzen die Vorschläge aus dem Audit direkt mit deinem Team um.
+Wir richten die Agents mit euch ein und arbeiten an Aufgaben aus eurem Backlog, an einem oder zwei Tagen oder in mehreren kürzeren Terminen. Ihr bekommt kein langes PDF voller Fachwörter und Toolnamen. Wir setzen die Vorschläge aus dem Audit direkt mit eurem Team um.
 
 ### Follow-up
 

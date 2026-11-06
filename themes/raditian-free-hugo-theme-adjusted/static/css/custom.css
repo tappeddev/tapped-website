@@ -1546,10 +1546,16 @@ main {
     line-height: 1.5;
     font-weight: 500;
     color: #212529;
+    quotes: "“" "”";
+}
+
+/* The quote marks come from CSS so they match the page language. */
+:lang(de) .page-prose .page-quotes li {
+    quotes: "„" "“";
 }
 
 .page-prose .page-quotes li::before {
-    content: "„";
+    content: open-quote;
     left: 18px;
     top: 6px;
     width: auto;
@@ -1560,6 +1566,15 @@ main {
     line-height: 1;
     font-weight: 800;
     color: #be3369;
+}
+
+.page-prose .page-quotes li::after {
+    content: close-quote;
+}
+
+/* The English “ sits higher in the line than the German „. */
+:lang(en) .page-prose .page-quotes li::before {
+    top: 20px;
 }
 
 /* Numbered timeline for sequential steps. */
