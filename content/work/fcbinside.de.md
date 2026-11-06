@@ -1,8 +1,8 @@
 ---
 title: "FCBinside"
 heading: "FCBinside: native Flutter-Apps für ballnews media"
-seo_title: "FCBinside Flutter-App — 10.000+ Installationen, 4,4★ | Tapped"
-description: "Tapped hat die FCBinside-Flutter-App für ballnews media entwickelt — und denselben White-Label-Client für BVBWLD und SchalkeTOTAL. Native News, Werbung und Push, kein Website-Wrapper."
+seo_title: "FCBinside Flutter-App: 10.000+ Installationen, 4,4★ | Tapped"
+description: "Tapped hat die FCBinside-Flutter-App für ballnews media entwickelt, dazu den White-Label-Client für BVBWLD und SchalkeTOTAL. Native News, Werbung, Push."
 summary: "Tägliche FC-Bayern-News in einer nativen Flutter-App — und derselbe White-Label-Client für BVBWLD und SchalkeTOTAL."
 weight: 2
 featured: true

@@ -7,11 +7,14 @@
         <a class="work-back" href="{{ .RelPermalink }}">← {{ i18n "backToServices" }}</a>
       </p>
       {{ end }}
-      <h1>{{ .Title }}</h1>
+      <h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
       {{ with .Params.summary }}
       <p class="lead">{{ . }}</p>
       {{ end }}
     </header>
+
+    {{ $rail := or .Params.facts .Params.toc }}
+    {{ if $rail }}<div class="page-layout">{{ partial "page-rail.html" . }}<div class="page-layout__main">{{ end }}
 
     <div class="page-prose">
       {{ .Content }}
@@ -53,6 +56,7 @@
     {{ end }}
 
     {{ partial "faq.html" . }}
+    {{ if $rail }}</div></div>{{ end }}
   </div>
   {{ partial "contact-cta.html" . }}
 </main>

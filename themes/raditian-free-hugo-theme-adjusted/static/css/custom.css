@@ -1504,6 +1504,384 @@ main {
     text-decoration-color: #96143c;
 }
 
+.page-callout {
+    margin: 2rem 0;
+    padding: 22px 26px;
+    background: #edf1f4;
+    border-left: 4px solid #be3369;
+    border-radius: 12px;
+}
+
+.page-prose .page-callout p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: #212529;
+}
+
+.page-prose .page-callout p + p {
+    margin-top: 0.6rem;
+}
+
+/* Pain-point quotes: a markdown list rendered as quote cards. */
+.page-prose .page-quotes ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .page-prose .page-quotes ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.page-prose .page-quotes li {
+    margin: 0;
+    padding: 20px 22px 20px 50px;
+    background: #edf1f4;
+    border-radius: 12px;
+    font-size: 1.02rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #212529;
+    quotes: "“" "”";
+}
+
+/* The quote marks come from CSS so they match the page language. */
+:lang(de) .page-prose .page-quotes li {
+    quotes: "„" "“";
+}
+
+.page-prose .page-quotes li::before {
+    content: open-quote;
+    left: 18px;
+    top: 6px;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: none;
+    font-size: 2.6rem;
+    line-height: 1;
+    font-weight: 800;
+    color: #be3369;
+}
+
+.page-prose .page-quotes li::after {
+    content: close-quote;
+}
+
+/* The English “ sits higher in the line than the German „. */
+:lang(en) .page-prose .page-quotes li::before {
+    top: 20px;
+}
+
+/* Numbered timeline for sequential steps. */
+.page-prose .page-steps {
+    list-style: none;
+    margin: 1.75rem 0 0;
+    padding: 0;
+    counter-reset: page-step;
+}
+
+.page-prose .page-step {
+    position: relative;
+    margin: 0;
+    padding: 0 0 2rem 64px;
+    counter-increment: page-step;
+}
+
+.page-prose .page-step::before {
+    content: counter(page-step);
+    position: absolute;
+    left: 0;
+    top: -4px;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #96143c;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #96143c;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.page-prose .page-step::after {
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 40px;
+    bottom: 4px;
+    width: 2px;
+    background: #e7edf2;
+}
+
+.page-prose .page-step:last-child {
+    padding-bottom: 0;
+}
+
+.page-prose .page-step:last-child::after {
+    display: none;
+}
+
+.page-prose .page-step > h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* A list inside a step with cards="true" becomes a grid of topic cards. */
+.page-prose .page-step--cards ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 1rem 0 0;
+}
+
+@media (min-width: 768px) {
+    .page-prose .page-step--cards ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.page-prose .page-step--cards li {
+    margin: 0;
+    padding: 16px 18px;
+    border: 1px solid #e7edf2;
+    border-radius: 12px;
+    font-size: 0.93rem;
+    line-height: 1.5;
+}
+
+.page-prose .page-step--cards li::before {
+    display: none;
+}
+
+.page-prose .page-step--cards li strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.98rem;
+    color: #212529;
+}
+
+/* Two-column layout with a facts card and a sticky in-page index. */
+.page-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-rail {
+    margin-bottom: 32px;
+}
+
+.page-rail__card {
+    padding: 22px 22px 20px;
+    background: #ffffff;
+    border: 1px solid #e7edf2;
+    border-radius: 16px;
+    box-shadow: 0 24px 48px -32px rgba(33, 37, 41, 0.28);
+}
+
+.page-rail__title {
+    margin: 0 0 14px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #96143c;
+}
+
+.page-rail__facts {
+    margin: 0;
+}
+
+.page-rail__facts div {
+    display: grid;
+    grid-template-columns: 76px 1fr;
+    gap: 10px;
+    padding: 9px 0;
+    border-top: 1px solid #e7edf2;
+}
+
+.page-rail__facts dt {
+    font-size: 12.5px;
+    font-weight: 500;
+    color: #6b737b;
+}
+
+.page-rail__facts dd {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.page-rail__people {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0 18px;
+    padding-top: 16px;
+    border-top: 1px solid #e7edf2;
+}
+
+.page-rail__avatars {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.page-rail__avatars img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background: #edf1f4;
+    object-fit: cover;
+}
+
+.page-rail__avatars img + img {
+    margin-left: -10px;
+}
+
+.page-rail__people p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #3d434a;
+}
+
+.page-rail__people b {
+    font-weight: 600;
+    color: #212529;
+}
+
+.page-rail__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 13px 18px;
+    border-radius: 999px;
+    background: #212529;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.page-rail__cta:hover,
+.page-rail__cta:focus-visible {
+    background: #96143c;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-rail__cta:focus-visible {
+    outline: 3px solid #f2a7c3;
+    outline-offset: 2px;
+}
+
+.page-toc {
+    display: none;
+}
+
+@media (min-width: 1100px) {
+    .page-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 745px) 300px;
+        grid-template-areas: "main rail";
+        justify-content: space-between;
+        column-gap: 56px;
+        align-items: stretch;
+    }
+
+    .page-layout__main {
+        grid-area: main;
+        min-width: 0;
+    }
+
+    .page-rail {
+        grid-area: rail;
+        margin-bottom: 0;
+        padding-bottom: 48px;
+    }
+
+    .page-layout [id] {
+        scroll-margin-top: calc(130px + var(--spatial-banner-h));
+    }
+
+    .page-toc {
+        display: block;
+        position: sticky;
+        top: calc(128px + var(--spatial-banner-h));
+        margin-top: 28px;
+        padding: 0 4px;
+    }
+
+    .page-toc__title {
+        margin: 0 0 8px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        line-height: 1.4;
+        text-transform: uppercase;
+        color: #6b737b;
+    }
+
+    .page-toc ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-left: 2px solid #e7edf2;
+    }
+
+    .page-toc a {
+        display: block;
+        margin-left: -2px;
+        padding: 5px 0 5px 14px;
+        border-left: 2px solid transparent;
+        font-size: 13.5px;
+        line-height: 1.35;
+        color: #6b737b;
+        text-decoration: none;
+        transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .page-toc a:hover {
+        color: #212529;
+        text-decoration: none;
+    }
+
+    .page-toc a:focus-visible {
+        outline: 2px solid #be3369;
+        outline-offset: 2px;
+    }
+
+    .page-toc a.is-active {
+        border-left-color: #96143c;
+        color: #96143c;
+        font-weight: 600;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html:has(.page-toc) {
+        scroll-behavior: smooth;
+    }
+}
+
+/* The theme sets overflow: hidden on body, which turns it into a scroll
+   container and disables position: sticky. clip keeps the horizontal
+   clipping without creating one. */
+html body:has(.page-toc) {
+    overflow-x: clip;
+    overflow-y: visible;
+}
+
 .page-meta {
     margin: 32px 0 0;
     padding: 22px 0;

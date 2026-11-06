@@ -1,7 +1,7 @@
 ---
 title: "Technical consulting and audit"
 seo_title: "App consulting and audit Munich | Tapped"
-description: "Technical consulting and audits for apps and products: stack decisions, what drives cost and speed, architecture reviews, native to Flutter migration, and audits of code, workflows and systems."
+description: "Technical consulting and app audits from Munich: stack decisions, architecture reviews, native to Flutter migration, and what drives cost and speed."
 summary: "We help you choose the stack and name what drives cost, what slows you down, and what makes you fast."
 weight: 2
 translationKey: service-consulting
@@ -21,6 +21,8 @@ For products that already exist, we look at:
 - AI integration: how AI is used in the product, and in the team and its workflows.
 
 You get a written ranking of what to fix, what to leave, and what it costs to keep going as you are.
+
+If AI should then also land in the team, we put it into practice with you in an [AI workshop]({{< relref "/services/ai-workshops.md" >}}) on your own code.
 
 ## Native to Flutter migration
 

@@ -1,7 +1,7 @@
 ---
 title: "Technische Beratung und Audit"
 seo_title: "App Beratung und Audit München | Tapped"
-description: "Technische Beratung und Audits für Apps und Produkte: Stackwahl, was Kosten und Tempo treibt, Architektur Reviews, Native zu Flutter Migration und Audits von Code, Workflows und Systemen."
+description: "Technische Beratung und App Audits aus München: Stackwahl, Architektur Reviews, Native zu Flutter Migration und was Kosten und Tempo treibt."
 summary: "Wir helfen dir bei der Technologiewahl und benennen, was Kosten treibt, was dich ausbremst und was dich schnell macht."
 weight: 2
 translationKey: service-consulting
@@ -21,6 +21,8 @@ Bei bestehenden Produkten schauen wir uns an:
 - Die KI Einbindung: wie KI im Produkt steckt, und im Team und seinen Workflows.
 
 Du bekommst eine schriftliche Reihenfolge: was zu ändern ist, was bleiben kann, und was es kostet, so weiterzumachen wie bisher.
+
+Soll KI danach auch im Team ankommen, setzen wir das in einem [KI-Workshop]({{< relref "/services/ai-workshops.md" >}}) gemeinsam mit euch am eigenen Code um.
 
 ## Native zu Flutter Migration
 

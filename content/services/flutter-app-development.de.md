@@ -27,6 +27,8 @@ Flutter ist Googles UI Framework: eine Codebasis für Apps auf iOS, Android und 
 - Plattformfunktionen wie Push Notifications, Location, In App Payments oder Ads sind kein Problem
 - Flutter stellt ein sehr gutes Test Framework bereit, damit auch komplexe Produkte nach Änderungen problemlos funktionieren
 
+Baut dein eigenes Team mit Flutter und sollen Coding-Agents wie Claude Code oder Cursor Flutter-Code schreiben und testen, ist das Teil unserer [KI-Workshops]({{< relref "/services/ai-workshops.md" >}}).
+
 ## Native iOS und Android Apps zu Flutter
 
 Wenn du bereits zwei native Apps hast, ist die übliche Frage die Migration. Wir haben sowas bereits bei mehreren Projekten gemacht. Beispielsweise bei [VVS Mobil]({{< relref "/work/vvs-mobil.md" >}}) und beim [VVS Radroutenplaner]({{< relref "/work/vvs-cycle-planner.md" >}}).

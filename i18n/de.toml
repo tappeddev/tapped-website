@@ -874,3 +874,15 @@ other = "Häufige Fragen"
 
 [legalPageKicker]
 other = "Rechtliches"
+
+[pageRailAtAGlance]
+other = "Auf einen Blick"
+
+[pageRailFounders]
+other = "Mit <b>Stefan</b> und <b>Julian</b>, den Gründern von Tapped"
+
+[pageRailCta]
+other = "Erstgespräch vereinbaren"
+
+[pageTocTitle]
+other = "Auf dieser Seite"

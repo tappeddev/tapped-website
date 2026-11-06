@@ -28,6 +28,8 @@ Flutter is Google’s UI framework: one codebase for apps on iOS, Android and we
 
 Most companies benefit from this.
 
+If your own team builds with Flutter and wants coding agents such as Claude Code or Cursor to write and test Flutter code, that is part of our [AI workshops]({{< relref "/services/ai-workshops.md" >}}).
+
 ## Native iOS and Android to Flutter
 
 If you already have two native apps, the usual question is whether to migrate. We have done this on several projects, for example [VVS Mobil]({{< relref "/work/vvs-mobil.md" >}}) and the [VVS Cycle Planner]({{< relref "/work/vvs-cycle-planner.md" >}}). Whether it makes sense for your product is something we can work through in [a quick call]({{< relref "/contact" >}}).

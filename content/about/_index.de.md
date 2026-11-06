@@ -1,7 +1,7 @@
 ---
 title: "Über Tapped"
 seo_title: "Über Tapped | Flutter & App-Entwicklung aus München"
-description: "Tapped ist eine Remote-App-Entwicklungsagentur mit Sitz in München und Leuten in ganz Deutschland. Wir entwickeln iOS-, Android- und Cross-Platform-Flutter-Apps für Unternehmen."
+description: "Tapped ist eine Remote-App-Agentur mit Sitz in München und Leuten in ganz Deutschland. Wir entwickeln iOS-, Android- und Flutter-Apps für Unternehmen."
 translationKey: about
 ---
 

@@ -21,6 +21,8 @@
 - [Technische Beratung](https://tapped.dev/de/services/technical-consulting/)
 - [Maintenance and support](https://tapped.dev/services/maintenance-support/)
 - [Wartung und Support](https://tapped.dev/de/services/maintenance-support/)
+- [AI workshops](https://tapped.dev/services/ai-workshops/): introducing AI coding agents (Claude Code, Codex, Cursor, Copilot) into development teams, on the team's own repository
+- [KI-Workshops](https://tapped.dev/de/services/ai-workshops/): KI und Coding-Agents im Entwicklungsteam einführen, am eigenen Code
 
 ## Selected work
 

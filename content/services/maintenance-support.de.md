@@ -21,6 +21,8 @@ Der Launch ist nicht das Ende des Produkts. Betriebssysteme ziehen nach, Stores 
 
 Wir analysieren die App auch. Wir schauen, wie Nutzer sie verwenden, ob es Bugs oder Probleme gibt, und kommen regelmäßig mit Verbesserungen. Du kannst dich um alles andere kümmern. Wir verbessern das Produkt fortlaufend.
 
+Soll dein eigenes Team Bugs und Nutzerfeedback mit KI-Agents auswerten, zeigen wir das in unseren [KI-Workshops]({{< relref "/services/ai-workshops.md" >}}).
+
 Das kann ein Retainer sein (geplante Releases, Monitoring, Dependency-Updates) oder Arbeit auf Abruf, wenn etwas kaputtgeht. In beiden Fällen erklärst du das Projekt nicht jedes Mal einem neuen Dienstleister.
 
 ## Was wir abdecken
