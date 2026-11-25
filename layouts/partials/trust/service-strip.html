@@ -1,51 +1,24 @@
-{{- /* Compact proof strip for service pages: the official Flutter listing,
-       client logos and store figures. Opt in with `trust: true` in front
-       matter. The homepage uses the fuller `trust.html` band instead. */ -}}
-<section class="service-trust" aria-labelledby="service-trust-title">
-  <h2 id="service-trust-title" class="sr-only">{{ i18n "trustSectionTitle" }}</h2>
-  <div class="service-trust__row">
-    <div class="service-trust__credential">
-      {{/* White on transparent; the stylesheet inverts it to match the grey logos. */}}
-      <a
-        class="trust-badge"
-        href="https://flutter.dev/consultants"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="{{ i18n "flutterConsultantLink" }} {{ i18n "opensInNewTab" }}"
-      >
-        <img
-          src="{{ "img/trust/official-flutter-consultant.png" | absURL }}"
-          width="184"
-          height="59"
-          decoding="async"
-          alt=""
-        />
-      </a>
-      <p class="service-trust__caption">{{ i18n "trustBadgeCaption" }}</p>
-    </div>
-    {{ if site.Data.homepage.clients.enable }}
-    <div class="service-trust__clients">
-      <p class="page-kicker service-trust__kicker">{{ i18n "clientsTitle" }}</p>
-      {{ partial "trust/logos.html" (dict "page" . "base" 28.0) }}
-    </div>
-    {{ end }}
+{{- /* Compact credential strip for service pages: the official Flutter
+       consultant badge and caption. Opt in with `trust: true` in front matter.
+       The homepage uses the fuller `trust.html` band instead. */ -}}
+<section class="service-trust" aria-label="{{ i18n "flutterConsultantLink" }}">
+  <div class="service-trust__credential">
+    {{/* White on transparent; the stylesheet inverts it to match the homepage band. */}}
+    <a
+      class="trust-badge"
+      href="https://flutter.dev/consultants"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="{{ i18n "flutterConsultantLink" }} {{ i18n "opensInNewTab" }}"
+    >
+      <img
+        src="{{ "img/trust/official-flutter-consultant.png" | absURL }}"
+        width="184"
+        height="59"
+        decoding="async"
+        alt=""
+      />
+    </a>
+    <p class="service-trust__caption">{{ i18n "trustBadgeCaption" }}</p>
   </div>
-
-  {{/* Figures summed over our live apps; see internal analytics for the
-      per-app breakdown. */}}
-  <ul class="service-trust__stats">
-    <li class="service-trust__stat">
-      <p class="service-trust__value">{{ i18n "trustStatRatingsValue" }}</p>
-      <p class="service-trust__label">{{ i18n "trustStatRatingsLabel" }}</p>
-      <p class="service-trust__note">{{ i18n "trustStatRatingsNote" }}</p>
-    </li>
-    <li class="service-trust__stat">
-      <p class="service-trust__value">{{ i18n "trustStatInstallsValue" }}</p>
-      <p class="service-trust__label">{{ i18n "trustStatInstallsLabel" }}</p>
-    </li>
-    <li class="service-trust__stat">
-      <p class="service-trust__value">{{ i18n "aboutStatProjectsValue" }}</p>
-      <p class="service-trust__label">{{ i18n "trustStatProjectsLabel" }}</p>
-    </li>
-  </ul>
 </section>
