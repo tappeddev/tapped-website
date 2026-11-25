@@ -231,3 +231,6 @@ temp/
 .history
 
 # End of https://www.gitignore.io/api/node,hugo,sass,grunt,intellij,visualstudiocode
+
+# Local SEO / content audit reports
+/audit/
