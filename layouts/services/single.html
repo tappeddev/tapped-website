@@ -13,6 +13,8 @@
       {{ end }}
     </header>
 
+    {{ if .Params.trust }}{{ partial "trust/service-strip.html" . }}{{ end }}
+
     {{ $rail := or .Params.facts .Params.toc }}
     {{ if $rail }}<div class="page-layout">{{ partial "page-rail.html" . }}<div class="page-layout__main">{{ end }}
 

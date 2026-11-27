@@ -1,0 +1,24 @@
+{{- /* Compact credential strip for service pages: the official Flutter
+       consultant badge and caption. Opt in with `trust: true` in front matter.
+       The homepage uses the fuller `trust.html` band instead. */ -}}
+<section class="service-trust" aria-label="{{ i18n "flutterConsultantLink" }}">
+  <div class="service-trust__credential">
+    {{/* White on transparent; the stylesheet inverts it to match the homepage band. */}}
+    <a
+      class="trust-badge"
+      href="https://flutter.dev/consultants"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="{{ i18n "flutterConsultantLink" }} {{ i18n "opensInNewTab" }}"
+    >
+      <img
+        src="{{ "img/trust/official-flutter-consultant.png" | absURL }}"
+        width="184"
+        height="59"
+        decoding="async"
+        alt=""
+      />
+    </a>
+    <p class="service-trust__caption">{{ i18n "trustBadgeCaption" }}</p>
+  </div>
+</section>

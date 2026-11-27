@@ -1666,6 +1666,54 @@ main {
     color: #212529;
 }
 
+/* Compact credential strip under a service hero: Official Flutter Consultant
+   badge and caption. */
+.service-trust {
+    margin: 0 0 36px;
+    padding: 20px 0;
+    border-top: 1px solid #e7edf2;
+    border-bottom: 1px solid #e7edf2;
+}
+
+.service-trust p {
+    margin: 0;
+}
+
+.service-trust__credential {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 18px;
+}
+
+.service-trust__caption {
+    font-size: 14px;
+    line-height: 1.45;
+    color: #212529;
+}
+
+.trust-badge {
+    display: inline-block;
+    flex: 0 0 auto;
+    line-height: 0;
+}
+
+/* The source mark is white on transparent. Inverting it and applying the
+   grey treatment keeps it in the same visual family as the homepage band. */
+.trust-badge img {
+    display: block;
+    width: auto;
+    height: 36px;
+    filter: invert(1) grayscale(1);
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.trust-badge:hover img,
+.trust-badge:focus-visible img {
+    opacity: 1;
+}
+
 /* Two-column layout with a facts card and a sticky in-page index. */
 .page-layout {
     display: flex;
@@ -1674,6 +1722,12 @@ main {
 
 .page-rail {
     margin-bottom: 32px;
+}
+
+/* A rail holding only the in-page index renders nothing at this width, since
+   the index is desktop-only. Without this it would still reserve its gap. */
+.page-rail:not(:has(.page-rail__card)) {
+    margin-bottom: 0;
 }
 
 .page-rail__card {
@@ -1785,7 +1839,8 @@ main {
     outline-offset: 2px;
 }
 
-.page-toc {
+.page-toc,
+.page-toc__marker {
     display: none;
 }
 
@@ -1843,12 +1898,14 @@ main {
         display: block;
         margin-left: -2px;
         padding: 5px 0 5px 14px;
+        /* Transparent border, not padding: it lets the link straddle the ol's
+           track so the sliding marker lines up with the text. */
         border-left: 2px solid transparent;
         font-size: 13.5px;
         line-height: 1.35;
         color: #6b737b;
         text-decoration: none;
-        transition: color 0.15s ease, border-color 0.15s ease;
+        transition: color 0.2s ease;
     }
 
     .page-toc a:hover {
@@ -1861,10 +1918,43 @@ main {
         outline-offset: 2px;
     }
 
+    /* No font-weight change here on purpose: a bolder label is wide enough to
+       wrap a long section title onto a second line, which would shift every
+       entry below it while scrolling. The stroke thickens the glyphs without
+       touching their advance widths, so the list never reflows. */
     .page-toc a.is-active {
-        border-left-color: #96143c;
         color: #96143c;
-        font-weight: 600;
+        -webkit-text-stroke: 0.3px currentColor;
+    }
+
+    /* Single bar that slides along the track instead of each link toggling its
+       own left border. Placed by the rail script; left matches .page-toc's
+       padding so it sits exactly on the ol's border. */
+    .page-toc__marker {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 4px;
+        width: 2px;
+        height: 0;
+        background: #96143c;
+        opacity: 0;
+    }
+
+    .page-toc__marker.is-visible {
+        opacity: 1;
+    }
+
+    .page-toc__marker.is-ready {
+        transition: transform 0.3s cubic-bezier(0.33, 0.1, 0.2, 1),
+                    height 0.3s cubic-bezier(0.33, 0.1, 0.2, 1),
+                    opacity 0.2s ease;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .page-toc__marker.is-ready {
+        transition: opacity 0.2s ease;
     }
 }
 

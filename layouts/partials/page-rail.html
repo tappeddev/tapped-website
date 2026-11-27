@@ -1,7 +1,9 @@
 {{- /* Side rail for long service pages: a facts card (front matter `facts`)
        and an in-page index of the h2 sections (front matter `toc: true`). */ -}}
 {{- $page := . -}}
-<aside class="page-rail" aria-label="{{ i18n "pageRailAtAGlance" }}">
+{{- /* Only name the landmark after the facts card when there is one; otherwise
+       the rail holds just the index, which carries its own label. */ -}}
+<aside class="page-rail"{{ with $page.Params.facts }} aria-label="{{ i18n "pageRailAtAGlance" }}"{{ end }}>
   {{ with $page.Params.facts }}
   <div class="page-rail__card">
     <h2 class="page-rail__title">{{ i18n "pageRailAtAGlance" }}</h2>
@@ -42,14 +44,17 @@
       <li><a href="#faq">{{ i18n "faqTitle" }}</a></li>
       {{ end }}
     </ol>
+    <span class="page-toc__marker" aria-hidden="true"></span>
   </nav>
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     var links = [].slice.call(document.querySelectorAll('.page-toc a'));
+    var marker = document.querySelector('.page-toc__marker');
     var targets = links.map(function (a) {
       return document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));
     });
     var ticking = false;
+    var readyToken = 0;
     function update() {
       ticking = false;
       var line = window.innerHeight * 0.3;
@@ -62,6 +67,32 @@
         a.classList.toggle('is-active', active);
         if (active) { a.setAttribute('aria-current', 'location'); } else { a.removeAttribute('aria-current'); }
       });
+      if (marker) {
+        var active = links[current];
+        /* offsetParent is null while the rail is hidden on narrow screens. */
+        var box = marker.offsetParent;
+        if (active && box) {
+          /* Rects rather than offsetTop: the latter rounds, which leaves the
+             bar a pixel off a row whose height is fractional. */
+          var top = active.getBoundingClientRect().top - box.getBoundingClientRect().top;
+          marker.style.height = active.getBoundingClientRect().height + 'px';
+          marker.style.transform = 'translateY(' + top + 'px)';
+          marker.classList.add('is-visible');
+          if (!marker.classList.contains('is-ready')) {
+            /* Two frames so the first placement paints before transitions turn on,
+               otherwise the marker slides in from the top of the list. */
+            var token = ++readyToken;
+            requestAnimationFrame(function () {
+              requestAnimationFrame(function () {
+                if (token === readyToken) marker.classList.add('is-ready');
+              });
+            });
+          }
+        } else {
+          ++readyToken;
+          marker.classList.remove('is-visible', 'is-ready');
+        }
+      }
     }
     window.addEventListener('scroll', function () {
       if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
